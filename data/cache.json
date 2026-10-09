@@ -1,0 +1,287 @@
+{
+  "genspark-ai/genoffice": {
+    "last_tag": "v0.11.411",
+    "summary": "- **Sheets:** a PivotTable Fields pane with report filters and every engine aggregation and show-as mode; an Excel-style Function Arguments dialog, Paste Special, Print with Preview, Table Design tab with Ctrl+T, Shape Format tab, Group outline gutter and Fill Up/Left/Series; worksheet protection with Excel-style permissions and passwords; threaded comments; Excel-parity cell, header and sheet-tab context menus with Pick From Drop-down List. Large workbooks: Full Load up to 1M cells, shared-formula masters indexed only once, Find runs in the sidecar over streamed workbooks, and edits made during a save are carried into the reopened session.\n- **Docs:** Word-aligned line boxes and baselines, East Asian and hangul line factors, floating-table spacing and anchoring, over-page floats, separate cell borders and borderless nested tables, display equations, Symbol/Wingdings bullets, a bundled DM Sans subset and Office-private font aliases; tracked deletions leave the flow in every markup view; clicks on a floating table's cells reach the cell; the Shape Format Arrange group with persisted wrap and stacking (@x1a0Y4NGren); the dark-page choice is remembered (@x1a0Y4NGren).\n- **Slides & pipelines:** `txBox=\"1\"` rectangles classify as text boxes; the notes draft survives an AI deck edit; the deck-spec payload is capped before parsing (reported by @aniruddhaadak80).",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "robbietilton/Compositor": {
+    "last_tag": "v1.4.7",
+    "summary": "Filter › Last Filter (⌃⌘F) runs the last filter again with the same settings. F toggles fullscreen and Esc now leaves it too, and Search Commands moves to ⌘F. UI refinements: clearer Layers panel butt...",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "guohuiyuan/go-music-dl": {
+    "last_tag": "v1.1.1",
+    "summary": "* d5e61b2d3500974ab627a4802216589aca5f8df0 修复：更新依赖项并移除go.sum中过时条目\n* 114fccf0e2a897f5fc53241fa1d82e7e84cb5f8f 功能(咪咕)：新增咪咕音频流下载与播放支持\n* 34b7efc20fd934a39d4e485b5e834e7b89558151 功能：优化下载去重与文件存在性校验",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "ruvnet/RuView": {
+    "last_tag": "v3067",
+    "summary": "Automated release from CI pipeline\n\n**Changes:**\ndocs: describe RuView-focused README animation\n\n**Docker Image:**\n`ghcr.io/ruvnet/RuView:0ef6b96fe15e30b4a086992e47e18081a0ba37ce`",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "pascalorg/editor": {
+    "last_tag": "v1.0.3",
+    "summary": "- GLB and USDZ exports now finish or return an actionable timeout instead of remaining in progress indefinitely ([#888](https://github.com/pascalorg/editor/pull/888)).\n- A hidden Site no longer empties GLB exports, PDF exports or the 2D plan; child visibility remains independent ([#907](https://github.com/pascalorg/editor/pull/907)).\n- Container node visibility now applies consistently in the 3D viewer ([#908](https://github.com/pascalorg/editor/pull/908)).",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "librepods-org/librepods": {
+    "last_tag": "v1.0.1-rc1",
+    "summary": "- AirPods 5 support ([99d6d73](https://github.com/kavishdevar/librepods/commit/99d6d73add011b50b8e780fde136d8b576d77a53))\n- Fix unwanted automatic connections to AirPods on service start ([e81e4dd](https://github.com/kavishdevar/librepods/commit/e81e4dde16a563eb8003e16371e51f762eb1c4d8))\n- Add `demo` to demo AirPods name for clear indication ([cf6d226](https://github.com/kavishdevar/librepods/commit/cf6d226fca4570e02997a9678af3bcdf284887a2))",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "dyang886/Game-Cheats-Manager": {
+    "last_tag": "v2.5.2",
+    "summary": "- Data files are now downloaded only if newer versions exist\n- Added word length count in the Notes section when uploading trainers\n- Fixed an issue where failing to remove FLiNG background music can cause download to fail",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "bestruirui/BestSub": {
+    "last_tag": "v2.0.6",
+    "summary": "*No significant changes*\n\n&nbsp;&nbsp;&nbsp;&nbsp;[View changes on GitHub](https://github.com/bestruirui/BestSub/compare/v2.0.5...v2.0.6)",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "linshenkx/prompt-optimizer": {
+    "last_tag": "v2.11.10",
+    "summary": "- Closes an access-password bypass affecting lookalike `/api/auth*` paths and restores a clean high-severity dependency audit.\n- Restores model configuration access across workspaces, including the first-use empty-state action and visible Text, Image, and Function tabs.\n- Refreshes built-in text and image model catalogs and moves development, desktop packaging, and CI to a verified Node.js 24 toolchain.",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "amir1376/ab-download-manager": {
+    "last_tag": "v1.10.4",
+    "summary": "- Fixed an issue where some settings, including UI Scale, were not saved properly (#1409)\n- Added an option to use the newly entered path on the Add Download page as the default download location (#1406)\n- Restricted the integration server to local connections only (#1442)",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "RSSNext/Folo": {
+    "last_tag": "desktop/v1.15.0",
+    "summary": "- Upgraded to Electron 44\n- Settings sync covers every appearance, general and AI setting again; only device-specific ones such as the interface language, fonts and launch at login stay on each device\n- The action language and the AI personalization prompt now sync, so AI chat answers in the action language you picked",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "roboflow/supervision": {
+    "last_tag": "0.30.9",
+    "summary": "- **`BoxAnnotator`** borders paint the same pixels with or without OpenCV installed.\n- **`get_video_frames_generator`** reads browser-recorded WebM and variable frame rate MKV to the end.\n- **`from_coco`**, `from_pascal_voc` and `from_createml` no longer build boxes with `x_min` past `x_max`.",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "MetaCubeX/mihomo": {
+    "last_tag": "v1.19.32",
+    "summary": "* 3025efad feat: add load-balance hash-key to pin a session on the inbound user (#3133) by @简直蠢丶\n* 409ee57e fix: populate HWCap from auxv on linux by @artbred\n* 41b8a059 fix: account for TCP options in effective MSS by @wwqgtxx",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "jgraph/drawio-desktop": {
+    "last_tag": "v32.3.0",
+    "summary": "- Uses electron 44.6.0\n- Updates each install type the way it was installed. The Windows installer, macOS and AppImage download updates in the background and show a notice and Help > Restart to Update when one is ready, or install it when you quit. MSI, zip, portable, deb and rpm installs show a notice with a link to the release page instead of running the Windows installer over themselves. Extras > Automatic Updates turns the background checks on and off. Coming from 31.7.0, this update still arrives the previous way [jgraph/drawio-desktop#2569]\n- Prints on the printer's own paper size and orientation on macOS, so landscape pages print in landscape on A4 or Letter [jgraph/drawio-desktop#2568]",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "microsoft/graphrag": {
+    "last_tag": "v3.3.0",
+    "summary": "* fix sqlite performance issue by @gaudyb in https://github.com/microsoft/graphrag/pull/2591\n* Release v3.3.0 by @gaudyb in https://github.com/microsoft/graphrag/pull/2592",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "Stirling-Tools/Stirling-PDF": {
+    "last_tag": "v3.1.0",
+    "summary": "- Text editor supports editing tables directly in file!\n- Text editor supports editing OCRed image PDFs!\n- Text editor UI and UX improvements",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "clash-verge-rev/clash-verge-rev": {
+    "last_tag": "v2.5.7",
+    "summary": "- 修复读屏软件将普通模式下的侧边栏导航项播报为不可用的可拖拽控件的问题\n- 修复订阅包含自定义 DNS 时，确认开启的 DNS 覆写在重启应用后被自动关闭的问题\n- 修复 Windows 系统盘根目录的删除权限被误判，导致服务模式和 TUN 无法使用的问题",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "sugarforever/chat-ollama": {
+    "last_tag": "agent-v0.4.0",
+    "summary": "- [chatollama-agent@0.4.0](https://www.npmjs.com/package/chatollama-agent/v/0.4.0)\n- [chatollama-agent-runtime@0.4.0](https://www.npmjs.com/package/chatollama-agent-runtime/v/0.4.0)\n* feat(runtime): add workspace read and search tools by @sugarforever in https://github.com/sugarforever/chat-ollama/pull/762",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "unslothai/unsloth": {
+    "last_tag": "v0.1.905-beta",
+    "summary": "- **8th Oct Fixes** - Better Browser + 100+ bug fixes + perf fixes\n- **Sandboxing** with Bwrap for Linux, Seatbelt for Mac and MXC for Windows\n- **Turn any model into a Jev-style decision model.** Accuracy went from 30% to 80%",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "arc53/DocsGPT": {
+    "last_tag": "1.0.0",
+    "summary": "* Guardrail docs by @pabik in https://github.com/arc53/DocsGPT/pull/2785\n* feat(widget): align search bar with widget theme, add voice search by @ManishMadan2882 in https://github.com/arc53/DocsGPT/pull/2782\n* refactor(settings): split into per-domain modules, generate the settings reference by @arc53-machine in https://github.com/arc53/DocsGPT/pull/2802",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "lobehub/lobehub": {
+    "last_tag": "v2.2.19",
+    "summary": "- **Desktop OTA Core** — Desktop is split into a signed shell plus an OTA-able core, so updates, reloads and rollbacks ship as range-based packs instead of a full reinstall. (#19501, #20191, #20214)\n- **GitHub App Closed Loop** — Connect GitHub from the Integrations directory, install the App, and let pull requests route back to the agent that opened them; CI failures and review feedback now wake that agent. (#19721, #19728, #19888, #19726)\n- **Goal Delivery** — Finished Goals get a Delivery tab with a wrap-up storyline, ambiguous goals are clarified before work starts, and a Goal's main Agent runs 50 turns by default. (#20189, #20143, #20178)",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "Dooy/chatgpt-web-midjourney-proxy": {
+    "last_tag": "v2.26.8",
+    "summary": "- 😄 支持：seedance视频官方接口入口\n- 😄 支持：minimax视频官方接口入口",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "labring/FastGPT": {
+    "last_tag": "v4.17.1",
+    "summary": "- 更新 fastgpt-app（FastGPT 主服务）镜像 tag: v4.17.1\n- 更新 fastgpt-pro（FastGPT 商业版）镜像 tag: v4.17.1\n- 更新 fastgpt-plugin 镜像 tag: v1.1.4",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "yihong0618/bilingual_book_maker": {
+    "last_tag": "v1.3.1",
+    "summary": "- The README's `--plan-classify` and `--use_context session` entries are the original Params text again, as before #574 compacted them. The PDF reading-edition screenshot is removed; the text describes the output.\n- Small fixes found while translating: a doubled \"the\"/\"flags\" in the command-line page, a doubled \"for a run\" in the Jev page, a link text with an old page title, and README-CN's `--context-compact-at` minimum (1500, as the CLI enforces).\n- Runtime messages that named a docs path now name `docs/en/...`.",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "SagerNet/sing-box": {
+    "last_tag": "v1.14.2",
+    "summary": "* Fixes and improvements",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "LorenEteval/Furious": {
+    "last_tag": "0.8.2",
+    "summary": "* Fixes and improvements\n* [Xray-core v26.9.9](https://github.com/XTLS/Xray-core/releases/tag/v26.9.9)\n* [hysteria2 v2.12.3](https://github.com/HyNetworks/hysteria/releases/tag/app%2Fv2.12.3)",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "sub-store-org/Sub-Store": {
+    "last_tag": "2.42.3",
+    "summary": "* feat: 调整 sing-box TLS certificate_sha256 相关逻辑 ([a3e6106](https://github.com/sub-store-org/Sub-Store/commit/a3e6106))",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "1Panel-dev/1Panel": {
+    "last_tag": "v2.3.2",
+    "summary": "* Panel Settings: Added support for creating multiple API keys by @lan-yonghui in https://github.com/1Panel-dev/1Panel/pull/13872\n* Virtual Machine Management: Added support for mounting multiple CD-ROM ISO images by @ssongliu\n* Overview: Improved logging for disk command failures by @ssongliu in https://github.com/1Panel-dev/1Panel/pull/13889",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "kenzok8/compile-package": {
+    "last_tag": "2026.10.08-20/58_arm_cortex-a15_neon-vfpv4",
+    "summary": "定时更新插件，推送发布 💤:\n\n[下载链接] (https://dllkids.xyz/packages/arm_cortex-a15_neon-vfpv4/)",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "jxxghp/MoviePilot": {
+    "last_tag": "v3.1.2-1",
+    "summary": "- restore concurrent progressive manual paging by @jxxghp",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "invoke-ai/InvokeAI": {
+    "last_tag": "v6.14.2",
+    "summary": "* You can now import custom fonts for use with the Canvas text tool (@DustyShoe)\n* You can now transfer an image's style to krea-2 by providing a reference image (@Pfannkuchensack)\n* Keep a password-change token when a routine refresh lands first by @MohammadHijjawi97 in https://github.com/invoke-ai/InvokeAI/pull/9599",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "langgenius/dify": {
+    "last_tag": "1.17.1",
+    "summary": "- Knowledge base service-API keys were scoped to the whole workspace: one key could read and write every knowledge base in the tenant, so giving an integration access to a single knowledge base meant giving it access to all of them. Keys can now be bound to specific knowledge bases from the knowledge base's API access panel, with a workspace / this-knowledge-base scope selector at creation time. A bound key returns `403` for any other dataset — both documents and retrieval — and for endpoints that carry no dataset ID, such as list-all. Existing keys are unbound and keep their workspace-wide behavior, so nothing changes when you upgrade. (#37569)\n- The workflow canvas required a mouse to reposition anything. Nodes, multi-node selections, comment markers, and draft comments can now be moved with the arrow keys — hold Shift for larger steps — including Note, Iteration, and Loop nodes. Continuous movement is committed on key release or blur, so it produces one undo entry rather than one per keypress, and read-only mode, container boundaries, and collaboration updates are all still respected. (#41967)\n- Plugin authors now have public profile pages at `/marketplace/creator/<handle>`, listing their creations with a publisher sidebar, reachable from a new Creator Center entry in the sidebar help menu. The marketplace homepage was rebuilt around a hero, a banner carousel, sticky search, catalog tabs, and tag/language filters, with a stacked-and-swipeable mobile layout. Bundles are no longer mixed into plugin categories. (#41538)",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "langchain-ai/langchain": {
+    "last_tag": "langchain-core==1.6.9",
+    "summary": "Changes since langchain-core==1.6.8\n\nrelease(core): 1.6.9 (41160)\nfeat(core): accept a callable in with_retry (41158)",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "Significant-Gravitas/AutoGPT": {
+    "last_tag": "autogpt-platform-beta-v0.8.3",
+    "summary": "- **#14990** - Report OAuth starts and exchange failures to PostHog (by @kcze)\n- **#15052** - Let users edit and combine suggested answers in question cards (by @0ubbe)\n- **#15069** - A chat driven from a linked Discord, Slack, Teams or Telegram server gets its approval cards in the channel as native buttons (by @Pwuts)",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "pionxzh/chatgpt-exporter": {
+    "last_tag": "userscript-v2.36.3",
+    "summary": "* fetch message timestamps only when they are enabled ([5208543](https://github.com/pionxzh/chatgpt-exporter/commit/5208543cbf7798a46c26def2f54a58a6044da16b))\n* keep a partial conversation list exportable after a list error ([c6f1588](https://github.com/pionxzh/chatgpt-exporter/commit/c6f158860a30be167508b343d50314a1db59ca73))\n* line up the sidebar Export row with ChatGPT's own rows ([87b26a1](https://github.com/pionxzh/chatgpt-exporter/commit/87b26a158d4fffaa069d71b3ad164a55b0494a1f))",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "zhayujie/CowAgent": {
+    "last_tag": "2.2.0",
+    "summary": "- **Skill installation**: install from Cow Skill Hub, GitHub, or ClawHub, or upload an archive, a `SKILL.md`, or a folder. Every skill is previewed first and only installed after you confirm.\n- **MCP configuration**: add, edit, and remove MCP servers in the UI, covering the stdio, SSE, and Streamable HTTP transports. Both form and JSON editing are available, and you can paste one or more `mcpServers` entries directly. Saving checks the connection and lists the server's tools; changes take effect on the next message without a restart. Thanks @tsumon (#3155)\n- **Tool retrieval diagnostics**: see how MCP tools were ranked and why retrieval fell back during a conversation, making it easier to find out why a tool was not picked. Thanks @zhongjunqi7657 (#3165)",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "emoacht/Monitorian": {
+    "last_tag": "4.16.1-Installer",
+    "summary": "- Add and modifty Polish (pl-PL) langauge. Thank to @Blizzeq!",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "enfein/mieru": {
+    "last_tag": "v3.38.0",
+    "summary": "1. Add \"mieru replace config\" and \"mita replace config\" commands (issue 309).\r\n2. Fix high CPU usage when UDP session is idle.\r\n3. Fix some egress proxy issues.\r\n\r\n---\r\n\r\n1. 新增 \"mieru replace config\" ...",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "Icalingua-plus-plus/Icalingua-plus-plus": {
+    "last_tag": "v2.26.8",
+    "summary": "* 优化 缓解版本过低的问题\n* 修复 文件管理器的 XSS 漏洞\n* 修复 多实例下语音转换可能出现的重命名失败问题",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "lyswhut/lx-music-desktop": {
+    "last_tag": "v2.12.6",
+    "summary": "- 优化 tx 推荐歌单列表\n- 优化禁用透明窗口的窗口边框显示效果\n- 修复打开某些 kg 歌单时歌曲丢失的问题",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "lxhao61/integrated-examples": {
+    "last_tag": "20261006",
+    "summary": "以 Caddy 发行版 v2.11.7 源码加插件 forwardproxy、caddy-trojan、caddy-webdav、caddy-cloudflare-ip、caddy-trusted-cloudfront、caddy-dns/cloudflare、caddy-dns/duckdns、caddy-dns/tencentcloud、caddy-events-exec、caddy-l4、j...",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "YerongAI/Office-Tool": {
+    "last_tag": "v11.7.9.0",
+    "summary": "- Optimized the image rendering functionality of the Markdown component to support automatic size adjustment based on DPI.\n- Improved the performance of loading images.\n- Fixed an issue where the file dialog could not be correctly attached to the main window.",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "v2rayA/v2rayA": {
+    "last_tag": "v2.5.9",
+    "summary": "* Kernel: write xhttp ranges in the xray-core's form, import them from 3x-ui links by @himeer in https://github.com/v2rayA/v2rayA/pull/2067\n* fix(openwrt): install native nftables DNS redirects by @wywywywycloud in https://github.com/v2rayA/v2rayA/pull/2069\n* Add RoutingA import and scheduled updates from URL by @wywywywycloud in https://github.com/v2rayA/v2rayA/pull/2072",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "mack-a/v2ray-agent": {
+    "last_tag": "v3.5.25",
+    "summary": "feat(脚本): 修复xray无法启动的问题",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "electerm/electerm": {
+    "last_tag": "v5.5.76",
+    "summary": "- Add opt-in setting to spread tabs over panes when switching to a layout with more panes (#4571) by @swoogi\n- Support copy bookmark data\n- Support install electerm command to PATH, fix install function (#4565)",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "TDesktop-x64/tdesktop": {
+    "last_tag": "v1.2.10",
+    "summary": "v1.2.10 (TDesktop v7.2.9)\r\n\r\nNo changelog :)",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "jerrykuku/luci-theme-argon": {
+    "last_tag": "v2.4.8",
+    "summary": "* fix(cascade): add bottom spacing for argon config form by @TuringTrail in https://github.com/jerrykuku/luci-theme-argon/pull/709\n* feat(sysauth): render Authentication Login plugins on the login page by @FuSan21 in https://github.com/jerrykuku/luci-theme-argon/pull/710\n* fix(sysauth): avoid blue outline on focused login inputs by @TuringTrail in https://github.com/jerrykuku/luci-theme-argon/pull/712",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "XX-net/XX-Net": {
+    "last_tag": "5.16.7",
+    "summary": "* fix: check WebSocket MASK bit before reading masking key (RFC 6455 §5.2) by @AAtomical in https://github.com/XX-net/XX-Net/pull/14170\n* 修正 listen_ip 为 IPv6 地址时 simple_http_server 格式化失败 by @UjuiUjuMandan in https://github.com/XX-net/XX-Net/pull/14004\n* fix: Python 3 compatibility and robustness improvements by @Dolores-Abernathy1 in https://github.com/XX-net/XX-Net/pull/14184",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "HyNetworks/hysteria": {
+    "last_tag": "app/v2.13.0",
+    "summary": "- Fixed QUIC [protocol sniffing](https://hysteria.network/docs/advanced/Full-Server-Config/#protocol-sniffing) for modern browsers and QUIC libraries, whose ClientHello spans multiple packets. Domain-based [ACL](https://hysteria.network/docs/advanced/ACL/) rules now apply to their QUIC traffic\n- `sniff.timeout` now only applies to TCP\n- Upgraded [TUN mode](https://hysteria.network/docs/advanced/Full-Client-Config/#tun) to the latest upstream sing-tun (v0.9.6)",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "FreeCAD/FreeCAD": {
+    "last_tag": "1.1.4",
+    "summary": "* fix COIN3D_MICRO_VERSION regex for coin 4.0.10 by @moench-tegeder in #30899 (backported by PR [#31571](https://github.com/FreeCAD/FreeCAD/pull/31571))\n* core: Improve performance of fps label by @ipatch in #29628 (backported by PR [#31657](https://github.com/FreeCAD/FreeCAD/pull/31657))\n* Gui: Fix visibility icons for link group sub-items by @maxwxyz in #31559 (backported by PR [#31684](https://github.com/FreeCAD/FreeCAD/pull/31684))",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "microsoft/vscode": {
+    "last_tag": "1.141.0",
+    "summary": "https://code.visualstudio.com/updates/v1_141",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "sandboxie-plus/Sandboxie": {
+    "last_tag": "v1.18.5",
+    "summary": "![0 5 5](https://user-images.githubusercontent.com/3890945/105014988-575cb680-5a41-11eb-90d5-d942d28184b2.png)\r\n\r\nRelease Notes\r\n\r\nThis release fixes a compatibility issue that caused Chromium-based b...",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "HMBSbige/NatTypeTester": {
+    "last_tag": "10.0.10",
+    "summary": "- 修复 Linux 在中文、日文等语言环境下可能选用错误默认字体，导致小写字母显示为小型大写等文字显示异常的问题（#332）",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "klzgrad/naiveproxy": {
+    "last_tag": "v154.0.8037.49-4",
+    "summary": "Improved QUIC throughput to near TLS performance with higher receive window and BBR congestion control. Users are recommended to update Caddy server to [v2.11.7-naive](https://github.com/klzgrad/forwa...",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "Loyalsoldier/v2ray-rules-dat": {
+    "last_tag": "202610082207",
+    "summary": "该版本未提供详细更新说明。",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "Openwrt-Passwall/openwrt-passwall": {
+    "last_tag": "26.10.4-1",
+    "summary": "* 请按照 [openwrt-passwall-build](https://github.com/moetayuko/openwrt-passwall-build) 仓库的说明，将其提供的软件源添加到设备中，然后直接使用包管理器安装。\n* 从 [SourceForge](https://sourceforge.net/projects/openwrt-passwall-build/files/) 下载预构建的软件包。\n* 将文件上传到您的设备，使用 Shell 命令进行安装。",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  },
+  "2dust/v2rayN": {
+    "last_tag": "7.25.4",
+    "summary": "* 支持 sing-box v1.14，更新的用户注意内核版本 #9736\n* 锁定最大 sing-box 版本 v1.14  #10091\n* 添加通过代理更新检查更新的选项 - #10090",
+    "updated_at": "2026-10-09T02:16:17.151886+00:00"
+  }
+}
