@@ -1,0 +1,40 @@
+name: Starred Repos Digest
+
+on:
+  schedule:
+    # 每周一 UTC 01:00 (北京时间 09:00) 自动执行
+    - cron: '0 1 * * 1'
+  workflow_dispatch: # 允许在 GitHub 网页界面手动点击立即运行
+
+jobs:
+  run-digest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 必需：用于 git commit 推送生成的文件
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run Digest Script
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_ACTOR: ${{ github.repository_owner }}
+        run: |
+          python scripts/digest.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md reports/ data/cache.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update stars digest [skip ci]" && git push)
