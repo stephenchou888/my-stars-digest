@@ -165,3 +165,104 @@ def check_repo_updates(full_name, cache):
 
     # 写入缓存
     cache[full_name] = {
+        "last_tag": tag_name,
+        "summary": summary,
+        "updated_at": NOW.isoformat()
+    }
+
+    return {
+        "tag": tag_name,
+        "url": data.get("html_url"),
+        "published_at": published_at_str[:10],
+        "summary": summary
+    }
+
+def generate_markdown(active_updates, abandoned_repos, total_count):
+    date_str = NOW.strftime("%Y-%m-%d")
+    md = [
+        f"# 🌟 GitHub Starred 项目动态雷达",
+        f"> **生成时间**：{date_str} ｜ **总关注项目**：{total_count} 个 ｜ **近期亮点更新**：{len(active_updates)} 个 ｜ **疑似弃坑**：{len(abandoned_repos)} 个\n",
+        "---",
+        "## 🚀 近期重要更新与亮点"
+    ]
+    
+    if not active_updates:
+        md.append("\n*近期暂无项目发布新 Release。*\n")
+    else:
+        for item in active_updates:
+            md.append(f"\n### [{item['repo']}]({item['html_url']})")
+            md.append(f"- **最新版本**：[{item['tag']}]({item['release_url']})（发布于 {item['published_at']}）")
+            md.append(f"- **Stars**：⭐ {item['stars']} ｜ **语言**：{item['language']}")
+            md.append(f"- **项目描述**：{item['description']}")
+            md.append(f"- **✨ 亮点提炼**：\n{item['summary']}\n")
+
+    md.append("---\n")
+    md.append("## 🛑 建议清理 / 放弃维护项目")
+    md.append("> 以下项目已被官方归档或超过 1 年无代码提交，建议评估是否取消 Star：\n")
+    
+    if not abandoned_repos:
+        md.append("*暂无放弃维护的项目。*\n")
+    else:
+        md.append("| 仓库名称 | Star 数 | 状态说明 |")
+        md.append("| :--- | :--- | :--- |")
+        for item in abandoned_repos:
+            md.append(f"| [{item['repo']}]({item['html_url']}) | ⭐ {item['stars']} | {item['reason']} |")
+
+    return "\n".join(md)
+
+def main():
+    print(f"正在拉取 @{USERNAME} 的 Star 列表...")
+    repos = get_all_starred_repos(USERNAME)
+    total = len(repos)
+    print(f"共获取到 {total} 个 Star 项目。")
+
+    cache = load_cache()
+    active_updates = []
+    abandoned_repos = []
+
+    for idx, repo in enumerate(repos, 1):
+        full_name = repo["full_name"]
+        status, reason = check_health(repo)
+        
+        if status == "abandoned":
+            abandoned_repos.append({
+                "repo": full_name,
+                "html_url": repo["html_url"],
+                "stars": repo.get("stargazers_count", 0),
+                "reason": reason
+            })
+        elif status == "active":
+            # 仅对近期有提交的活跃项目检查最新 Release
+            update_info = check_repo_updates(full_name, cache)
+            if update_info:
+                active_updates.append({
+                    "repo": full_name,
+                    "html_url": repo["html_url"],
+                    "stars": repo.get("stargazers_count", 0),
+                    "language": repo.get("language") or "N/A",
+                    "description": repo.get("description") or "无描述",
+                    "tag": update_info["tag"],
+                    "release_url": update_info["url"],
+                    "published_at": update_info["published_at"],
+                    "summary": update_info["summary"]
+                })
+
+    save_cache(cache)
+
+    # 生成 Markdown 内容
+    md_content = generate_markdown(active_updates, abandoned_repos, total)
+
+    # 1. 写入仓库首页 README.md
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(md_content)
+
+    # 2. 存入 reports/ 历史归档
+    os.makedirs("reports", exist_ok=True)
+    report_filename = f"reports/{NOW.strftime('%Y-%m-%d')}.md"
+    with open(report_filename, "w", encoding="utf-8") as f:
+        f.write(md_content)
+
+    print("周报更新完成！")
+
+if __name__ == "__main__":
+    main()
