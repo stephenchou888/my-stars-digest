@@ -1,15 +1,15 @@
 {
   "genspark-ai/genoffice": {
-    "last_tag": "v0.11.411",
-    "desc_zh": "免费的开源 AI Office 套件：带有内置 AI 代理的文档、表格、幻灯片、PDF、Markdown 和 HTML 编辑器，以及“genoffice”CLI 和代理技能，以便 Claude Code、Codex 和 Cursor 可以在本地创建和编辑真正的 .docx/.xlsx/.pptx 文件。带上你自己的钥匙。 macOS、Windows 和 Linux。",
-    "summary_zh": "- **工作表：** 数据透视表字段窗格，其中包含报表筛选器以及每个引擎聚合和显示模式； Excel 风格的函数参数对话框、选择性粘贴、预览打印、使用 Ctrl+T 的“表设计”选项卡、“形状格式”选项卡、分组轮廓线和填充/左填充/系列；使用 Excel 样式的权限和密码保护工作表；串联评论； Excel 奇偶校验单元格、标题和工作表选项卡上下文菜单，具有“从下拉列表中选择”功能。大型工作簿：完全加载最多 1M 个单元格，共享公式母版仅索引一次，查找在流式工作簿上的边车中运行，并且在保存期间所做的编辑将被带入重新打开的会话中。\n- **文档：** 单词对齐的行框和基线、东亚和韩文行因子、浮动表格间距和锚定、跨页浮动、单独的单元格边框和无边框嵌套表格、显示方程、符号/Wingdings 项目符号、捆绑的 DM Sans 子集和 Office 专用字体别名；跟踪的删除会在每个标记视图中留下流程；单击浮动表格的单元格即可到达该单元格；具有持久环绕和堆叠功能的形状格式排列组；暗页选择被记住。\n- **幻灯片和管道：** `txBox=\"1\"` 矩形分类为文本框；笔记草稿在人工智能甲板编辑后幸存下来； Deck-spec 有效负载在解析之前受到限制（由 . 报告）",
-    "updated_at": "2026-10-09T02:22:53.722442+00:00"
+    "last_tag": "v0.11.564",
+    "desc_zh": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux.",
+    "summary_zh": "- **PDF:** sign PDFs with a digital certificate (.p12/.pfx or the Windows certificate store) and verify existing signatures ; Form Design saves as soon as you press Done, keeps CJK field values, validates field names and hides generated ones; Fill Form date fields accept common layouts, explain rejections and offer a calendar picker (requested by .\n- **Sheets:** large streamed workbooks past the Full Load budget can now be filtered on the columns you use (reported by ; fast scrolling through many hidden rows no longer loads the whole sheet; the AutoFilter header button is drawn like Excel's; Ctrl+arrow moves word by word in the cell editor; streamed workbooks preload before print and PDF export ; the CSV guard digest follows file identity .\n- **Slides:** canvas gestures match PowerPoint: one undo step per drag, Shift+marquee adds to the selection, modifier keys and guides while resizing, Escape cancels, a 3 px snap pull, and rubber-band selection survives releasing outside the canvas and drags connectors with the group.",
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
   },
   "robbietilton/Compositor": {
-    "last_tag": "v1.4.7",
-    "desc_zh": "适用于 Mac 的 Photoshop 替代品",
-    "summary_zh": "过滤器 › 最后一个过滤器 (⌃⌘F) 使用相同的设置再次运行最后一个过滤器。 F 切换全屏，Esc 现在也将其保留，搜索命令移至 ⌘F。 UI 改进：更清晰的图层面板按钮，重命名图层也无需跳行",
-    "updated_at": "2026-10-09T02:22:53.722442+00:00"
+    "last_tag": "v1.4.10",
+    "desc_zh": "The Photoshop alternative for Mac",
+    "summary_zh": "- Spot Healing and Content-Aware Fill rebuilt: edges and texture carry on through what's removed\n- Import a folder of images as layers, from Import Image or by dropping it on the canvas, a tab or the Dock\n- Gaussian Blur: Preserve Transparency, and solid edges for a picture filling the canvas",
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
   },
   "guohuiyuan/go-music-dl": {
     "last_tag": "v1.1.1",
@@ -18,10 +18,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "ruvnet/RuView": {
-    "last_tag": "v3067",
-    "desc_zh": "π RuView 将商用 WiFi 信号转化为实时空间智能、生命体征监测和存在检测 - 所有这些都无需视频像素。",
-    "summary_zh": "从 CI 管道自动发布\n\n**变化：**\n文档：描述以 RuView 为中心的 README 动画\n\n**Docker 镜像：**\n`ghcr.io/ruvnet/RuView:0ef6b96fe15e30b4a086992e47e18081a0ba37ce`",
-    "updated_at": "2026-10-09T02:22:53.722442+00:00"
+    "last_tag": "v3122",
+    "desc_zh": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+    "summary_zh": "Automated release from CI pipeline\n\n**Changes:**\nMerge pull request 2192 from clonea1/contrib/pin-led-strip-idf54\n\nfix(firmware): pin led_strip to 3.0.x; 3.1.0 breaks ESP-IDF 5.4 builds\n\n**Docker Image:**\n`ghcr.io/ruvnet/RuView:a71634ae8a606bba546348",
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
   },
   "pascalorg/editor": {
     "last_tag": "v1.0.3",
@@ -36,10 +36,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "dyang886/Game-Cheats-Manager": {
-    "last_tag": "v2.5.2",
-    "desc_zh": "轻松下载和管理单人游戏秘籍，方便您",
-    "summary_zh": "- 现在仅当存在较新版本时才下载数据文件\n- 上传培训师时在注释部分添加了字长统计\n- 修复了未能删除 FLiNG 背景音乐会导致下载失败的问题",
-    "updated_at": "2026-10-09T02:22:53.722442+00:00"
+    "last_tag": "v2.5.4",
+    "desc_zh": "Easily download and manage single-player game cheats for your convenience",
+    "summary_zh": "- Added a `Use IPv4 only for network connections` option in Settings, on by default. This can probably fix requests failing on some networks where DNS lookups return bad addresses.\n- 设置中新增 `网络连接仅使用 IPv4` 选项，默认开启。这应该能修复部分网络环境下因 DNS 解析异常导致所有网络请求失败的问题",
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
   },
   "bestruirui/BestSub": {
     "last_tag": "v2.0.6",
@@ -48,16 +48,16 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "linshenkx/prompt-optimizer": {
-    "last_tag": "v2.11.10",
-    "desc_zh": "人工智能提示优化器，用于编写更好的提示并获得更好的人工智能结果。",
-    "summary_zh": "- 没有启用模型的首次用户现在可以直接从空模型选择器打开模型管理器，并在文本、图像和函数模型之间可靠地切换。\n- 内置目录现在可跟踪当前各代产品，例如 GPT-6 Astra、GLM-5.3 和 GLM-5.3-Flash、Qwen3.8、Gemini 3.8 Flash、Grok 4.6、GPT Image 2.5 Flare、Qwen Image 3.0、Grok Imagine Image 2.0 和 Gemini 3.1 Flash Image。\n- 桌面包现在包括运行时窗口图标，并已使用干净的配置文件进行验证，而 Node 24 安全运行程序和操作使本地和 CI 工作流程与新运行时兼容。",
-    "updated_at": "2026-10-09T02:22:53.722442+00:00"
+    "last_tag": "v2.11.11",
+    "desc_zh": "An AI prompt optimizer for writing better prompts and getting better AI results.",
+    "summary_zh": "- Clear the evaluation model setting to restore automatic selection. The UI explains the default order and warns about deleted or disabled function models.\n- Earlier evaluation responses no longer interfere with restarted evaluations, and rapid function-model changes are saved in user-action order.\n- Image uploads are prepared for compatibility. Material resizing requires confirmation, and cancelling preparation leaves the existing input unchanged.",
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
   },
   "amir1376/ab-download-manager": {
-    "last_tag": "v1.10.4",
-    "desc_zh": "下载管理器可加快您的下载速度",
-    "summary_zh": "- 修复了某些设置（包括 UI 缩放）未正确保存的问题 (#1409)\n- 添加了一个选项，可以使用“添加下载”页面上新输入的路径作为默认下载位置（#1406）\n- 将集成服务器限制为仅限本地连接 (#1442)",
-    "updated_at": "2026-10-09T02:22:53.722442+00:00"
+    "last_tag": "v1.11.0",
+    "desc_zh": "A Download Manager that speeds up your downloads",
+    "summary_zh": "*  made their first contribution in https://github.com/amir1376/ab-download-manager/pull/1434",
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
   },
   "RSSNext/Folo": {
     "last_tag": "desktop/v1.15.0",
@@ -78,10 +78,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "jgraph/drawio-desktop": {
-    "last_tag": "v32.3.0",
-    "desc_zh": "Draw.io 的官方电子版本",
-    "summary_zh": "- 使用电子44.6.0\n- 按照安装方式更新每种安装类型。 Windows 安装程序、macOS 和 AppImage 在后台下载更新，并在准备就绪时显示通知和“帮助”>“重新启动以更新”，或在退出时安装它。 MSI、zip、portable、deb 和 rpm 安装会显示一条通知，其中包含指向发布页面的链接，而不是自行运行 Windows 安装程序。附加 > 自动更新可打开和关闭背景检查。从 31.7.0 开始，此更新仍然以之前的方式到达 [jgraph/drawio-desktop#2569]\n- 在 macOS 上按照打印机自己的纸张尺寸和方向进行打印，因此横向页面可以在 A4 或 Letter 上横向打印 [jgraph/drawio-desktop#2568]",
-    "updated_at": "2026-10-09T02:22:53.722442+00:00"
+    "last_tag": "v32.4.1",
+    "desc_zh": "Official electron build of draw.io",
+    "summary_zh": "- Uses electron 44.7.0\n- Asks before reading a local file named in Extras > Configuration (libraries, templates or fonts) for the first time, and reads the configuration once when a window opens, so script in the page can no longer make other files on the computer readable by changing it. Files already configured before this update keep working without a prompt\n- Reads urlParams.json from the installation folder or the draw.io user data folder only, no longer from the folder draw.io was started in, which on Windows is the folder of a diagram opened from Explorer. A urlParams.json kept elsewhere needs to move to the user data folder (~/Library/Application Support/draw.io on macOS, %APPDATA%\\draw.io on Windows). The file can no longer override settings the app manages itself, such as Google Fonts and spell checking",
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
   },
   "microsoft/graphrag": {
     "last_tag": "v3.3.0",
@@ -96,10 +96,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "clash-verge-rev/clash-verge-rev": {
-    "last_tag": "v2.5.7",
-    "desc_zh": "基于 Tauri 的现代 GUI 客户端，设计用于在 Windows、macOS 和 Linux 中运行，以提供定制的代理体验",
-    "summary_zh": "- 修复读屏软件将普通模式下的侧边栏导航项播报为不可用的可拖拽控件的问题\n- 修复订阅包含自定义 DNS 时，确认开启的 DNS 覆写在重启应用后被自动关闭的问题\n- 修复 Windows 系统盘根目录的删除权限被误判，导致服务模式和 TUN 无法使用的问题",
-    "updated_at": "2026-10-09T02:22:53.722442+00:00"
+    "last_tag": "v2.5.8",
+    "desc_zh": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+    "summary_zh": "- 修复系统托盘代理组行不显示延迟、超时项与未测过项无法区分的问题\n- 修复不同订阅源的同名节点测速和延迟显示指向错误节点的问题\n- 修复端口设置混淆保存值与运行值、输入无效时缺少提示的问题",
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
   },
   "sugarforever/chat-ollama": {
     "last_tag": "agent-v0.4.0",
@@ -132,10 +132,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "labring/FastGPT": {
-    "last_tag": "v4.17.1",
-    "desc_zh": "FastGPT 是一个建立在法学硕士基础上的知识平台，提供一整套开箱即用的功能，例如数据处理、RAG 检索和可视化 AI 工作流程编排，让您轻松开发和部署复杂的问答系统，无需进行大量设置或配置。",
-    "summary_zh": "* 修复（管理员）：登录后需要进行许可证验证 https://github.com/labring/FastGPT/pull/7728\n* 壮举：支持工作流入口点 https://github.com/labring/FastGPT/pull/7724\n* feat(app)：通过 https://github.com/labring/FastGPT/pull/7706 中的外部服务实现智能文本分块",
-    "updated_at": "2026-10-09T02:22:53.722442+00:00"
+    "last_tag": "v4.17.2",
+    "desc_zh": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.",
+    "summary_zh": "* fix(dataset): prevent duplicate loading on dataset list scroll by  in https://github.com/labring/FastGPT/pull/7899\n* fix: include model name in model probe errors by  in https://github.com/labring/FastGPT/pull/7915\n* fix(global): formatNumberWithUnit 进位到下一单位时显示成 10000万 / 1000K by  in https://github.com/labring/FastGPT/pull/7911",
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
   },
   "yihong0618/bilingual_book_maker": {
     "last_tag": "v1.3.1",
@@ -144,10 +144,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "SagerNet/sing-box": {
-    "last_tag": "v1.14.2",
-    "desc_zh": "通用代理平台",
-    "summary_zh": "* 修复和改进",
-    "updated_at": "2026-10-09T02:22:53.722442+00:00"
+    "last_tag": "v1.14.3",
+    "desc_zh": "The universal proxy platform",
+    "summary_zh": "* Fixes and improvements",
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
   },
   "LorenEteval/Furious": {
     "last_tag": "0.8.2",
@@ -168,16 +168,16 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "kenzok8/compile-package": {
-    "last_tag": "2026.10.08-20/58_arm_cortex-a15_neon-vfpv4",
+    "last_tag": "2026.10.11-19/51_arm_cortex-a15_neon-vfpv4",
     "desc_zh": "small-package仓库，每日更新插件编译",
     "summary_zh": "定时更新插件，推送发布 💤:\n\n[下载链接] (https://dllkids.xyz/packages/arm_cortex-a15_neon-vfpv4/)",
-    "updated_at": "2026-10-09T02:22:53.722442+00:00"
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
   },
   "jxxghp/MoviePilot": {
-    "last_tag": "v3.1.2-1",
+    "last_tag": "v3.1.4",
     "desc_zh": "NAS媒体库自动化管理工具",
-    "summary_zh": "- 恢复并发渐进式手动寻呼",
-    "updated_at": "2026-10-09T02:22:53.722442+00:00"
+    "summary_zh": "- 新增插件扩展的 AI 助手形象，支持在助手面板中预览和切换，管理员可设置默认形象。\n- 优化悬浮助手的贴边收起、位置记忆和形象加载，刷新后恢复已选形象，并改善气泡定位与减少动态效果的适配。\n- 优化下载卡片、整理历史和文件列表的布局、长路径显示与排序；改善移动端悬浮按钮交互，修复版本历史列表标记。",
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
   },
   "invoke-ai/InvokeAI": {
     "last_tag": "v6.14.2",
@@ -204,10 +204,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "pionxzh/chatgpt-exporter": {
-    "last_tag": "userscript-v2.36.3",
-    "desc_zh": "导出并分享您的 ChatGPT 对话历史记录",
-    "summary_zh": "* 仅在启用时获取消息时间戳 ([5208543](https://github.com/pionxzh/chatgpt-exporter/commit/5208543cbf7798a46c26def2f54a58a6044da16b))\n* 在列表错误后保持部分对话列表可导出（[c6f1588](https://github.com/pionxzh/chatgpt-exporter/commit/c6f158860a30be167508b343d50314a1db59ca73))\n* 将侧边栏导出行与 ChatGPT 自己的行对齐（[87b26a1](https://github.com/pionxzh/chatgpt-exporter/commit/87b26a158d4fffaa069d71b3ad164a55b0494a1f))",
-    "updated_at": "2026-10-09T02:22:53.722442+00:00"
+    "last_tag": "userscript-v2.37.0",
+    "desc_zh": "Export and Share your ChatGPT conversation history",
+    "summary_zh": "* choose how Markdown exports save images ([ec966c5](https://github.com/pionxzh/chatgpt-exporter/commit/ec966c51654c2726fec78b4b10f041be69999979)), closes [#405](https://github.com/pionxzh/chatgpt-exporter/issues/405)\n* save JSON (ZIP) images as files too ([82ec4bc](https://github.com/pionxzh/chatgpt-exporter/commit/82ec4bcfea9f6c651393861dbdf7c8eae8330045)), closes [#295](https://github.com/pionxzh/chatgpt-exporter/issues/295)",
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
   },
   "zhayujie/CowAgent": {
     "last_tag": "2.2.0",
@@ -222,10 +222,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "enfein/mieru": {
-    "last_tag": "v3.38.0",
+    "last_tag": "v3.38.1",
     "desc_zh": "mieru is a socks5 / HTTP / HTTPS proxy to bypass censorship. 見える是一款 socks5 / HTTP / HTTPS 网络代理翻墙工具。",
-    "summary_zh": "1. Add \"mieru replace config\" and \"mita replace config\" commands (issue 309).\r\n2. Fix high CPU usage when UDP session is idle.\r\n3. Fix some egress proxy issues.\r\n\r\n---\r\n\r\n1. 新增 \"mieru replace config\" 和 \"mita replace config\" 指令。\r\n2. 修复了 UDP 会话在空闲时 CPU",
-    "updated_at": "2026-10-09T02:22:53.722442+00:00"
+    "summary_zh": "1. Fix a bug of possible infinite read retry when QUIC is used as dialer proxy.\r\n2. Fix several issues about socks5 user authentication and private IP address protection.\r\n3. Fix race condition in time series metrics.\r\n\r\n---\r\n\r\n1. 修复了当使用 QUIC 拨号代理时，可",
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
   },
   "Icalingua-plus-plus/Icalingua-plus-plus": {
     "last_tag": "v2.26.8",
@@ -252,10 +252,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "v2rayA/v2rayA": {
-    "last_tag": "v2.5.9",
-    "desc_zh": "一个基于 Xray 的核心的 Web 客户端，在 Linux、Windows 和 macOS 上具有全局透明代理。",
-    "summary_zh": "* 内核：以 xray-core 的形式编写 xhttp 范围，从 https://github.com/v2rayA/v2rayA/pull/2067 中的 3x-ui 链接导入它们\n* 修复（openwrt）：通过 https://github.com/v2rayA/v2rayA/pull/2069 安装原生 nftables DNS 重定向\n* 通过 https://github.com/v2rayA/v2rayA/pull/2072 从 URL 添加 RoutingA 导入和计划更新",
-    "updated_at": "2026-10-09T02:22:53.722442+00:00"
+    "last_tag": "v2.5.10",
+    "desc_zh": "A web client for its own Xray-based core with global transparent proxy on Linux, Windows and macOS.",
+    "summary_zh": "* feat: separate DNS service from interception by  in https://github.com/v2rayA/v2rayA/pull/2082\n* fix(db): drop obsolete legacy outbound tables to prevent foreign key constraint failed (787) on node deletion by  in https://github.com/v2rayA/v2rayA/pull/2080",
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
   },
   "mack-a/v2ray-agent": {
     "last_tag": "v3.5.25",
@@ -306,10 +306,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "sandboxie-plus/Sandboxie": {
-    "last_tag": "v1.18.5",
-    "desc_zh": "Sandboxie Plus 和 Classic",
-    "summary_zh": "![0 5 5](https://user-images.githubusercontent.com/3890945/105014988-575cb680-5a41-11eb-90d5-d942d28184b2.png)\r\n\r\n发行说明\r\n\r\n此版本修复了导致基于 Chromium 的浏览器和许多 Electron 应用程序崩溃的兼容性问题",
-    "updated_at": "2026-10-09T02:22:53.722442+00:00"
+    "last_tag": "v1.18.6",
+    "desc_zh": "Sandboxie Plus & Classic",
+    "summary_zh": "![0 5 5](https://user-images.githubusercontent.com/3890945/105014988-575cb680-5a41-11eb-90d5-d942d28184b2.png)\r\n\r\nRelease Notes\r\n\r\nSandboxie Plus 1.18.6 brings several fixes that improve stability and reliability, alongside expanded language support.",
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
   },
   "HMBSbige/NatTypeTester": {
     "last_tag": "10.0.10",
@@ -324,10 +324,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "Loyalsoldier/v2ray-rules-dat": {
-    "last_tag": "202610082207",
+    "last_tag": "202610112207",
     "desc_zh": "🦄 🎃 👻 V2Ray 路由规则文件加强版，可代替 V2Ray 官方 geoip.dat 和 geosite.dat，适用于 V2Ray、Xray-core、mihomo(Clash-Meta)、hysteria、Trojan-Go 和 leaf。Enhanced edition of V2Ray rules dat files, applicable to V2Ray, Xray-core, mihomo(Clash-Meta), hysteria, Trojan-Go and leaf.",
     "summary_zh": "该版本未提供详细更新说明。",
-    "updated_at": "2026-10-09T02:22:53.722442+00:00"
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
   },
   "Openwrt-Passwall/openwrt-passwall": {
     "last_tag": "26.10.4-1",
@@ -340,5 +340,29 @@
     "desc_zh": "适用于 Windows、Linux 和 macOS 的 GUI 客户端，支持 Xray 和 sing-box 等",
     "summary_zh": "* 支持 sing-box v1.14，更新的用户注意内核版本 #9736\n* 锁定最大 sing-box 版本 v1.14  #10091\n* 添加通过代理更新检查更新的选项 - #10090",
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
+  },
+  "DIYgod/RSSHub": {
+    "last_tag": "v2026.10.11-8411.a7d4000",
+    "desc_zh": "🧡 Everything is RSSible",
+    "summary_zh": "- ghcr.io/diygod/rsshub:a7d400051d8dc73c0a0a60197920df9d3f80b75c\n- ghcr.io/diygod/rsshub:chromium-bundled-a7d400051d8dc73c0a0a60197920df9d3f80b75c\n- diygod/rsshub:a7d400051d8dc73c0a0a60197920df9d3f80b75c",
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
+  },
+  "rockbenben/ChatGPT-Shortcut": {
+    "last_tag": "v4.5.1",
+    "desc_zh": "Stop writing prompts from scratch — a searchable prompt library for ChatGPT, Claude, Gemini and Cursor · Русский 한국어 العربية हिन्दी ไทย ｜ 别再从头写提示词：现成的拿来就用，好用的收进自己的库",
+    "summary_zh": "- Keep array and object identity stable so unrelated updates no longer re-render whole lists. Favoriting a prompt, searching, or clearing filters now re-renders only what actually changed instead of the entire grid.\n- Tapping the favorite heart with no filter active no longer triggers two extra render passes on the homepage.\n- The axios response interceptor's \"always throw\" contract is now enforced by the type system (`handleApiError` returns `never`). A stray early `return` — the shape that silently resolved `undefined` into every caller on timeouts and DNS failures — no longer compiles.",
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
+  },
+  "qier222/YesPlayMusic": {
+    "last_tag": "v0.4.11",
+    "desc_zh": "高颜值的第三方网易云播放器，支持 Windows / macOS / Linux :electron: ",
+    "summary_zh": "- **Touch Bar 歌词**：在配备 Touch Bar 的 MacBook 上，播放时 Touch Bar 中间会实时显示当前歌词（原有的前进 / 后退、搜索和播放列表按钮已移除，以留出显示空间），感谢 [](https://github.com/KawakazeNotFound)（#2407）\n- **主题颜色**：设置页新增「主题颜色」选项，除原始颜色外，还提供日落、海洋、森林三种渐变配色，感谢 [](https://github.com/wuzhi456)（#2461）\n- **托盘图标颜色**：设置页新增「托盘图标颜色」选项，可选择自动、浅色或深色，让托盘图标在不同系统主题和任务栏背景下都清晰可见，感谢 [](https://github.com/657kbps)（#2414）",
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
+  },
+  "ventoy/Ventoy": {
+    "last_tag": "v1.1.18",
+    "desc_zh": "A new bootable USB solution.",
+    "summary_zh": "**Changelog**\r\n1. Experimental support for SteamOS recovery images. (3712 2875 1815)\r\n2. Improve the Linux remount feature to make the ISO partition mountable out of the box on mainstream desktop distros. ([Notes](https://www.ventoy.net/en/doc_linux_",
+    "updated_at": "2026-10-11T23:18:35.250363+00:00"
   }
 }
