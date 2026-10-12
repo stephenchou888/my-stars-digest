@@ -342,10 +342,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "DIYgod/RSSHub": {
-    "last_tag": "v2026.10.11-8411.a7d4000",
-    "desc_zh": "🧡 Everything is RSSible",
-    "summary_zh": "- ghcr.io/diygod/rsshub:a7d400051d8dc73c0a0a60197920df9d3f80b75c\n- ghcr.io/diygod/rsshub:chromium-bundled-a7d400051d8dc73c0a0a60197920df9d3f80b75c\n- diygod/rsshub:a7d400051d8dc73c0a0a60197920df9d3f80b75c",
-    "updated_at": "2026-10-11T23:18:35.250363+00:00"
+    "last_tag": "v2026.10.12-8413.d55daa0",
+    "desc_zh": "🧡 一切都是RSSible",
+    "summary_zh": "-ghcr.io/diygod/rsshub:d55daa06c1340db6fa9cc5f865f627748eb5b346\n- ghcr.io/diygod/rsshub:chromium-bundled-d55daa06c1340db6fa9cc5f865f627748eb5b346\n-diygod/rsshub:d55daa06c1340db6fa9cc5f865f627748eb5b346",
+    "updated_at": "2026-10-12T07:04:03.739718+00:00"
   },
   "rockbenben/ChatGPT-Shortcut": {
     "last_tag": "v4.5.1",
@@ -364,5 +364,11 @@
     "desc_zh": "A new bootable USB solution.",
     "summary_zh": "**Changelog**\r\n1. Experimental support for SteamOS recovery images. (3712 2875 1815)\r\n2. Improve the Linux remount feature to make the ISO partition mountable out of the box on mainstream desktop distros. ([Notes](https://www.ventoy.net/en/doc_linux_",
     "updated_at": "2026-10-11T23:18:35.250363+00:00"
+  },
+  "vernesong/OpenClash": {
+    "last_tag": "v0.48.002",
+    "desc_zh": "OpenWrt 的 Clash 客户端",
+    "summary_zh": "* 2026-10-12 11:40 GMT+0800\n* [WIKI & SKILL](https://github.com/vernesong/OpenClash/blob/dev/.github/skills/openclash-user-guide/SKILL.md)\n* 启动前请先在插件设置页面的版本更新标签下确认`内核编译版本`，您也可以手动下载 [Clash内核](https://github.com/MetaCubeX/mihomo/releases) 后解压到 `/etc/openclash/core/`文件夹，并将二进制文件命名为`clash_meta`",
+    "updated_at": "2026-10-12T07:04:03.739718+00:00"
   }
 }
