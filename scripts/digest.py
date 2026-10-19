@@ -1,24 +1,37 @@
 import os
+import sys
 import json
 import re
 import requests
 from datetime import datetime, timezone
 
-# 基础配置
-GH_TOKEN = os.getenv("GH_PAT")
+# 基础配置：优先使用 GitHub Actions 内置永不过期的 GITHUB_TOKEN，其次才是 GH_PAT
+GH_TOKEN = (os.getenv("GITHUB_TOKEN") or os.getenv("GH_PAT") or "").strip()
 # 固定使用指定用户名拉取 Star（避免受运行环境 GITHUB_ACTOR 影响）
 USERNAME = "stephenchou888"
 # 明确的 Star API endpoint
 STAR_API = f"https://api.github.com/users/{USERNAME}/starred"
 
 HEADERS = {
-    "Authorization": f"Bearer {GH_TOKEN}",
     "Accept": "application/vnd.github.v3+json",
     "User-Agent": "GitHub-Stars-Digest"
 }
+if GH_TOKEN:
+    HEADERS["Authorization"] = f"Bearer {GH_TOKEN}"
 
 CACHE_FILE = "data/cache.json"
 NOW = datetime.now(timezone.utc)
+
+
+def github_get(url, timeout=15):
+    """带自动回退机制的 GitHub API 请求：若 Token 过期返回 401，自动剥离无效 Token 重试"""
+    resp = requests.get(url, headers=HEADERS, timeout=timeout)
+    if resp.status_code == 401 and "Authorization" in HEADERS:
+        print("⚠️ 检测到当前 Token 无效或已过期 (HTTP 401)，已自动切换为免 Token 模式继续请求...")
+        HEADERS.pop("Authorization", None)
+        resp = requests.get(url, headers=HEADERS, timeout=timeout)
+    return resp
+
 
 def load_cache():
     if os.path.exists(CACHE_FILE):
@@ -29,10 +42,12 @@ def load_cache():
             return {}
     return {}
 
+
 def save_cache(cache):
     os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
     with open(CACHE_FILE, "w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False, indent=2)
+
 
 def translate_to_zh(text):
     """免 Key 的安全开放翻译引擎（仅传输公开技术文档，无任何个人数据）"""
@@ -61,6 +76,7 @@ def translate_to_zh(text):
         print(f"翻译异常: {e}")
     return text
 
+
 def classify_repo(repo_info):
     """基于仓库的 Topics 标签、名称与描述进行多维度自动聚类"""
     text_corpus = (
@@ -82,23 +98,25 @@ def classify_repo(repo_info):
     else:
         return "📦 实用开源精选"
 
+
 def check_health(repo):
     """判断维护健康状态"""
     if repo.get("archived", False):
         return "abandoned", "作者已正式归档 (Archived)"
-    
+
     pushed_at_str = repo.get("pushed_at")
     if not pushed_at_str:
         return "abandoned", "无代码提交记录"
-        
+
     pushed_at = datetime.fromisoformat(pushed_at_str.replace("Z", "+00:00"))
     days = (NOW - pushed_at).days
-    
+
     if days > 365:
         return "abandoned", f"超过 {days} 天无代码提交"
     elif days > 90:
         return "stale", f"近 {days} 天未更新（低频维护）"
     return "active", f"{days} 天前有活跃更新"
+
 
 def extract_and_summarize_highlights(release_notes):
     """提取核心条目并自动翻译为简洁中文"""
@@ -132,13 +150,14 @@ def extract_and_summarize_highlights(release_notes):
     clean_text = re.sub(r'#+\s*', '', release_notes).strip()[:250]
     return translate_to_zh(clean_text)
 
+
 def check_repo_updates(repo, cache):
     full_name = repo["full_name"]
     url = f"https://api.github.com/repos/{full_name}/releases/latest"
-    resp = requests.get(url, headers=HEADERS)
+    resp = github_get(url)
     if resp.status_code != 200:
         return None
-    
+
     data = resp.json()
     tag_name = data.get("tag_name")
     published_at_str = data.get("published_at")
@@ -181,9 +200,10 @@ def check_repo_updates(repo, cache):
         "raw_body": raw_body
     }
 
+
 def generate_markdown(active_updates, abandoned_repos, total_count):
     date_str = NOW.strftime("%Y-%m-%d")
-    
+
     # 统计分类
     categories = {}
     for item in active_updates:
@@ -216,7 +236,7 @@ def generate_markdown(active_updates, abandoned_repos, total_count):
             lang = item['language']
             stars = item['stars']
             tag = item['tag']
-            
+
             md.append(f"### 📦 [{item['repo']}]({item['html_url']})")
             md.append(
                 f"`⭐ Stars: {stars:,}` &nbsp;|&nbsp; "
@@ -225,7 +245,7 @@ def generate_markdown(active_updates, abandoned_repos, total_count):
             )
             md.append(f"> **简介**：{item['desc_zh']}\n")
             md.append(f"**💡 核心亮点更新 (中文)**：\n{item['summary_zh']}\n")
-            
+
             # 折叠原生英文发布说明，保持页面干净整洁
             if item['raw_body'].strip():
                 md.append("<details>")
@@ -248,14 +268,18 @@ def generate_markdown(active_updates, abandoned_repos, total_count):
 
     return "\n".join(md)
 
+
 def main():
     print(f"正在拉取 @{USERNAME} 的 Star 列表...")
     repos = []
     page = 1
     while True:
         url = f"{STAR_API}?per_page=100&page={page}"
-        resp = requests.get(url, headers=HEADERS)
+        resp = github_get(url)
         if resp.status_code != 200:
+            print(f"❌ 请求失败 (HTTP {resp.status_code}): {resp.text[:300]}")
+            if page == 1:
+                sys.exit(1)
             break
         data = resp.json()
         if not data or not isinstance(data, list):
@@ -265,6 +289,9 @@ def main():
 
     total = len(repos)
     print(f"共获取到 {total} 个 Star 项目。")
+    if total == 0:
+        print("❌ 未获取到任何 Star 项目，终止写入以防覆盖已有周报数据。")
+        sys.exit(1)
 
     cache = load_cache()
     active_updates = []
@@ -312,6 +339,7 @@ def main():
         f.write(md_content)
 
     print("周报更新完成！")
+
 
 if __name__ == "__main__":
     main()
