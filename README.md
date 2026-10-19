@@ -1,9 +1,11 @@
 # 📡 Starred 项目雷达看板
+> 🖥️ **交互式管理看板 (shadcn/ui)**：[👉 点击进入在线雷达看板 (https://stephenchou888.github.io/my-stars-digest/)](https://stephenchou888.github.io/my-stars-digest/)
+
 > **生成时间**：`2026-10-19` ｜ **关注项目总数**：`361` ｜ **本期更新**：`70` ｜ **弃坑预警**：`136`
 
 | 统计指标 | 数量 | 状态提示 |
 | :--- | :---: | :--- |
-| 🌟 总关注库 | **361** | 监控运行中 |
+| 🌟 总关注库 | **361** | [进入 shadcn 在线看板管理](https://stephenchou888.github.io/my-stars-digest/) |
 | 🚀 近期有更新 | **70** | 涵盖 6 个分类 |
 | 🛑 建议清理/弃坑 | **136** | 建议取消 Star 保持关注列表整洁 |
 
@@ -14,15 +16,15 @@
 - [🎬 影音媒体与下载 (8)](#-影音媒体与下载)
 - [📝 效率办公与创作 (8)](#-效率办公与创作)
 - [🌐 网络与代理技术 (11)](#-网络与代理技术)
-- [📦 实用开源精选 (6)](#-实用开源精选)
-- [🛠️ 系统与开发者工具 (2)](#-系统与开发者工具)
+- [📦 实用开源精选 (5)](#-实用开源精选)
+- [🛠️ 系统与开发者工具 (3)](#-系统与开发者工具)
 
 ---
 
 ## <span id="-AI-与智能体生态">🤖 AI 与智能体生态</span>
 
 ### 📦 [hypit-ai/hypit](https://github.com/hypit-ai/hypit)
-`⭐ Stars: 23,788` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.3.1](https://github.com/hypit-ai/hypit/releases/tag/v0.3.1) (2026-10-09)`
+`⭐ Stars: 23,800` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.3.1](https://github.com/hypit-ai/hypit/releases/tag/v0.3.1) (2026-10-09)`
 
 > **简介**：使用人工智能代理克隆任何病毒视频。不仅仅是一个脚本，而是整个工作流程：交换面孔、文字、幕后花絮，在一个命令中发送 100 个变体，并获得 1 亿次观看。
 
@@ -55,7 +57,7 @@ This release does not publish the optional partner Provider packages or the four
 
 ---
 ### 📦 [HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app)
-`⭐ Stars: 18,261` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.0.6](https://github.com/HBAI-Ltd/Toonflow-app/releases/tag/v2.0.6) (2026-10-13)`
+`⭐ Stars: 18,273` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.0.6](https://github.com/HBAI-Ltd/Toonflow-app/releases/tag/v2.0.6) (2026-10-13)`
 
 > **简介**：短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Agent 与可视化工作流，支持本地部署、自选模型、跨平台客户端、MCP 与插件扩展。Open-source AI short drama and motion comic creation tool with an infinite canvas, AI agents, storyboarding, image and video generation. Self-hosted and extensible, with a canvas-based approach similar to LibTV and TapNow.
 
@@ -98,7 +100,7 @@ M 系列 Mac 安装包已完成 Developer ID 签名与 Apple 公证。首次打�
 
 ---
 ### 📦 [morluto/rea](https://github.com/morluto/rea)
-`⭐ Stars: 329,661` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [rea-agents-6.7.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.7.0) (2026-10-18)`
+`⭐ Stars: 329,991` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [rea-agents-6.7.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.7.0) (2026-10-18)`
 
 > **简介**：使用代理对任何内容进行逆向工程，从应用程序行为到本机二进制文件。
 
@@ -159,7 +161,7 @@ Full contribution record: [4 commits and 1 merged PR](https://github.com/morluto
 
 ---
 ### 📦 [yetone/magpie](https://github.com/yetone/magpie)
-`⭐ Stars: 16,646` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.1.1292](https://github.com/yetone/magpie/releases/tag/v0.1.1292) (2026-10-19)`
+`⭐ Stars: 16,668` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.1.1292](https://github.com/yetone/magpie/releases/tag/v0.1.1292) (2026-10-19)`
 
 > **简介**：每个代理的模型。一处。来自菜单栏的 DeepSeek 上的 Codex、Kimi 上的 Claude Code。
 
@@ -211,7 +213,7 @@ The same release, and the feed magpie updates from: https://github.com/yetone/ma
 
 ---
 ### 📦 [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
-`⭐ Stars: 255,097` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.22.2](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2) (2026-10-15)`
+`⭐ Stars: 255,104` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.22.2](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2) (2026-10-15)`
 
 > **简介**：与您共同成长的代理商
 
@@ -274,7 +276,7 @@ Below is everything in the 0.22 release line since v0.22.0: the fixes 0.22.
 
 ---
 ### 📦 [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)
-`⭐ Stars: 9,996` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.11.829](https://github.com/genspark-ai/genoffice/releases/tag/v0.11.829) (2026-10-15)`
+`⭐ Stars: 10,003` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.11.829](https://github.com/genspark-ai/genoffice/releases/tag/v0.11.829) (2026-10-15)`
 
 > **简介**：免费的开源 AI Office 套件：带有内置 AI 代理的文档、表格、幻灯片、PDF、Markdown 和 HTML 编辑器，以及“genoffice”CLI 和代理技能，以便 Claude Code、Codex 和 Cursor 可以在本地创建和编辑真正的 .docx/.xlsx/.pptx 文件。带上你自己的钥匙。 macOS、Windows 和 Linux。
 
@@ -299,7 +301,7 @@ GenOffice v0.11.829 stable desktop installers.
 
 ---
 ### 📦 [ruvnet/RuView](https://github.com/ruvnet/RuView)
-`⭐ Stars: 98,726` &nbsp;|&nbsp; `💻 语言: Rust` &nbsp;|&nbsp; `🏷️ 最新版本: [ruview-harness-v0.9.2](https://github.com/ruvnet/RuView/releases/tag/ruview-harness-v0.9.2) (2026-10-12)`
+`⭐ Stars: 98,729` &nbsp;|&nbsp; `💻 语言: Rust` &nbsp;|&nbsp; `🏷️ 最新版本: [ruview-harness-v0.9.2](https://github.com/ruvnet/RuView/releases/tag/ruview-harness-v0.9.2) (2026-10-12)`
 
 > **简介**：π RuView 将商用 WiFi 信号转化为实时空间智能、生命体征监测和存在检测 - 所有这些都无需视频像素。
 
@@ -334,7 +336,7 @@ The release c
 
 ---
 ### 📦 [pascalorg/editor](https://github.com/pascalorg/editor)
-`⭐ Stars: 24,976` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [@pascal-app/cli@1.0.4](https://github.com/pascalorg/editor/releases/tag/%40pascal-app/cli%401.0.4) (2026-10-13)`
+`⭐ Stars: 24,978` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [@pascal-app/cli@1.0.4](https://github.com/pascalorg/editor/releases/tag/%40pascal-app/cli%401.0.4) (2026-10-13)`
 
 > **简介**：开源 3D 建筑编辑器，具有本地 CLI、MCP 工具以及适用于人类和 AI 代理的实用工作流程。
 
@@ -389,7 +391,7 @@ But all builds released here will have all features availa
 
 ---
 ### 📦 [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer)
-`⭐ Stars: 38,525` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.11.12](https://github.com/linshenkx/prompt-optimizer/releases/tag/v2.11.12) (2026-10-19)`
+`⭐ Stars: 38,528` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.11.12](https://github.com/linshenkx/prompt-optimizer/releases/tag/v2.11.12) (2026-10-19)`
 
 > **简介**：人工智能提示优化器，用于编写更好的提示并获得更好的人工智能结果。
 
@@ -436,7 +438,7 @@ But all builds released here will have all features availa
 
 ---
 ### 📦 [RSSNext/Folo](https://github.com/RSSNext/Folo)
-`⭐ Stars: 39,121` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [desktop/v1.16.0](https://github.com/RSSNext/Folo/releases/tag/desktop/v1.16.0) (2026-10-16)`
+`⭐ Stars: 39,120` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [desktop/v1.16.0](https://github.com/RSSNext/Folo/releases/tag/desktop/v1.16.0) (2026-10-16)`
 
 > **简介**：🧡 Folo is the AI RSS Reader
 
@@ -512,7 +514,7 @@ It's a drop-in upgrade if 0.30.x showed you no deprecation warnings, apart from 
 
 ---
 ### 📦 [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo)
-`⭐ Stars: 34,998` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.19.32](https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.32) (2026-09-30)`
+`⭐ Stars: 34,999` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.19.32](https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.32) (2026-09-30)`
 
 > **简介**：Honkai 的简单 Python Pydantic 模型：Star Rail 解析来自 Mihomo API 的数据。
 
@@ -551,7 +553,7 @@ It's a drop-in upgrade if 0.30.x showed you no deprecation warnings, apart from 
 
 ---
 ### 📦 [microsoft/graphrag](https://github.com/microsoft/graphrag)
-`⭐ Stars: 36,383` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v3.3.0](https://github.com/microsoft/graphrag/releases/tag/v3.3.0) (2026-10-08)`
+`⭐ Stars: 36,384` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v3.3.0](https://github.com/microsoft/graphrag/releases/tag/v3.3.0) (2026-10-08)`
 
 > **简介**：基于模块化图的检索增强生成（RAG）系统
 
@@ -574,7 +576,7 @@ It's a drop-in upgrade if 0.30.x showed you no deprecation warnings, apart from 
 
 ---
 ### 📦 [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)
-`⭐ Stars: 152,436` &nbsp;|&nbsp; `💻 语言: Rust` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.5.8](https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.8) (2026-10-09)`
+`⭐ Stars: 152,445` &nbsp;|&nbsp; `💻 语言: Rust` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.5.8](https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.8) (2026-10-09)`
 
 > **简介**：A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience
 
@@ -652,7 +654,7 @@ It's a drop-in upgrade if 0.30.x showed you no deprecation warnings, apart from 
 
 ---
 ### 📦 [unslothai/unsloth](https://github.com/unslothai/unsloth)
-`⭐ Stars: 78,243` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.1.908-beta](https://github.com/unslothai/unsloth/releases/tag/v0.1.908-beta) (2026-10-15)`
+`⭐ Stars: 78,242` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.1.908-beta](https://github.com/unslothai/unsloth/releases/tag/v0.1.908-beta) (2026-10-15)`
 
 > **简介**：用于运行和训练法学硕士和扩散模型的本地 UI。支持 GGUF、MLX、Qwen3.8、DeepSeek-V4、MiniMax-H3、Gemma 4、FLUX 等。
 
@@ -719,7 +721,7 @@ Run NVIDIA's new Nemotron 3.5 models and Meta's new Muse Spark Open locally in U
 
 ---
 ### 📦 [lobehub/lobehub](https://github.com/lobehub/lobehub)
-`⭐ Stars: 83,319` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.2.20](https://github.com/lobehub/lobehub/releases/tag/v2.2.20) (2026-10-18)`
+`⭐ Stars: 83,321` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.2.20](https://github.com/lobehub/lobehub/releases/tag/v2.2.20) (2026-10-18)`
 
 > **简介**：🤯 LobeHub 是您的首席代理运营商，通过招聘、调度和报告整个 AI 团队，将您的代理组织为 7×24 小时运营。
 
@@ -894,7 +896,7 @@ Now `guard_source_replacement` compares the file's text hash with the `source.wo
 
 ---
 ### 📦 [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI)
-`⭐ Stars: 28,752` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v6.14.2](https://github.com/invoke-ai/InvokeAI/releases/tag/v6.14.2) (2026-09-27)`
+`⭐ Stars: 28,754` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v6.14.2](https://github.com/invoke-ai/InvokeAI/releases/tag/v6.14.2) (2026-09-27)`
 
 > **简介**：Invoke 是稳定扩散模型的领先创意引擎，使专业人士、艺术家和爱好者能够使用最新的人工智能驱动技术生成和创建视觉媒体。该解决方案提供了业界领先的WebUI，并作为多个商业产品的基础。
 
@@ -950,7 +952,7 @@ fix(core): propagate extras on content-block-start events (#41272)
 
 ---
 ### 📦 [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
-`⭐ Stars: 187,650` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [autogpt-platform-beta-v0.8.4](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.8.4) (2026-10-14)`
+`⭐ Stars: 187,649` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [autogpt-platform-beta-v0.8.4](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.8.4) (2026-10-14)`
 
 > **简介**：AutoGPT 的愿景是为每个人提供易于使用和构建的人工智能。我们的使命是提供工具，以便您可以专注于重要的事情。
 
@@ -994,7 +996,7 @@ fix(core): propagate extras on content-block-start events (#41272)
 
 ---
 ### 📦 [rockbenben/ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)
-`⭐ Stars: 8,838` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v4.5.1](https://github.com/rockbenben/ChatGPT-Shortcut/releases/tag/v4.5.1) (2026-10-09)`
+`⭐ Stars: 8,839` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v4.5.1](https://github.com/rockbenben/ChatGPT-Shortcut/releases/tag/v4.5.1) (2026-10-09)`
 
 > **简介**：Stop writing prompts from scratch — a searchable prompt library for ChatGPT, Claude, Gemini and Cursor · Русский 한국어 العربية हिन्दी ไทย ｜ 别再从头写提示词：现成的拿来就用，好用的收进自己的库
 
@@ -1212,7 +1214,7 @@ Support Mac arm64 CPU
 
 ---
 ### 📦 [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD)
-`⭐ Stars: 34,507` &nbsp;|&nbsp; `💻 语言: C++` &nbsp;|&nbsp; `🏷️ 最新版本: [1.1.4](https://github.com/FreeCAD/FreeCAD/releases/tag/1.1.4) (2026-09-28)`
+`⭐ Stars: 34,508` &nbsp;|&nbsp; `💻 语言: C++` &nbsp;|&nbsp; `🏷️ 最新版本: [1.1.4](https://github.com/FreeCAD/FreeCAD/releases/tag/1.1.4) (2026-09-28)`
 
 > **简介**：FreeCAD 的官方源代码，一个免费的开源多平台 3D 参数化建模器。
 
@@ -1242,7 +1244,7 @@ The assets section below is automatically populated as the builds complete: if y
 
 ---
 ### 📦 [klzgrad/naiveproxy](https://github.com/klzgrad/naiveproxy)
-`⭐ Stars: 9,531` &nbsp;|&nbsp; `💻 语言: C++` &nbsp;|&nbsp; `🏷️ 最新版本: [v154.0.8037.49-4](https://github.com/klzgrad/naiveproxy/releases/tag/v154.0.8037.49-4) (2026-10-07)`
+`⭐ Stars: 9,532` &nbsp;|&nbsp; `💻 语言: C++` &nbsp;|&nbsp; `🏷️ 最新版本: [v154.0.8037.49-4](https://github.com/klzgrad/naiveproxy/releases/tag/v154.0.8037.49-4) (2026-10-07)`
 
 > **简介**：默默发财
 
@@ -1319,7 +1321,7 @@ bug fixes
 
 ---
 ### 📦 [dyang886/Game-Cheats-Manager](https://github.com/dyang886/Game-Cheats-Manager)
-`⭐ Stars: 15,491` &nbsp;|&nbsp; `💻 语言: C++` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.5.4](https://github.com/dyang886/Game-Cheats-Manager/releases/tag/v2.5.4) (2026-10-11)`
+`⭐ Stars: 15,492` &nbsp;|&nbsp; `💻 语言: C++` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.5.4](https://github.com/dyang886/Game-Cheats-Manager/releases/tag/v2.5.4) (2026-10-11)`
 
 > **简介**：Easily download and manage single-player game cheats for your convenience
 
@@ -1370,7 +1372,7 @@ Use these commit-specific image tags to reproduce this release. Daily Docker tag
 
 ---
 ### 📦 [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager)
-`⭐ Stars: 18,638` &nbsp;|&nbsp; `💻 语言: Kotlin` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.11.1](https://github.com/amir1376/ab-download-manager/releases/tag/v1.11.1) (2026-10-14)`
+`⭐ Stars: 18,639` &nbsp;|&nbsp; `💻 语言: Kotlin` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.11.1](https://github.com/amir1376/ab-download-manager/releases/tag/v1.11.1) (2026-10-14)`
 
 > **简介**：下载管理器可加快您的下载速度
 
@@ -1399,7 +1401,7 @@ Use these commit-specific image tags to reproduce this release. Daily Docker tag
 
 ---
 ### 📦 [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
-`⭐ Stars: 54,577` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.12.6](https://github.com/lyswhut/lx-music-desktop/releases/tag/v2.12.6) (2026-09-19)`
+`⭐ Stars: 54,579` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.12.6](https://github.com/lyswhut/lx-music-desktop/releases/tag/v2.12.6) (2026-09-19)`
 
 > **简介**：一个基于 Electron 的音乐软件
 
@@ -1535,7 +1537,7 @@ This v3.0.0 rebuild uses package revision **2**: IPK `3.0.0-2`, APK `3.0.0-r2`. 
 ## <span id="-效率办公与创作">📝 效率办公与创作</span>
 
 ### 📦 [robbietilton/Compositor](https://github.com/robbietilton/Compositor)
-`⭐ Stars: 17,434` &nbsp;|&nbsp; `💻 语言: Swift` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.5.3](https://github.com/robbietilton/Compositor/releases/tag/v1.5.3) (2026-10-15)`
+`⭐ Stars: 17,435` &nbsp;|&nbsp; `💻 语言: Swift` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.5.3](https://github.com/robbietilton/Compositor/releases/tag/v1.5.3) (2026-10-15)`
 
 > **简介**：适用于 Mac 的 Photoshop 替代品
 
@@ -1708,7 +1710,7 @@ We also fixed some bugs including
 
 ---
 ### 📦 [YerongAI/Office-Tool](https://github.com/YerongAI/Office-Tool)
-`⭐ Stars: 14,545` &nbsp;|&nbsp; `💻 语言: PowerShell` &nbsp;|&nbsp; `🏷️ 最新版本: [v11.8.50.0](https://github.com/YerongAI/Office-Tool/releases/tag/v11.8.50.0) (2026-10-18)`
+`⭐ Stars: 14,546` &nbsp;|&nbsp; `💻 语言: PowerShell` &nbsp;|&nbsp; `🏷️ 最新版本: [v11.8.50.0](https://github.com/YerongAI/Office-Tool/releases/tag/v11.8.50.0) (2026-10-18)`
 
 > **简介**：Office Tool Plus 本地化项目。
 
@@ -1772,7 +1774,7 @@ No changelog :)
 
 ---
 ### 📦 [microsoft/vscode](https://github.com/microsoft/vscode)
-`⭐ Stars: 193,936` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [1.142.0](https://github.com/microsoft/vscode/releases/tag/1.142.0) (2026-10-14)`
+`⭐ Stars: 193,939` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [1.142.0](https://github.com/microsoft/vscode/releases/tag/1.142.0) (2026-10-14)`
 
 > **简介**：视觉工作室代码
 
@@ -1813,7 +1815,7 @@ https://code.visualstudio.com/updates/v1_142
 
 ---
 ### 📦 [SagerNet/sing-box](https://github.com/SagerNet/sing-box)
-`⭐ Stars: 39,003` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.14.3](https://github.com/SagerNet/sing-box/releases/tag/v1.14.3) (2026-10-09)`
+`⭐ Stars: 39,005` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.14.3](https://github.com/SagerNet/sing-box/releases/tag/v1.14.3) (2026-10-09)`
 
 > **简介**：The universal proxy platform
 
@@ -1884,7 +1886,7 @@ https://code.visualstudio.com/updates/v1_142
 
 ---
 ### 📦 [v2rayA/v2rayA](https://github.com/v2rayA/v2rayA)
-`⭐ Stars: 15,705` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.5.10](https://github.com/v2rayA/v2rayA/releases/tag/v2.5.10) (2026-10-09)`
+`⭐ Stars: 15,706` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.5.10](https://github.com/v2rayA/v2rayA/releases/tag/v2.5.10) (2026-10-09)`
 
 > **简介**：A web client for its own Xray-based core with global transparent proxy on Linux, Windows and macOS.
 
@@ -1910,7 +1912,7 @@ https://code.visualstudio.com/updates/v1_142
 
 ---
 ### 📦 [vernesong/OpenClash](https://github.com/vernesong/OpenClash)
-`⭐ Stars: 27,837` &nbsp;|&nbsp; `💻 语言: JavaScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.48.002](https://github.com/vernesong/OpenClash/releases/tag/v0.48.002) (2026-10-12)`
+`⭐ Stars: 27,838` &nbsp;|&nbsp; `💻 语言: JavaScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.48.002](https://github.com/vernesong/OpenClash/releases/tag/v0.48.002) (2026-10-12)`
 
 > **简介**：OpenWrt 的 Clash 客户端
 
@@ -1952,7 +1954,7 @@ curl -L --retry 2 https://api.github.com/repos/vernesong/OpenClash/releases/late
 
 ---
 ### 📦 [HyNetworks/hysteria](https://github.com/HyNetworks/hysteria)
-`⭐ Stars: 22,678` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [app/v2.13.0](https://github.com/HyNetworks/hysteria/releases/tag/app/v2.13.0) (2026-10-05)`
+`⭐ Stars: 22,679` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [app/v2.13.0](https://github.com/HyNetworks/hysteria/releases/tag/app/v2.13.0) (2026-10-05)`
 
 > **简介**：Hysteria 是一款功能强大、速度快如闪电且抗审查的开源代理软件
 
@@ -2049,7 +2051,7 @@ apk add --allow-untrusted /path/to/package.apk
 
 ---
 ### 📦 [2dust/v2rayN](https://github.com/2dust/v2rayN)
-`⭐ Stars: 118,575` &nbsp;|&nbsp; `💻 语言: C#` &nbsp;|&nbsp; `🏷️ 最新版本: [7.25.6](https://github.com/2dust/v2rayN/releases/tag/7.25.6) (2026-10-11)`
+`⭐ Stars: 118,577` &nbsp;|&nbsp; `💻 语言: C#` &nbsp;|&nbsp; `🏷️ 最新版本: [7.25.6](https://github.com/2dust/v2rayN/releases/tag/7.25.6) (2026-10-11)`
 
 > **简介**：适用于 Windows、Linux 和 macOS 的 GUI 客户端，支持 Xray 和 sing-box 等
 
@@ -2121,14 +2123,14 @@ Developed by NeverSink
 
 ---
 ### 📦 [kenzok8/compile-package](https://github.com/kenzok8/compile-package)
-`⭐ Stars: 165` &nbsp;|&nbsp; `💻 语言: Shell` &nbsp;|&nbsp; `🏷️ 最新版本: [2026.10.19-15/33_aarch64_generic](https://github.com/kenzok8/compile-package/releases/tag/2026.10.19-15/33_aarch64_generic) (2026-10-19)`
+`⭐ Stars: 165` &nbsp;|&nbsp; `💻 语言: Shell` &nbsp;|&nbsp; `🏷️ 最新版本: [2026.10.19-17/47_arm_cortex-a7_neon-vfpv4](https://github.com/kenzok8/compile-package/releases/tag/2026.10.19-17/47_arm_cortex-a7_neon-vfpv4) (2026-10-19)`
 
 > **简介**：small-package仓库，每日更新插件编译
 
 **💡 核心亮点更新 (中文)**：
 定时更新插件，推送发布 💤:
 
-[下载链接] (https://dllkids.xyz/packages/aarch64_generic/)
+[下载链接] (https://dllkids.xyz/packages/arm_cortex-a7_neon-vfpv4/)
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
@@ -2136,13 +2138,13 @@ Developed by NeverSink
 ```markdown
 定时更新插件，推送发布 💤:
 
-[下载链接] (https://dllkids.xyz/packages/aarch64_generic/)
+[下载链接] (https://dllkids.xyz/packages/arm_cortex-a7_neon-vfpv4/)
 ```
 </details>
 
 ---
 ### 📦 [jxxghp/MoviePilot](https://github.com/jxxghp/MoviePilot)
-`⭐ Stars: 11,900` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v3.1.8](https://github.com/jxxghp/MoviePilot/releases/tag/v3.1.8) (2026-10-19)`
+`⭐ Stars: 11,902` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v3.1.8](https://github.com/jxxghp/MoviePilot/releases/tag/v3.1.8) (2026-10-19)`
 
 > **简介**：NAS媒体库自动化管理工具
 
@@ -2173,51 +2175,6 @@ Developed by NeverSink
 - fix: restore popular years and safe Transmission selection by @jxxghp ([4f98486](https://github.com/jxxghp/MoviePilot/commit/4f98486e25a9e41b640288691ed5c77663ab712f))
 - chore(release): publish v3.1.8 by @jxxghp ([3fa49db](https://github.com/jxxghp/MoviePilot/commit/3fa49db3afe0f7dfa8b7e7ce8fe6f43ceed7dfaf))
 - fix(filemanager): skip subitems that vanish during local listing (#7076) by @JontyLee ([6b107e3](https://github.com/j
-```
-</details>
-
----
-### 📦 [openwrt/openwrt](https://github.com/openwrt/openwrt)
-`⭐ Stars: 28,822` &nbsp;|&nbsp; `💻 语言: C` &nbsp;|&nbsp; `🏷️ 最新版本: [v25.12.6](https://github.com/openwrt/openwrt/releases/tag/v25.12.6) (2026-10-18)`
-
-> **简介**：该存储库是 https://git.openwrt.org/openwrt/openwrt.git 的镜像，仅供参考，不可签入。  我们将继续在这里接受 Pull 请求。它们将通过暂存树合并到 openwrt.git 中。
-
-**💡 核心亮点更新 (中文)**：
-* https://firmware-selector.openwrt.org/?version=25.12.6
-* https://downloads.openwrt.org/releases/25.12.6/targets/
-* **uhttpd（Web 服务器，默认情况下使用 LuCI 启用）：** uhttpd 已更新到更新版本，修复了五个已发布的建议，所有这些都无需身份验证即可访问：
-
-<details>
-<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
-
-```markdown
-Hi,
-
-The OpenWrt community is proud to announce the sixth service release of the OpenWrt 25.12 stable series.
-
-Download firmware images using the OpenWrt Firmware Selector:
-  * https://firmware-selector.openwrt.org/?version=25.12.6
-
-Download firmware images directly from our download servers:
-  * https://downloads.openwrt.org/releases/25.12.6/targets/
-
-
-Main changes between OpenWrt 25.12.5 and OpenWrt 25.12.6
-=========================================================
-
-Only the main changes are listed below. See the [full changelog](https://openwrt.org/releases/25.12/changelog-25.12.6) for details.
-
-
-Security fixes
-==============
-
-This release fixes several remotely triggerable vulnerabilities in core network
-services that are enabled by default. Updating is strongly recommended.
-
-  * **uhttpd (web server, enabled by default with LuCI):** uhttpd was updated to a newer version that fixes five published advisories, all reachable without authentication:
-    * **CVE-2026-102338** (High): memory-exhaustion denial of service caused by an unlimited number of HTTP request headers. https://github.com/openwrt/uhttpd/security/advisories/GHSA-vhx4-3p5q-m59q
-    * **No CVE assigned** (High): out-of-bounds write caused by a type confusion of the `params` field in `POST /ubus/call/` requests. https://github.com/openwrt/uhttpd/security/advisories/GHSA-2mpg-6wp5-435p
-    * **No CVE assigned** (High): unlimited memory growth, because the URL path was leaked on every non
 ```
 </details>
 
@@ -2301,8 +2258,53 @@ For existing sandboxes, the new fixboxdacls command in KmdUtil.exe adds missing 
 </details>
 
 ---
+### 📦 [openwrt/openwrt](https://github.com/openwrt/openwrt)
+`⭐ Stars: 28,822` &nbsp;|&nbsp; `💻 语言: C` &nbsp;|&nbsp; `🏷️ 最新版本: [v25.12.6](https://github.com/openwrt/openwrt/releases/tag/v25.12.6) (2026-10-18)`
+
+> **简介**：该存储库是 https://git.openwrt.org/openwrt/openwrt.git 的镜像，仅供参考，不可签入。  我们将继续在这里接受 Pull 请求。它们将通过暂存树合并到 openwrt.git 中。
+
+**💡 核心亮点更新 (中文)**：
+* https://firmware-selector.openwrt.org/?version=25.12.6
+* https://downloads.openwrt.org/releases/25.12.6/targets/
+* **uhttpd（Web 服务器，默认情况下使用 LuCI 启用）：** uhttpd 已更新到更新版本，修复了五个已发布的建议，所有这些都无需身份验证即可访问：
+
+<details>
+<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
+
+```markdown
+Hi,
+
+The OpenWrt community is proud to announce the sixth service release of the OpenWrt 25.12 stable series.
+
+Download firmware images using the OpenWrt Firmware Selector:
+  * https://firmware-selector.openwrt.org/?version=25.12.6
+
+Download firmware images directly from our download servers:
+  * https://downloads.openwrt.org/releases/25.12.6/targets/
+
+
+Main changes between OpenWrt 25.12.5 and OpenWrt 25.12.6
+=========================================================
+
+Only the main changes are listed below. See the [full changelog](https://openwrt.org/releases/25.12/changelog-25.12.6) for details.
+
+
+Security fixes
+==============
+
+This release fixes several remotely triggerable vulnerabilities in core network
+services that are enabled by default. Updating is strongly recommended.
+
+  * **uhttpd (web server, enabled by default with LuCI):** uhttpd was updated to a newer version that fixes five published advisories, all reachable without authentication:
+    * **CVE-2026-102338** (High): memory-exhaustion denial of service caused by an unlimited number of HTTP request headers. https://github.com/openwrt/uhttpd/security/advisories/GHSA-vhx4-3p5q-m59q
+    * **No CVE assigned** (High): out-of-bounds write caused by a type confusion of the `params` field in `POST /ubus/call/` requests. https://github.com/openwrt/uhttpd/security/advisories/GHSA-2mpg-6wp5-435p
+    * **No CVE assigned** (High): unlimited memory growth, because the URL path was leaked on every non
+```
+</details>
+
+---
 ### 📦 [ventoy/Ventoy](https://github.com/ventoy/Ventoy)
-`⭐ Stars: 80,170` &nbsp;|&nbsp; `💻 语言: C` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.1.18](https://github.com/ventoy/Ventoy/releases/tag/v1.1.18) (2026-10-09)`
+`⭐ Stars: 80,171` &nbsp;|&nbsp; `💻 语言: C` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.1.18](https://github.com/ventoy/Ventoy/releases/tag/v1.1.18) (2026-10-09)`
 
 > **简介**：A new bootable USB solution.
 
@@ -2371,7 +2373,7 @@ Wana boot and install OS through network (PXE/HTTPBoot)? Welcome to my new proje
 | [lizongying/my-tv](https://github.com/lizongying/my-tv) | 31,962 | 超过 851 天无代码提交 | [进入取消 Star](https://github.com/lizongying/my-tv) |
 | [joevess/IPTV](https://github.com/joevess/IPTV) | 10,282 | 超过 656 天无代码提交 | [进入取消 Star](https://github.com/joevess/IPTV) |
 | [lecepin/WeChatVideoDownloader](https://github.com/lecepin/WeChatVideoDownloader) | 4,669 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/lecepin/WeChatVideoDownloader) |
-| [linexjlin/GPTs](https://github.com/linexjlin/GPTs) | 32,037 | 超过 752 天无代码提交 | [进入取消 Star](https://github.com/linexjlin/GPTs) |
+| [linexjlin/GPTs](https://github.com/linexjlin/GPTs) | 32,036 | 超过 752 天无代码提交 | [进入取消 Star](https://github.com/linexjlin/GPTs) |
 | [lxfater/Awesome-GPTs](https://github.com/lxfater/Awesome-GPTs) | 1,152 | 超过 1062 天无代码提交 | [进入取消 Star](https://github.com/lxfater/Awesome-GPTs) |
 | [ClashDotNetFramework/experimental-clash](https://github.com/ClashDotNetFramework/experimental-clash) | 241 | 超过 1778 天无代码提交 | [进入取消 Star](https://github.com/ClashDotNetFramework/experimental-clash) |
 | [zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge) | 21,876 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/zzzgydi/clash-verge) |
@@ -2431,7 +2433,7 @@ Wana boot and install OS through network (PXE/HTTPBoot)? Welcome to my new proje
 | [saveweb/review-2021](https://github.com/saveweb/review-2021) | 759 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/saveweb/review-2021) |
 | [iranee/qnap-aliyunpan-webdav](https://github.com/iranee/qnap-aliyunpan-webdav) | 274 | 超过 1472 天无代码提交 | [进入取消 Star](https://github.com/iranee/qnap-aliyunpan-webdav) |
 | [haoel/haoel.github.io](https://github.com/haoel/haoel.github.io) | 13,076 | 超过 1257 天无代码提交 | [进入取消 Star](https://github.com/haoel/haoel.github.io) |
-| [tindy2013/stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn) | 3,836 | 超过 1228 天无代码提交 | [进入取消 Star](https://github.com/tindy2013/stairspeedtest-reborn) |
+| [tindy2013/stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn) | 3,836 | 超过 1229 天无代码提交 | [进入取消 Star](https://github.com/tindy2013/stairspeedtest-reborn) |
 | [P3TERX/warp.sh](https://github.com/P3TERX/warp.sh) | 3,930 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/P3TERX/warp.sh) |
 | [TheMRLL/WinXray](https://github.com/TheMRLL/WinXray) | 2,792 | 超过 965 天无代码提交 | [进入取消 Star](https://github.com/TheMRLL/WinXray) |
 | [Mikubill/cowtransfer-uploader](https://github.com/Mikubill/cowtransfer-uploader) | 447 | 超过 1712 天无代码提交 | [进入取消 Star](https://github.com/Mikubill/cowtransfer-uploader) |
@@ -2466,7 +2468,7 @@ Wana boot and install OS through network (PXE/HTTPBoot)? Welcome to my new proje
 | [kiddin9/luci-app-dnsfilter](https://github.com/kiddin9/luci-app-dnsfilter) | 123 | 超过 617 天无代码提交 | [进入取消 Star](https://github.com/kiddin9/luci-app-dnsfilter) |
 | [h31105/deployX.sh](https://github.com/h31105/deployX.sh) | 416 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/h31105/deployX.sh) |
 | [jerrykuku/openwrt-package](https://github.com/jerrykuku/openwrt-package) | 148 | 超过 1080 天无代码提交 | [进入取消 Star](https://github.com/jerrykuku/openwrt-package) |
-| [frainzy1477/luci-app-trojan](https://github.com/frainzy1477/luci-app-trojan) | 120 | 超过 1987 天无代码提交 | [进入取消 Star](https://github.com/frainzy1477/luci-app-trojan) |
+| [frainzy1477/luci-app-trojan](https://github.com/frainzy1477/luci-app-trojan) | 120 | 超过 1988 天无代码提交 | [进入取消 Star](https://github.com/frainzy1477/luci-app-trojan) |
 | [atrandys/xray](https://github.com/atrandys/xray) | 89 | 超过 1695 天无代码提交 | [进入取消 Star](https://github.com/atrandys/xray) |
 | [v2board/v2board](https://github.com/v2board/v2board) | 5,058 | 超过 944 天无代码提交 | [进入取消 Star](https://github.com/v2board/v2board) |
 | [ShadowsocksR-Live/iShadowsocksR](https://github.com/ShadowsocksR-Live/iShadowsocksR) | 600 | 超过 902 天无代码提交 | [进入取消 Star](https://github.com/ShadowsocksR-Live/iShadowsocksR) |

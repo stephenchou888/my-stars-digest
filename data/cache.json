@@ -168,10 +168,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "kenzok8/compile-package": {
-    "last_tag": "2026.10.19-15/33_aarch64_generic",
+    "last_tag": "2026.10.19-17/47_arm_cortex-a7_neon-vfpv4",
     "desc_zh": "small-package仓库，每日更新插件编译",
-    "summary_zh": "定时更新插件，推送发布 💤:\n\n[下载链接] (https://dllkids.xyz/packages/aarch64_generic/)",
-    "updated_at": "2026-10-19T10:45:51.818977+00:00"
+    "summary_zh": "定时更新插件，推送发布 💤:\n\n[下载链接] (https://dllkids.xyz/packages/arm_cortex-a7_neon-vfpv4/)",
+    "updated_at": "2026-10-19T11:18:48.757555+00:00"
   },
   "jxxghp/MoviePilot": {
     "last_tag": "v3.1.8",
