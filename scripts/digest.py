@@ -6,7 +6,10 @@ from datetime import datetime, timezone
 
 # 基础配置
 GH_TOKEN = os.getenv("GH_PAT")
-USERNAME = os.getenv("GITHUB_ACTOR", "stephenchou888")
+# 固定使用指定用户名拉取 Star（避免受运行环境 GITHUB_ACTOR 影响）
+USERNAME = "stephenchou888"
+# 明确的 Star API endpoint
+STAR_API = f"https://api.github.com/users/{USERNAME}/starred"
 
 HEADERS = {
     "Authorization": f"Bearer {GH_TOKEN}",
@@ -200,7 +203,7 @@ def generate_markdown(active_updates, abandoned_repos, total_count):
     ]
 
     for cat, items in categories.items():
-        md.append(f"- [{cat} ({len(items)})](#{cat.replace(' ', '-').replace('🤖', '').replace('🌐', '').replace('🎬', '').replace('📝', '').replace('🛠️', '').replace('📦', '').strip()})")
+        md.append(f"- [{cat} ({len(items)})](#{cat.replace(' ', '-').replace('🤖', '').replace('🌐', '').replace('🎬', '').replace('📝', '').replace('🛠️', '').replace('📦', '').str[...])")
 
     md.append("\n---")
 
@@ -249,7 +252,7 @@ def main():
     repos = []
     page = 1
     while True:
-        url = f"https://api.github.com/users/{USERNAME}/starred?per_page=100&page={page}"
+        url = f"{STAR_API}?per_page=100&page={page}"
         resp = requests.get(url, headers=HEADERS)
         if resp.status_code != 200:
             break
