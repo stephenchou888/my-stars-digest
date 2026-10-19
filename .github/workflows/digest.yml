@@ -1,16 +1,33 @@
-name: Starred Repos Digest
+name: Starred Repos Digest & Pages
 
 on:
   schedule:
     # 每周一 UTC 01:00 (北京时间 09:00) 自动执行
     - cron: '0 1 * * 1'
   workflow_dispatch: # 允许在 GitHub 网页手动触发
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/**'
+      - 'web/**'
+      - '.github/workflows/digest.yml'
+
+permissions:
+  contents: write # 允许 git commit 生成的文件与看板源码
+  pages: write    # 允许部署到 GitHub Pages
+  id-token: write # GitHub Pages OIDC 认证所需
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  run-digest:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # 必需：允许 git commit 生成的文件
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repository
@@ -21,11 +38,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: |
           pip install requests
 
-      - name: Run Digest Script
+      - name: Run Digest & Generate Shadcn Dashboard Data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_PAT: ${{ secrets.GH_PAT }}
@@ -33,9 +50,32 @@ jobs:
         run: |
           python scripts/digest.py
 
-      - name: Commit and Push changes
+      - name: Commit and Push updated digest & web files
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md reports/ data/cache.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update stars digest [skip ci]" && git push)
+          git add README.md reports/ data/ web/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update stars digest & shadcn dashboard [skip ci]" && git push)
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies & Build Shadcn Dashboard
+        working-directory: ./web
+        run: |
+          npm install
+          npm run build
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './web/dist'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
