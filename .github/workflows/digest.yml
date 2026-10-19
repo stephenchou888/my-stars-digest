@@ -4,13 +4,13 @@ on:
   schedule:
     # 每周一 UTC 01:00 (北京时间 09:00) 自动执行
     - cron: '0 1 * * 1'
-  workflow_dispatch: # 允许在 GitHub 网页界面手动点击立即运行
+  workflow_dispatch: # 允许在 GitHub 网页手动触发
 
 jobs:
   run-digest:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # 必需：用于 git commit 推送生成的文件
+      contents: write # 必需：允许 git commit 生成的文件
 
     steps:
       - name: Checkout repository
@@ -27,6 +27,7 @@ jobs:
 
       - name: Run Digest Script
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_ACTOR: ${{ github.repository_owner }}
         run: |
