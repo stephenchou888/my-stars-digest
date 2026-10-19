@@ -203,7 +203,8 @@ def generate_markdown(active_updates, abandoned_repos, total_count):
     ]
 
     for cat, items in categories.items():
-        md.append(f"- [{cat} ({len(items)})](#{cat.replace(' ', '-').replace('🤖', '').replace('🌐', '').replace('🎬', '').replace('📝', '').replace('🛠️', '').replace('📦', '').str[...])")
+        anchor = cat.replace(' ', '-').replace('🤖', '').replace('🌐', '').replace('🎬', '').replace('📝', '').replace('🛠️', '').replace('📦', '').strip()
+        md.append(f"- [{cat} ({len(items)})](#{anchor})")
 
     md.append("\n---")
 
