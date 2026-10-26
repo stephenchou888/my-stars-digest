@@ -1,30 +1,137 @@
 # 📡 Starred 项目雷达看板
 > 🖥️ **交互式管理看板 (shadcn/ui)**：[👉 点击进入在线雷达看板 (https://stephenchou888.github.io/my-stars-digest/)](https://stephenchou888.github.io/my-stars-digest/)
 
-> **生成时间**：`2026-10-19` ｜ **关注项目总数**：`361` ｜ **本期更新**：`70` ｜ **弃坑预警**：`136`
+> **生成时间**：`2026-10-26` ｜ **关注项目总数**：`369` ｜ **本期更新**：`80` ｜ **弃坑预警**：`135`
 
 | 统计指标 | 数量 | 状态提示 |
 | :--- | :---: | :--- |
-| 🌟 总关注库 | **361** | [进入 shadcn 在线看板管理](https://stephenchou888.github.io/my-stars-digest/) |
-| 🚀 近期有更新 | **70** | 涵盖 6 个分类 |
-| 🛑 建议清理/弃坑 | **136** | 建议取消 Star 保持关注列表整洁 |
+| 🌟 总关注库 | **369** | [进入 shadcn 在线看板管理](https://stephenchou888.github.io/my-stars-digest/) |
+| 🚀 近期有更新 | **80** | 涵盖 6 个分类 |
+| 🛑 建议清理/弃坑 | **135** | 建议取消 Star 保持关注列表整洁 |
 
 ---
 ## 🧭 领域分类速览导航
 
-- [🤖 AI 与智能体生态 (35)](#-AI-与智能体生态)
-- [🎬 影音媒体与下载 (8)](#-影音媒体与下载)
+- [🤖 AI 与智能体生态 (41)](#-AI-与智能体生态)
+- [📦 实用开源精选 (6)](#-实用开源精选)
+- [🎬 影音媒体与下载 (12)](#-影音媒体与下载)
 - [📝 效率办公与创作 (8)](#-效率办公与创作)
 - [🌐 网络与代理技术 (11)](#-网络与代理技术)
-- [📦 实用开源精选 (5)](#-实用开源精选)
-- [🛠️ 系统与开发者工具 (3)](#-系统与开发者工具)
+- [🛠️ 系统与开发者工具 (2)](#-系统与开发者工具)
 
 ---
 
 ## <span id="-AI-与智能体生态">🤖 AI 与智能体生态</span>
 
+### 📦 [Hsiung-Shao/exile-appraiser](https://github.com/Hsiung-Shao/exile-appraiser)
+`⭐ Stars: 7` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.3.2](https://github.com/Hsiung-Shao/exile-appraiser/releases/tag/v0.3.2) (2026-10-16)`
+
+> **简介**：ExileAppraiser / 流亡鑑價:Path of Exile 1/2 查價器,支援國際服與台服(繁中/英文客戶端)
+
+**💡 核心亮点更新 (中文)**：
+修正
+
+・**詞綴被藏起來**：被偽屬性、護甲 / 閃避等合計吃掉的詞綴與符文詞綴，現在都會列出來。（放在「原始詞綴」卡，預設收起、不勾選）
+
+新增
+
+・**詞綴機制選擇**：每條詞綴可選一般 / 破裂 / 工藝，PoE2 另有褻瀆、增幅。（由底部「機制」開關顯示按鈕）
+
+調整
+
+・**「一般」的查法**：詞綴本身是工藝 / 破裂 / 褻瀆時，選「一般」會排除同機制的物品。
+・**工藝二選一**：v0.3.1 的「一般 / 工藝」切換併入機制選擇。
+
+說明：不勾選新列出的詞綴時，查價結果與上一版
+
+<details>
+<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
+
+```markdown
+## 修正
+
+・**詞綴被藏起來**：被偽屬性、護甲 / 閃避等合計吃掉的詞綴與符文詞綴，現在都會列出來。（放在「原始詞綴」卡，預設收起、不勾選）
+
+## 新增
+
+・**詞綴機制選擇**：每條詞綴可選一般 / 破裂 / 工藝，PoE2 另有褻瀆、增幅。（由底部「機制」開關顯示按鈕）
+
+## 調整
+
+・**「一般」的查法**：詞綴本身是工藝 / 破裂 / 褻瀆時，選「一般」會排除同機制的物品。
+・**工藝二選一**：v0.3.1 的「一般 / 工藝」切換併入機制選擇。
+
+說明：不勾選新列出的詞綴時，查價結果與上一版相同。
+```
+</details>
+
+---
+### 📦 [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)
+`⭐ Stars: 43,410` &nbsp;|&nbsp; `💻 语言: JavaScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.7.2](https://github.com/Ebony-Vinyl/dsh-our-free-model/releases/tag/v2.7.2) (2026-10-26)`
+
+> **简介**：在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.
+
+**💡 核心亮点更新 (中文)**：
+- Kilo 与匿名免费模型统一纳入免费池、标签数量和五格状态。
+- 水位排除已限流、不可用、地区受限及隐藏的模型。26 个模型中 9 个限流时，17/26 显示为 65%。未探测仅作为候选，不冒充实测可用。
+- 探测按模型使用独立上游会话，避免整轮共用配额造成批量限流误判。
+
+<details>
+<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
+
+```markdown
+# v2.7.2 插件发布
+
+本次只发布插件，桌面安装包和独立产品版本保持原状。
+
+## 修复旧版升级路径
+
+此前旧升级器最多接受 80 个文件、每个文件最多 4 MiB，而 2.7.1 清单有 93 个文件，并包含约 65 MiB 的引擎。无论换哪个下载源，旧用户都会在读取清单时失败。
+
+2.7.2 基于最新主线，将省 Token 模块合并为生成文件，引擎 gzip 压缩后拆成 9 个不超过 4 MiB 的分片。插件清单共 79 个文件，旧版可直接升级，无需先安装过渡版本。引擎首次启动时只读取本地分片，分别校验分片、压缩体和最终可执行文件摘要，按声明的解压上限还原到独立缓存；不从网络补取代码。
+
+发布构建会拒绝超出旧版文件数量或体积预算的内容。历史升级器回归夹具直接取自 1.3.1、2.5.9 的原始 Git 对象，未放宽任何旧限制。运行时备份也补齐了引擎元数据及完整二进制，便于后续升级失败时回滚。
+
+## 包含最新插件修复
+
+- Kilo 与匿名免费模型统一纳入免费池、标签数量和五格状态。
+- 水位排除已限流、不可用、地区受限及隐藏的模型。26 个模型中 9 个限流时，17/26 显示为 65%。未探测仅作为候选，不冒充实测可用。
+- 探测按模型使用独立上游会话，避免整轮共用配额造成批量限流误判。
+
+## 安装与验证边界
+
+自行安装的旧版用户可在插件升级页检查并升级。由包管理器管理的安装继续通过宿主更新可信 tarball，不绕过托管策略。手工安装请使用本次完整插件包，保留原有用户数据目录，不要只替换入口文件。
+
+发布前需通过完整贡献者检查、生产签名及旧版升级回归，具体证据见 PR 与发布校验记录。已验证的旧版场景包括下载、安装、模块加载、用户数据保留、激活失败回滚、坏分片拒绝和 Windows 引擎启动。测试仅访问本地服务，不代表所有网络环境或真实模型上游均已验证。
+
+## 回退
+
+升级激活失败时自动恢复旧包；恢复遇到文件系统错误时保留已验证备份和错误证据，不报告成功。手工回退使用上一版可信插件包，并保留用户配置、账号和统计数据。
+
+## 本次发布验证
+
+- 完整贡献者测试 98/98、生产签名发布检查 5/5，四项 GitHub CI 均通过。
+- 原版 1.3.1、2.5.9 升级回归通过；原版 2.5.9 已从公开固定提交地址完成升级，默认升级源也确认提供 2.7.2。原版 1.3.1 已通过自身默认公开升级源下载、安装并加载 2.7.2；79 项运行时文件均匹配生产清单，用户数据保留。
+- 正式 tarball 从固定提交的 LF 字节构建，解包后的全部 79 项运行时文件逐字节匹配生产签名清单，入口模块加载通过。
+- 本次仅插件发布，**不提供新的桌面安装包**；桌面端仍为原有版本。
+- 未执行真实模型上游调用；不同网络环境仍可能影响下载。
+
+## 下载与校验
+
+| 文件 | 说明 |
+| --- | --- |
+| `dsh-our-free-model-2.7.2.tgz` | 完整插件包 |
+| `SHA256SUMS` | 插件包与来源记录的 SHA-256 |
+| `plugin-2.7.2.json` | 固定源码提交、清单摘要、测试及公开升级验证记录 |
+
+```text
+a167f743e8e05217f7b11e8f807fffeeb22e77e020a8318d4b5ff1d331f692a1  dsh-our-free-
+```
+</details>
+
+---
 ### 📦 [hypit-ai/hypit](https://github.com/hypit-ai/hypit)
-`⭐ Stars: 23,800` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.3.1](https://github.com/hypit-ai/hypit/releases/tag/v0.3.1) (2026-10-09)`
+`⭐ Stars: 25,679` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.3.1](https://github.com/hypit-ai/hypit/releases/tag/v0.3.1) (2026-10-09)`
 
 > **简介**：使用人工智能代理克隆任何病毒视频。不仅仅是一个脚本，而是整个工作流程：交换面孔、文字、幕后花絮，在一个命令中发送 100 个变体，并获得 1 亿次观看。
 
@@ -57,14 +164,14 @@ This release does not publish the optional partner Provider packages or the four
 
 ---
 ### 📦 [HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app)
-`⭐ Stars: 18,273` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.0.6](https://github.com/HBAI-Ltd/Toonflow-app/releases/tag/v2.0.6) (2026-10-13)`
+`⭐ Stars: 19,413` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.0.7](https://github.com/HBAI-Ltd/Toonflow-app/releases/tag/v2.0.7) (2026-10-20)`
 
 > **简介**：短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Agent 与可视化工作流，支持本地部署、自选模型、跨平台客户端、MCP 与插件扩展。Open-source AI short drama and motion comic creation tool with an infinite canvas, AI agents, storyboarding, image and video generation. Self-hosted and extensible, with a canvas-based approach similar to LibTV and TapNow.
 
 **💡 核心亮点更新 (中文)**：
-- 💻 **Windows**：双击下载的安装包，按提示完成安装。
-- 🍎 **Mac**：打开下载的安装包，将 `toonflow.app` 拖入“应用程序”，再从“应用程序”打开。
-- 📱 **Android**：在手机上打开 APK，按系统提示允许此来源安装应用。后续版本可直接覆盖安装。
+* fix: 修复 macOS 实体 Ctrl + 滚轮缩放步长暴增异常 by  in https://github.com/HBAI-Ltd/Toonflow-app/pull/323
+* 修复 Linux 下画布中键点击意外触发系统剪贴板粘贴文本问题 by  in https://github.com/HBAI-Ltd/Toonflow-app/pull/322
+* 阻止鼠标侧键在工作区误触发后退 by  in https://github.com/HBAI-Ltd/Toonflow-app/pull/339
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
@@ -76,10 +183,10 @@ This release does not publish the optional partner Provider packages or the four
 
 | 你的设备 | 下载 |
 | --- | --- |
-| 💻 Windows（64 位） | [⬇️ 下载 Windows 安装包](https://github.com/HBAI-Ltd/Toonflow-app/releases/download/v2.0.6/toonflow-2.0.6-Setup.exe) |
-| 🍎 Mac（M 系列芯片） | [⬇️ 下载 M 系列 Mac 安装包](https://github.com/HBAI-Ltd/Toonflow-app/releases/download/v2.0.6/macos-arm64-toonflow.dmg) |
-| 🍎 Mac（Intel 芯片） | [⬇️ 下载 Intel Mac 安装包](https://github.com/HBAI-Ltd/Toonflow-app/releases/download/v2.0.6/stable-macos-x64-toonflow.dmg) |
-| 📱 Android（ARM64，Android 8 及以上） | [⬇️ 下载 Android APK](https://github.com/HBAI-Ltd/Toonflow-app/releases/download/v2.0.6/toonflow-2.0.6-android-arm64.apk) |
+| 💻 Windows（64 位） | [⬇️ 下载 Windows 安装包](https://github.com/HBAI-Ltd/Toonflow-app/releases/download/v2.0.7/toonflow-2.0.7-Setup.exe) |
+| 🍎 Mac（M 系列芯片） | [⬇️ 下载 M 系列 Mac 安装包](https://github.com/HBAI-Ltd/Toonflow-app/releases/download/v2.0.7/macos-arm64-toonflow.dmg) |
+| 🍎 Mac（Intel 芯片） | [⬇️ 下载 Intel Mac 安装包](https://github.com/HBAI-Ltd/Toonflow-app/releases/download/v2.0.7/stable-macos-x64-toonflow.dmg) |
+| 📱 Android（ARM64，Android 8 及以上） | [⬇️ 下载 Android APK](https://github.com/HBAI-Ltd/Toonflow-app/releases/download/v2.0.7/toonflow-2.0.7-android-arm64.apk) |
 
 > 💡 手动安装请选择上表中的链接。下方其他文件供软件自动更新使用。
 
@@ -94,92 +201,97 @@ M 系列 Mac 安装包已完成 Developer ID 签名与 Apple 公证。首次打�
 ---
 
 
-**Full Changelog**: https://github.com/HBAI-Ltd/Toonflow-app/compare/v2.0.5...v2.0.6
+## What's Changed
+* fix: 修复 macOS 实体 Ctrl + 滚轮缩放步长暴增异常 by @futureManOne in https://github.com/HBAI-Ltd/Toonflow-app/pull/323
+* 修复 Linux 下画布中键点击意外触发系统剪贴板粘贴文本问题 by @miaobuao in https://github.com/HBAI-Ltd/Toonflow-app/pull/322
+* 阻止鼠标侧键在工作区误触发后退 by @Clearlove275 in https://github.com/HBAI-Ltd/Toonflow-app/pull/339
+* fix: 使用 WebView2 官方 API 比较带通道后缀的版本 by @wwmogu in https://github.com/HBAI-Ltd/Toonflow-app/pull/331
+
+## New Contributors
+* @futureManOne made their first contribution in https://github.com/HBAI-Ltd/Toonflow-app/pull/323
+* @miaobuao made their first contribution in https://github.co
 ```
 </details>
 
 ---
 ### 📦 [morluto/rea](https://github.com/morluto/rea)
-`⭐ Stars: 329,991` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [rea-agents-6.7.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.7.0) (2026-10-18)`
+`⭐ Stars: 386,047` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [rea-agents-6.8.0](https://github.com/morluto/rea/releases/tag/rea-agents-6.8.0) (2026-10-25)`
 
-> **简介**：使用代理对任何内容进行逆向工程，从应用程序行为到本机二进制文件。
+> **简介**：Reverse engineer anything with agents, from app behavior down to native binaries.
 
 **💡 核心亮点更新 (中文)**：
-- 客户端配置编辑遵循 MCP 客户端使用的重复成员语义。
+- Build local agent environments from network captures, browser scenarios, or a prompt, then serve derived reads and evidence-gated writes and compare them with fresh application captures.
+- Inspect more shipped formats, including GPU code objects, BEAM, Python bytecode, Unity IL2CPP metadata, Godot PCK, PyInstaller, Node.js SEA, devicetree, and additional PE/ELF tables.
+- Keep large investigations focused with retained summaries, selected fact queries, configurable recovery limits, and row-oriented CLI exports. Complete Evidence remains available.
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-## [6.7.0](https://github.com/morluto/rea/compare/rea-agents-6.6.0...rea-agents-6.7.0) (2026-10-18)
+## [6.8.0](https://github.com/morluto/rea/compare/rea-agents-6.7.0...rea-agents-6.8.0) (2026-10-25)
 
 ### Highlights
 
-- Client configuration edits follow the duplicate-member semantics used by MCP clients.
+- Build local agent environments from network captures, browser scenarios, or a prompt, then serve derived reads and evidence-gated writes and compare them with fresh application captures.
+- Inspect more shipped formats, including GPU code objects, BEAM, Python bytecode, Unity IL2CPP metadata, Godot PCK, PyInstaller, Node.js SEA, devicetree, and additional PE/ELF tables.
+- Keep large investigations focused with retained summaries, selected fact queries, configurable recovery limits, and row-oriented CLI exports. Complete Evidence remains available.
 
-### Changes
+### ⚠ BREAKING CHANGES
 
-- Includes the [6.6.0 changes and migration notes](https://github.com/morluto/rea/releases/tag/rea-agents-6.6.0). That version was tagged but was not published to npm.
-
-### Fixes
-
-- **Client configuration:** Setup edits the last repeated JSON/JSONC member, matching the value clients actually read. Setup and uninstall refuse a removal that would reactivate a shadowed duplicate, preserving the original configuration. ([#4957](https://github.com/morluto/rea/pull/4957), [morluto/rea#4952](https://github.com/morluto/rea/issues/4952)). Thanks @kaoru0822-kitauji, @xu91102.
-
-Full contribution record: [4 commits and 1 merged PR](https://github.com/morluto/rea/blob/rea-agents-6.7.0/docs/releases/6.7.0.contributions.json).
-
-## [6.6.0](https://github.com/morluto/rea/compare/rea-agents-6.5.0...rea-agents-6.6.0) (2026-10-18)
-
-### Highlights
-
-- Add Kuna as a caller-supplied static-analysis provider.
-- Query selected JavaScript facts and multiple APK locale tables without repeating the underlying analysis.
-- Extend Ghidra analysis to Windows ARM PE targets and explicit raw m68k images.
-- Preserve completed Evidence, cancellation reasons and retryable cleanup across provider and CLI finalization.
-
-### Changes
-
-- **Kuna analysis:** Use a caller-installed Kuna for procedure listi
+- **Function analysis:** `analyze_function` now defaults to a retained summary. Set `detail: "complete"` for the previous inline dossier; the CLI retains its complete default and requires `--evidence_output` when selecting a summary. [#5660](https://github.com/morluto/rea/pull/5660). Thanks @CryptoJones, @gensokyo-dev, @RishTheFish21.
+- **Accessibility:** Accept JSON numbers and booleans in node `value`, alongside strings and null. Update consumers that previously assumed text-only values. [cc90771](https://github.com/morluto/rea/commit/cc90771af14f045538651615147d8bf86b576549), [#6759](https://github.com/morluto/rea/pull/6759), [#6467](https://github.com/morluto/rea/issues/6467). Thanks @coygeek, @gensokyo-dev, @mvanhorn.
+- **JSON Lines:** `--format jsonl` now emits object-collection rows fo
 ```
 </details>
 
 ---
 ### 📦 [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama)
-`⭐ Stars: 16,366` &nbsp;|&nbsp; `💻 语言: Vue` &nbsp;|&nbsp; `🏷️ 最新版本: [v4.0.8](https://github.com/chatfire-AI/huobao-drama/releases/tag/v4.0.8) (2026-10-05)`
+`⭐ Stars: 16,605` &nbsp;|&nbsp; `💻 语言: Vue` &nbsp;|&nbsp; `🏷️ 最新版本: [v4.0.9](https://github.com/chatfire-AI/huobao-drama/releases/tag/v4.0.9) (2026-10-25)`
 
 > **简介**：🎬 火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》  Huobao Drama - An AI-Powered End-to-End Short Drama Generator "One Sentence to Complete Drama: Fully Automated from Script to Final Video"
 
 **💡 核心亮点更新 (中文)**：
-火宝快捷配置支持国内/国外节点选择：默认跟随界面语言（中文→firemux.cn，其他→firemux.com），一键写入的推荐配置与获取 Key 链接随节点生成
+- 改进视频任务恢复：保留上游任务与结果，支持重新下载、续查和中断恢复，减少重复生成。
+- 修复默认聊天模型选择时的配置传递。
+- 改进桌面启动体验：显示启动页面，增加健康检查超时处理和脱敏诊断日志。
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-火宝快捷配置支持国内/国外节点选择：默认跟随界面语言（中文→firemux.cn，其他→firemux.com），一键写入的推荐配置与获取 Key 链接随节点生成
+v4.0.9
+
+- 改进视频任务恢复：保留上游任务与结果，支持重新下载、续查和中断恢复，减少重复生成。
+- 修复默认聊天模型选择时的配置传递。
+- 改进桌面启动体验：显示启动页面，增加健康检查超时处理和脱敏诊断日志。
+- 修复 Intel Mac 安装包中的 FFmpeg 与图片处理依赖；Apple Silicon 使用对应架构的 FFmpeg/FFprobe。
+- 更新项目文档、FireMux 入口和微信群活码。
+
+安装包：macOS Apple Silicon、macOS Intel、Windows x64。
+
+Docker 镜像：`huobao/huobao-drama:4.0.9`，`latest` 同步更新；支持 `linux/amd64` 和 `linux/arm64`。
 ```
 </details>
 
 ---
 ### 📦 [yetone/magpie](https://github.com/yetone/magpie)
-`⭐ Stars: 16,668` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.1.1292](https://github.com/yetone/magpie/releases/tag/v0.1.1292) (2026-10-19)`
+`⭐ Stars: 21,709` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.1.1564](https://github.com/yetone/magpie/releases/tag/v0.1.1564) (2026-10-26)`
 
-> **简介**：每个代理的模型。一处。来自菜单栏的 DeepSeek 上的 Codex、Kimi 上的 Claude Code。
+> **简介**：Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.
 
 **💡 核心亮点更新 (中文)**：
-- 特工的名字现在出现在他们的图标旁边，使他们更容易识别。
-- 登录字段和按钮现在具有相同的高度和均匀的间距。
-- 修复了发送到 Kimi 的引用工具架构可能缺少其类型信息的问题。
+- **Awake:** Turning off the setting now takes effect immediately instead of being checked every 5 seconds.
+- **Filememo:** Changes made by other processes to Magpie's files are now detected immediately instead of being checked every 5 seconds.
+- **macOS (Apple Silicon):** `magpie-darwin-arm64.dmg`
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
 ## Improvements
-- Agent names now appear beside their icons, making them easier to identify.
-- Sign-in fields and buttons are now the same height and evenly spaced.
 
-## Bug Fixes
-- Fixed an issue where referenced tool schemas sent to Kimi could be missing their type information.
+- **Awake:** Turning off the setting now takes effect immediately instead of being checked every 5 seconds.
+- **Filememo:** Changes made by other processes to Magpie's files are now detected immediately instead of being checked every 5 seconds.
 
 ### Install
 
@@ -194,11 +306,9 @@ Download from [usemagpie.ai](https://usemagpie.ai), or `curl -fsSL https://usema
 <!-- lang:zh -->
 
 ## Improvements
-- 智能体名称现在显示在其图标旁边，使其更易于识别。
-- 登录字段和按钮现在高度相同且间距均匀。
 
-## Bug Fixes
-- 修复了发送到 Kimi 的引用工具模式可能缺少其类型信息的问题。
+- **Awake:** 关闭该设置现在会立即生效，而不是每 5 秒检查一次。
+- **Filememo:** 其他进程对 Magpie 文件所做的更改现在会被立即检测到，而不是每 5 秒检查一次。
 
 ### 安装
 
@@ -207,46 +317,44 @@ Download from [usemagpie.ai](https://usemagpie.ai), or `curl -fsSL https://usema
 
 
 ---
-The same release, and the feed magpie updates from: https://github.com/yetone/magpie-releases/releases/tag/v0.1.1292
+The same release, and the feed magpie updates from: https://github.com/yetone/magpie-releases/releases/tag/v0.1.1564
 ```
 </details>
 
 ---
 ### 📦 [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
-`⭐ Stars: 255,104` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.22.2](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2) (2026-10-15)`
+`⭐ Stars: 257,117` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.22.5](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.5) (2026-10-23)`
 
-> **简介**：与您共同成长的代理商
+> **简介**：The agent that grows with you
 
 **💡 核心亮点更新 (中文)**：
-- **网关在重新启动后再次启动。** 重新启动后，Linux 可以将早期的 PID 交给不相关的进程，网关可能会将其误认为是正在运行的网关，因此受监督的网关（systemd、launchd、Docker）拒绝启动。 Hermes 现在会记录它启动的启动情况，当它无法判断时，它会询问主机锁，只有实时网关才拥有该主机锁。 ([#138594](https://github.com/NousResearch/hermes-agent/pull/138594)，修复[#133744](https://github.com/NousResearch/hermes-agent/issues/133744))
-- **长本地模型轮流在笔记本电脑上生存。** 本地请求始终以提示读取进度进行流式传输（在状态行中显示），停顿计时器会跳过机器休眠的时间，恢复的本地服务器会进行另一次尝试，而不是在以后的每条消息中都失败的断路器，并且当服务器仍在读取长对话时，压缩不再超时。在 Windows 统一内存计算机上，模型启动和提示缓存的大小可用于释放内存。 ([#138560](https://github.com/NousResearch/hermes-agent/pull/138560))
+- Microsoft Store app: updates through the Store.
+- Desktop app installed from the installer (.exe / .dmg): no change in this release; it updates with the next bundled release.
+- CLI: `hermes update`, or re-run the installer one-liner.
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-# Hermes Agent v0.22.2
+# Hermes Agent v0.22.5
 
-**Release Date:** October 15, 2026
+**Release Date:** October 22, 2026
 
-v0.22.1 was built from the wrong commit. It shipped unreleased gateway work, and the Microsoft Store app could stick on "Connecting." 0.22.2 is the release 0.22.1 was meant to be.
-
-> **Known issue:** Sessions that ran under the 0.22.1 gateway can't be deleted in 0.22.2.
+> Patch release. This tag rolls up the ~81 PRs merged since v0.22.4 into a stable release for the GitHub release (CLI and installers), the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for this window ship with v0.23.0.
 
 <!-- HERMES_BUILDS_TABLE -->
 
-## Highlights
+## About this release
 
-- **The gateway starts after a reboot again.** After a restart, Linux can hand an early PID to an unrelated process, and the gateway could mistake it for a running gateway, so a supervised gateway (systemd, launchd, Docker) refused to start. Hermes now records the boot it started in, and when it can't tell, it asks the host lock, which only a live gateway holds. ([#138594](https://github.com/NousResearch/hermes-agent/pull/138594), fixes [#133744](https://github.com/NousResearch/hermes-agent/issues/133744))
-- **Long local-model turns survive on laptops.** Local requests always stream with prompt-reading progress (shown in the status line), stall timers skip time the machine was asleep, a recovered local server gets another try instead of a breaker that failed every later message, and compression no longer times out while the server is still reading a long conversation. On Windows unified-memory machines, model launch and the prompt cache are sized to free memory. ([#138560](https://github.com/NousResearch/hermes-agent/pull/138560))
+Measured at commit `bf0203a794a`, the window since v0.22.4 contains **231 non-merge commits** across **804 changed files** (+35,212 / −17,885), **81 merged PRs** and **30 closed issues**.
 
-Below is everything in the 0.22 release line since v0.22.0: the fixes 0.22.
+Also in the window, undocumented here on purpose: Nous sign-in reworked (every sign-in is the plain device login, the free-tier guest hands over to your account, the result shows who signed in, connectors offer sign-in instead of opening a guest), `hermes update` holding back a stable release it refuses instead of offering it, Windows `hermes update` no longer stuck on the old launcher after a Python repin, usage-window plan support (plan gauges, limit cards and model-switch recovery for window-based plans), pluggable delegation backends (route subagents by model map or profile, switchable per session), plugin slash commands that can ask you to pick an option, `hermes import-agent`, OpenClaw migration, `hermes mcp serve` and the Singularity backend moving out of core into plugins (setup offers the importer when it finds another agent), Desktop drag-to-pin in the sidebar and one-click plugin installs with tier badges, the Electron 44 upgrade, Pi
 ```
 </details>
 
 ---
 ### 📦 [Makememo/MemoAI](https://github.com/Makememo/MemoAI)
-`⭐ Stars: 1,074` &nbsp;|&nbsp; `💻 语言: Other` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.8.8](https://github.com/Makememo/MemoAI/releases/tag/v1.8.8) (2026-10-09)`
+`⭐ Stars: 1,075` &nbsp;|&nbsp; `💻 语言: Other` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.8.8](https://github.com/Makememo/MemoAI/releases/tag/v1.8.8) (2026-10-09)`
 
 > **简介**：MemoAI 视频翻译文本、字幕和注释变得简单。
 
@@ -276,32 +384,31 @@ Below is everything in the 0.22 release line since v0.22.0: the fixes 0.22.
 
 ---
 ### 📦 [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)
-`⭐ Stars: 10,003` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.11.829](https://github.com/genspark-ai/genoffice/releases/tag/v0.11.829) (2026-10-15)`
+`⭐ Stars: 10,857` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.12.29](https://github.com/genspark-ai/genoffice/releases/tag/v0.12.29) (2026-10-22)`
 
-> **简介**：免费的开源 AI Office 套件：带有内置 AI 代理的文档、表格、幻灯片、PDF、Markdown 和 HTML 编辑器，以及“genoffice”CLI 和代理技能，以便 Claude Code、Codex 和 Cursor 可以在本地创建和编辑真正的 .docx/.xlsx/.pptx 文件。带上你自己的钥匙。 macOS、Windows 和 Linux。
+> **简介**：Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux.
 
 **💡 核心亮点更新 (中文)**：
-- **文档：**“主页”选项卡和“文件”菜单中的“转换”菜单；插入表格单元格的图片保留在单元格中（由 报告；主页 > 边框格式化每个选定的单元格，而不仅仅是最后一个单元格（由 报告）；注释和跟踪更改的用户名设置，与表格和幻灯片共享（由 报告；邮件合并引擎和 MERGEFIELD 保留为带有超链接的字段，由 请求；状态栏显示所选/总单词，如 Word；隐藏模型中的选择；交互式思维导图在 AI 助手中；保存会保留插入符号所用的字体，编辑的段落会保留其注释引用格式；keepNext 链、页面锚定浮动表和缓存目录页码的行为与 Word 类似；单独的 autoSpaceDE/DN、编号制表符停止位；
-- **工作表：** 使用 ROW()/COLUMN() 的条件格式公式是从 1 开始的，因此标题填充不再消失（由 报告）；Excel 错误文字不再读取为定义的名称；打印表保留其列宽；OpenDocument 文件 (.ods/.odt/.odp) 作为可编辑的 OOXML 副本打开。
-- **幻灯片：** 根据 PowerPoint 测量的图表标题和图例几何形状、图表 userShapes 叠加、丰富的数据标签、小型大写字母、隐藏的轴线和线条图例键。
+- **Docs:** page breaks land where Word puts them across a 50-document production sample (headings stay with their table, rows split at legal cuts, contextual spacing crosses table boundaries, TOC entries and numbered indents follow the style chain, Aptos/Malgun/Calibri-substitute/Nirmala UI metrics, Korean autospace); DOCX→PDF export no longer drops content (reported by  and body text no longer overlaps a header picture (reported by ; edit header/footer table cells in place, insert a picture from the Header & Footer tab and resize inline pictures in headers, footers and cells; the table corner handle scales row heights too; custom (w14) list formats survive reuse and re-save (reported by ; read and write document properties and a pasted field keeps its instruction ; saved Zotero citations stay editable in Word and WPS  and Mendeley fields fold like Zotero's.
+- **Sheets:** VLOOKUP over a table or defined name no longer goes blank after a save (reported by , same for DOLLAR and other locale functions; CSV export writes the real values instead of width-fitted displays; one Increase Decimal click no longer jumps to 10 places; Convert to Number survives the save; the status bar shows Sum/Average again; keyboard focus returns to the grid after a ribbon command; the View tab shows every display toggle ; a password-protected workbook is reported as such ; XML spreadsheets under a legacy name open ; a picture in a note survives the next save ; opening a large workbook uses a fraction of the memory.
+- **Slides:** chart data labels, data tables, secondary-axis formats, CJK category wrapping and legend placement match PowerPoint; a chart carries its workbook so PowerPoint's Edit Data works ; real 3D models, stored as PowerPoint stores them ; table-style fonts and "X Variable" font names resolve correctly; opening a deck no longer parses every system font, cutting memory on open.
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-GenOffice v0.11.829 stable desktop installers.
+GenOffice v0.12.29 stable desktop installers.
 
 ## What's New
 
-- **Docs:** a Convert menu on the Home tab and in the File menu; a picture inserted into a table cell stays in the cell (reported by @cchamm); Home > Borders formats every selected cell, not just the last one (reported by @truongharper); a user name setting for comments and tracked changes, shared with Sheets and Slides (reported by @JustinJIA731); the mail-merge engine and MERGEFIELD kept as a field with its hyperlink (@tokg-venv, requested by @hou0); the status bar shows selected/total words like Word (@tokg-venv); hide a selection from the model (@tokg-venv); an interactive mind map in the AI assistant (@tokg-venv); a save keeps the font the caret is typed with and an edited paragraph keeps its note-reference formatting (@tokg-venv); paragraphs are pushed whole at equal-width column seams; keepNext chains, page-anchored floating tables and cached TOC page numbers behave like Word; Cambria Math, Calibri Arabic and Korean Latin metrics, separate autoSpaceDE/DN, numbering tab stops; the DFKai-SB PostScript alias maps to its family (@widechaos).
-- **Sheets:** conditional-format formulas using ROW()/COLUMN() are 1-based, so header fills no longer vanish (reported by @rickygai); Excel error literals are no longer read as defined names; print tables keep their column widths; OpenDocument files (.ods/.odt/.odp) open as editable OOXML copies (@tokg-venv).
-- **Slides:** chart title and legend geometry measured against Po
+- **Docs:** page breaks land where Word puts them across a 50-document production sample (headings stay with their table, rows split at legal cuts, contextual spacing crosses table boundaries, TOC entries and numbered indents follow the style chain, Aptos/Malgun/Calibri-substitute/Nirmala UI metrics, Korean autospace); DOCX→PDF export no longer drops content (reported by @jeff-jiang-pointures) and body text no longer overlaps a header picture (reported by @x86law-dev); edit header/footer table cells in place, insert a picture from the Header & Footer tab and resize inline pictures in headers, footers and cells; the table corner handle scales row heights too; custom (w14) list formats survive reuse and re-save (reported by @lkopenec); read and write document properties and a pasted field keeps its instruction (@tokg-venv); saved Zotero citations stay editable in Word and WPS (@tokg-venv) and Mendeley fields fold like Zotero's.
+- **Sheets:** VLOOKUP over a table or defined name no longer goes blank after a save (reported by @putude), same for DOLLAR and other locale functions; CSV export writes the real values instead of width-fitted displays; one Increase Decimal click no longer jumps to 10 places; Convert to Number survives the save; the status bar shows Sum/Average again; keyboard focus returns to the grid after a ribbon command; the View tab shows every display toggle (@tokg-venv); a password-protected workbook i
 ```
 </details>
 
 ---
 ### 📦 [ruvnet/RuView](https://github.com/ruvnet/RuView)
-`⭐ Stars: 98,729` &nbsp;|&nbsp; `💻 语言: Rust` &nbsp;|&nbsp; `🏷️ 最新版本: [ruview-harness-v0.9.2](https://github.com/ruvnet/RuView/releases/tag/ruview-harness-v0.9.2) (2026-10-12)`
+`⭐ Stars: 99,625` &nbsp;|&nbsp; `💻 语言: Rust` &nbsp;|&nbsp; `🏷️ 最新版本: [ruview-harness-v0.9.2](https://github.com/ruvnet/RuView/releases/tag/ruview-harness-v0.9.2) (2026-10-12)`
 
 > **简介**：π RuView 将商用 WiFi 信号转化为实时空间智能、生命体征监测和存在检测 - 所有这些都无需视频像素。
 
@@ -336,24 +443,24 @@ The release c
 
 ---
 ### 📦 [pascalorg/editor](https://github.com/pascalorg/editor)
-`⭐ Stars: 24,978` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [@pascal-app/cli@1.0.4](https://github.com/pascalorg/editor/releases/tag/%40pascal-app/cli%401.0.4) (2026-10-13)`
+`⭐ Stars: 25,112` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [@pascal-app/cli@1.0.6](https://github.com/pascalorg/editor/releases/tag/%40pascal-app/cli%401.0.6) (2026-10-23)`
 
-> **简介**：开源 3D 建筑编辑器，具有本地 CLI、MCP 工具以及适用于人类和 AI 代理的实用工作流程。
+> **简介**：Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.
 
 **💡 核心亮点更新 (中文)**：
-`@pascal-app/cli@1.0.4` 的 Pascal Web 编辑器运行时。当命令第一次启动编辑器时，CLI 会下载“pascal-web-runtime-1.0.4.tar.gz”，并根据 npm 包内发布的摘要进行验证。离线安装可以通过t
+The Pascal web editor runtime for `@pascal-app/cli@1.0.6`. The CLI downloads `pascal-web-runtime-1.0.6.tar.gz` the first time a command starts the editor and verifies it against the digest published inside the npm package. Offline installs can pass t
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-The Pascal web editor runtime for `@pascal-app/cli@1.0.4`. The CLI downloads `pascal-web-runtime-1.0.4.tar.gz` the first time a command starts the editor and verifies it against the digest published inside the npm package. Offline installs can pass the archive directly: `pascal editor --runtime pascal-web-runtime-1.0.4.tar.gz`.
+The Pascal web editor runtime for `@pascal-app/cli@1.0.6`. The CLI downloads `pascal-web-runtime-1.0.6.tar.gz` the first time a command starts the editor and verifies it against the digest published inside the npm package. Offline installs can pass the archive directly: `pascal editor --runtime pascal-web-runtime-1.0.6.tar.gz`.
 ```
 </details>
 
 ---
 ### 📦 [librepods-org/librepods](https://github.com/librepods-org/librepods)
-`⭐ Stars: 30,366` &nbsp;|&nbsp; `💻 语言: Kotlin` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.0.4](https://github.com/librepods-org/librepods/releases/tag/v1.0.4) (2026-10-16)`
+`⭐ Stars: 30,471` &nbsp;|&nbsp; `💻 语言: Kotlin` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.0.4](https://github.com/librepods-org/librepods/releases/tag/v1.0.4) (2026-10-16)`
 
 > **简介**：AirPods 从苹果的生态系统中解放出来。
 
@@ -391,14 +498,14 @@ But all builds released here will have all features availa
 
 ---
 ### 📦 [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer)
-`⭐ Stars: 38,528` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.11.12](https://github.com/linshenkx/prompt-optimizer/releases/tag/v2.11.12) (2026-10-19)`
+`⭐ Stars: 39,242` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.12.0](https://github.com/linshenkx/prompt-optimizer/releases/tag/v2.12.0) (2026-10-25)`
 
-> **简介**：人工智能提示优化器，用于编写更好的提示并获得更好的人工智能结果。
+> **简介**：An AI prompt optimizer for writing better prompts and getting better AI results.
 
 **💡 核心亮点更新 (中文)**：
-- 将一种网络配置应用于桌面实例中的模型请求，包括模型发现、连接测试、提示优化以及文本和图像生成。
-- 绕过精确域或通配符子域的代理。本地和私有 IP 地址直接连接。
-- 连接测试显示请求是否使用直接连接、系统代理或手动代理。
+- View original and optimized prompts in one region. Configuration and toolbars adapt to available space, reducing nested tab switching and leaving more room for content.
+- Inspect the prompt source while testing and compare results together, with improved long-text reading, image previews and keyboard-aware controls.
+- Reuse existing business components and data services. Wide desktop layouts retain their established split views and interaction patterns.
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
@@ -407,38 +514,27 @@ But all builds released here will have all features availa
 ## English
 
 ### Summary
-- Add desktop model network settings for environments where company model endpoints require direct connections while other models need a proxy.
-- Choose system, direct, or manual HTTP proxy routing and configure domain bypass rules under Model Manager → Network Settings.
+- This stable release brings the mobile and PWA workflows introduced in beta.1, together with follow-up fixes verified on Android.
+- Add mobile layouts across seven workspaces, organized around Optimize and Test, with prompt context and side-by-side results.
+- Adapt model, history, template, variable, favorite and data management to phone-sized lists, details and forms.
+- Add an installable production Web PWA with offline access to saved local work and save-before-update controls, backed by stronger workspace recovery and cross-window write protection.
 
 ### Highlights
-- Apply one network configuration to model requests in the desktop instance, including model discovery, connection tests, prompt optimization, and text and image generation.
-- Bypass proxies for exact domains or wildcard subdomains. Local and private IP addresses connect directly.
-- Connection tests show whether the request used a direct connection, system proxy, or manual proxy.
+- View original and optimized prompts in one region. Configuration and toolbars adapt to available space, reducing nested tab switching and leaving more room for content.
+- Inspect the prompt source while testing and compare results together, with improved long-text reading, image previews and keyboard-aware controls.
+- Reuse existing business components and data services. Wide desktop layouts retain their established split views and interaction patterns.
 
 ### Product Updates
-#### Desktop
-- Add Network Settings to Model Manager, with system routing as the default.
-- Support unauthenticated HTTP proxies in manual mode. System mode resolves system proxy and PAC rules for each target address.
-- Save settings on the local machine and apply them after restarting the desktop app. Restarting from the settings window is blocked while model requests are running.
-- Scope these settings to model requests. Application updates and cloud backups retain their existing network configuration.
-
 #### Web
-- No functional changes.
-
-#### Extension
-- No functional changes.
-
-#### Core/Infra
-- Remove duplicate language-switching links from the README.
-
-### Fixes
-- Allow company model endpoints to avoid an unsuitable system proxy through direct mode or domain bypass rule
+- Cover Basic System, Basic User, Context Multi-message, Context Variables, Text-to-image, Image-to-image and Multi-image workspaces.
+- Reorganize mobile navigation and mode selection so specific modes are visible together and navigation happens after a concrete selection. Management views support list, detail, edit and return flows.
+- Improve phone workflows for model forms, history restoration, template ed
 ```
 </details>
 
 ---
 ### 📦 [RSSNext/Folo](https://github.com/RSSNext/Folo)
-`⭐ Stars: 39,120` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [desktop/v1.16.0](https://github.com/RSSNext/Folo/releases/tag/desktop/v1.16.0) (2026-10-16)`
+`⭐ Stars: 39,171` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [desktop/v1.16.0](https://github.com/RSSNext/Folo/releases/tag/desktop/v1.16.0) (2026-10-16)`
 
 > **简介**：🧡 Folo is the AI RSS Reader
 
@@ -477,83 +573,80 @@ But all builds released here will have all features availa
 
 ---
 ### 📦 [roboflow/supervision](https://github.com/roboflow/supervision)
-`⭐ Stars: 51,247` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [0.31.0](https://github.com/roboflow/supervision/releases/tag/0.31.0) (2026-10-16)`
+`⭐ Stars: 51,367` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [0.31.2](https://github.com/roboflow/supervision/releases/tag/0.31.2) (2026-10-24)`
 
-> **简介**：我们为您编写可重复使用的计算机视觉工具。 💜
+> **简介**：We write your reusable computer vision tools. 💜
 
 **💡 核心亮点更新 (中文)**：
-- **`sv.DepthMap`** 测量任何图像上每个检测的距离和颜色深度，无需 OpenCV。
-- **`PolygonZone`** 和`LineZone` 在相机平移时在正确的位置继续计数。
-- **`KeyPointMeanAveragePrecision`** 按照 `pycocotools` 的方式对姿势模型进行评分。
+- **Pascal VOC** export and import use the devkit's box indices, so Detectron2 and other readers see the boxes you wrote.
+- Gemini 2.5 and 3.5 masks survive boxes that leave the 0-1000 range instead of failing the whole response.
+- Crop and icon annotators draw on grayscale scenes.
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-# v0.31.0 — Depth, moving cameras and pose mAP
+# v0.31.2 — Pascal VOC boxes that match the devkit
 
-supervision now sees depth: load depth maps from your model or stereo rig, measure how far each object is, and draw the map.
+A bug-fix release: Pascal VOC boxes now follow the devkit convention, and a batch of crashes on edge-case inputs is gone.
 
-- **`sv.DepthMap`** measures the distance to every detection and colours depth over any image, no OpenCV needed.
-- **`PolygonZone`** and `LineZone` keep counting in the right place while the camera pans.
-- **`KeyPointMeanAveragePrecision`** scores pose models the way `pycocotools` does.
-- **Kosmos-2**, Gemini 3.6/3.7 and MediaPipe hands now load straight into `Detections` and `KeyPoints`.
-- **`MeanAveragePrecision`** runs far faster on crowded images and lets you raise the detection cap.
+- **Pascal VOC** export and import use the devkit's box indices, so Detectron2 and other readers see the boxes you wrote.
+- Gemini 2.5 and 3.5 masks survive boxes that leave the 0-1000 range instead of failing the whole response.
+- Crop and icon annotators draw on grayscale scenes.
+- Half-precision box centers stay finite instead of turning into `inf`.
+- JSON sinks, dataset exports and the video reader stop losing data when something goes wrong.
 
-It's a drop-in upgrade if 0.30.x showed you no deprecation warnings, apart from four output changes. `sv.ByteTrack` with the `supervision.tracker` package, `supervision.keypoint`, `sv.LMM`, the legacy `sv.MeanAveragePrecision` and a few helpers are gone; the Migration guide has the swaps.
+Drop-in upgrade, with one catch: box-only Pascal VOC objects written by earlier versions now load one pixel larger on the right and bottom edges. The migration guide below shows how to fix them.
 
 ## ✨ Spotlights / highlights
 
-<img width="950" height="543" alt="image" src="https://github.com/user-attachments/assets/b3eec2cf-ae25-43ba-8494-aec69766991b" />
+### Pascal VOC boxes follow the devkit
 
-### Depth maps: load, measure and draw
+`DetectionDataset.as_pascal_voc` and `from_pascal_voc` now treat `<bndbox>` indices as 1-based and inclusive, shifting only `xmin` and `ymin` by one, which is what Detectron2 and other devkit readers expect. Export also rounds corners to the nearest pixel instead of truncating them, so a YOLO box that `from_yolo` loads with float noise no longer grows a pixel. Box-only objects written by 0.31.1 and earlier carry an extra +1 in `xmax` and `ymax`; objects exported from masks already used the devkit maxima. (#2748, #2780)
 
-`sv.DepthMap` holds metric depth, stereo disparity or relative depth for one frame, and keeps track of which one it is. `sv.DepthCamera` converts disparity to metres, `measure_detections` writes the median depth under each object to `detections.data` (`"depth_m"` when the map can give metres), and `sv.DepthAnnotator` co
+```python
+# `dataset` holds one box [10, 20, 40, 60]
+dataset.a
 ```
 </details>
 
 ---
 ### 📦 [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo)
-`⭐ Stars: 34,999` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.19.32](https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.32) (2026-09-30)`
+`⭐ Stars: 35,194` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.19.33](https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.33) (2026-10-21)`
 
-> **简介**：Honkai 的简单 Python Pydantic 模型：Star Rail 解析来自 Mihomo API 的数据。
+> **简介**：A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.
 
 **💡 核心亮点更新 (中文)**：
-* 3025efad feat：添加负载平衡哈希键以将会话固定在入站用户上（#3133）
+* 2df147b9 feat: support `dns-mode` for tun (#3288) by  Dust
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
 ## What's Changed
-* 3025efad feat: add load-balance hash-key to pin a session on the inbound user (#3133) by @简直蠢丶
+* 2df147b9 feat: support `dns-mode` for tun (#3288) by @Chenx Dust
 
 ## BUG & Fix
-* 409ee57e fix: populate HWCap from auxv on linux by @artbred
-* 41b8a059 fix: account for TCP options in effective MSS by @wwqgtxx
-* 5019cc09 fix: potential race condition in c.idleSession.Len() in idleCleanupExpTime() for anytls (#3225) by @Chenx Dust
-* 60f70cec fix: align unconnected UDP and raw IP ICMP errors with Linux for mipstack by @wwqgtxx
-* 88dcbf7f fix: default listener tun to mips stack (#3264) by @Jiawen Geng
-* 8d57a8c5 fix: exclude opcode from P_DATA_V1 AEAD additional data for OpenVPN (#3237) by @FlyingSB
-* 8fa048d3 fix: half-close in sing-mux by @proxi
-* ac652970 fix: nil pconn deref when ctx is canceled during h2 ClientConn setup by @BESTRUI
-* afe94daf fix: set udp InUser metadata for mieru inbound (#3236) by @Ryoma Dev
-* fbb67422 fix: restart EasyTier outbound after silent overlay failure (#3215) by @MiaM1ku
+* 349af191 fix: the embedded shadowsocks listener can't be closed (#3314) by @Token
+* 80101933 fix: bound doh dials so ones the query gave up on cannot pile up (#3274) by @Cassian433
+* 94b13aed fix: dialer-proxy cycle check takes quadratic time and memory (#3315) by @Token
+* c4e81869 fix: CVE-2026-97031 for crypto/tls by @wwqgtxx
+* df1b07af fix: a sub-millisecond URL test is reported as a failure (#3316) by @Token
+* e4dd968d fix: keep fake-ip allocation state when cloning the pool on reload (#3283) by @Younes Beriane
+* 1354e52e fix: unpassed loadbalance test by @wwqgtxx
 
 ## Maintenance
-* 13417699 chore: support RX checksum offload for mipstack by @wwqgtxx
-* 3c947c76 chore: convert support xhttp `extra.headers` (#3230) by @Peter Solomon
-* 63bd52ec chore: change default IP stack mode to mips and support `congestion-controller` option for tun by @wwqgtxx
-* 91dd03a9 chore: support lazy receive buffer reads for mipstack and gvisor by @wwqgtxx
-* f103639c chore: update mieru version (#3242) by @enfein
+* 3f27ef39 chore: refactored and fixed issues for sudoku while also improving performance (#3333) by @saba-futai
+* 9f053c49 chore: lazy init wireguard device and stack by @wwqgtxx
+* bc76c139 chore: update mieru version (#3304) by @enfein
 
-**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.31...v1.19.32
+**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.32...v1.19.33
 ```
 </details>
 
 ---
 ### 📦 [microsoft/graphrag](https://github.com/microsoft/graphrag)
-`⭐ Stars: 36,384` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v3.3.0](https://github.com/microsoft/graphrag/releases/tag/v3.3.0) (2026-10-08)`
+`⭐ Stars: 36,447` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v3.3.0](https://github.com/microsoft/graphrag/releases/tag/v3.3.0) (2026-10-08)`
 
 > **简介**：基于模块化图的检索增强生成（RAG）系统
 
@@ -576,7 +669,7 @@ It's a drop-in upgrade if 0.30.x showed you no deprecation warnings, apart from 
 
 ---
 ### 📦 [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)
-`⭐ Stars: 152,445` &nbsp;|&nbsp; `💻 语言: Rust` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.5.8](https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.8) (2026-10-09)`
+`⭐ Stars: 153,895` &nbsp;|&nbsp; `💻 语言: Rust` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.5.8](https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.8) (2026-10-09)`
 
 > **简介**：A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience
 
@@ -654,74 +747,74 @@ It's a drop-in upgrade if 0.30.x showed you no deprecation warnings, apart from 
 
 ---
 ### 📦 [unslothai/unsloth](https://github.com/unslothai/unsloth)
-`⭐ Stars: 78,242` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.1.908-beta](https://github.com/unslothai/unsloth/releases/tag/v0.1.908-beta) (2026-10-15)`
+`⭐ Stars: 78,569` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.1.910-beta](https://github.com/unslothai/unsloth/releases/tag/v0.1.910-beta) (2026-10-23)`
 
-> **简介**：用于运行和训练法学硕士和扩散模型的本地 UI。支持 GGUF、MLX、Qwen3.8、DeepSeek-V4、MiniMax-H3、Gemma 4、FLUX 等。
+> **简介**：Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.
 
 **💡 核心亮点更新 (中文)**：
-- **NVIDIA Nemotron 3.5 Bolt**：在 24 GB 内存上运行。 [指南](https://unsloth.ai/docs/models/nemotron-3.5-bolt)
-- **NVIDIA Nemotron 3.5 Super VL**：120B（12B 活动）[指南](https://unsloth.ai/docs/models/nemotron-3.5-super-vl)
-- **Meta Muse Spark Open**：816B（42.7B 活动）- 在 256GB 上运行 [指南](https://unsloth.ai/docs/models/muse-spark-open)
+- **Bigger MoE models on Mac**: MLX MoE models too big for memory keep experts on SSD, so Qwen3.8-Flash-Next runs on a 32 GB Mac.
+- **Chat-only install**: a much smaller Unsloth Desktop for GGUF chat; add training later in Settings.
+- **Flint**: Recursive's 40B coding-agent MoE, runs in 24 GB at 3-bit [Guide](https://unsloth.ai/docs/models/flint)
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-Run NVIDIA's new Nemotron 3.5 models and Meta's new Muse Spark Open locally in Unsloth. New: text-diffusion LLMs, DeepSpeed training and better prompt caching for coding agents.
+Recursive's Flint, MOSS-Image and NVIDIA's Nemotron Bolt 4B are here! Run them locally in Unsloth. Also new: a chat-only Unsloth Desktop install, MLX MoE models bigger than your Mac's memory and an OpenAI-compatible fine-tuning API.
 
 ## Highlights
 
-- **NVIDIA Nemotron 3.5 Bolt**: Run on 24 GB of memory. [Guide](https://unsloth.ai/docs/models/nemotron-3.5-bolt)
-- **NVIDIA Nemotron 3.5 Super VL**: 120B (12B active) [Guide](https://unsloth.ai/docs/models/nemotron-3.5-super-vl)
-- **Meta Muse Spark Open**: 816B (42.7B active) - runs on 256GB [Guide](https://unsloth.ai/docs/models/muse-spark-open)
-- **Better prompt caching for coding agents**: Claude Code, Codex etc. on local GGUF models re-process far less of each prompt.
-- **Browser use**: Always allow properly works, cursor, and separate tabs for each chat.
-- **Images through your connections**: generate with sd-server, Ollama, Lemonade and other image servers.
-- **Diffusion LLMs**: train and chat with LLaDA, Dream, SDAR and more, with a live denoising canvas.
+- **Bigger MoE models on Mac**: MLX MoE models too big for memory keep experts on SSD, so Qwen3.8-Flash-Next runs on a 32 GB Mac.
+- **Chat-only install**: a much smaller Unsloth Desktop for GGUF chat; add training later in Settings.
+- **Flint**: Recursive's 40B coding-agent MoE, runs in 24 GB at 3-bit [Guide](https://unsloth.ai/docs/models/flint)
+- **MOSS-Image**: 5.1B image model designed for top-tier generation [GGUF](https://huggingface.co/unsloth/MOSS-Image-SFT-GGUF) + [FP8](https://huggingface.co/unsloth/MOSS-Image-SFT-FP8)
+- **NVIDIA Nemotron 3.5 Bolt E4B**: NVIDIA's new Gemma 4 E4B fine-tune, 63.2 on Tau2-Bench vs the original's 38.7 [Guide](https://unsloth.ai/docs/models/nemotron-3.5-bolt)
+- **MoE expert pruning**: Export a smaller MoE model by removing 25% or 50% of its least useful experts with REAP.
+- **UI overhaul**: New + more consistent UI across Unsloth (API, roundness etc)
 
-## Nemotron 3.5
+## Images + video
 
-- Run NVIDIA Nemotron 3.5 Super VL, a 120B model with 12B active parameters and up to 1M tokens of context, built for document understanding, computer use and long-running agents. Super VL runs in about 64 GB of memory at 1-bit, or 128 GB at 4-bit. [Guide](https://unsloth.ai/docs/models/nemotron-3.5-super-vl) · [GGUF](https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-GGUF)
-- Run NVIDIA Nemotron 3.5 Bolt, a 74B model with 9B active parameters and 128K context, compressed from
+- Generate images containing English or Chinese text with OpenMOSS's 5.1B MOSS-Image, SFT or Base. [GGUF](https://huggingface.co/unsloth/MOSS-Image-SFT-GGUF) · [Base GGUF](https://huggingface.co/unsloth/MOSS-Image-Base-GGUF)
+- MOSS-Image, the new image model, runs on 16 GB GPUs; its GGUFs also run on Macs and com
 ```
 </details>
 
 ---
 ### 📦 [arc53/DocsGPT](https://github.com/arc53/DocsGPT)
-`⭐ Stars: 18,323` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [1.0.0](https://github.com/arc53/DocsGPT/releases/tag/1.0.0) (2026-10-08)`
+`⭐ Stars: 18,334` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [1.1.0](https://github.com/arc53/DocsGPT/releases/tag/1.1.0) (2026-10-25)`
 
-> **简介**：用于代理、助理和企业搜索的私人人工智能平台。内置代理生成器、深入研究、文档分析、多模型支持以及代理的 API 连接。
+> **简介**：Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analysis, Multi-model support, and API connectivity for agents.
 
 **💡 核心亮点更新 (中文)**：
-* Guardrail 文档位于 https://github.com/arc53/DocsGPT/pull/2785
-* feat(widget)：将搜索栏与小部件主题对齐，通过 https://github.com/arc53/DocsGPT/pull/2782 添加语音搜索
-* 重构（设置）：拆分为每个域模块，通过 https://github.com/arc53/DocsGPT/pull/2802 生成设置参考
+* Keep the Responses prompt cache across turns and count replayed reasoning by  in https://github.com/arc53/DocsGPT/pull/3033
+* docs: add Vercel OSS Program badge to README by  in https://github.com/arc53/DocsGPT/pull/3049
+* Update the README translations by [bot] in https://github.com/arc53/DocsGPT/pull/3050
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
 ## What's Changed
-* Guardrail docs by @pabik in https://github.com/arc53/DocsGPT/pull/2785
-* feat(widget): align search bar with widget theme, add voice search by @ManishMadan2882 in https://github.com/arc53/DocsGPT/pull/2782
-* refactor(settings): split into per-domain modules, generate the settings reference by @arc53-machine in https://github.com/arc53/DocsGPT/pull/2802
-* docsgpt backup and restore by @dartpain in https://github.com/arc53/DocsGPT/pull/2799
-* feat: docsgpt up --native by @dartpain in https://github.com/arc53/DocsGPT/pull/2800
-* feat: docsgpt dev, doctor and restart for the development loop by @dartpain in https://github.com/arc53/DocsGPT/pull/2803
-* UI refinements by @ManishMadan2882 in https://github.com/arc53/DocsGPT/pull/2795
-* correct license for widget by @pabik in https://github.com/arc53/DocsGPT/pull/2805
-* fix(graphrag): make graph retrieval and extraction work in a default install by @dartpain in https://github.com/arc53/DocsGPT/pull/2804
-* feat: personal access tokens (scoped API tokens for CLI and CI/CD) by @arc53-machine in https://github.com/arc53/DocsGPT/pull/2812
-* feat: admin-set usage quotas per user and per team by @dartpain in https://github.com/arc53/DocsGPT/pull/2816
-* chore: Zed project config, .editorconfig and shared pyright settings by @arc53-machine in https://github.com/arc53/DocsGPT/pull/2817
-* logo upd by @pabik in https://github.com/arc53/DocsGPT/pull/2818
-* Move settings and admin navigation into the sidebar by @dartpain in htt
+* Keep the Responses prompt cache across turns and count replayed reasoning by @dartpain in https://github.com/arc53/DocsGPT/pull/3033
+* docs: add Vercel OSS Program badge to README by @dartpain in https://github.com/arc53/DocsGPT/pull/3049
+* Update the README translations by @github-actions[bot] in https://github.com/arc53/DocsGPT/pull/3050
+* docs: supporters row in README header by @dartpain in https://github.com/arc53/DocsGPT/pull/3052
+* Update the README translations by @github-actions[bot] in https://github.com/arc53/DocsGPT/pull/3053
+* docs: Neon dark logo on dark theme by @dartpain in https://github.com/arc53/DocsGPT/pull/3054
+* Update the README translations by @github-actions[bot] in https://github.com/arc53/DocsGPT/pull/3057
+* Richer Word artifacts, artifact downloads for API clients, and reference-only attachments by @dartpain in https://github.com/arc53/DocsGPT/pull/3060
+* Report the prompt cache in /v1 usage by @dartpain in https://github.com/arc53/DocsGPT/pull/3064
+* Keep a paused turn's attachments and state when it resumes by @dartpain in https://github.com/arc53/DocsGPT/pull/3063
+* Triage: answer mentions, honour form claims, quieter PR re-reviews by @dartpain in https://github.com/arc53/DocsGPT/pull/3075
+* Let scheduled and webhook agent runs use the code executor by @dartpain in https://github.com/arc53/DocsGPT/pull/3081
+* (fix)drawio: preset connector flow by @ManishMadan2882 in https://github.com/arc53/DocsGPT/pull/3073
+* chore(deps): bu
 ```
 </details>
 
 ---
 ### 📦 [lobehub/lobehub](https://github.com/lobehub/lobehub)
-`⭐ Stars: 83,321` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.2.20](https://github.com/lobehub/lobehub/releases/tag/v2.2.20) (2026-10-18)`
+`⭐ Stars: 83,493` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.2.20](https://github.com/lobehub/lobehub/releases/tag/v2.2.20) (2026-10-18)`
 
 > **简介**：🤯 LobeHub 是您的首席代理运营商，通过招聘、调度和报告整个 AI 团队，将您的代理组织为 7×24 小时运营。
 
@@ -763,7 +856,7 @@ See PR description: https://github.com/lobehub/lobehub/pull/21078
 
 ---
 ### 📦 [Dooy/chatgpt-web-midjourney-proxy](https://github.com/Dooy/chatgpt-web-midjourney-proxy)
-`⭐ Stars: 6,798` &nbsp;|&nbsp; `💻 语言: JavaScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.26.8](https://github.com/Dooy/chatgpt-web-midjourney-proxy/releases/tag/v2.26.8) (2026-09-29)`
+`⭐ Stars: 6,800` &nbsp;|&nbsp; `💻 语言: JavaScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.26.8](https://github.com/Dooy/chatgpt-web-midjourney-proxy/releases/tag/v2.26.8) (2026-09-29)`
 
 > **简介**：一个UI全部由chatgpt web、midjourney、gpts、suno、luma、runway、viggle、flux、ideogram、realtime、pika、udio完成；同时支持Web/PWA/Linux/Win/MacOS平台
 
@@ -783,7 +876,7 @@ See PR description: https://github.com/lobehub/lobehub/pull/21078
 
 ---
 ### 📦 [labring/FastGPT](https://github.com/labring/FastGPT)
-`⭐ Stars: 29,859` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v4.17.2](https://github.com/labring/FastGPT/releases/tag/v4.17.2) (2026-10-09)`
+`⭐ Stars: 29,912` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v4.17.2](https://github.com/labring/FastGPT/releases/tag/v4.17.2) (2026-10-09)`
 
 > **简介**：FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.
 
@@ -830,7 +923,7 @@ See PR description: https://github.com/lobehub/lobehub/pull/21078
 
 ---
 ### 📦 [yihong0618/bilingual_book_maker](https://github.com/yihong0618/bilingual_book_maker)
-`⭐ Stars: 9,889` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.3.1](https://github.com/yihong0618/bilingual_book_maker/releases/tag/v1.3.1) (2026-09-30)`
+`⭐ Stars: 9,905` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.3.1](https://github.com/yihong0618/bilingual_book_maker/releases/tag/v1.3.1) (2026-09-30)`
 
 > **简介**：使用人工智能翻译制作双语 epub 书籍
 
@@ -857,46 +950,33 @@ Now `guard_source_replacement` compares the file's text hash with the `source.wo
 
 ---
 ### 📦 [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel)
-`⭐ Stars: 37,204` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.3.2](https://github.com/1Panel-dev/1Panel/releases/tag/v2.3.2) (2026-09-24)`
+`⭐ Stars: 37,268` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.4.1](https://github.com/1Panel-dev/1Panel/releases/tag/v2.4.1) (2026-10-22)`
 
-> **简介**：🔥 1Panel 是一个现代化的开源 Linux 服务器管理面板和轻量级 AI 管理平台。
+> **简介**：🔥 1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform.
 
 **💡 核心亮点更新 (中文)**：
-* 面板设置：添加了对通过 https://github.com/1Panel-dev/1Panel/pull/13872 创建多个 API 密钥的支持
-* 虚拟机管理：增加了对挂载多个 CD-ROM ISO 映像的支持
-* 概述：改进了磁盘命令失败的日志记录，位于 https://github.com/1Panel-dev/1Panel/pull/13889
+* System: Upgraded Go to 1.27.3 to fix the crypto/x509 security vulnerability ([CVE-2026-111943](https://www.cve.org/CVERecord?id=CVE-2026-111943))
+* 【系统】升级 Go 至 1.27.3，修复 crypto/x509 安全漏洞（[CVE-2026-111943](https://www.cve.org/CVERecord?id=CVE-2026-111943)）
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-[English](#en-v2.3.2) | [中文](#cn-v2.3.2)
+[English](#en-v2.4.1) | [中文](#cn-v2.4.1)
 
-<h3 id="en-v2.3.2">New Features</h3>
+<h3 id="en-v2.4.1">Bug Fixes</h3>
 
-* Panel Settings: Added support for creating multiple API keys by @lan-yonghui in https://github.com/1Panel-dev/1Panel/pull/13872
-* Virtual Machine Management: Added support for mounting multiple CD-ROM ISO images by @ssongliu
+* System: Upgraded Go to 1.27.3 to fix the crypto/x509 security vulnerability ([CVE-2026-111943](https://www.cve.org/CVERecord?id=CVE-2026-111943))
 
-### Enhancements
+<h3 id="cn-v2.4.1">问题修复</h3>
 
-* Overview: Improved logging for disk command failures by @ssongliu in https://github.com/1Panel-dev/1Panel/pull/13889
-* File Browser: Improved task messages for file copy, move, compress, and decompress by @lan-yonghui in https://github.com/1Panel-dev/1Panel/pull/13885
-* Firewall: Optimized firewall state reads and batch verification logic by @ssongliu in https://github.com/1Panel-dev/1Panel/pull/13881
-* System: Removed the minimum upgrade backup copies limit by @ssongliu in https://github.com/1Panel-dev/1Panel/pull/13907
-
-### Bug Fixes
-
-* Models: Fixed the Ollama page failing to open properly in some scenarios by @zhengkunwang223 in https://github.com/1Panel-dev/1Panel/pull/13855
-* Models: Fixed vLLM uninstall failures in some scenarios by @zhengkunwang223
-* App Store: Fixed application upgrade failures in some scenarios by @zhengkunwang223 in https://github.com/1Panel-dev/1Panel/pull/13888
-* Websites: Fixed incorrect priority between HTTP-to-HTTPS redirects and website redirects by @A-Words in https://github.com/1Panel-dev/1Panel/pull/13847
-* Certificates: Fixed auto-renewing certificates still triggering expiry alerts by @lan-yonghu
+* 【系统】升级 Go 至 1.27.3，修复 crypto/x509 安全漏洞（[CVE-2026-111943](https://www.cve.org/CVERecord?id=CVE-2026-111943)）
 ```
 </details>
 
 ---
 ### 📦 [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI)
-`⭐ Stars: 28,754` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v6.14.2](https://github.com/invoke-ai/InvokeAI/releases/tag/v6.14.2) (2026-09-27)`
+`⭐ Stars: 28,865` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v6.14.2](https://github.com/invoke-ai/InvokeAI/releases/tag/v6.14.2) (2026-09-27)`
 
 > **简介**：Invoke 是稳定扩散模型的领先创意引擎，使专业人士、艺术家和爱好者能够使用最新的人工智能驱动技术生成和创建视觉媒体。该解决方案提供了业界领先的WebUI，并作为多个商业产品的基础。
 
@@ -928,75 +1008,134 @@ This release fixes a number of bugs in version 6.14.1 and adds a couple of usefu
 </details>
 
 ---
-### 📦 [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
-`⭐ Stars: 148,069` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [langchain-core==1.6.12](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.12) (2026-10-16)`
+### 📦 [langgenius/dify](https://github.com/langgenius/dify)
+`⭐ Stars: 159,548` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [1.18.0](https://github.com/langgenius/dify/releases/tag/1.18.0) (2026-10-23)`
 
-> **简介**：代理工程平台。
+> **简介**：Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
 
 **💡 核心亮点更新 (中文)**：
-自 langchain-core==1.6.11 以来的变化
-
-版本（核心）：1.6.12 (41277)
-修复（核心）：在内容块开始事件上传播额外内容（41272）
+- **Published triggers:** the draft-sync fix does not repair subscriptions already removed before upgrading. Rebind missing subscriptions and republish affected workflows as needed. (#44068)
+- **Document extraction:** re-import/re-index affected content to apply extraction fixes to existing documents.
+- **Built-in document metadata:** toggling built-in fields rewrites only enabled, non-archived documents whose indexing is complete. Other legacy rows can retain the old format and need a later rewrite when eligible; this release does not include a full backfill. (#44218)
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-Changes since langchain-core==1.6.11
+Dify 1.18.0 brings **Agents that route workflows**, **portable app packages**, **deeper visibility into nested workflow runs**, and the opt-in **Agent Knowledge Base** experience. OpenAPI and the new difyctl expand how you build and manage apps from the command line.
 
-release(core): 1.6.12 (#41277)
-fix(core): propagate extras on content-block-start events (#41272)
+> [!IMPORTANT]
+> **Read the upgrade guide below before deploying.** Upgrade the API, workers, Agent Backend, and Agent runtime images together. Local Agent sandboxes require a non-empty authentication token, and Agent Backend uses a new run protocol. Source installations require Python 3.13. Install the new difyctl client and sign in again. Preserve your existing `PASSWORD_PEPPER` configuration.
+
+### Release highlights
+
+#### Agents that choose the next step
+
+Let an Agent decide which workflow branch to take. Enable **Output Routes**, give each route a selection condition, and connect it to the next step—such as resolving a request directly or handing it to a specialist. The read-only `switch` output exposes the chosen route. (#42599)
+
+![Agent Output Routes with Resolve directly and Escalate to team branches](https://github.com/user-attachments/assets/30480ac3-d53e-4522-b1c5-95eb1d9ac9f2)
+
+*Output Routes configuration with two branches in the workflow editor.*
+
+Plain Agent v2 nodes also stream text as it is generated. Structured results, routed results, and nodes using default-value error handling remain buffered. (#43986)
+
+#### Portable apps in one package
+
+Move an app with its supported resou
+```
+</details>
+
+---
+### 📦 [nextai-translator/nextai-translator](https://github.com/nextai-translator/nextai-translator)
+`⭐ Stars: 25,013` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.6.45](https://github.com/nextai-translator/nextai-translator/releases/tag/v0.6.45) (2026-10-24)`
+
+> **简介**：基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API.
+
+**💡 核心亮点更新 (中文)**：
+- Shortened time to first character: the HTTP client is now reused between translations instead of paying a fresh DNS + TCP + TLS handshake each time, the first streamed token is painted immediately instead of waiting out the 120ms batching window, and settings are cached instead of re-read from disk on every request
+- Fixed streamed translations that could start mid-sentence because the first chunks arrived before the desktop app had registered its listeners
+- Fixed multi-byte characters turning into replacement characters when a network chunk split them, which affected most Chinese, Japanese and Korean translations
+
+<details>
+<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
+
+```markdown
+Shorter wait for the first character, and no more garbled Chinese
+
+- Shortened time to first character: the HTTP client is now reused between translations instead of paying a fresh DNS + TCP + TLS handshake each time, the first streamed token is painted immediately instead of waiting out the 120ms batching window, and settings are cached instead of re-read from disk on every request
+- Fixed streamed translations that could start mid-sentence because the first chunks arrived before the desktop app had registered its listeners
+- Fixed multi-byte characters turning into replacement characters when a network chunk split them, which affected most Chinese, Japanese and Korean translations
+- Fixed the desktop abort listener leaking when a request failed, and a few panics on malformed request options
+- Added time-to-first-token tracing: each translation reports where its time went - prompt, settings, network setup, provider thinking, first paint - in the devtools console, in the app's stdout, and through window.__translatePerf
+```
+</details>
+
+---
+### 📦 [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
+`⭐ Stars: 148,469` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [langchain-core==1.7.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.0) (2026-10-22)`
+
+> **简介**：The agent engineering platform.
+
+**💡 核心亮点更新 (中文)**：
+- Tool-call args now stream as `tool-call-delta` slices instead of `block-delta` snapshots of the args so far. If you read raw stream events and their `block-delta` args mid-stream, read `tool-call-delta` instead. `.tool_calls.get()` and `.output` are unchanged. To keep snapshots, pin `langchain-core<1.7`.
+- Since 1.6.13, iterating `ChatModelStream.tool_calls` yields each call's new args slice, not a snapshot of the args so far.
+
+<details>
+<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
+
+```markdown
+Changes since langchain-core==1.6.13
+
+release(core): 1.7.0 (#41418)
+feat(core): emit `tool-call-delta` for streamed tool-call args (#41257)
+
+## Notes
+
+- Tool-call args now stream as `tool-call-delta` slices instead of `block-delta` snapshots of the args so far. If you read raw stream events and their `block-delta` args mid-stream, read `tool-call-delta` instead. `.tool_calls.get()` and `.output` are unchanged. To keep snapshots, pin `langchain-core<1.7`.
+- Since 1.6.13, iterating `ChatModelStream.tool_calls` yields each call's new args slice, not a snapshot of the args so far.
 ```
 </details>
 
 ---
 ### 📦 [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
-`⭐ Stars: 187,649` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [autogpt-platform-beta-v0.8.4](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.8.4) (2026-10-14)`
+`⭐ Stars: 187,751` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [autogpt-platform-beta-v0.9.0](https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.9.0) (2026-10-23)`
 
-> **简介**：AutoGPT 的愿景是为每个人提供易于使用和构建的人工智能。我们的使命是提供工具，以便您可以专注于重要的事情。
+> **简介**：AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 
 **💡 核心亮点更新 (中文)**：
-- **#15089** - 在转弯运行时运行 Copilot 聊天，该聊天在一个连接上的光标处恢复（通过
-- **#15199** - 专家集成首先通过 MCP 连接（通过
-- **#15248** - 将“提供反馈”添加到帐户菜单（修补程序）（通过
+- **#15824** - Add measures and admin tools against multi-account abuse (by
+- **#14553** - Self-host from the Docker Hub image, with a Windows installer (by
+- **#14981** - Every block declares its effect; Auto judges cheap outward actions and asks first on costly ones (by
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-# 🚀 Release `autogpt-platform-beta-v0.8.4`
-
-**Date:** October 2026
-
----
-
 ## 🔥 What's New?
 
 ### New Features
-- **#15089** - Run Copilot chat on a turn runtime that resumes at its cursor on one connection (by @Pwuts)
-- **#15199** - Expert integrations connect through MCP first (by @0ubbe)
-- **#15248** - Add “Give feedback” to the account menu (hotfix) (by @kcze)
-- **#15216** - Keep Otto and expert replies short (by @0ubbe)
-- **#15217** - Make the expert hire card short and Typeform-like (by @0ubbe)
-- **#15249** - Send onboarding role to MailerLite and PostHog; exclude Iran and Russia from MailerLite (by @ntindle)
-- **#15204** - Redesign wallet with chat usage and credits (by @Torantulino)
-- **#15196** - Move onboarding paywall after personalization (by @Torantulino)
-- **#15061** - Approval cards label/word tool arguments from the tool schema (by @Pwuts)
-- **#15358** - Canceling a trial keeps access until the trial ends (by @itsababseh)
-- **#15361** - Sub-session waits for a slot when the user’s slots are full (by @Pwuts)
-- **#15043** - Approved call chain row expands to show what ran (by @Pwuts)
-- **#15349** - Add “Chats” to the collapsed sidebar (by @itsababseh)
-- **#15441** - Show “Thinking…” instead of backend status lines in Copilot (by @0ubbe)
-- **#15442** - Restyle chat markdown tables (by @0ubbe)
-- **#15462** - Give Copilot turns and graph node runs their own Sentry traces (by @ntindle)
-- **#15460** - Tag Sentry events with deployed commit and al
+
+- **#15824** - Add measures and admin tools against multi-account abuse (by @Pwuts)
+- **#14553** - Self-host from the Docker Hub image, with a Windows installer (by @ntindle)
+- **#14981** - Every block declares its effect; Auto judges cheap outward actions and asks first on costly ones (by @Pwuts)
+- **#15675** - Add admin users page to look up, ban and impersonate a user, with rate limits folded in (by @Pwuts)
+- **#15859** - Send the browser tools' traffic through an egress proxy (by @ntindle)
+- **#15215** - Redesign usage limits and review upgrade charges (by @Torantulino)
+- **#15388** - AutoPilot turns pause at their limits instead of dying, and Keep going picks them up (by @ntindle)
+- **#15390** - Resume or send a chat's turn when the budget resets (by @ntindle)
+- **#15403** - Add send at reset, the out-of-budget panel for Max, and a running-low hint (by @ntindle)
+- **#15585** - Add voice mode to the + menu; model and token usage open as dialogs (by @0ubbe)
+- **#15115** - Add per-expert default approval mode for new web chats (by @Abhi1992002)
+- **#14551** - Distill private account and Expert skills during dreaming (by @ntindle)
+- **#14960** - Add durable per-scope schedule registry for dream and community jobs with lifecycle hooks and backfill (by @ntindle)
+- **#14961** - Add durable DreamPass record written from the sync and batch dream paths (by @ntindle)
+- **#14970** - Add one guard against overlapping dream passes
 ```
 </details>
 
 ---
 ### 📦 [rockbenben/ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)
-`⭐ Stars: 8,839` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v4.5.1](https://github.com/rockbenben/ChatGPT-Shortcut/releases/tag/v4.5.1) (2026-10-09)`
+`⭐ Stars: 8,870` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v4.5.1](https://github.com/rockbenben/ChatGPT-Shortcut/releases/tag/v4.5.1) (2026-10-09)`
 
 > **简介**：Stop writing prompts from scratch — a searchable prompt library for ChatGPT, Claude, Gemini and Cursor · Русский 한국어 العربية हिन्दी ไทย ｜ 别再从头写提示词：现成的拿来就用，好用的收进自己的库
 
@@ -1037,7 +1176,7 @@ TypeScript stays on 6.0.3: `@docusaurus/tsconfig` still relies on `baseUrl`, and
 
 ---
 ### 📦 [pionxzh/chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter)
-`⭐ Stars: 2,813` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [userscript-v2.38.0](https://github.com/pionxzh/chatgpt-exporter/releases/tag/userscript-v2.38.0) (2026-10-17)`
+`⭐ Stars: 2,828` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [userscript-v2.38.0](https://github.com/pionxzh/chatgpt-exporter/releases/tag/userscript-v2.38.0) (2026-10-17)`
 
 > **简介**：导出并分享您的 ChatGPT 对话历史记录
 
@@ -1064,7 +1203,7 @@ TypeScript stays on 6.0.3: `@docusaurus/tsconfig` still relies on `baseUrl`, and
 
 ---
 ### 📦 [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent)
-`⭐ Stars: 47,464` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [2.2.1](https://github.com/zhayujie/CowAgent/releases/tag/2.2.1) (2026-10-14)`
+`⭐ Stars: 47,589` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [2.2.1](https://github.com/zhayujie/CowAgent/releases/tag/2.2.1) (2026-10-14)`
 
 > **简介**：开源个人人工智能助理和代理线束。计划任务，运行工具和技能，利用记忆和知识进行自我进化。多代理、多模式、多渠道。轻量级、可扩展、单行安装。
 
@@ -1101,20 +1240,20 @@ Related docs: [Web Console - Artifacts](https://docs.cowagent.ai/channels/web#ar
 
 ---
 ### 📦 [lxhao61/integrated-examples](https://github.com/lxhao61/integrated-examples)
-`⭐ Stars: 2,533` &nbsp;|&nbsp; `💻 语言: Shell` &nbsp;|&nbsp; `🏷️ 最新版本: [20261006](https://github.com/lxhao61/integrated-examples/releases/tag/20261006) (2026-10-06)`
+`⭐ Stars: 2,534` &nbsp;|&nbsp; `💻 语言: Shell` &nbsp;|&nbsp; `🏷️ 最新版本: [20261024](https://github.com/lxhao61/integrated-examples/releases/tag/20261024) (2026-10-24)`
 
 > **简介**：以 Nginx 或 Caddy(v2 版) 配合 V2Ray(v4 版) 或 Xray、Caddy(v2 版) 加专用插件、Hysteria 等打造常用科学上网的优化配置及最优组合示例，且提供集成特定插件的 Caddy(v2 版) 文件，分享给大家食用及自己备份。
 
 **💡 核心亮点更新 (中文)**：
-以 Caddy 发行版 v2.11.7 源码加插件 forwardproxy、caddy-trojan、caddy-webdav、caddy-cloudflare-ip、caddy-trusted-cloudfront、caddy-dns/cloudflare、caddy-dns/duckdns、caddy-dns/tencentcloud、caddy-events-exec、caddy-l4、jsonc-adapter 基于稳定版 go1.27.1 定制编译而成，其额外应用及特点如下：
+以 Caddy 发行版 v2.11.7 源码加插件 forwardproxy、caddy-trojan、caddy-webdav、caddy-cloudflare-ip、caddy-trusted-cloudfront、caddy-dns/cloudflare、caddy-dns/duckdns、caddy-dns/tencentcloud、caddy-events-exec、caddy-l4、jsonc-adapter 基于稳定版 go1.27.3 定制编译而成，其额外应用及特点如下：
 1、
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-以 Caddy 发行版 v2.11.7 源码加插件 forwardproxy、caddy-trojan、caddy-webdav、caddy-cloudflare-ip、caddy-trusted-cloudfront、caddy-dns/cloudflare、caddy-dns/duckdns、caddy-dns/tencentcloud、caddy-events-exec、caddy-l4、jsonc-adapter 基于稳定版 go1.27.1 定制编译而成，其额外应用及特点如下：
-1、支持 NaiveProxy 应用（服务端）。采用官方指定源码，其源码更新及时、但不支持 UoT。
+以 Caddy 发行版 v2.11.7 源码加插件 forwardproxy、caddy-trojan、caddy-webdav、caddy-cloudflare-ip、caddy-trusted-cloudfront、caddy-dns/cloudflare、caddy-dns/duckdns、caddy-dns/tencentcloud、caddy-events-exec、caddy-l4、jsonc-adapter 基于稳定版 go1.27.3 定制编译而成，其额外应用及特点如下：
+1、支持 NaiveProxy 应用（服务端）。采用 ZihaoFU245 大源码，支持 UoT。
 2、支持 Trojan-Go 应用（服务端）。
 3、支持 WebDAV 协议的网盘应用（服务端）。
 4、支持启用可信任 Cloudflare IPs，可实现使用 Cloudflare CDN 后也能获取到客户端真实 IP。
@@ -1131,15 +1270,30 @@ Related docs: [Web Console - Artifacts](https://docs.cowagent.ai/channels/web#ar
 </details>
 
 ---
-### 📦 [electerm/electerm](https://github.com/electerm/electerm)
-`⭐ Stars: 15,393` &nbsp;|&nbsp; `💻 语言: JavaScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v5.6.10](https://github.com/electerm/electerm/releases/tag/v5.6.10) (2026-10-15)`
+### 📦 [mack-a/v2ray-agent](https://github.com/mack-a/v2ray-agent)
+`⭐ Stars: 22,171` &nbsp;|&nbsp; `💻 语言: Shell` &nbsp;|&nbsp; `🏷️ 最新版本: [v3.5.28](https://github.com/mack-a/v2ray-agent/releases/tag/v3.5.28) (2026-10-25)`
 
-> **简介**：📻免费开源终端/ssh/sftp/ftp/telnet/串口/RDP/VNC/Spice客户端(Linux, Mac, Windows, Android, HarmonyOS, iOS)
+> **简介**：Xray、Tuic、hysteria2、sing-box 八合一一键脚本
 
 **💡 核心亮点更新 (中文)**：
-- 支持 electterm 云同步客户端数据加密
-- 支持书签中的私钥/证书文件路径
-- 支持箭头/回车键在书签面板中选择/打开书签
+fix(脚本): 修复 Xray 多用户删除失败问题
+
+<details>
+<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
+
+```markdown
+fix(脚本): 修复 Xray 多用户删除失败问题
+```
+</details>
+
+---
+### 📦 [electerm/electerm](https://github.com/electerm/electerm)
+`⭐ Stars: 15,460` &nbsp;|&nbsp; `💻 语言: JavaScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v5.7.15](https://github.com/electerm/electerm/releases/tag/v5.7.15) (2026-10-26)`
+
+> **简介**：📻Free and open-sourced terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android, HarmonyOS, iOS)
+
+**💡 核心亮点更新 (中文)**：
+- SFTP: type any key in the file list to filter it, always on, replacing the old filter icon (#4648) by
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
@@ -1147,43 +1301,36 @@ Related docs: [Web Console - Artifacts](https://docs.cowagent.ai/channels/web#ar
 ```markdown
 ### New features/UI/Updates
 
-- Support client side data encrypt for electerm cloud sync
-- Support privateKey/certificate file path in bookmark
-- Support arrow/enter keys to select/open bookmark in bookmark panel
-- Support payload check before sync to cloud
+- SFTP: type any key in the file list to filter it, always on, replacing the old filter icon (#4648) by @rebelancap
 
 ### Bug fixes
 
-- Fix bookmark duplicated render by @davinyue
-- Fix support for webdav http sync
-- Fix ssh MFA logic
-- Fix cursor hide issue when open folder select dialog in Windows (#4605)
+- Fix SSH login for bookmarks without a password (regression from 5.7.5) (#4647)
+- Fix socks/http proxy connection when the proxy address is IPv6 (#4643) by @Pharex38
+- Don't let session keepalive submit a half-typed command (#4641) by @Pharex38
+- Fix version compare when versions have a different number of parts (#4642) by @Pharex38
 
 -----
 
 ### 新功能/界面/更新
 
-- 支持 electerm 云同步的客户端数据加密
-- 支持书签中使用私钥/证书文件路径
-- 支持在书签面板中使用方向键/回车选择/打开书签
-- 同步到云端前支持数据量检查
+- SFTP：在文件列表中直接输入关键字即可过滤，默认开启，替换了原来的过滤图标 (#4648)（由 @rebelancap 提供）
 
 ### 问题修复
 
-- 修复书签重复渲染问题（由 @davinyue 提供）
-- 修复 webdav http 同步支持
-- 修复 ssh MFA（多因素认证）逻辑
-- 修复 Windows 下打开文件夹选择对话框时光标隐藏问题 (#4605)
+- 修复无密码书签的 SSH 登录问题（5.7.5 引入的回归）(#4647)
+- 修复代理地址为 IPv6 时的 socks/http 代理连接问题 (#4643)（由 @Pharex38 提供）
+- 会话保活不再提交输入到一半的命令 (#4641)（由 @Pharex38 提供）
+- 修复版本号段数不同时的版本比较问题 (#4642)（由 @Pharex38 提供）
 
 -------
-
 Download下载: [https://electerm.org](https://electerm.org)
 ```
 </details>
 
 ---
 ### 📦 [XX-net/XX-Net](https://github.com/XX-net/XX-Net)
-`⭐ Stars: 33,452` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [5.16.7](https://github.com/XX-net/XX-Net/releases/tag/5.16.7) (2026-09-28)`
+`⭐ Stars: 33,454` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [5.16.7](https://github.com/XX-net/XX-Net/releases/tag/5.16.7) (2026-09-28)`
 
 > **简介**：绕过 GFW 的代理工具。
 
@@ -1214,7 +1361,7 @@ Support Mac arm64 CPU
 
 ---
 ### 📦 [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD)
-`⭐ Stars: 34,508` &nbsp;|&nbsp; `💻 语言: C++` &nbsp;|&nbsp; `🏷️ 最新版本: [1.1.4](https://github.com/FreeCAD/FreeCAD/releases/tag/1.1.4) (2026-09-28)`
+`⭐ Stars: 34,782` &nbsp;|&nbsp; `💻 语言: C++` &nbsp;|&nbsp; `🏷️ 最新版本: [1.1.4](https://github.com/FreeCAD/FreeCAD/releases/tag/1.1.4) (2026-09-28)`
 
 > **简介**：FreeCAD 的官方源代码，一个免费的开源多平台 3D 参数化建模器。
 
@@ -1243,23 +1390,239 @@ The assets section below is automatically populated as the builds complete: if y
 </details>
 
 ---
-### 📦 [klzgrad/naiveproxy](https://github.com/klzgrad/naiveproxy)
-`⭐ Stars: 9,532` &nbsp;|&nbsp; `💻 语言: C++` &nbsp;|&nbsp; `🏷️ 最新版本: [v154.0.8037.49-4](https://github.com/klzgrad/naiveproxy/releases/tag/v154.0.8037.49-4) (2026-10-07)`
+### 📦 [XTLS/Xray-core](https://github.com/XTLS/Xray-core)
+`⭐ Stars: 42,326` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [v26.10.21](https://github.com/XTLS/Xray-core/releases/tag/v26.10.21) (2026-10-21)`
 
-> **简介**：默默发财
+> **简介**：Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.
 
 **💡 核心亮点更新 (中文)**：
-通过更高的接收窗口和 BBR 拥塞控制，将 QUIC 吞吐量提高到接近 TLS 性能。建议用户将 Caddy 服务器更新至 [v2.11.7-naive](https://github.com/klzgrad/forwardproxy/releases/tag/v2.11.7-naive)。
-
-软化o
+- **TRX(Tron)/USDT/USDC: `TNrDh5VSfwd4RPrwsohr6poyNTfFefNYan`**
+- **TON: `UQApeV-u2gm43aC1uP76xAC1m6vCylstaN1gpfBmre_5IyTH`**
+- **BTC: `1JpqcziZZuqv3QQJhZGNGBVdCBrGgkL6cT`**
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-Improved QUIC throughput to near TLS performance with higher receive window and BBR congestion control. Users are recommended to update Caddy server to [v2.11.7-naive](https://github.com/klzgrad/forwardproxy/releases/tag/v2.11.7-naive).
+紧急安全更新：[由于前几天印度八张中间证书的私钥因过于简单而被破解](https://github.com/XTLS/Xray-core/pull/7212#issuecomment-6310150214)，本版本内置的 RootCAs 依赖库移除了三张根证书（v26.10.10、v26.10.17 内置有这些证书，已被撤版），并使用 Go 1.27.3 编译以确保即使操作系统 CA 库未更新也会过滤掉问题证书，用户应尽快升级到该版本，月底发 stable release（操作系统的 CA 库可能更新较慢，所以要覆盖掉上一个 latest）
 
-Softened old tunnel cleanup that breaks long-lived user connections. Now in old tunnels, long-lived connections are only closed after 1/10 idle timeout.
+> https://t.me/projectXtls/3592 10.22 直接先把该版本设为了 latest，~似乎也不是不行~，完整的 release notes 等月底或下个月初的版本吧，半年积攒的更新写起来有点酸爽，~其实我几乎不用 AI，或许让 AI 来补，顺便 v26.9.8 多余了也被删了~
+
+## Sponsors
+
+[![Remnawave](https://github.com/user-attachments/assets/a22d34ae-01ee-441c-843a-85356748ed1e)](https://docs.rw)
+
+[![Happ](https://github.com/user-attachments/assets/14055dab-e8bb-48bd-89e8-962709e4098e)](https://happ.su)
+
+[![BlancVPN](https://github.com/user-attachments/assets/9145ea7d-5da3-446e-8143-710dba4292c3)](https://blanc.link/0SIDK7Z)
+
+[**Sponsor Xray-core**](https://github.com/XTLS/Xray-core/issues/3668)
+
+## Donation & NFTs
+
+### [Collect a Project X NFT to support the development of Project X!](https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1)
+
+[<img alt="Project X NFT" width="150px" src="https://raw2.seadn.io/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/7fa9ce900fb39b44226348db330e32/8b7fa9ce900fb39b44226348db330e32.svg" />](https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1)
+
+- **TRX(Tron)/USDT/USDC: `TNrDh5VSfwd4RPrwsohr6poyNTfFefNYan`**
+- **TON: `UQApeV-u2gm43aC1uP76xAC1m6vCylstaN1gpfBmre_5IyTH`**
+- **BTC: `1JpqcziZZuqv3QQJhZGNGBVdCBrGgkL6cT`**
+```
+</details>
+
+---
+### 📦 [klzgrad/naiveproxy](https://github.com/klzgrad/naiveproxy)
+`⭐ Stars: 9,562` &nbsp;|&nbsp; `💻 语言: C++` &nbsp;|&nbsp; `🏷️ 最新版本: [v154.0.8037.49-5](https://github.com/klzgrad/naiveproxy/releases/tag/v154.0.8037.49-5) (2026-10-22)`
+
+> **简介**：Make a fortune quietly
+
+**💡 核心亮点更新 (中文)**：
+Block compromised eMudhra intermediates.
+
+ALL USERS MUST UPGRADE as old versions are no longer safe from MitM attack using forged eMudhra certificates.
+
+<details>
+<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
+
+```markdown
+Block compromised eMudhra intermediates.
+
+ALL USERS MUST UPGRADE as old versions are no longer safe from MitM attack using forged eMudhra certificates.
+```
+</details>
+
+---
+
+## <span id="-实用开源精选">📦 实用开源精选</span>
+
+### 📦 [JustAResearcher/gpu-unlock-ada](https://github.com/JustAResearcher/gpu-unlock-ada)
+`⭐ Stars: 3,072` &nbsp;|&nbsp; `💻 语言: C` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.1.1](https://github.com/JustAResearcher/gpu-unlock-ada/releases/tag/v1.1.1) (2026-10-24)`
+
+> **简介**：GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally
+
+**💡 核心亮点更新 (中文)**：
+- [cutlass-fp8-stock-vs-unlocked.zip](https://github.com/JustAResearcher/gpu-unlock-ada/releases/download/v1.1.1/cutlass-fp8-stock-vs-unlocked.zip) — SHA-256 `b9468068a25cc208749eb0004fc86e15ac98c25c06517fc7c76d3a4f8ac6e861`
+- [ada-fp8-profile-stock-unlocked-evidence.zip](https://github.com/JustAResearcher/gpu-unlock-ada/releases/download/v1.1.1/ada-fp8-profile-stock-unlocked-evidence.zip) — SHA-256 `5e9fa282298b996828e9554a47bc32c2da9ac65037fe50368e80f5bb95bac05c`
+- [FP8 evidence checksums](https://github.com/JustAResearcher/gpu-unlock-ada/releases/download/v1.1.1/FP8-EVIDENCE-SHA256SUMS.txt)
+
+<details>
+<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
+
+```markdown
+GPU Unlock 1.1.1 publishes a reproducible SM89 tensor issue-rate probe and matched stock/unlocked TF32 and unsigned INT4 results on one RTX 4070 Ti SUPER (`10de:2705`, NVIDIA `580.178.04`, 240 W cap). The Ada unlock transaction is unchanged from 1.1.0; the module and DKMS version metadata advance to 1.1.1.
+
+| Register-resident mode | Stock | Unlocked |
+| --- | ---: | ---: |
+| FP16 inputs, FP32 accumulate (control) | 94.96 TF/s | 188.97 TF/s |
+| TF32 inputs, FP32 accumulate | 47.49 TF/s | 94.51 TF/s |
+| Unsigned INT4 inputs, INT32 accumulate | 754.81 TOP/s | 754.68 TOP/s |
+
+The same cubin, card, driver, 240 W cap, and launch settings were used in both boots. Each mode checked 270,336 output cells with zero mismatches per state. **TF32 instruction issue rate gained 1.99×; unsigned INT4 did not improve.** These all-one, register-resident loops do not establish an application GEMM or inference speedup. INT8 and one previously tested FP8 GEMM were also unchanged.
+
+Read the [canary report](https://github.com/JustAResearcher/gpu-unlock-ada/blob/v1.1.1/docs/ada-2705-report.md), [sanitized numeric output and hashes](https://github.com/JustAResearcher/gpu-unlock-ada/tree/v1.1.1/docs/evidence/ada2705), and [GPL benchmark source and reproduction steps](https://github.com/JustAResearcher/gpu-unlock-ada/blob/v1.1.1/diagnostics/bench/README.md). Installation and boot rollback are in the [Quick Start](https://github.com/JustAResearcher/gpu-unlock-ada/blob/v1.1.1/QUICKSTART.md).
+```
+</details>
+
+---
+### 📦 [NeverSinkDev/NeverSink-Filter-for-PoE2](https://github.com/NeverSinkDev/NeverSink-Filter-for-PoE2)
+`⭐ Stars: 2,857` &nbsp;|&nbsp; `💻 语言: Other` &nbsp;|&nbsp; `🏷️ 最新版本: [0.10.4a](https://github.com/NeverSinkDev/NeverSink-Filter-for-PoE2/releases/tag/0.10.4a) (2026-10-15)`
+
+> **简介**：这是游戏“流亡之路 2”的战利品过滤器。它添加了颜色、声音、地图图标、光束来突出显示非凡的装备并通知用户
+
+**💡 核心亮点更新 (中文)**：
+- 小的风格改进
+- 建立更好的系统来防止层级列表重复
+- 架构更改（其中大部分用户还不会注意到）
+
+<details>
+<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
+
+```markdown
+*All updates are also available through [FilterBlade](https://www.filterblade.xyz) and on the [PoE filter ladder](https://www.pathofexile.com/item-filter/ladder/follower). Major thanks to all patreon supporters to help us fund the continuous development. [Patreon](https://www.patreon.com/Neversink) supporters also receive a Patreon-exclusive [Filter-Auto-Updater](https://youtu.be/i8RJx0s0zsA).*
+
+This update focuses on finetuning the filter for the upcoming leagues and preparing for some long-term goals.
+
+# CHANGES:
+
+- Minor style improvements
+- Established better systems to prevent tierlist duplications
+- Architecture changes (most of these should not be noticeable to the user yet)
+
+------
+
+Developed by NeverSink
+
+[![Follow me on Twitter](https://img.shields.io/badge/twitter-grey.svg?style=for-the-badge&logo=twitter)](https://twitter.com/NeverSinkDev) [![FilterBlade Discord](https://img.shields.io/badge/discord-grey.svg?style=for-the-badge&logo=discord)](https://discord.gg/mye6xhF) [![Watch FB Dev on Twitch](https://img.shields.io/badge/twitch-grey.svg?style=for-the-badge&logo=twitch)](https://twitch.tv/neversink) [![Support development on Patreon](https://img.shields.io/badge/patreon-grey.svg?style=for-the-badge&logo=patreon)](https://www.patreon.com/Neversink)
+```
+</details>
+
+---
+### 📦 [kenzok8/compile-package](https://github.com/kenzok8/compile-package)
+`⭐ Stars: 165` &nbsp;|&nbsp; `💻 语言: Shell` &nbsp;|&nbsp; `🏷️ 最新版本: [2026.10.25-18/27_arm_cortex-a15_neon-vfpv4](https://github.com/kenzok8/compile-package/releases/tag/2026.10.25-18/27_arm_cortex-a15_neon-vfpv4) (2026-10-25)`
+
+> **简介**：small-package仓库，每日更新插件编译
+
+**💡 核心亮点更新 (中文)**：
+定时更新插件，推送发布 💤:
+
+[下载链接] (https://dllkids.xyz/packages/arm_cortex-a15_neon-vfpv4/)
+
+<details>
+<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
+
+```markdown
+定时更新插件，推送发布 💤:
+
+[下载链接] (https://dllkids.xyz/packages/arm_cortex-a15_neon-vfpv4/)
+```
+</details>
+
+---
+### 📦 [jxxghp/MoviePilot](https://github.com/jxxghp/MoviePilot)
+`⭐ Stars: 11,953` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v3.1.9](https://github.com/jxxghp/MoviePilot/releases/tag/v3.1.9) (2026-10-22)`
+
+> **简介**：NAS媒体库自动化管理工具
+
+**💡 核心亮点更新 (中文)**：
+- 新增本地引用链接（reflink）整理方式，支持复制优先尝试写时复制及自动回退，在支持的文件系统上减少复制耗时和空间占用。
+- 订阅新增首次下载与洗版来源记录，修复全集洗版规则、整季资源选择及重复资源退避，减少重复下载和通知。
+- 刮削新增季图片写入剧集根目录、图片兼容别名和 Fanart 4K 背景图开关；规范图片格式并复用下载，减少重复请求。
+
+<details>
+<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
+
+```markdown
+## 本次更新内容
+
+- 新增本地引用链接（reflink）整理方式，支持复制优先尝试写时复制及自动回退，在支持的文件系统上减少复制耗时和空间占用。
+- 订阅新增首次下载与洗版来源记录，修复全集洗版规则、整季资源选择及重复资源退避，减少重复下载和通知。
+- 刮削新增季图片写入剧集根目录、图片兼容别名和 Fanart 4K 背景图开关；规范图片格式并复用下载，减少重复请求。
+- 完善 115 云盘覆盖、同名文件处理和历史回执恢复，补齐源文件清理的人工复核操作，恢复整理失败后的 AI 接管。
+- 修复音乐多碟专辑及发行规格识别，避免音轨混淆和已整理歌曲重复提交；改善 Emby 媒体年份读取。
+- 优化 Agent 交互任务与后台服务隔离、流式反馈及 Telegram 最终消息更新，完善飞书资源选择卡片信息。
+- 支持从部署 secrets 文件读取敏感配置并避免回写配置文件；新增 Cheaper Inference 提供商，改进 ChatGPT OAuth 刷新和默认模型配置。
+- 修复站点连通性检测、分类透传、用户等级与分享率显示，完善站点统计、插件版本历史操作及豆瓣评论布局。
+- 修复 DoH 对 CNAME 应答的处理，解析器全部失败后自动冷却并回退系统 DNS，减少重复超时和告警。
+- 升级前后端安全依赖与 moviepilot-rust 0.3.10，完善容器系统包更新及镜像基线校验，修复 TMDB 请求超时和跨设备符号链接移动问题。
+
+## 完整变更记录
+
+- fix(setup): 更新 Anthropic 默认模型为 claude-sonnet-4-6 by @pcbeingused333 ([a8f260b](https://github.com/jxxghp/MoviePilot/commit/a8f260b01d6b0e2b10e13a09ad841a275c0e0aa4))
+- fix(telegram): omit buttons without valid actions (#7074) by @jxxghp ([9e02d26](https://github.com/jxxghp/MoviePilot/commit/9e02d26292180dac8f6b74d2640106d47be9610e))
+- feat(subscribe): record initial and upgrade download provenance (#7061) by @jxxghp ([379c26a](https://github.com/jxxghp/MoviePilot/commit/379c26a300df98ba742bf83966e74fc06bce9145))
+- feat(storage): 本地存储增加引用链接(reflink)整理方式 (#7077) by @AkimioJR ([114c2ce](https://github.com/jxxghp/MoviePilot/commit/114c2cebe59d8e4c4a2d8ed7cc50e4f92ba1775b))
+- fix(storage): 修复 reflink 同存储回退语义与测试稳定性 (#7081) by @jxxghp ([6e5c9d0](https://github.com/jxxghp/MoviePilot/commit/6e5c9d0afb21349ee71bb006fc79051ee54c61ff))
+- fix(download): 复用
+```
+</details>
+
+---
+### 📦 [sandboxie-plus/Sandboxie](https://github.com/sandboxie-plus/Sandboxie)
+`⭐ Stars: 19,794` &nbsp;|&nbsp; `💻 语言: C` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.18.8](https://github.com/sandboxie-plus/Sandboxie/releases/tag/v1.18.8) (2026-10-17)`
+
+> **简介**：Sandboxie Plus 和 Classic
+
+**💡 核心亮点更新 (中文)**：
+![0 5 5](https://user-images.githubusercontent.com/3890945/105014988-575cb680-5a41-11eb-90d5-d942d28184b2.png)
+
+发行说明
+
+Sandboxie Plus 1.18.8 / Classic 5.73.8 为 Firefox 和其他沙盒浏览器带来了重要的兼容性改进
+
+<details>
+<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
+
+```markdown
+![0 5 5](https://user-images.githubusercontent.com/3890945/105014988-575cb680-5a41-11eb-90d5-d942d28184b2.png)
+
+### Release Notes
+
+Sandboxie Plus 1.18.8 / Classic 5.73.8 brings important compatibility improvements for Firefox and other sandboxed browsers, with a particular focus on fixing video playback issues.
+Video playback now works correctly in sandboxed Firefox on websites such as Disney, Amazon Prime, Netflix, TVNZ and ESPN that rely on mediaCapabilities.decodingInfo() to check media support before starting playback. This resolves an issue that could leave videos unable to start on affected sites.
+The release also improves AppContainer handling used by browsers and other applications to isolate their child processes. Fixes address missing sandbox permissions and overly restrictive substitute tokens that could prevent these processes from starting or accessing required system resources. Microsoft Edge can again use the corrected substitute token without enabling UnRestrictAppContainerToken by default.
+A security fix addresses an out-of-bounds read in the GUI proxy’s MapWindowPoints handler that could expose service heap data to sandboxed callers. The Import Boxes workflow has also been corrected, allowing users to choose where imported sandboxes are created.
+For existing sandboxes, the new fixboxdacls command in KmdUtil.exe adds missing AppContainer access permissions. Advanced configuration options provide additional control: KeepBroadGroupsInAppContainerToken=n
+```
+</details>
+
+---
+### 📦 [HMBSbige/NatTypeTester](https://github.com/HMBSbige/NatTypeTester)
+`⭐ Stars: 4,894` &nbsp;|&nbsp; `💻 语言: C#` &nbsp;|&nbsp; `🏷️ 最新版本: [10.0.10](https://github.com/HMBSbige/NatTypeTester/releases/tag/10.0.10) (2026-10-08)`
+
+> **简介**：测试当前网络的 NAT 类型（STUN）
+
+**💡 核心亮点更新 (中文)**：
+- 修复 Linux 在中文、日文等语言环境下可能选用错误默认字体，导致小写字母显示为小型大写等文字显示异常的问题（#332）
+
+<details>
+<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
+
+```markdown
+## 🐛 修复
+
+- 修复 Linux 在中文、日文等语言环境下可能选用错误默认字体，导致小写字母显示为小型大写等文字显示异常的问题（#332）
+
+**完整变更**：[10.0.9 → 10.0.10](https://github.com/HMBSbige/NatTypeTester/compare/10.0.9...10.0.10)
 ```
 </details>
 
@@ -1267,25 +1630,55 @@ Softened old tunnel cleanup that breaks long-lived user connections. Now in old 
 
 ## <span id="-影音媒体与下载">🎬 影音媒体与下载</span>
 
-### 📦 [paulrosen/abcjs](https://github.com/paulrosen/abcjs)
-`⭐ Stars: 2,364` &nbsp;|&nbsp; `💻 语言: HTML` &nbsp;|&nbsp; `🏷️ 最新版本: [v6.7.1](https://github.com/paulrosen/abcjs/releases/tag/v6.7.1) (2026-09-21)`
+### 📦 [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee)
+`⭐ Stars: 12,454` &nbsp;|&nbsp; `💻 语言: C#` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.1.0](https://github.com/KnifeLemon/Filee/releases/tag/v2.1.0) (2026-10-24)`
 
-> **简介**：用于渲染 abc 乐谱的 javascript
+> **简介**：Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.
 
 **💡 核心亮点更新 (中文)**：
-错误修复
+What's Changed
+
+<!-- update
+level: recommended
+ko: Windows용 파일에 코드 서명이 들어가서 스마트 앱 컨트롤이나 백신이 Filee를 막는 일이 줄어요
+ko: 스캔본과 그림의 글자를 인식(OCR)해서 검색되는 PDF와 편집할 수 있는 문서로 만들어요
+ko: 사진·동영상·오디오를 압축하고 합치고 정보를 지울 수 있고, 동영상에서 클립을 잘라 낼 수 있어요
+ko: PDF 페이지를 편집하고, 어떤 PDF에든
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-bug fixes
+## What's Changed
+
+<!-- update
+level: recommended
+ko: Windows용 파일에 코드 서명이 들어가서 스마트 앱 컨트롤이나 백신이 Filee를 막는 일이 줄어요
+ko: 스캔본과 그림의 글자를 인식(OCR)해서 검색되는 PDF와 편집할 수 있는 문서로 만들어요
+ko: 사진·동영상·오디오를 압축하고 합치고 정보를 지울 수 있고, 동영상에서 클립을 잘라 낼 수 있어요
+ko: PDF 페이지를 편집하고, 어떤 PDF에든 워터마크·쪽 번호·암호를 넣을 수 있어요
+ko: PDF의 표가 엑셀 시트가 되고, 큰 엑셀 파일을 훨씬 빨리 PDF로 바꿔요
+ko: PDF로 저장하기 전에 스프레드시트 페이지를 배치하고, 저장할 AutoCAD 버전을 고를 수 있어요
+ko: 원본 바꾸기를 켜면 결과가 원본 자리에 들어가고 원본은 휴지통으로 가요
+ko: FITS 천체 사진, iCalendar, HAR, USM 게임 동영상, 자수·플로터 파일을 지원하고 CAD 레이아웃마다 PDF 한 쪽을 만들어요
+ko: 프랑스어, 번체 중국어, 네팔어, 태국어, 튀르키예어, 유럽 포르투갈어와 Material You 테마, 창 크기 조절을 지원해요
+ko: Linux에서는 Filee 안에서 업데이트하고, GNOME·Hyprland Wayland에서 끌기 제스처를 쓸 수 있어요(실험 기능)
+ko: 중국어 텍스트가 한글로 읽히던 문제, Word 기호가 빠지던 문제, 트레이에서 창이 두 개 뜨던 문제 등을 고쳤어요
+en: Windows files are now code-signed, so Smart App Control and antivirus programs block Filee less often
+en: Recognize text in scans and pictures (OCR): searchable PDFs and documents you can edit
+en: Compress, merge and clean up photos, videos and audio, and cut a clip out of a video
+en: Edit PDF pages, and add a watermark, page numbers or a password to any PDF
+en: Tables in PDFs become Excel sheets, and large Excel files turn into PDFs much faster
+en: Lay out spreadsheet pages before saving a PDF, and choose the AutoCAD version to save in
+en: Replace the original: the result takes its place and the original goes to the Recycle Bin
+en: FITS astrophotos, iCalendar, HAR, USM game videos, embroidery and plotter files, and a PDF page per CAD layout
+en: Fre
 ```
 </details>
 
 ---
 ### 📦 [guohuiyuan/go-music-dl](https://github.com/guohuiyuan/go-music-dl)
-`⭐ Stars: 5,481` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.1.3](https://github.com/guohuiyuan/go-music-dl/releases/tag/v1.1.3) (2026-10-19)`
+`⭐ Stars: 5,638` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.1.3](https://github.com/guohuiyuan/go-music-dl/releases/tag/v1.1.3) (2026-10-19)`
 
 > **简介**：一个基于 Go 语言的全网音乐搜索与下载工具。支持 CLI 命令行与 Web 服务双模式，内置网易云、QQ、酷狗、Bilibili、汽水音乐等 10+ 个主流平台，支持多源并发搜索与无损音质解析。music-dl交流群：755087923
 
@@ -1320,8 +1713,64 @@ bug fixes
 </details>
 
 ---
+### 📦 [LibreSpark/LibreTV](https://github.com/LibreSpark/LibreTV)
+`⭐ Stars: 21,927` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.21.0](https://github.com/LibreSpark/LibreTV/releases/tag/v2.21.0) (2026-10-23)`
+
+> **简介**：一分钟搭建影视站，支持Docker等部署方式
+
+**💡 核心亮点更新 (中文)**：
+获取方式
+
+Docker（多架构 linux/amd64 / linux/arm64）
+
+```bash
+docker pull docker.io/bestzwei/libretv:2.21.0
+docker pull ghcr.io/librespark/libretv:2.21.0
+```
+
+两个 registry 的镜像内容一致（同一组 digest），`latest` 也指向本版本。
+
+免 Docker（下方附件，Node 18+）
+
+```bash
+sha256sum -c SHA2
+
+<details>
+<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
+
+```markdown
+## 获取方式
+
+### Docker（多架构 linux/amd64 / linux/arm64）
+
+```bash
+docker pull docker.io/bestzwei/libretv:2.21.0
+docker pull ghcr.io/librespark/libretv:2.21.0
+```
+
+两个 registry 的镜像内容一致（同一组 digest），`latest` 也指向本版本。
+
+### 免 Docker（下方附件，Node 18+）
+
+```bash
+sha256sum -c SHA256SUMS
+tar -xzf libretv-2.21.0-standalone.tar.gz -C libretv
+cd libretv && PASSWORD=your-password PORT=8080 node server.js
+```
+
+预构建包与 CPU 架构无关（x86_64 / arm64 / armv7），环境变量与 Docker 部署一致。
+
+> 镜像由 docker-publish 工作流在同一 tag 上构建，刚发布时可能还要 5–10 分钟才可拉取。
+
+## 变更
+
+完整对比：https://github.com/LibreSpark/LibreTV/compare/v2.20.2...v2.21.0
+```
+</details>
+
+---
 ### 📦 [dyang886/Game-Cheats-Manager](https://github.com/dyang886/Game-Cheats-Manager)
-`⭐ Stars: 15,492` &nbsp;|&nbsp; `💻 语言: C++` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.5.4](https://github.com/dyang886/Game-Cheats-Manager/releases/tag/v2.5.4) (2026-10-11)`
+`⭐ Stars: 15,683` &nbsp;|&nbsp; `💻 语言: C++` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.5.4](https://github.com/dyang886/Game-Cheats-Manager/releases/tag/v2.5.4) (2026-10-11)`
 
 > **简介**：Easily download and manage single-player game cheats for your convenience
 
@@ -1345,26 +1794,26 @@ bug fixes
 
 ---
 ### 📦 [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub)
-`⭐ Stars: 46,579` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2026.10.19-8445.09c896b](https://github.com/DIYgod/RSSHub/releases/tag/v2026.10.19-8445.09c896b) (2026-10-19)`
+`⭐ Stars: 46,663` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2026.10.25-8480.1f481e4](https://github.com/DIYgod/RSSHub/releases/tag/v2026.10.25-8480.1f481e4) (2026-10-25)`
 
-> **简介**：🧡 一切都是RSSible
+> **简介**：🧡 Everything is RSSible
 
 **💡 核心亮点更新 (中文)**：
--ghcr.io/diygod/rsshub:09c896b3b6cd25a6b6c0db73fcded5ffe296fdc9
-- ghcr.io/diygod/rsshub:chromium-bundled-09c896b3b6cd25a6b6c0db73fcded5ffe296fdc9
--diygod/rsshub:09c896b3b6cd25a6b6c0db73fcded5ffe296fdc9
+- ghcr.io/diygod/rsshub:1f481e461da07398cdbc3961414e397b9eb91948
+- ghcr.io/diygod/rsshub:chromium-bundled-1f481e461da07398cdbc3961414e397b9eb91948
+- diygod/rsshub:1f481e461da07398cdbc3961414e397b9eb91948
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-Source commit: 09c896b3b6cd25a6b6c0db73fcded5ffe296fdc9
+Source commit: 1f481e461da07398cdbc3961414e397b9eb91948
 
 Published multi-platform images:
-- ghcr.io/diygod/rsshub:09c896b3b6cd25a6b6c0db73fcded5ffe296fdc9
-- ghcr.io/diygod/rsshub:chromium-bundled-09c896b3b6cd25a6b6c0db73fcded5ffe296fdc9
-- diygod/rsshub:09c896b3b6cd25a6b6c0db73fcded5ffe296fdc9
-- diygod/rsshub:chromium-bundled-09c896b3b6cd25a6b6c0db73fcded5ffe296fdc9
+- ghcr.io/diygod/rsshub:1f481e461da07398cdbc3961414e397b9eb91948
+- ghcr.io/diygod/rsshub:chromium-bundled-1f481e461da07398cdbc3961414e397b9eb91948
+- diygod/rsshub:1f481e461da07398cdbc3961414e397b9eb91948
+- diygod/rsshub:chromium-bundled-1f481e461da07398cdbc3961414e397b9eb91948
 
 Use these commit-specific image tags to reproduce this release. Daily Docker tags may be updated by subsequent builds.
 ```
@@ -1372,7 +1821,7 @@ Use these commit-specific image tags to reproduce this release. Daily Docker tag
 
 ---
 ### 📦 [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager)
-`⭐ Stars: 18,639` &nbsp;|&nbsp; `💻 语言: Kotlin` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.11.1](https://github.com/amir1376/ab-download-manager/releases/tag/v1.11.1) (2026-10-14)`
+`⭐ Stars: 18,799` &nbsp;|&nbsp; `💻 语言: Kotlin` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.11.1](https://github.com/amir1376/ab-download-manager/releases/tag/v1.11.1) (2026-10-14)`
 
 > **简介**：下载管理器可加快您的下载速度
 
@@ -1400,102 +1849,120 @@ Use these commit-specific image tags to reproduce this release. Daily Docker tag
 </details>
 
 ---
-### 📦 [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
-`⭐ Stars: 54,579` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.12.6](https://github.com/lyswhut/lx-music-desktop/releases/tag/v2.12.6) (2026-09-19)`
+### 📦 [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
+`⭐ Stars: 202,208` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [2026.10.21](https://github.com/yt-dlp/yt-dlp/releases/tag/2026.10.21) (2026-10-21)`
 
-> **简介**：一个基于 Electron 的音乐软件
+> **简介**：A feature-rich command-line audio/video downloader
 
 **💡 核心亮点更新 (中文)**：
-- 优化 tx 推荐歌单列表
-- 优化禁用透明窗口的窗口边框显示效果
-- 修复打开某些 kg 歌单时歌曲丢失的问题
+- Security: Old yt-dlp executables are vulnerable to man-in-the-middle attacks
+- A man-in-the-middle/MITM attack is when your internet traffic is intercepted by an attacker that impersonates the website(s) you browse and sends you malicious data instead.
+- If you think you may be targeted by such an attack, it is strongly recommended to avoid using the self-updater (e.g. the `-U`, `--update`, `--update-to` command-line options), and instead manually download and install this release's executable.
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-目前新项目 Any Listen 的桌面版、Web 版已实现 LX Music 的大部分功能，并额外支持 WebDAV 歌曲播放、WebDAV 数据同步、独立播放列表等功能。
-以后的开发精力将主要集中在新项目上，之前大家在 LX Music 提的功能我们也会考虑在新项目中添加。
-对于日常使用 LX Music 的人可以试试迁移到 Any Listen，若遇到任何问题可以发 issue 反馈。
-Any Listen 的项目地址为 https://github.com/any-listen/any-listen
+[![Installation](https://img.shields.io/badge/-Which%20file%20to%20download%3F-white.svg?style=for-the-badge)](https://github.com/yt-dlp/yt-dlp#installation "Installation instructions") [![Discord](https://img.shields.io/discord/807245652072857610?color=blue&labelColor=555555&label=&logo=discord&style=for-the-badge)](https://discord.gg/H5MNcFW63r "Discord") [![Donate](https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://github.com/yt-dlp/yt-dlp/blob/master/Maintainers.md#maintainers "Donate") [![Documentation](https://img.shields.io/badge/-Docs-brightgreen.svg?style=for-the-badge&logo=GitBook&labelColor=555555)](https://github.com/yt-dlp/yt-dlp/tree/2026.10.21#readme "Documentation") [![Nightly](https://img.shields.io/badge/Nightly%20builds-purple.svg?style=for-the-badge)](https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/latest "Nightly builds") [![Master](https://img.shields.io/badge/Master%20builds-lightblue.svg?style=for-the-badge)](https://github.com/yt-dlp/yt-dlp-master-builds/releases/latest "Master builds")
 
-### 优化
+#### A description of the various files is in the [README](https://github.com/yt-dlp/yt-dlp#release-files)
 
-- 优化 tx 推荐歌单列表
-- 优化禁用透明窗口的窗口边框显示效果
-
-### 修复
-
-- 修复打开某些 kg 歌单时歌曲丢失的问题
-- 修复 Windows 7 无法启动的问题
-- 修复禁用透明窗口时按 F11 无法全屏的问题
-
-### 安装包快捷链接
-
-- Windows x64: [lx-music-desktop-v2.12.6-x64-Setup.exe](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-v2.12.6-x64-Setup.exe)
-- MacOS arm64: [lx-music-desktop-2.12.6-arm64.dmg](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-2.12.6-arm64.dmg)
-- Linux amd64 deb: [lx-music-desktop_2.12.6_amd64.deb](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop_2.12.6_amd64.deb)
-
-### File MD5
-
+The zipimport Unix executable and release tarball contain code licensed under ISC and MIT. The PyInstaller-bundled executables are subject to these and other licenses, all of which are compiled in [THIRD_PARTY_LICENSES.txt](https://github.com/yt-dlp/yt-dlp/blob/6ccd977303412151ee23352c6257dd
 ```
+</details>
 
-EE6E6C58B4EBCBADD689A26904245412  lx-music-desktop-v2.12.6-arm64-Setup.exe
-FC8D5CA1486C20A80A3872CAC164BD96  lx-music-desktop-v2.12.6-x64-Setup.exe
-E465D42988B2DEB1524C3FB93FB8C93C  lx-music-desktop-v2.12.6-win_arm64-green.7z
-D45A6D2069F029152E114D8E6E4D3285  lx-music-desktop-v2.12.6-win_x64-green.7z
-555B3AE80DABAADC12BD9FAC054844B7  lx-music-desktop-v2.12.6-win7_x64-Setup.exe
-3FC618E78ACCDC3BCB84FE28506DD968  lx-music-desktop-v2.12.6-win7_x64-green.7z
-98C8CCAA07D25C9D8B3D93AE4145275E  lx-music-desktop-v2.12.6-win7_x86-green.7z
+---
+### 📦 [obsproject/obs-studio](https://github.com/obsproject/obs-studio)
+`⭐ Stars: 78,226` &nbsp;|&nbsp; `💻 语言: C` &nbsp;|&nbsp; `🏷️ 最新版本: [33.0.0](https://github.com/obsproject/obs-studio/releases/tag/33.0.0) (2026-10-23)`
 
-MD5 (lx-music-desktop-2.12.6-arm64
+> **简介**：OBS Studio - Free and open source software for live streaming and screen recording
+
+**💡 核心亮点更新 (中文)**：
+* Updated CEF from 127/6533 to 150/7871 [WizardCM] ([#13900](https://github.com/obsproject/obs-studio/pull/13900))
+* Complete overhaul to plugin loading [FiniteSingularity/PatTheMav] ([#13594](https://github.com/obsproject/obs-studio/pull/13594))
+* Improved how source snapping works in the preview [Warchamp7] ([#12298](https://github.com/obsproject/obs-studio/pull/12298))
+
+<details>
+<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
+
+```markdown
+33.0 New Features
+-----------------
+
+* Updated CEF from 127/6533 to 150/7871 [WizardCM] ([#13900](https://github.com/obsproject/obs-studio/pull/13900))
+  + This is a massive update to the underlying framework used for browser sources and docks from the July 2024 release to September 2026
+  + All of this work is on the backend and should be invisible to users. Please be sure to report any new weirdness or problems you run into with browser sources!
+* Complete overhaul to plugin loading [FiniteSingularity/PatTheMav] ([#13594](https://github.com/obsproject/obs-studio/pull/13594))
+  + First-party plugins are now in a new folder named core
+  + Third-party plugins have an updated installation location and folder structure
+  + Existing third-party plugins will continue to load from the legacy locations until OBS Studio 34.0
+  + More information is available in our [knowledge base article](https://obsproject.com/kb/legacy-plugin-locations)
+* Improved how source snapping works in the preview [Warchamp7] ([#12298](https://github.com/obsproject/obs-studio/pull/12298))
+  + New visual indicator added
+  + Sources now snap along the entire axis instead of only when directly touching
+  + Sources no longer snap to hidden sources
+* Improved behavior of spinboxes for number values [Warchamp7] ([#12337](https://github.com/obsproject/obs-studio/pull/12337))
+  + Typing is no longer mysteriously blocked in some situations
+  + Numbers are no longer cut off in some situations
+  + Va
 ```
 </details>
 
 ---
 ### 📦 [jerrykuku/luci-theme-argon](https://github.com/jerrykuku/luci-theme-argon)
-`⭐ Stars: 5,535` &nbsp;|&nbsp; `💻 语言: CSS` &nbsp;|&nbsp; `🏷️ 最新版本: [v3.0.0](https://github.com/jerrykuku/luci-theme-argon/releases/tag/v3.0.0) (2026-10-16)`
+`⭐ Stars: 5,553` &nbsp;|&nbsp; `💻 语言: CSS` &nbsp;|&nbsp; `🏷️ 最新版本: [v3.1.0](https://github.com/jerrykuku/luci-theme-argon/releases/tag/v3.1.0) (2026-10-22)`
 
-> **简介**：Argon 是一个干净整洁的 OpenWrt LuCI 主题，允许用户使用图像或视频自定义其登录界面。   它还支持明暗模式自动和手动切换。
+> **简介**：Argon is a clean and tidy OpenWrt LuCI theme that allows users to customize their login interface with images or videos.   It also supports automatic and manual switching between light and dark modes.
 
 **💡 核心亮点更新 (中文)**：
-* 修复（级联）：在 https://github.com/jerrykuku/luci-theme-argon/pull/709 中为 argon 配置表单添加底部间距
-* feat(sysauth): 在登录页面上渲染身份验证登录插件 https://github.com/jerrykuku/luci-theme-argon/pull/710
-* 修复（sysauth）：避免在 https://github.com/jerrykuku/luci-theme-argon/pull/712 中的集中登录输入上出现蓝色轮廓
+- Add stable release checks and online theme installation under **System → Argon Config → Theme updates**, using the firmware's native APK or OPKG package manager and preserving Argon settings.
+- Verify package SHA256 and size before installation, reject downgrades, and show installation progress and logs with monitoring that resumes after a page refresh.
+- 新增稳定版检查与在线安装，可在**系统 → Argon 配置 → 主题更新**中通过固件原生 APK 或 OPKG 包管理器升级，并保留 Argon 设置。
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-## Argon 3.0
+## Added / 新功能
 
-- Integrate Argon Config, wallpaper uploads and custom branding into the theme package, with a compatibility package for existing installations.
-- Add classic-sidebar and centered-card login layouts, persistent light/dark/system appearance switching, and automatic dark accent colors.
-- Improve desktop and mobile layouts, shared controls, tables, tabs, dialogs and most third-party LuCI applications.
-- Replace icon fonts with SVG menu/control icons and complete Argon Config translations.
-- Refresh the English/Chinese README, desktop demo, screenshots and development guides.
-- Fix translation package versions and upgrade ordering; verify every language package before publication.
-- Reduce package size with a WebP login background and optimized WOFF2 fonts, retaining all font characters and rendering instructions.
+- Add stable release checks and online theme installation under **System → Argon Config → Theme updates**, using the firmware's native APK or OPKG package manager and preserving Argon settings.
+- Verify package SHA256 and size before installation, reject downgrades, and show installation progress and logs with monitoring that resumes after a page refresh.
 
-- 将 Argon Config、背景上传和自定义图标集成到主题，提供旧版配置插件迁移包。
-- 提供经典侧栏、居中卡片两套登录布局，持久化亮色／暗色／跟随系统切换，以及自动暗色配色。
-- 优化桌面与手机布局、通用控件、表格、标签页、弹窗和大多数第三方 LuCI 应用的适配。
-- 使用 SVG 菜单／控件图标替代图标字体，补全 Argon Config 翻译。
-- 更新中英文 README、桌面演示动画、截图和开发说明。
-- 修复语言包版本及升级顺序，发布前逐包核验全部语言包版本。
-- 使用 WebP 登录背景并精简 WOFF2 字体，保留全部字符和渲染指令，减小安装包体积。
+- 新增稳定版检查与在线安装，可在**系统 → Argon 配置 → 主题更新**中通过固件原生 APK 或 OPKG 包管理器升级，并保留 Argon 设置。
+- 新增安装包校验、降级保护、安装进度和日志，刷新页面后可继续跟踪安装状态。
 
-This v3.0.0 rebuild uses package revision **2**: IPK `3.0.0-2`, APK `3.0.0-r2`. Translation versions are `v3.0.0-2` (IPK) and `3.0.0-r2` (APK), allowing normal upgrades from the original `unknown` / `0` language packages.
+## Changed / 改进
 
-本次 v3.0.0 重发采用安装包修订号 **2**：IPK 为 `3.0.0-2`，APK 为 `3.0.0-r2`。语言包分别为 `v3.0.0-2`（IPK）和 `3.0.0-r2`（APK），可从原 `unknown`／`0` 语言包正常升级。
+- Improve compatibility with stable OpenWrt firmware.
 
-## Installation / 安装
+- 改善稳定版 OpenWrt 固件上的兼容性。
+
+## Fixed / 修复
+
+- Fix dashboard action spacing and overview layouts.
+- Fix dynamic list controls and custom IP/MAC input borders across narrow screens, light/dark modes and RTL layouts.
+
+- 修复 Dashboard 操作区间距和概览布局。
+- 修复动态列表控件及自定义 IP/MAC 输入框边框，兼顾窄屏、亮暗色和 RTL 布局。
+
+## Upgrade notes / 升级说明
+
+**First upgrade:** users on v3.0.0 or earlier must install v3.1.0 manually once. Later releases can be installed through Theme updates. Online installation updates the theme package; install separate translation packages in the usual way.
+
+**首次升级：** v3.0.0 及更早版本用户需先手动安装一次 v3.1.0，之后可使用主题更新功能在线升级。在线安装仅更新主题主包，独立语言包仍按原方式安装。
+
+## Installation / 安装说明
+
+| Firmware / 固件 | Package / 安装包 |
+| --- | --- |
+| Native `opkg`, including OpenWrt 23.05 / 24.10 and GL.iNet firmware based on them / 原生使用 `opkg` 的固件 | `.ipk` → `opkg install` |
+| Native APK v3 with `apk-tools 3.x` / 原生使用 APK v3 的固件 | `.apk` → `apk add --allow-untrusted` |
 ```
 </details>
 
 ---
 ### 📦 [qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic)
-`⭐ Stars: 33,410` &nbsp;|&nbsp; `💻 语言: Vue` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.4.11](https://github.com/qier222/YesPlayMusic/releases/tag/v0.4.11) (2026-10-10)`
+`⭐ Stars: 33,456` &nbsp;|&nbsp; `💻 语言: Vue` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.4.11](https://github.com/qier222/YesPlayMusic/releases/tag/v0.4.11) (2026-10-10)`
 
 > **简介**：高颜值的第三方网易云播放器，支持 Windows / macOS / Linux :electron: 
 
@@ -1533,167 +2000,315 @@ This v3.0.0 rebuild uses package revision **2**: IPK `3.0.0-2`, APK `3.0.0-r2`. 
 </details>
 
 ---
+### 📦 [agalwood/Motrix](https://github.com/agalwood/Motrix)
+`⭐ Stars: 57,424` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.0.1](https://github.com/agalwood/Motrix/releases/tag/v2.0.1) (2026-10-25)`
 
-## <span id="-效率办公与创作">📝 效率办公与创作</span>
-
-### 📦 [robbietilton/Compositor](https://github.com/robbietilton/Compositor)
-`⭐ Stars: 17,435` &nbsp;|&nbsp; `💻 语言: Swift` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.5.3](https://github.com/robbietilton/Compositor/releases/tag/v1.5.3) (2026-10-15)`
-
-> **简介**：适用于 Mac 的 Photoshop 替代品
+> **简介**：A full-featured download manager.
 
 **💡 核心亮点更新 (中文)**：
-- 通过 GPU 加速对大图像进行更快的 Camera Raw 预览，保留现有的调整结果。
-- 拖动滑块时，Camera Raw 预览保持全分辨率。
-- 更快的直方图和范围更新。
+* fix(snap): accept canonical workflow run paths by  in https://github.com/agalwood/Motrix/pull/2409
+* fix(release): allow time for verified artifact transfers by  in https://github.com/agalwood/Motrix/pull/2410
+* fix(release): validate snap scope and allow larger source headers by  in https://github.com/agalwood/Motrix/pull/2411
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-- Faster Camera Raw previews on large images with GPU acceleration, preserving existing adjustment results.
-- Camera Raw previews stay at full resolution while dragging sliders.
-- Faster histogram and scope updates.
-- New Smooth Corners option for rectangles, with iOS-style rounded corners.
-- Cleaner shape controls, with the fill swatch first in all three shape modes.
-- Scroll the Layers panel by dragging with the middle mouse button.
-- Zoom cursors update immediately when changing drag direction.
+# Motrix 2.0.1
+
+English | [简体中文](https://github.com/agalwood/Motrix/blob/v2.0.1/docs/release-notes/2.0.1.zh-CN.md)
+
+Motrix 2.0.1 is a maintenance release for the desktop app and headless Server.
+It improves download recovery, desktop stability, and memory use, and updates
+application and packaging dependencies.
+
+## Changes since 2.0.0
+
+- Improves HTTP resume metadata checks and preserves resource identity across
+  cross-origin redirects, including redirects back to the original host.
+  Failed verification now reports diagnostic reasons without exposing secrets;
+  unverifiable partial files remain protected from unsafe resume.
+- Allows verified legacy HTTP downloads to resume through the Migration
+  Assistant when the original partial file and checkpoint pass the supported
+  recovery checks. Importing a task still leaves it paused until activation.
+- Adds recovery after repeated graphics crashes, with hardware acceleration
+  controls in Appearance settings.
+- Bounds cached migration data and plugin logs, releases idle runtime
+  resources, and improves tray renderer cleanup to reduce memory use.
+- Bundles aria2 **1.37.0-motrix.21**, including DNS timer recovery for the
+  select event loop. Managed aria2 processes now stop when their desktop or
+  Server host exits unexpectedly.
+- Uses the package name `motrix` consistently for native Linux packages.
+- Updates electron-builder, electron-updater, React Hook Form, i18next,
+  react-i18next, and Biome. Plugin test fixtures now share
+```
+</details>
+
+---
+### 📦 [subhra74/xdm](https://github.com/subhra74/xdm)
+`⭐ Stars: 8,075` &nbsp;|&nbsp; `💻 语言: Kotlin` &nbsp;|&nbsp; `🏷️ 最新版本: [9.0.8](https://github.com/subhra74/xdm/releases/tag/9.0.8) (2026-10-25)`
+
+> **简介**：Fast, reliable download accelerator and video downloader, trusted for 13+ years
+
+**💡 核心亮点更新 (中文)**：
+Downloads
+
+| Installer | Notes |
+|---|---|
+| [xdm-app-9.0.8-arm64.dmg](https://github.com/subhra74/xdm/releases/download/9.0.8/xdm-app-9.0.8-arm64.dmg) | For Apple Silicon (M1 or later) mac |
+| [xdm-app-9.0.8-x64.dmg](https://github.com/subhra74
+
+<details>
+<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
+
+```markdown
+## Downloads
+
+| Installer | Notes |
+|---|---|
+| [xdm-app-9.0.8-arm64.dmg](https://github.com/subhra74/xdm/releases/download/9.0.8/xdm-app-9.0.8-arm64.dmg) | For Apple Silicon (M1 or later) mac |
+| [xdm-app-9.0.8-x64.dmg](https://github.com/subhra74/xdm/releases/download/9.0.8/xdm-app-9.0.8-x64.dmg) | For Intel mac |
+| [xdm-9.0.8-arm64.msi](https://github.com/subhra74/xdm/releases/download/9.0.8/xdm-9.0.8-arm64.msi) | For Windows ARM (Windows 10/11) |
+| [xdm-9.0.8-x64.msi](https://github.com/subhra74/xdm/releases/download/9.0.8/xdm-9.0.8-x64.msi) | For Windows x64 (Windows 10/11) |
+| [xdm-app_9.0.8_amd64.deb](https://github.com/subhra74/xdm/releases/download/9.0.8/xdm-app_9.0.8_amd64.deb) | For Debian / Ubuntu / Linux Mint x64 |
+| [xdm-app_9.0.8_arm64.deb](https://github.com/subhra74/xdm/releases/download/9.0.8/xdm-app_9.0.8_arm64.deb) | For Debian / Ubuntu / Linux Mint ARM |
+| [xdm-app-9.0.8-1.aarch64.rpm](https://github.com/subhra74/xdm/releases/download/9.0.8/xdm-app-9.0.8-1.aarch64.rpm) | For Fedora / RHEL / openSUSE ARM |
+| [xdm-app-9.0.8-1.x86_64.rpm](https://github.com/subhra74/xdm/releases/download/9.0.8/xdm-app-9.0.8-1.x86_64.rpm) | For Fedora / RHEL / openSUSE x64 |
+| [xdm-app-9.0.8-1-aarch64.pkg.tar.zst](https://github.com/subhra74/xdm/releases/download/9.0.8/xdm-app-9.0.8-1-aarch64.pkg.tar.zst) | For Arch Linux / Manjaro ARM |
+| [xdm-app-9.0.8-1-x86_64.pkg.tar.zst](https://github.com/subhra74/xdm/releases/download/9.0.8/xdm-app-9.0.8-1-x86_64.pkg.tar.z
+```
+</details>
+
+---
+
+## <span id="-效率办公与创作">📝 效率办公与创作</span>
+
+### 📦 [robbietilton/Compositor](https://github.com/robbietilton/Compositor)
+`⭐ Stars: 17,901` &nbsp;|&nbsp; `💻 语言: Swift` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.5.10](https://github.com/robbietilton/Compositor/releases/tag/v1.5.10) (2026-10-26)`
+
+> **简介**：The Photoshop alternative for Mac
+
+**💡 核心亮点更新 (中文)**：
+- Filter › Sharpen: an unsharp mask with Amount and Radius, also as an adjustment layer.
+- Align and Distribute layers, from the Align button in the Move tool's bar or the Layer menu.
+- Crop to any ratio with Custom…, plus a 2.39:1 widescreen preset; the ratios are grouped by shape, and Original is now Canvas.
+
+<details>
+<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
+
+```markdown
+- Filter › Sharpen: an unsharp mask with Amount and Radius, also as an adjustment layer.
+- Align and Distribute layers, from the Align button in the Move tool's bar or the Layer menu.
+- Crop to any ratio with Custom…, plus a 2.39:1 widescreen preset; the ratios are grouped by shape, and Original is now Canvas.
+- Tidier tool bars: flip buttons as icons, and number fields sized to fit.
 ```
 </details>
 
 ---
 ### 📦 [jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop)
-`⭐ Stars: 63,554` &nbsp;|&nbsp; `💻 语言: JavaScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v32.5.5](https://github.com/jgraph/drawio-desktop/releases/tag/v32.5.5) (2026-10-18)`
+`⭐ Stars: 63,651` &nbsp;|&nbsp; `💻 语言: JavaScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v32.6.1](https://github.com/jgraph/drawio-desktop/releases/tag/v32.6.1) (2026-10-23)`
 
-> **简介**：Draw.io 的官方电子版本
+> **简介**：Official electron build of draw.io
 
 **💡 核心亮点更新 (中文)**：
-- 使用电子44.9.0
-- 修复了动画 GIF 和视频导出，该导出因“文件数据无效”而失败 [jgraph/drawio-desktop#2580]
-- 修复了从 31.5.2 开始保存库失败并出现错误的问题 [jgraph/drawio-desktop#2581]
+- Uses electron 44.9.3
+- Includes the Electron mitigation for the compromised eMudhra intermediate certificates [GHSA-jr5w-w6x2-84p9]
+- Updates to [draw.io core 32.6.1](https://github.com/jgraph/drawio/blob/v32.6.1/ChangeLog). All changes from 32.5.5 to 32.6.1 are added in this build.
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-## Release Notes for 32.5.5
+## Release Notes for 32.6.1
 
-[Windows Installer](https://github.com/jgraph/drawio-desktop/releases/download/v32.5.5/draw.io-32.5.5-windows-installer.exe)
-[Windows No Installer (zip)](https://github.com/jgraph/drawio-desktop/releases/download/v32.5.5/draw.io-32.5.5-windows.zip)
-[macOS - Universal](https://github.com/jgraph/drawio-desktop/releases/download/v32.5.5/draw.io-universal-32.5.5.dmg)
-Linux - [deb](https://github.com/jgraph/drawio-desktop/releases/download/v32.5.5/drawio-amd64-32.5.5.deb), [AppImage](https://github.com/jgraph/drawio-desktop/releases/download/v32.5.5/drawio-x86_64-32.5.5.AppImage) or [rpm](https://github.com/jgraph/drawio-desktop/releases/download/v32.5.5/drawio-x86_64-32.5.5.rpm)
+[Windows Installer](https://github.com/jgraph/drawio-desktop/releases/download/v32.6.1/draw.io-32.6.1-windows-installer.exe)
+[Windows No Installer (zip)](https://github.com/jgraph/drawio-desktop/releases/download/v32.6.1/draw.io-32.6.1-windows.zip)
+[macOS - Universal](https://github.com/jgraph/drawio-desktop/releases/download/v32.6.1/draw.io-universal-32.6.1.dmg)
+Linux - [deb](https://github.com/jgraph/drawio-desktop/releases/download/v32.6.1/drawio-amd64-32.6.1.deb), [AppImage](https://github.com/jgraph/drawio-desktop/releases/download/v32.6.1/drawio-x86_64-32.6.1.AppImage) or [rpm](https://github.com/jgraph/drawio-desktop/releases/download/v32.6.1/drawio-x86_64-32.6.1.rpm)
 
 **ChangeLog:**
 
-- Uses electron 44.9.0
-- Fixes the animated GIF and video export, which failed with "Invalid file data" [jgraph/drawio-desktop#2580]
-- Fixes saving libraries, which failed with an error since 31.5.2 [jgraph/drawio-desktop#2581]
-- Closes the window when Discard Changes is chosen after a save followed by a quick edit, which kept the window open and stopped every later close and quit from working [jgraph/drawio#5806]
-- Updates to [draw.io core 32.5.5](https://github.com/jgraph/drawio/blob/v32.5.5/ChangeLog). All changes from 32.4.1 to 32.5.5 are added in this build.
+- Uses electron 44.9.3
+- Includes the Electron mitigation for the compromised eMudhra intermediate certificates [GHSA-jr5w-w6x2-84p9]
+- Updates to [draw.io core 32.6.1](https://github.com/jgraph/drawio/blob/v32.6.1/ChangeLog). All changes from 32.5.5 to 32.6.1 are added in this build.
 
 **Testing:**
 
-Verified against the packaged, signed macOS build. Windows and Linux packages were verified from the produced release artifacts, their sizes and update manifests, rathe
+Verified against the packaged, signed macOS build. Windows and Linux packages were verified from the produced release artifacts, their sizes and update manifests, rather than by running them.
+
+Base checks
+
+- Launch, open a file passed on the command line, add and edit shapes, change styles, undo and redo, copy and paste through the system clipboard, save, reopen, insert, rename and delete pages, and zoom
+- Export to PNG, JPEG, SVG, PDF, XML and
 ```
 </details>
 
 ---
 ### 📦 [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)
-`⭐ Stars: 94,514` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v3.2.0](https://github.com/Stirling-Tools/Stirling-PDF/releases/tag/v3.2.0) (2026-10-15)`
+`⭐ Stars: 95,019` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v3.2.2](https://github.com/Stirling-Tools/Stirling-PDF/releases/tag/v3.2.2) (2026-10-24)`
 
-> **简介**：GitHub 上排名第一的 PDF 应用程序，可让您在任何地方的任何设备上编辑 PDF
+> **简介**：#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere
 
 **💡 核心亮点更新 (中文)**：
-又一个好作品发布！
-旧的多功能工具已被完全重新设计的页面编辑器所取代。它现在重新支持图像、重命名文件和一系列 QOL UI 更改，使重新排列和管理文档变得更加容易。请让我们知道
+Another small release with some bug fixes
+
+- Fix for some viewer rendering issues 
+- New auto fit to width button for viewer
+- New annotation shape options like arrow and polyline
+- QR code stamp types
+
+What's Changed
+Bug Fixes
+* fix(i18n): 
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-Another good release!
-The old multi-tool has been replaced by a completely redesigned Page Editor. It now resupports images, renaming files, and a bunch of QOL UI changes making it much easier to rearrange and manage your documents. Please let us know what you think and if you have any issues with it!
+Another small release with some bug fixes
 
-Some big changes in how we handle password-protected PDF, They can now be opened for viewing and used with common tools without having to remove the password first, and your existing PDF permission settings are kept when unlocking.
-
-Other changes are: 
-- Stirling Sign now emails participants and requesters as a signing request progresses
-- Drop files anywhere on the workbench, plus a redesigned add-files button
-- Compression now tells you when it could not shrink a file
-- Tidied booklet imposition UI with guide diagrams
-- Optional redirectBaseUrl for OAuth2 and SAML when running behind reverse proxies
-- Faster startup and lower memory use in the viewer and text editor
-- Refreshed icons and chat UI improvements
-
-We also fixed some bugs including
-- Desktop crashing when reordering files on Mac
-- Form drafts being lost before saves completed
-- Signatures being lost when adjusting page size and scale
-- Sign tool crashing when navigating away
-- Chat not updating the file version correctly
-- S3 uploads failing on retry
-
-<!-- Release notes generated using configuration in .github/release.yml at main -->
+- Fix for some viewer rendering issues 
+- New auto fit to width button for viewer
+- New annotation shape options like arrow and polyline
+- QR code stamp types
 
 ## What's Changed
 ### Bug Fixes
-* fix(desktop): avoid W
+* fix(i18n): expand Turkish translations by @alkank in https://github.com/Stirling-Tools/Stirling-PDF/pull/8123
+* fix(viewer): render non-embedded fonts with matching widths by @reecebrowne in https://github.com/Stirling-Tools/Stirling-PDF/pull/8629
+### Enhancements
+* feat(viewer): Fit to width and fit to page buttons in the viewer by @EthanHealy01 in https://github.com/Stirling-Tools/Stirling-PDF/pull/8485
+* Fix race condition in storybook by @jbrunton96 in https://github.com/Stirling-Tools/Stirling-PDF/pull/8619
+* build(deps-dev): bump fast-uri from 3.1.7 to 3.1.9 in /frontend by @dependabot[bot] in https://github.com/Stirling-Tools/Stirling-PDF/pull/8580
+* build(deps-dev): bump ip-address from 10.7.2 to 10.7.4 in /frontend by @dependabot[bot] in https://github.com/Stirling-Tools/Stirling-PDF/pull/8630
+* build(deps): bump dompurify from 3.4.16 to 3.4.17 in /frontend by @dependabot[bot] in https://github.com/Stirling-Tools/Stirling-PDF/pull/8631
+* Shard a11y nightlies by @jbrunton96 in https://github.com/Stirling-Tools/Stirling-PDF/pull/8573
+* Fix existing CI errors in Rust by @jbrunton96 in https://github.com/Stirling-Tools/Stirling-PDF/pull/8585
+* feat(annotate): add Arrow and Polyline tools by @reecebrowne in https://githu
 ```
 </details>
 
 ---
 ### 📦 [halo-dev/halo](https://github.com/halo-dev/halo)
-`⭐ Stars: 39,949` &nbsp;|&nbsp; `💻 语言: Java` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.27.0](https://github.com/halo-dev/halo/releases/tag/v2.27.0) (2026-10-14)`
+`⭐ Stars: 40,020` &nbsp;|&nbsp; `💻 语言: Java` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.27.1](https://github.com/halo-dev/halo/releases/tag/v2.27.1) (2026-10-23)`
 
 > **简介**：Halo 是一款强大易用的开源建站工具，从个人博客、知识库，到企业官网、在线商城，Halo 都能助您轻松实现，一站式满足您的多样化建站需求。
 
 **💡 核心亮点更新 (中文)**：
-- 已启用 TOTP 或验证邮箱的用户，在修改密码和管理个人访问令牌前需安全确认；确认后 30 分钟内无需再次确认 by  in #10333
-- 为评论和回复提供统一固定链接，方便从通知和 Console 跳转到对应讨论 by  in #10318
-- 支持在 Console 中编辑评论和回复 by  in #10302
+- 修复升级 Halo 后登录、注册等页面可能仍使用旧版静态资源的问题 by  in #10391
+- 修复按标签查询文章接口的响应文档和生成客户端类型错误地表示为单篇文章的问题 by  in #10393
+- 修复在表单中嵌入编辑器时，点击气泡菜单等编辑器按钮可能触发表单提交的问题 by  in #10398
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-## 新特性
-
-- 已启用 TOTP 或验证邮箱的用户，在修改密码和管理个人访问令牌前需安全确认；确认后 30 分钟内无需再次确认 by @JohnNiang in #10333
-- 为评论和回复提供统一固定链接，方便从通知和 Console 跳转到对应讨论 by @ruibaby in #10318
-- 支持在 Console 中编辑评论和回复 by @ruibaby in #10302
-- 编辑器图片集支持为单张图片设置替代文本 by @ruibaby in #10303
-- 编辑器图片集支持替换单张图片 by @ruibaby in #10304
-- 支持在编辑菜单项时切换链接、内置路由及内容类型 by @ruibaby in #10305
-- 菜单项支持绑定文章归档、分类列表和标签列表，主题路由设置变化后链接会自动更新 by @ruibaby in #10284
-- 上传附件前可修改文件名 by @ruibaby in #10288
-- Console 支持超级管理员以其他用户身份登录，并在切换期间显示提示横幅和退出入口 by @JohnNiang in #10354
-- 评论管理支持将评论和回复设为私密，并可在创建回复时选择私密回复 by @ruibaby in #10348
-
-## 功能优化
-
-- 附件库复制的视频 HTML 默认包含播放控件 by @ruibaby in #10323
-- 附件库复制的音频 HTML 默认包含播放控件 by @ruibaby in #10324
-- 完善邮箱验证、注册登录、评论和附件上传等操作的多语言错误提示 by @ruibaby in #10320
-- 优化 Console 加载体验，无需主题信息的页面不再等待主题加载 by @ruibaby in #10296
-- 新安装的默认本地存储策略仅允许上传图片（不含 SVG）、视频和音频，单个文件最大为 200MB；已有站点的存储策略配置保持不变 by @ruibaby in #10365
-- 移除旧「用户设置」和「文章设置」中的附件存储项；仍使用旧配置的站点需改用「附件配置」中的对应策略和分组，旧个人中心上传接口也统一使用「个人中心附件配置」 by @ruibaby in #10346
-- 编辑器支持在表格自适应模式下调整列宽，保持表格总宽度为 100%，并在容器宽度变化后保留列宽比例 by @ruibaby in #10369
-- 缩短新生成的个人访问令牌（PAT）长度，已有令牌仍可使用至撤销或过期 by @JohnNiang in #10367
-- 超级管理员在 Console 用户管理中重置密码时不再需要二次安全验证，个人中心修改密码仍保留安全验证 by @ruibaby in #10368
-- 更新默认预置的评论、代码高亮、超链接卡片、AI 基础功能及应用市场插件版本 by @ruibaby in #10350
+**此版本包含安全更新，建议所有用户尽快升级。**
 
 ## 问题修复
 
-- 修复默认本地存储策略的配置在重启后被还原的问题 by @bedhere in #10253
-- 修复按作者筛选文章或页面时，未列出仅被设为作者但未参与编辑的内容的问题 by @ryanchou1994 in #10274
-- 修复投稿者可通过个人中心自行置顶文章或绕过发布权限的问题 by @ruibaby in #10344
-- 修复拥有文章或页面查看权限的用户无法预览他人创建的未发布内容的问题 by @ruibaby in #10337
-- 修复“待审核”评论筛选遗漏含待审核回复的评论树的问题 by @kin
+- 修复升级 Halo 后登录、注册等页面可能仍使用旧版静态资源的问题 by @ruibaby in #10391
+- 修复按标签查询文章接口的响应文档和生成客户端类型错误地表示为单篇文章的问题 by @ruibaby in #10393
+- 修复在表单中嵌入编辑器时，点击气泡菜单等编辑器按钮可能触发表单提交的问题 by @ruibaby in #10398
+- 修复插件列表全选框使用文章管理权限判断的问题，使其与插件管理权限保持一致 by @ruibaby in #10400
+- 修复 HTTP/1.1 keep-alive 连接可能停止读取后续请求的问题，并保留本地化错误响应（升级 Spring Boot 至 4.1.2） by @JohnNiang in #10408
+- 更新 Docker 镜像中受影响的 eMudhra emSign 中间 CA 证书与根证书，避免继续信任私钥已泄露的证书（CVE-2026-91403） by @JohnNiang in #10414
+
+## 依赖更新
+
+- 升级前端 HTML 净化与 Markdown 相关依赖（dompurify、sanitize-html、markdown-it）至安全修复版本 by @ruibaby in #10407
+
+**Full Changelog**: https://github.com/halo-dev/halo/compare/v2.27.0...v2.27.1
+```
+</details>
+
+---
+### 📦 [zyx0814/dzzoffice](https://github.com/zyx0814/dzzoffice)
+`⭐ Stars: 4,052` &nbsp;|&nbsp; `💻 语言: PHP` &nbsp;|&nbsp; `🏷️ 最新版本: [2.4.2](https://github.com/zyx0814/dzzoffice/releases/tag/2.4.2) (2026-10-22)`
+
+> **简介**：dzzoffice
+
+**💡 核心亮点更新 (中文)**：
+- 在线应用市场支持搜索应用。
+- 优化删除用户逻辑，清理更多关联用户数据，减少冗余数据残留。
+- 优化机构用户验证表单的提示信息，提升错误指引清晰度与准确性。
+
+<details>
+<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
+
+```markdown
+## V2.4.2 主要更新内容
+> **发布于: 2026.10.22**
+### 应用市场
+- 在线应用市场支持搜索应用。
+### 机构用户
+- 优化删除用户逻辑，清理更多关联用户数据，减少冗余数据残留。
+- 优化机构用户验证表单的提示信息，提升错误指引清晰度与准确性。
+- 修复部门无法变更为机构（2级部门不能转为1级部门）的问题。
+- 修复添加机构部门管理员时权限判断错误（已修正为判断上级权限）。
+- 修复普通管理员可修改系统管理员信息的权限越权问题。
+### 网盘
+- 优化文件管理排序UI与分享页UI。
+- 优化网盘搜索点击清空后回到最近使用页面。
+- 网盘支持设置是否显示隐藏文件。
+- 隐藏文件元数据中的文件路径，提升系统安全性。
+- 移除重复加载的文件上传脚本。
+- 修复上传文件报错问题。
+- 修复上传同名文件进行覆盖时文件内容丢失问题。
+- 修复上传同名文件处理功能失效问题。
+- 修正网盘取消分享时的错误提示。
+- 修复分享文件设置允许重命名时，部分用户不能重命名的问题。
+- 修改重命名文件时更新文件修改时间导致数据不一致的问题。
+- 修复系统管理员不能清空回收站的问题。
+- 修复网盘恢复文件异常问题。
+- 修复修改/获取文件夹附属信息异常问题。
+- 修复分享文件创建/修改时无权限校验的问题。
+- 修复文件选择框路径未选中及数据重复加载问题。
+- 修复网络挂载异常提示无权限的问题。
+- 修复网络挂载不能正常显示文件列表问题。
+### 系统
+- 优化安装程序。
+- 修正系统报错显示内容，并支持显示更多信息。
+- 注册页支持“隐藏”或“选填”邮箱字段。
+- 修复认证设置提交报错问题。
+- 修复开启缓存时用户修改个人设置后不能及时生效的问题。
+- 解决缓存权限数据导致用户权限更新不及时的问题，确保权限实时生效。
+- 修复管理页不能退出登录状态的问题（修改 formhash 生成方式）。
+- 修复编辑器粘贴的图片不能放大预览的问题。
+- 修复开启调试模式后不能访问的问题。
+- 修复大写 PHP 文件上传绕过安全检查的执行漏洞。
+- 规范数据库 SQL 语句，修复 SQL 注入漏洞（含删除查询双重转义问题）。
+- 文件管理、系统日志、评论应用支持 URL 地址变化。
+- 规范化代码并修复若干已知问题。
+### 系统通知
+- 通知模块性能优化（修复定时器递归、增加资源清理）。
+### 计划任务
+- 修复重复创建任务的问题。
+### 默认首页
+- 优化默认首页的日期时间显示；按自然日计算首页加入时长。
+### 系统设置
+- 系统设置添加修改系统配置文件的指引说明。
+### 系统日志
+- 新增用户信息更新、机构/部门/群组信息修改的操作记录。
+- 修复登录日志重复记录问题。
+- 修复后台访问操作记录部分参数缺失问题。
+
+### 升级须知
+**1. 版本适配：**
+- 从 **V2.4.1** 升级至 V2.4.2：无需执行升级程序
+- 从 **V2.01 ~ V2.4.0** 版本升级至 V2.4.2：必须执行升级程序
+
+**2. 升级方式：**
+- 在线升级：通过「系统工具」→「在线升级」自动完成；
+- 离线升级：需手动下载最新源码并覆盖后，再访问`http(s)://您的域名/install/update.php` 执行升级。
+
+**3. 缓存清理：** 升级后，需登录管理后台，前往「系统工具」清理系统缓存（含数据缓
 ```
 </details>
 
 ---
 ### 📦 [emoacht/Monitorian](https://github.com/emoacht/Monitorian)
-`⭐ Stars: 4,767` &nbsp;|&nbsp; `💻 语言: C#` &nbsp;|&nbsp; `🏷️ 最新版本: [4.16.2-Installer](https://github.com/emoacht/Monitorian/releases/tag/4.16.2-Installer) (2026-10-12)`
+`⭐ Stars: 4,781` &nbsp;|&nbsp; `💻 语言: C#` &nbsp;|&nbsp; `🏷️ 最新版本: [4.16.2-Installer](https://github.com/emoacht/Monitorian/releases/tag/4.16.2-Installer) (2026-10-12)`
 
 > **简介**：轻松调节多台显示器亮度的 Windows 桌面工具
 
@@ -1710,7 +2325,7 @@ We also fixed some bugs including
 
 ---
 ### 📦 [YerongAI/Office-Tool](https://github.com/YerongAI/Office-Tool)
-`⭐ Stars: 14,546` &nbsp;|&nbsp; `💻 语言: PowerShell` &nbsp;|&nbsp; `🏷️ 最新版本: [v11.8.50.0](https://github.com/YerongAI/Office-Tool/releases/tag/v11.8.50.0) (2026-10-18)`
+`⭐ Stars: 14,596` &nbsp;|&nbsp; `💻 语言: PowerShell` &nbsp;|&nbsp; `🏷️ 最新版本: [v11.8.50.0](https://github.com/YerongAI/Office-Tool/releases/tag/v11.8.50.0) (2026-10-18)`
 
 > **简介**：Office Tool Plus 本地化项目。
 
@@ -1752,40 +2367,19 @@ pl-pl: @jakubdriver
 </details>
 
 ---
-### 📦 [TDesktop-x64/tdesktop](https://github.com/TDesktop-x64/tdesktop)
-`⭐ Stars: 2,979` &nbsp;|&nbsp; `💻 语言: C++` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.2.10](https://github.com/TDesktop-x64/tdesktop/releases/tag/v1.2.10) (2026-09-21)`
-
-> **简介**：64Gram（非官方 Telegram 桌面）
-
-**💡 核心亮点更新 (中文)**：
-v1.2.10 (TDesktop v7.2.9)
-
-没有变更日志:)
-
-<details>
-<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
-
-```markdown
-v1.2.10 (TDesktop v7.2.9)
-
-No changelog :)
-```
-</details>
-
----
 ### 📦 [microsoft/vscode](https://github.com/microsoft/vscode)
-`⭐ Stars: 193,939` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [1.142.0](https://github.com/microsoft/vscode/releases/tag/1.142.0) (2026-10-14)`
+`⭐ Stars: 194,311` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [1.143.1](https://github.com/microsoft/vscode/releases/tag/1.143.1) (2026-10-22)`
 
-> **简介**：视觉工作室代码
+> **简介**：Visual Studio Code
 
 **💡 核心亮点更新 (中文)**：
-https://code.visualstudio.com/updates/v1_142
+https://code.visualstudio.com/updates/v1_143
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-https://code.visualstudio.com/updates/v1_142
+https://code.visualstudio.com/updates/v1_143
 ```
 </details>
 
@@ -1815,7 +2409,7 @@ https://code.visualstudio.com/updates/v1_142
 
 ---
 ### 📦 [SagerNet/sing-box](https://github.com/SagerNet/sing-box)
-`⭐ Stars: 39,005` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.14.3](https://github.com/SagerNet/sing-box/releases/tag/v1.14.3) (2026-10-09)`
+`⭐ Stars: 39,245` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.14.4](https://github.com/SagerNet/sing-box/releases/tag/v1.14.4) (2026-10-24)`
 
 > **简介**：The universal proxy platform
 
@@ -1834,59 +2428,55 @@ https://code.visualstudio.com/updates/v1_142
 
 ---
 ### 📦 [sub-store-org/Sub-Store](https://github.com/sub-store-org/Sub-Store)
-`⭐ Stars: 10,721` &nbsp;|&nbsp; `💻 语言: JavaScript` &nbsp;|&nbsp; `🏷️ 最新版本: [2.42.6](https://github.com/sub-store-org/Sub-Store/releases/tag/2.42.6) (2026-10-18)`
+`⭐ Stars: 10,757` &nbsp;|&nbsp; `💻 语言: JavaScript` &nbsp;|&nbsp; `🏷️ 最新版本: [2.44.2](https://github.com/sub-store-org/Sub-Store/releases/tag/2.44.2) (2026-10-25)`
 
-> **简介**：QX、Loon、Surge、Stash、Egern 和 Shadowrocket 的高级订阅管理器！
+> **简介**：Advanced Subscription Manager for QX, Loon, Surge, Stash, Egern and Shadowrocket!
 
 **💡 核心亮点更新 (中文)**：
-<小>2.42.6（2026-10-18）</小>
-
-* 发布：凹凸版本 ([1f0318b](https://github.com/sub-store-org/Sub-Store/commit/1f0318b))
+* feat: 优化 Gist 逻辑 ([c101811](https://github.com/sub-store-org/Sub-Store/commit/c101811))
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-## <small>2.42.6 (2026-10-18)</small>
+## <small>2.44.2 (2026-10-25)</small>
 
-* release: bump version ([1f0318b](https://github.com/sub-store-org/Sub-Store/commit/1f0318b))
+* feat: 优化 Gist 逻辑 ([c101811](https://github.com/sub-store-org/Sub-Store/commit/c101811))
 ```
 </details>
 
 ---
 ### 📦 [enfein/mieru](https://github.com/enfein/mieru)
-`⭐ Stars: 2,607` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [v3.38.1](https://github.com/enfein/mieru/releases/tag/v3.38.1) (2026-10-11)`
+`⭐ Stars: 2,636` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [v3.39.0](https://github.com/enfein/mieru/releases/tag/v3.39.0) (2026-10-23)`
 
 > **简介**：mieru is a socks5 / HTTP / HTTPS proxy to bypass censorship. 見える是一款 socks5 / HTTP / HTTPS 网络代理翻墙工具。
 
 **💡 核心亮点更新 (中文)**：
-1. Fix a bug of possible infinite read retry when QUIC is used as dialer proxy.
-2. Fix several issues about socks5 user authentication and private IP address protection.
-3. Fix race condition in time series metrics.
+1. Allow mita proxy server to actively shutdown idle TCP connection (issue 317).
+2. Optimize memory allocation of outbound traffic.
 
 ---
 
-1. 修复了当使用 QUIC 拨号代理时，可
+1. 允许 mita 代理服务器主动关闭空闲 TCP 连接。
+2. 优化了出站流量的内存分配。
 
 <details>
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-1. Fix a bug of possible infinite read retry when QUIC is used as dialer proxy.
-2. Fix several issues about socks5 user authentication and private IP address protection.
-3. Fix race condition in time series metrics.
+1. Allow mita proxy server to actively shutdown idle TCP connection (issue #317).
+2. Optimize memory allocation of outbound traffic.
 
 ---
 
-1. 修复了当使用 QUIC 拨号代理时，可能会无限重试读取数据的问题。 
-2. 修复了 socks5 用户验证和私有 IP 地址保护的一些问题。
-3. 修复了时间序列指标中的竞争条件。
+1. 允许 mita 代理服务器主动关闭空闲 TCP 连接。
+2. 优化了出站流量的内存分配。
 ```
 </details>
 
 ---
 ### 📦 [v2rayA/v2rayA](https://github.com/v2rayA/v2rayA)
-`⭐ Stars: 15,706` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.5.10](https://github.com/v2rayA/v2rayA/releases/tag/v2.5.10) (2026-10-09)`
+`⭐ Stars: 15,745` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.5.10](https://github.com/v2rayA/v2rayA/releases/tag/v2.5.10) (2026-10-09)`
 
 > **简介**：A web client for its own Xray-based core with global transparent proxy on Linux, Windows and macOS.
 
@@ -1912,7 +2502,7 @@ https://code.visualstudio.com/updates/v1_142
 
 ---
 ### 📦 [vernesong/OpenClash](https://github.com/vernesong/OpenClash)
-`⭐ Stars: 27,838` &nbsp;|&nbsp; `💻 语言: JavaScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.48.002](https://github.com/vernesong/OpenClash/releases/tag/v0.48.002) (2026-10-12)`
+`⭐ Stars: 27,938` &nbsp;|&nbsp; `💻 语言: JavaScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v0.48.002](https://github.com/vernesong/OpenClash/releases/tag/v0.48.002) (2026-10-12)`
 
 > **简介**：OpenWrt 的 Clash 客户端
 
@@ -1933,28 +2523,35 @@ https://code.visualstudio.com/updates/v1_142
 
 # 安装命令
 
-```SHELL
-# [iptables for ipk]
+在路由器上以 root 身份执行（需要 `curl` 与 `ca-bundle`）：
+
+```shell
+(curl -fsSL -o /tmp/install.sh https://raw.githubusercontent.com/vernesong/OpenClash/dev/install.sh || curl -fsSL -o /tmp/install.sh https://cdn.jsdelivr.net/gh/vernesong/OpenClash@dev/install.sh) && sh /tmp/install.sh
+```
+
+<details>
+<summary>手动安装（不使用脚本时）</summary>
+
+安装依赖并下载最新版（iptables 防火墙）：
+
+```shell
+# opkg 系统（ipk）
 opkg update
 opkg install bash iptables dnsmasq-full curl ca-bundle ipset ip-full iptables-mod-tproxy iptables-mod-extra ruby ruby-yaml kmod-tun kmod-inet-diag unzip luci-compat luci luci-base
 curl -L --retry 2 https://api.github.com/repos/vernesong/OpenClash/releases/latest -o /tmp/openclash_version
 [ -f "/tmp/openclash_version" ] && download_url=$(cat /tmp/openclash_version | jsonfilter -e '@.assets[*].browser_download_url' | grep '\.ipk$') && curl -L --retry 2 "$download_url" -o /tmp/openclash.ipk || echo "OpenClash last version get failed"
 [ -f "/tmp/openclash.ipk" ] && opkg install /tmp/openclash.ipk || echo "OpenClash download failed"
 
-```
-```SHELL
-# [iptables for apk]
+# apk 系统（apk）
 apk update
 apk add bash iptables dnsmasq-full curl ca-bundle ipset ip-full iptables-mod-tproxy iptables-mod-extra ruby ruby-yaml kmod-tun kmod-inet-diag unzip luci-compat luci luci-base
-curl -L --retry 2 https://api.github.com/repos/vernesong/OpenClash/releases/latest -o /tmp/openclash_version
-[ -f "/tmp/openclash_version" ] && download_url=$(cat /tmp/openclash_version | jsonfilter -e '@.assets[*].browser_download_url' | grep '\.apk$') && curl -L --retry 2 "$download_url" -o /tmp/openclash.apk || echo "OpenClash last version get failed"
-[ -f "/tmp/openclash.apk" ] && apk add -q --force-overwrit
+curl -L --retry 2 https://api.github.com/repos/vernesong/OpenClash/releases/latest -o /
 ```
 </details>
 
 ---
 ### 📦 [HyNetworks/hysteria](https://github.com/HyNetworks/hysteria)
-`⭐ Stars: 22,679` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [app/v2.13.0](https://github.com/HyNetworks/hysteria/releases/tag/app/v2.13.0) (2026-10-05)`
+`⭐ Stars: 22,735` &nbsp;|&nbsp; `💻 语言: Go` &nbsp;|&nbsp; `🏷️ 最新版本: [app/v2.13.0](https://github.com/HyNetworks/hysteria/releases/tag/app/v2.13.0) (2026-10-05)`
 
 > **简介**：Hysteria 是一款功能强大、速度快如闪电且抗审查的开源代理软件
 
@@ -1989,7 +2586,7 @@ curl -L --retry 2 https://api.github.com/repos/vernesong/OpenClash/releases/late
 
 ---
 ### 📦 [QiuSimons/YAOF](https://github.com/QiuSimons/YAOF)
-`⭐ Stars: 2,774` &nbsp;|&nbsp; `💻 语言: C` &nbsp;|&nbsp; `🏷️ 最新版本: [25.12.6](https://github.com/QiuSimons/YAOF/releases/tag/25.12.6) (2026-10-18)`
+`⭐ Stars: 2,772` &nbsp;|&nbsp; `💻 语言: C` &nbsp;|&nbsp; `🏷️ 最新版本: [25.12.6](https://github.com/QiuSimons/YAOF/releases/tag/25.12.6) (2026-10-18)`
 
 > **简介**：适用于 Nanopi R2C/R2S/R4S/X86 的 OpenWrt
 
@@ -1998,7 +2595,7 @@ curl -L --retry 2 https://api.github.com/repos/vernesong/OpenClash/releases/late
 
 ---
 ### 📦 [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
-`⭐ Stars: 20,894` &nbsp;|&nbsp; `💻 语言: Other` &nbsp;|&nbsp; `🏷️ 最新版本: [202610182205](https://github.com/Loyalsoldier/v2ray-rules-dat/releases/tag/202610182205) (2026-10-18)`
+`⭐ Stars: 20,942` &nbsp;|&nbsp; `💻 语言: Other` &nbsp;|&nbsp; `🏷️ 最新版本: [202610242205](https://github.com/Loyalsoldier/v2ray-rules-dat/releases/tag/202610242205) (2026-10-24)`
 
 > **简介**：🦄 🎃 👻 V2Ray 路由规则文件加强版，可代替 V2Ray 官方 geoip.dat 和 geosite.dat，适用于 V2Ray、Xray-core、mihomo(Clash-Meta)、hysteria、Trojan-Go 和 leaf。Enhanced edition of V2Ray rules dat files, applicable to V2Ray, Xray-core, mihomo(Clash-Meta), hysteria, Trojan-Go and leaf.
 
@@ -2007,7 +2604,7 @@ curl -L --retry 2 https://api.github.com/repos/vernesong/OpenClash/releases/late
 
 ---
 ### 📦 [Openwrt-Passwall/openwrt-passwall](https://github.com/Openwrt-Passwall/openwrt-passwall)
-`⭐ Stars: 9,967` &nbsp;|&nbsp; `💻 语言: Lua` &nbsp;|&nbsp; `🏷️ 最新版本: [26.10.16-2](https://github.com/Openwrt-Passwall/openwrt-passwall/releases/tag/26.10.16-2) (2026-10-16)`
+`⭐ Stars: 9,980` &nbsp;|&nbsp; `💻 语言: Lua` &nbsp;|&nbsp; `🏷️ 最新版本: [26.10.22-2](https://github.com/Openwrt-Passwall/openwrt-passwall/releases/tag/26.10.22-2) (2026-10-22)`
 
 > **简介**：暂无项目描述
 
@@ -2020,7 +2617,7 @@ curl -L --retry 2 https://api.github.com/repos/vernesong/OpenClash/releases/late
 <summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
 
 ```markdown
-![](https://img.shields.io/github/downloads/Openwrt-Passwall/openwrt-passwall/26.10.16-2/total?style=flat-square)
+![](https://img.shields.io/github/downloads/Openwrt-Passwall/openwrt-passwall/26.10.22-2/total?style=flat-square)
 ## :mega: 获取其他软件包 / How to Get Other Packages
 
 ### 方式 1：添加软件源 / Method 1: Add Software Source
@@ -2051,7 +2648,7 @@ apk add --allow-untrusted /path/to/package.apk
 
 ---
 ### 📦 [2dust/v2rayN](https://github.com/2dust/v2rayN)
-`⭐ Stars: 118,577` &nbsp;|&nbsp; `💻 语言: C#` &nbsp;|&nbsp; `🏷️ 最新版本: [7.25.6](https://github.com/2dust/v2rayN/releases/tag/7.25.6) (2026-10-11)`
+`⭐ Stars: 119,107` &nbsp;|&nbsp; `💻 语言: C#` &nbsp;|&nbsp; `🏷️ 最新版本: [7.25.6](https://github.com/2dust/v2rayN/releases/tag/7.25.6) (2026-10-11)`
 
 > **简介**：适用于 Windows、Linux 和 macOS 的 GUI 客户端，支持 Xray 和 sing-box 等
 
@@ -2087,179 +2684,10 @@ apk add --allow-untrusted /path/to/package.apk
 
 ---
 
-## <span id="-实用开源精选">📦 实用开源精选</span>
-
-### 📦 [NeverSinkDev/NeverSink-Filter-for-PoE2](https://github.com/NeverSinkDev/NeverSink-Filter-for-PoE2)
-`⭐ Stars: 2,858` &nbsp;|&nbsp; `💻 语言: Other` &nbsp;|&nbsp; `🏷️ 最新版本: [0.10.4a](https://github.com/NeverSinkDev/NeverSink-Filter-for-PoE2/releases/tag/0.10.4a) (2026-10-15)`
-
-> **简介**：这是游戏“流亡之路 2”的战利品过滤器。它添加了颜色、声音、地图图标、光束来突出显示非凡的装备并通知用户
-
-**💡 核心亮点更新 (中文)**：
-- 小的风格改进
-- 建立更好的系统来防止层级列表重复
-- 架构更改（其中大部分用户还不会注意到）
-
-<details>
-<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
-
-```markdown
-*All updates are also available through [FilterBlade](https://www.filterblade.xyz) and on the [PoE filter ladder](https://www.pathofexile.com/item-filter/ladder/follower). Major thanks to all patreon supporters to help us fund the continuous development. [Patreon](https://www.patreon.com/Neversink) supporters also receive a Patreon-exclusive [Filter-Auto-Updater](https://youtu.be/i8RJx0s0zsA).*
-
-This update focuses on finetuning the filter for the upcoming leagues and preparing for some long-term goals.
-
-# CHANGES:
-
-- Minor style improvements
-- Established better systems to prevent tierlist duplications
-- Architecture changes (most of these should not be noticeable to the user yet)
-
-------
-
-Developed by NeverSink
-
-[![Follow me on Twitter](https://img.shields.io/badge/twitter-grey.svg?style=for-the-badge&logo=twitter)](https://twitter.com/NeverSinkDev) [![FilterBlade Discord](https://img.shields.io/badge/discord-grey.svg?style=for-the-badge&logo=discord)](https://discord.gg/mye6xhF) [![Watch FB Dev on Twitch](https://img.shields.io/badge/twitch-grey.svg?style=for-the-badge&logo=twitch)](https://twitch.tv/neversink) [![Support development on Patreon](https://img.shields.io/badge/patreon-grey.svg?style=for-the-badge&logo=patreon)](https://www.patreon.com/Neversink)
-```
-</details>
-
----
-### 📦 [kenzok8/compile-package](https://github.com/kenzok8/compile-package)
-`⭐ Stars: 165` &nbsp;|&nbsp; `💻 语言: Shell` &nbsp;|&nbsp; `🏷️ 最新版本: [2026.10.19-17/47_arm_cortex-a7_neon-vfpv4](https://github.com/kenzok8/compile-package/releases/tag/2026.10.19-17/47_arm_cortex-a7_neon-vfpv4) (2026-10-19)`
-
-> **简介**：small-package仓库，每日更新插件编译
-
-**💡 核心亮点更新 (中文)**：
-定时更新插件，推送发布 💤:
-
-[下载链接] (https://dllkids.xyz/packages/arm_cortex-a7_neon-vfpv4/)
-
-<details>
-<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
-
-```markdown
-定时更新插件，推送发布 💤:
-
-[下载链接] (https://dllkids.xyz/packages/arm_cortex-a7_neon-vfpv4/)
-```
-</details>
-
----
-### 📦 [jxxghp/MoviePilot](https://github.com/jxxghp/MoviePilot)
-`⭐ Stars: 11,902` &nbsp;|&nbsp; `💻 语言: Python` &nbsp;|&nbsp; `🏷️ 最新版本: [v3.1.8](https://github.com/jxxghp/MoviePilot/releases/tag/v3.1.8) (2026-10-19)`
-
-> **简介**：NAS媒体库自动化管理工具
-
-**💡 核心亮点更新 (中文)**：
-- 优化 Emby、Jellyfin、Plex、Navidrome 查询，按首页展示、媒体查重、入库同步等场景获取所需信息，减少不必要的查询与解析开销。
-- 修复自动整理音乐时未同步本地封面的问题，按本地音乐封面设置随音乐文件同步封面。
-- 修复 TXT、LRC、Lyricsfile 等歌词文件的权限，遵循部署的 UMASK 设置，避免不同用户运行的媒体服务器无法读取歌词。
-
-<details>
-<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
-
-```markdown
-## 本次更新内容
-
-- 优化 Emby、Jellyfin、Plex、Navidrome 查询，按首页展示、媒体查重、入库同步等场景获取所需信息，减少不必要的查询与解析开销。
-- 修复自动整理音乐时未同步本地封面的问题，按本地音乐封面设置随音乐文件同步封面。
-- 修复 TXT、LRC、Lyricsfile 等歌词文件的权限，遵循部署的 UMASK 设置，避免不同用户运行的媒体服务器无法读取歌词。
-- 修复热门订阅年份的返回类型，恢复相关数据的正常展示。
-- 修复 Transmission 空文件列表被解释为“全部文件”的问题；未匹配到目标集数时保持任务暂停，避免错误下载或排除文件。
-- 改进 Agent 执行图、模型与中间件的资源管理，完善构建取消、缓存替换和会话关闭时的回收，避免提前关闭仍在使用的资源。
-
-## 完整变更记录
-
-- refactor(agent): centralize graph resource ownership (#7062) by @DDSRem ([e1b703a](https://github.com/jxxghp/MoviePilot/commit/e1b703aacc4589fec01a1d9753b54d96cf21e94d))
-- fix(music): sync local covers during automatic transfers (#7064) by @jxxghp ([05967cd](https://github.com/jxxghp/MoviePilot/commit/05967cdc0f10c93b55a7a01acd34c57d5f15df67))
-- fix(music): honor umask when publishing lyric sidecars (#7065) by @yangn0 ([3b41159](https://github.com/jxxghp/MoviePilot/commit/3b4115957ff0901667c2e31d584e15718bbdc124))
-- perf(mediaserver): add caller-controlled query projections (#7068) by @Aqr-K ([bf4ef42](https://github.com/jxxghp/MoviePilot/commit/bf4ef4214e561b75fbf7ba973cd0bbc9ecb62236))
-- fix: restore popular years and safe Transmission selection by @jxxghp ([4f98486](https://github.com/jxxghp/MoviePilot/commit/4f98486e25a9e41b640288691ed5c77663ab712f))
-- chore(release): publish v3.1.8 by @jxxghp ([3fa49db](https://github.com/jxxghp/MoviePilot/commit/3fa49db3afe0f7dfa8b7e7ce8fe6f43ceed7dfaf))
-- fix(filemanager): skip subitems that vanish during local listing (#7076) by @JontyLee ([6b107e3](https://github.com/j
-```
-</details>
-
----
-### 📦 [sandboxie-plus/Sandboxie](https://github.com/sandboxie-plus/Sandboxie)
-`⭐ Stars: 19,717` &nbsp;|&nbsp; `💻 语言: C` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.18.8](https://github.com/sandboxie-plus/Sandboxie/releases/tag/v1.18.8) (2026-10-17)`
-
-> **简介**：Sandboxie Plus 和 Classic
-
-**💡 核心亮点更新 (中文)**：
-![0 5 5](https://user-images.githubusercontent.com/3890945/105014988-575cb680-5a41-11eb-90d5-d942d28184b2.png)
-
-发行说明
-
-Sandboxie Plus 1.18.8 / Classic 5.73.8 为 Firefox 和其他沙盒浏览器带来了重要的兼容性改进
-
-<details>
-<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
-
-```markdown
-![0 5 5](https://user-images.githubusercontent.com/3890945/105014988-575cb680-5a41-11eb-90d5-d942d28184b2.png)
-
-### Release Notes
-
-Sandboxie Plus 1.18.8 / Classic 5.73.8 brings important compatibility improvements for Firefox and other sandboxed browsers, with a particular focus on fixing video playback issues.
-Video playback now works correctly in sandboxed Firefox on websites such as Disney, Amazon Prime, Netflix, TVNZ and ESPN that rely on mediaCapabilities.decodingInfo() to check media support before starting playback. This resolves an issue that could leave videos unable to start on affected sites.
-The release also improves AppContainer handling used by browsers and other applications to isolate their child processes. Fixes address missing sandbox permissions and overly restrictive substitute tokens that could prevent these processes from starting or accessing required system resources. Microsoft Edge can again use the corrected substitute token without enabling UnRestrictAppContainerToken by default.
-A security fix addresses an out-of-bounds read in the GUI proxy’s MapWindowPoints handler that could expose service heap data to sandboxed callers. The Import Boxes workflow has also been corrected, allowing users to choose where imported sandboxes are created.
-For existing sandboxes, the new fixboxdacls command in KmdUtil.exe adds missing AppContainer access permissions. Advanced configuration options provide additional control: KeepBroadGroupsInAppContainerToken=n
-```
-</details>
-
----
-### 📦 [HMBSbige/NatTypeTester](https://github.com/HMBSbige/NatTypeTester)
-`⭐ Stars: 4,885` &nbsp;|&nbsp; `💻 语言: C#` &nbsp;|&nbsp; `🏷️ 最新版本: [10.0.10](https://github.com/HMBSbige/NatTypeTester/releases/tag/10.0.10) (2026-10-08)`
-
-> **简介**：测试当前网络的 NAT 类型（STUN）
-
-**💡 核心亮点更新 (中文)**：
-- 修复 Linux 在中文、日文等语言环境下可能选用错误默认字体，导致小写字母显示为小型大写等文字显示异常的问题（#332）
-
-<details>
-<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
-
-```markdown
-## 🐛 修复
-
-- 修复 Linux 在中文、日文等语言环境下可能选用错误默认字体，导致小写字母显示为小型大写等文字显示异常的问题（#332）
-
-**完整变更**：[10.0.9 → 10.0.10](https://github.com/HMBSbige/NatTypeTester/compare/10.0.9...10.0.10)
-```
-</details>
-
----
-
 ## <span id="-系统与开发者工具">🛠️ 系统与开发者工具</span>
 
-### 📦 [Icalingua-plus-plus/Icalingua-plus-plus](https://github.com/Icalingua-plus-plus/Icalingua-plus-plus)
-`⭐ Stars: 3,382` &nbsp;|&nbsp; `💻 语言: TypeScript` &nbsp;|&nbsp; `🏷️ 最新版本: [v2.26.8](https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/tag/v2.26.8) (2026-09-23)`
-
-> **简介**：QQ等客户端。 ：电子：
-
-**💡 核心亮点更新 (中文)**：
-* 优化 缓解版本过低的问题
-* 修复 文件管理器的 XSS 漏洞
-* 修复 多实例下语音转换可能出现的重命名失败问题
-
-<details>
-<summary>🔍 点击展开查看官方原版 Release 说明 (Raw Notes)</summary>
-
-```markdown
-## What's Changed
-* 优化 缓解版本过低的问题
-* 修复 文件管理器的 XSS 漏洞
-* 修复 多实例下语音转换可能出现的重命名失败问题
-* 修复 滑块、登录频繁验证，触发 237 后可以短信验证
-* 修复 Windows ARM64 安装后缺少主程序和 DLL 的问题 by @XuSai1998 in #841
-
-**Full Changelog**: https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/compare/v2.26.6...v2.26.8
-```
-</details>
-
----
 ### 📦 [openwrt/openwrt](https://github.com/openwrt/openwrt)
-`⭐ Stars: 28,822` &nbsp;|&nbsp; `💻 语言: C` &nbsp;|&nbsp; `🏷️ 最新版本: [v25.12.6](https://github.com/openwrt/openwrt/releases/tag/v25.12.6) (2026-10-18)`
+`⭐ Stars: 28,933` &nbsp;|&nbsp; `💻 语言: C` &nbsp;|&nbsp; `🏷️ 最新版本: [v25.12.6](https://github.com/openwrt/openwrt/releases/tag/v25.12.6) (2026-10-18)`
 
 > **简介**：该存储库是 https://git.openwrt.org/openwrt/openwrt.git 的镜像，仅供参考，不可签入。  我们将继续在这里接受 Pull 请求。它们将通过暂存树合并到 openwrt.git 中。
 
@@ -2304,7 +2732,7 @@ services that are enabled by default. Updating is strongly recommended.
 
 ---
 ### 📦 [ventoy/Ventoy](https://github.com/ventoy/Ventoy)
-`⭐ Stars: 80,171` &nbsp;|&nbsp; `💻 语言: C` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.1.18](https://github.com/ventoy/Ventoy/releases/tag/v1.1.18) (2026-10-09)`
+`⭐ Stars: 80,350` &nbsp;|&nbsp; `💻 语言: C` &nbsp;|&nbsp; `🏷️ 最新版本: [v1.1.18](https://github.com/ventoy/Ventoy/releases/tag/v1.1.18) (2026-10-09)`
 
 > **简介**：A new bootable USB solution.
 
@@ -2350,144 +2778,143 @@ Wana boot and install OS through network (PXE/HTTPBoot)? Welcome to my new proje
 ## 🛑 建议清理 / 放弃维护项目
 
 <details>
-<summary>⚠️ 点击展开已放弃维护或超过 1 年停更的仓库清单 (136 个)</summary>
+<summary>⚠️ 点击展开已放弃维护或超过 1 年停更的仓库清单 (135 个)</summary>
 
 | 仓库名称 | Stars | 状态说明 | 操作建议 |
 | :--- | :---: | :--- | :---: |
-| [cityflow-project/CityFlow](https://github.com/cityflow-project/CityFlow) | 1,029 | 超过 425 天无代码提交 | [进入取消 Star](https://github.com/cityflow-project/CityFlow) |
-| [facebookresearch/demucs](https://github.com/facebookresearch/demucs) | 10,396 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/facebookresearch/demucs) |
-| [JimmyLv/awesome-nano-banana](https://github.com/JimmyLv/awesome-nano-banana) | 8,804 | 超过 405 天无代码提交 | [进入取消 Star](https://github.com/JimmyLv/awesome-nano-banana) |
-| [btjawa/BiliTools](https://github.com/btjawa/BiliTools) | 5,056 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/btjawa/BiliTools) |
-| [ehang-io/nps](https://github.com/ehang-io/nps) | 34,248 | 超过 872 天无代码提交 | [进入取消 Star](https://github.com/ehang-io/nps) |
-| [ReturnFI/Blitz](https://github.com/ReturnFI/Blitz) | 1,091 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/ReturnFI/Blitz) |
-| [kkangert/kspider](https://github.com/kkangert/kspider) | 1,265 | 超过 791 天无代码提交 | [进入取消 Star](https://github.com/kkangert/kspider) |
-| [xenova/whisper-web](https://github.com/xenova/whisper-web) | 3,346 | 超过 747 天无代码提交 | [进入取消 Star](https://github.com/xenova/whisper-web) |
-| [shadowsocks/luci-app-shadowsocks](https://github.com/shadowsocks/luci-app-shadowsocks) | 1,150 | 超过 1239 天无代码提交 | [进入取消 Star](https://github.com/shadowsocks/luci-app-shadowsocks) |
-| [adithya-s-k/marker-api](https://github.com/adithya-s-k/marker-api) | 984 | 超过 733 天无代码提交 | [进入取消 Star](https://github.com/adithya-s-k/marker-api) |
+| [cityflow-project/CityFlow](https://github.com/cityflow-project/CityFlow) | 1,029 | 超过 432 天无代码提交 | [进入取消 Star](https://github.com/cityflow-project/CityFlow) |
+| [facebookresearch/demucs](https://github.com/facebookresearch/demucs) | 10,402 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/facebookresearch/demucs) |
+| [JimmyLv/awesome-nano-banana](https://github.com/JimmyLv/awesome-nano-banana) | 8,804 | 超过 412 天无代码提交 | [进入取消 Star](https://github.com/JimmyLv/awesome-nano-banana) |
+| [btjawa/BiliTools](https://github.com/btjawa/BiliTools) | 5,042 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/btjawa/BiliTools) |
+| [ehang-io/nps](https://github.com/ehang-io/nps) | 34,261 | 超过 879 天无代码提交 | [进入取消 Star](https://github.com/ehang-io/nps) |
+| [ReturnFI/Blitz](https://github.com/ReturnFI/Blitz) | 1,092 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/ReturnFI/Blitz) |
+| [kkangert/kspider](https://github.com/kkangert/kspider) | 1,265 | 超过 798 天无代码提交 | [进入取消 Star](https://github.com/kkangert/kspider) |
+| [xenova/whisper-web](https://github.com/xenova/whisper-web) | 3,344 | 超过 754 天无代码提交 | [进入取消 Star](https://github.com/xenova/whisper-web) |
+| [shadowsocks/luci-app-shadowsocks](https://github.com/shadowsocks/luci-app-shadowsocks) | 1,150 | 超过 1246 天无代码提交 | [进入取消 Star](https://github.com/shadowsocks/luci-app-shadowsocks) |
+| [adithya-s-k/marker-api](https://github.com/adithya-s-k/marker-api) | 984 | 超过 740 天无代码提交 | [进入取消 Star](https://github.com/adithya-s-k/marker-api) |
 | [yuchannslv5/warpflare](https://github.com/yuchannslv5/warpflare) | 334 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/yuchannslv5/warpflare) |
-| [vvbbnn00/WARP-Clash-API](https://github.com/vvbbnn00/WARP-Clash-API) | 8,817 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/vvbbnn00/WARP-Clash-API) |
-| [ca110us/epeius](https://github.com/ca110us/epeius) | 1,225 | 超过 791 天无代码提交 | [进入取消 Star](https://github.com/ca110us/epeius) |
-| [chika0801/hysteria-install](https://github.com/chika0801/hysteria-install) | 178 | 超过 836 天无代码提交 | [进入取消 Star](https://github.com/chika0801/hysteria-install) |
-| [yeahwu/InstallOS](https://github.com/yeahwu/InstallOS) | 85 | 超过 1593 天无代码提交 | [进入取消 Star](https://github.com/yeahwu/InstallOS) |
-| [bulianglin/psub](https://github.com/bulianglin/psub) | 1,765 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/bulianglin/psub) |
-| [lizongying/my-tv](https://github.com/lizongying/my-tv) | 31,962 | 超过 851 天无代码提交 | [进入取消 Star](https://github.com/lizongying/my-tv) |
-| [joevess/IPTV](https://github.com/joevess/IPTV) | 10,282 | 超过 656 天无代码提交 | [进入取消 Star](https://github.com/joevess/IPTV) |
-| [lecepin/WeChatVideoDownloader](https://github.com/lecepin/WeChatVideoDownloader) | 4,669 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/lecepin/WeChatVideoDownloader) |
-| [linexjlin/GPTs](https://github.com/linexjlin/GPTs) | 32,036 | 超过 752 天无代码提交 | [进入取消 Star](https://github.com/linexjlin/GPTs) |
-| [lxfater/Awesome-GPTs](https://github.com/lxfater/Awesome-GPTs) | 1,152 | 超过 1062 天无代码提交 | [进入取消 Star](https://github.com/lxfater/Awesome-GPTs) |
-| [ClashDotNetFramework/experimental-clash](https://github.com/ClashDotNetFramework/experimental-clash) | 241 | 超过 1778 天无代码提交 | [进入取消 Star](https://github.com/ClashDotNetFramework/experimental-clash) |
-| [zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge) | 21,876 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/zzzgydi/clash-verge) |
-| [ddgth/cf2dns](https://github.com/ddgth/cf2dns) | 5,206 | 超过 651 天无代码提交 | [进入取消 Star](https://github.com/ddgth/cf2dns) |
-| [zizifn/edgetunnel](https://github.com/zizifn/edgetunnel) | 9,265 | 超过 691 天无代码提交 | [进入取消 Star](https://github.com/zizifn/edgetunnel) |
-| [missuo/Hysteria2](https://github.com/missuo/Hysteria2) | 203 | 超过 781 天无代码提交 | [进入取消 Star](https://github.com/missuo/Hysteria2) |
-| [Misaka-blog/hysteria-install](https://github.com/Misaka-blog/hysteria-install) | 628 | 超过 913 天无代码提交 | [进入取消 Star](https://github.com/Misaka-blog/hysteria-install) |
-| [MatsuriDayo/nekoray](https://github.com/MatsuriDayo/nekoray) | 15,294 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/MatsuriDayo/nekoray) |
-| [FranzKafkaYu/x-ui](https://github.com/FranzKafkaYu/x-ui) | 8,463 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/FranzKafkaYu/x-ui) |
-| [rwv/chinese-dos-games](https://github.com/rwv/chinese-dos-games) | 10,333 | 超过 803 天无代码提交 | [进入取消 Star](https://github.com/rwv/chinese-dos-games) |
-| [getumbrel/llama-gpt](https://github.com/getumbrel/llama-gpt) | 10,920 | 超过 908 天无代码提交 | [进入取消 Star](https://github.com/getumbrel/llama-gpt) |
-| [WangWenBin2017/OpenWrt-SSRPLUS](https://github.com/WangWenBin2017/OpenWrt-SSRPLUS) | 563 | 超过 595 天无代码提交 | [进入取消 Star](https://github.com/WangWenBin2017/OpenWrt-SSRPLUS) |
-| [prompt-engineering/click-prompt](https://github.com/prompt-engineering/click-prompt) | 2,387 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/prompt-engineering/click-prompt) |
-| [AutodeskAILab/Building-GAN](https://github.com/AutodeskAILab/Building-GAN) | 101 | 超过 1598 天无代码提交 | [进入取消 Star](https://github.com/AutodeskAILab/Building-GAN) |
-| [novicezk/midjourney-proxy](https://github.com/novicezk/midjourney-proxy) | 5,368 | 超过 442 天无代码提交 | [进入取消 Star](https://github.com/novicezk/midjourney-proxy) |
-| [adams549659584/go-proxy-bingai](https://github.com/adams549659584/go-proxy-bingai) | 8,413 | 超过 943 天无代码提交 | [进入取消 Star](https://github.com/adams549659584/go-proxy-bingai) |
+| [vvbbnn00/WARP-Clash-API](https://github.com/vvbbnn00/WARP-Clash-API) | 8,818 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/vvbbnn00/WARP-Clash-API) |
+| [ca110us/epeius](https://github.com/ca110us/epeius) | 1,223 | 超过 798 天无代码提交 | [进入取消 Star](https://github.com/ca110us/epeius) |
+| [chika0801/hysteria-install](https://github.com/chika0801/hysteria-install) | 178 | 超过 843 天无代码提交 | [进入取消 Star](https://github.com/chika0801/hysteria-install) |
+| [yeahwu/InstallOS](https://github.com/yeahwu/InstallOS) | 86 | 超过 1600 天无代码提交 | [进入取消 Star](https://github.com/yeahwu/InstallOS) |
+| [bulianglin/psub](https://github.com/bulianglin/psub) | 1,762 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/bulianglin/psub) |
+| [lizongying/my-tv](https://github.com/lizongying/my-tv) | 31,972 | 超过 857 天无代码提交 | [进入取消 Star](https://github.com/lizongying/my-tv) |
+| [joevess/IPTV](https://github.com/joevess/IPTV) | 10,284 | 超过 663 天无代码提交 | [进入取消 Star](https://github.com/joevess/IPTV) |
+| [lecepin/WeChatVideoDownloader](https://github.com/lecepin/WeChatVideoDownloader) | 4,667 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/lecepin/WeChatVideoDownloader) |
+| [linexjlin/GPTs](https://github.com/linexjlin/GPTs) | 32,033 | 超过 759 天无代码提交 | [进入取消 Star](https://github.com/linexjlin/GPTs) |
+| [lxfater/Awesome-GPTs](https://github.com/lxfater/Awesome-GPTs) | 1,152 | 超过 1069 天无代码提交 | [进入取消 Star](https://github.com/lxfater/Awesome-GPTs) |
+| [ClashDotNetFramework/experimental-clash](https://github.com/ClashDotNetFramework/experimental-clash) | 241 | 超过 1784 天无代码提交 | [进入取消 Star](https://github.com/ClashDotNetFramework/experimental-clash) |
+| [zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge) | 21,874 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/zzzgydi/clash-verge) |
+| [ddgth/cf2dns](https://github.com/ddgth/cf2dns) | 5,211 | 超过 657 天无代码提交 | [进入取消 Star](https://github.com/ddgth/cf2dns) |
+| [zizifn/edgetunnel](https://github.com/zizifn/edgetunnel) | 9,282 | 超过 697 天无代码提交 | [进入取消 Star](https://github.com/zizifn/edgetunnel) |
+| [missuo/Hysteria2](https://github.com/missuo/Hysteria2) | 204 | 超过 788 天无代码提交 | [进入取消 Star](https://github.com/missuo/Hysteria2) |
+| [Misaka-blog/hysteria-install](https://github.com/Misaka-blog/hysteria-install) | 629 | 超过 920 天无代码提交 | [进入取消 Star](https://github.com/Misaka-blog/hysteria-install) |
+| [MatsuriDayo/nekoray](https://github.com/MatsuriDayo/nekoray) | 15,280 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/MatsuriDayo/nekoray) |
+| [FranzKafkaYu/x-ui](https://github.com/FranzKafkaYu/x-ui) | 8,457 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/FranzKafkaYu/x-ui) |
+| [rwv/chinese-dos-games](https://github.com/rwv/chinese-dos-games) | 10,339 | 超过 809 天无代码提交 | [进入取消 Star](https://github.com/rwv/chinese-dos-games) |
+| [getumbrel/llama-gpt](https://github.com/getumbrel/llama-gpt) | 10,919 | 超过 915 天无代码提交 | [进入取消 Star](https://github.com/getumbrel/llama-gpt) |
+| [WangWenBin2017/OpenWrt-SSRPLUS](https://github.com/WangWenBin2017/OpenWrt-SSRPLUS) | 562 | 超过 602 天无代码提交 | [进入取消 Star](https://github.com/WangWenBin2017/OpenWrt-SSRPLUS) |
+| [prompt-engineering/click-prompt](https://github.com/prompt-engineering/click-prompt) | 2,389 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/prompt-engineering/click-prompt) |
+| [AutodeskAILab/Building-GAN](https://github.com/AutodeskAILab/Building-GAN) | 101 | 超过 1605 天无代码提交 | [进入取消 Star](https://github.com/AutodeskAILab/Building-GAN) |
+| [novicezk/midjourney-proxy](https://github.com/novicezk/midjourney-proxy) | 5,371 | 超过 448 天无代码提交 | [进入取消 Star](https://github.com/novicezk/midjourney-proxy) |
+| [adams549659584/go-proxy-bingai](https://github.com/adams549659584/go-proxy-bingai) | 8,408 | 超过 949 天无代码提交 | [进入取消 Star](https://github.com/adams549659584/go-proxy-bingai) |
 | [tryptech/obs-zoom-and-follow](https://github.com/tryptech/obs-zoom-and-follow) | 440 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/tryptech/obs-zoom-and-follow) |
-| [XingangPan/DragGAN](https://github.com/XingangPan/DragGAN) | 35,726 | 超过 883 天无代码提交 | [进入取消 Star](https://github.com/XingangPan/DragGAN) |
-| [lewangdev/faster-whisper-youtube](https://github.com/lewangdev/faster-whisper-youtube) | 560 | 超过 1156 天无代码提交 | [进入取消 Star](https://github.com/lewangdev/faster-whisper-youtube) |
-| [artidoro/qlora](https://github.com/artidoro/qlora) | 11,048 | 超过 860 天无代码提交 | [进入取消 Star](https://github.com/artidoro/qlora) |
-| [langgenius/webapp-conversation](https://github.com/langgenius/webapp-conversation) | 1,101 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/langgenius/webapp-conversation) |
-| [3andne/restls](https://github.com/3andne/restls) | 375 | 超过 1079 天无代码提交 | [进入取消 Star](https://github.com/3andne/restls) |
-| [jtsang4/claude-to-chatgpt](https://github.com/jtsang4/claude-to-chatgpt) | 1,301 | 超过 792 天无代码提交 | [进入取消 Star](https://github.com/jtsang4/claude-to-chatgpt) |
-| [yorunning/clash-conf](https://github.com/yorunning/clash-conf) | 102 | 超过 824 天无代码提交 | [进入取消 Star](https://github.com/yorunning/clash-conf) |
-| [svc-develop-team/so-vits-svc](https://github.com/svc-develop-team/so-vits-svc) | 28,072 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/svc-develop-team/so-vits-svc) |
-| [xiaye13579/BBLL](https://github.com/xiaye13579/BBLL) | 17,476 | 超过 598 天无代码提交 | [进入取消 Star](https://github.com/xiaye13579/BBLL) |
-| [camenduru/MiniGPT-4-colab](https://github.com/camenduru/MiniGPT-4-colab) | 120 | 超过 1176 天无代码提交 | [进入取消 Star](https://github.com/camenduru/MiniGPT-4-colab) |
-| [Vision-CAIR/MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) | 25,584 | 超过 777 天无代码提交 | [进入取消 Star](https://github.com/Vision-CAIR/MiniGPT-4) |
-| [imfuxiao/Hamster](https://github.com/imfuxiao/Hamster) | 1,639 | 超过 524 天无代码提交 | [进入取消 Star](https://github.com/imfuxiao/Hamster) |
-| [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) | 27,938 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/acheong08/ChatGPT) |
-| [microsoft/JARVIS](https://github.com/microsoft/JARVIS) | 25,456 | 超过 446 天无代码提交 | [进入取消 Star](https://github.com/microsoft/JARVIS) |
-| [choephix/auto-gpt-webui](https://github.com/choephix/auto-gpt-webui) | 116 | 超过 944 天无代码提交 | [进入取消 Star](https://github.com/choephix/auto-gpt-webui) |
-| [Moonvy/OpenPromptStudio](https://github.com/Moonvy/OpenPromptStudio) | 6,703 | 超过 904 天无代码提交 | [进入取消 Star](https://github.com/Moonvy/OpenPromptStudio) |
-| [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) | 55,036 | 超过 760 天无代码提交 | [进入取消 Star](https://github.com/facebookresearch/segment-anything) |
-| [zai-org/ChatGLM-6B](https://github.com/zai-org/ChatGLM-6B) | 40,909 | 超过 844 天无代码提交 | [进入取消 Star](https://github.com/zai-org/ChatGLM-6B) |
-| [ihciah/shadow-tls](https://github.com/ihciah/shadow-tls) | 2,681 | 超过 541 天无代码提交 | [进入取消 Star](https://github.com/ihciah/shadow-tls) |
-| [jxbbb/ADAPT](https://github.com/jxbbb/ADAPT) | 421 | 超过 860 天无代码提交 | [进入取消 Star](https://github.com/jxbbb/ADAPT) |
-| [mayooear/ai-pdf-chatbot-langchain](https://github.com/mayooear/ai-pdf-chatbot-langchain) | 16,582 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/mayooear/ai-pdf-chatbot-langchain) |
-| [lencx/ChatGPT](https://github.com/lencx/ChatGPT) | 54,638 | 超过 780 天无代码提交 | [进入取消 Star](https://github.com/lencx/ChatGPT) |
-| [nekohasekai/SagerNet](https://github.com/nekohasekai/SagerNet) | 54 | 超过 1743 天无代码提交 | [进入取消 Star](https://github.com/nekohasekai/SagerNet) |
+| [XingangPan/DragGAN](https://github.com/XingangPan/DragGAN) | 35,720 | 超过 890 天无代码提交 | [进入取消 Star](https://github.com/XingangPan/DragGAN) |
+| [lewangdev/faster-whisper-youtube](https://github.com/lewangdev/faster-whisper-youtube) | 560 | 超过 1162 天无代码提交 | [进入取消 Star](https://github.com/lewangdev/faster-whisper-youtube) |
+| [artidoro/qlora](https://github.com/artidoro/qlora) | 11,054 | 超过 867 天无代码提交 | [进入取消 Star](https://github.com/artidoro/qlora) |
+| [langgenius/webapp-conversation](https://github.com/langgenius/webapp-conversation) | 1,102 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/langgenius/webapp-conversation) |
+| [3andne/restls](https://github.com/3andne/restls) | 375 | 超过 1085 天无代码提交 | [进入取消 Star](https://github.com/3andne/restls) |
+| [jtsang4/claude-to-chatgpt](https://github.com/jtsang4/claude-to-chatgpt) | 1,300 | 超过 798 天无代码提交 | [进入取消 Star](https://github.com/jtsang4/claude-to-chatgpt) |
+| [yorunning/clash-conf](https://github.com/yorunning/clash-conf) | 102 | 超过 831 天无代码提交 | [进入取消 Star](https://github.com/yorunning/clash-conf) |
+| [svc-develop-team/so-vits-svc](https://github.com/svc-develop-team/so-vits-svc) | 28,068 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/svc-develop-team/so-vits-svc) |
+| [xiaye13579/BBLL](https://github.com/xiaye13579/BBLL) | 17,511 | 超过 605 天无代码提交 | [进入取消 Star](https://github.com/xiaye13579/BBLL) |
+| [camenduru/MiniGPT-4-colab](https://github.com/camenduru/MiniGPT-4-colab) | 119 | 超过 1183 天无代码提交 | [进入取消 Star](https://github.com/camenduru/MiniGPT-4-colab) |
+| [Vision-CAIR/MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) | 25,578 | 超过 783 天无代码提交 | [进入取消 Star](https://github.com/Vision-CAIR/MiniGPT-4) |
+| [imfuxiao/Hamster](https://github.com/imfuxiao/Hamster) | 1,641 | 超过 530 天无代码提交 | [进入取消 Star](https://github.com/imfuxiao/Hamster) |
+| [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) | 27,971 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/acheong08/ChatGPT) |
+| [microsoft/JARVIS](https://github.com/microsoft/JARVIS) | 25,500 | 超过 453 天无代码提交 | [进入取消 Star](https://github.com/microsoft/JARVIS) |
+| [choephix/auto-gpt-webui](https://github.com/choephix/auto-gpt-webui) | 116 | 超过 951 天无代码提交 | [进入取消 Star](https://github.com/choephix/auto-gpt-webui) |
+| [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) | 55,063 | 超过 767 天无代码提交 | [进入取消 Star](https://github.com/facebookresearch/segment-anything) |
+| [zai-org/ChatGLM-6B](https://github.com/zai-org/ChatGLM-6B) | 40,905 | 超过 851 天无代码提交 | [进入取消 Star](https://github.com/zai-org/ChatGLM-6B) |
+| [ihciah/shadow-tls](https://github.com/ihciah/shadow-tls) | 2,681 | 超过 548 天无代码提交 | [进入取消 Star](https://github.com/ihciah/shadow-tls) |
+| [jxbbb/ADAPT](https://github.com/jxbbb/ADAPT) | 421 | 超过 866 天无代码提交 | [进入取消 Star](https://github.com/jxbbb/ADAPT) |
+| [mayooear/ai-pdf-chatbot-langchain](https://github.com/mayooear/ai-pdf-chatbot-langchain) | 16,581 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/mayooear/ai-pdf-chatbot-langchain) |
+| [lencx/ChatGPT](https://github.com/lencx/ChatGPT) | 54,661 | 超过 787 天无代码提交 | [进入取消 Star](https://github.com/lencx/ChatGPT) |
+| [nekohasekai/SagerNet](https://github.com/nekohasekai/SagerNet) | 56 | 超过 1750 天无代码提交 | [进入取消 Star](https://github.com/nekohasekai/SagerNet) |
 | [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt) | 7,621 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/P3TERX/Actions-OpenWrt) |
-| [R86S/R86S-QuickInstaller](https://github.com/R86S/R86S-QuickInstaller) | 65 | 超过 1164 天无代码提交 | [进入取消 Star](https://github.com/R86S/R86S-QuickInstaller) |
-| [WeNeedHome/SummaryOfLoanSuspension](https://github.com/WeNeedHome/SummaryOfLoanSuspension) | 20,341 | 超过 828 天无代码提交 | [进入取消 Star](https://github.com/WeNeedHome/SummaryOfLoanSuspension) |
-| [zanzhz1101/LingMaxDNS](https://github.com/zanzhz1101/LingMaxDNS) | 23 | 超过 1559 天无代码提交 | [进入取消 Star](https://github.com/zanzhz1101/LingMaxDNS) |
-| [IrineSistiana/mosdns-cn](https://github.com/IrineSistiana/mosdns-cn) | 325 | 超过 1601 天无代码提交 | [进入取消 Star](https://github.com/IrineSistiana/mosdns-cn) |
-| [chika0801/Xray-install](https://github.com/chika0801/Xray-install) | 273 | 超过 1052 天无代码提交 | [进入取消 Star](https://github.com/chika0801/Xray-install) |
-| [alesimula/wsa_pacman](https://github.com/alesimula/wsa_pacman) | 4,190 | 超过 1031 天无代码提交 | [进入取消 Star](https://github.com/alesimula/wsa_pacman) |
-| [scutan90/DeepLearning-500-questions](https://github.com/scutan90/DeepLearning-500-questions) | 57,673 | 超过 844 天无代码提交 | [进入取消 Star](https://github.com/scutan90/DeepLearning-500-questions) |
+| [R86S/R86S-QuickInstaller](https://github.com/R86S/R86S-QuickInstaller) | 65 | 超过 1171 天无代码提交 | [进入取消 Star](https://github.com/R86S/R86S-QuickInstaller) |
+| [WeNeedHome/SummaryOfLoanSuspension](https://github.com/WeNeedHome/SummaryOfLoanSuspension) | 20,337 | 超过 835 天无代码提交 | [进入取消 Star](https://github.com/WeNeedHome/SummaryOfLoanSuspension) |
+| [zanzhz1101/LingMaxDNS](https://github.com/zanzhz1101/LingMaxDNS) | 23 | 超过 1566 天无代码提交 | [进入取消 Star](https://github.com/zanzhz1101/LingMaxDNS) |
+| [IrineSistiana/mosdns-cn](https://github.com/IrineSistiana/mosdns-cn) | 325 | 超过 1607 天无代码提交 | [进入取消 Star](https://github.com/IrineSistiana/mosdns-cn) |
+| [chika0801/Xray-install](https://github.com/chika0801/Xray-install) | 273 | 超过 1059 天无代码提交 | [进入取消 Star](https://github.com/chika0801/Xray-install) |
+| [alesimula/wsa_pacman](https://github.com/alesimula/wsa_pacman) | 4,190 | 超过 1038 天无代码提交 | [进入取消 Star](https://github.com/alesimula/wsa_pacman) |
+| [scutan90/DeepLearning-500-questions](https://github.com/scutan90/DeepLearning-500-questions) | 57,688 | 超过 851 天无代码提交 | [进入取消 Star](https://github.com/scutan90/DeepLearning-500-questions) |
 | [Chikage0o0/Linux-NetSpeed](https://github.com/Chikage0o0/Linux-NetSpeed) | 3,746 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/Chikage0o0/Linux-NetSpeed) |
 | [KFERMercer/OpenWrt-CI](https://github.com/KFERMercer/OpenWrt-CI) | 1,409 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/KFERMercer/OpenWrt-CI) |
-| [qTox/qTox](https://github.com/qTox/qTox) | 4,968 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/qTox/qTox) |
-| [quericy/one-key-ikev2-vpn](https://github.com/quericy/one-key-ikev2-vpn) | 2,104 | 超过 2163 天无代码提交 | [进入取消 Star](https://github.com/quericy/one-key-ikev2-vpn) |
-| [riverscn/openwrt-iptvhelper](https://github.com/riverscn/openwrt-iptvhelper) | 371 | 超过 1879 天无代码提交 | [进入取消 Star](https://github.com/riverscn/openwrt-iptvhelper) |
-| [frainzy1477/luci-app-clash](https://github.com/frainzy1477/luci-app-clash) | 1,623 | 超过 1669 天无代码提交 | [进入取消 Star](https://github.com/frainzy1477/luci-app-clash) |
-| [Sanster/IOPaint](https://github.com/Sanster/IOPaint) | 23,305 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/Sanster/IOPaint) |
-| [LANDrop/LANDrop](https://github.com/LANDrop/LANDrop) | 5,986 | 超过 796 天无代码提交 | [进入取消 Star](https://github.com/LANDrop/LANDrop) |
-| [saveweb/review-2021](https://github.com/saveweb/review-2021) | 759 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/saveweb/review-2021) |
-| [iranee/qnap-aliyunpan-webdav](https://github.com/iranee/qnap-aliyunpan-webdav) | 274 | 超过 1472 天无代码提交 | [进入取消 Star](https://github.com/iranee/qnap-aliyunpan-webdav) |
-| [haoel/haoel.github.io](https://github.com/haoel/haoel.github.io) | 13,076 | 超过 1257 天无代码提交 | [进入取消 Star](https://github.com/haoel/haoel.github.io) |
-| [tindy2013/stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn) | 3,836 | 超过 1229 天无代码提交 | [进入取消 Star](https://github.com/tindy2013/stairspeedtest-reborn) |
-| [P3TERX/warp.sh](https://github.com/P3TERX/warp.sh) | 3,930 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/P3TERX/warp.sh) |
-| [TheMRLL/WinXray](https://github.com/TheMRLL/WinXray) | 2,792 | 超过 965 天无代码提交 | [进入取消 Star](https://github.com/TheMRLL/WinXray) |
-| [Mikubill/cowtransfer-uploader](https://github.com/Mikubill/cowtransfer-uploader) | 447 | 超过 1712 天无代码提交 | [进入取消 Star](https://github.com/Mikubill/cowtransfer-uploader) |
-| [281677160/build-actions](https://github.com/281677160/build-actions) | 390 | 超过 447 天无代码提交 | [进入取消 Star](https://github.com/281677160/build-actions) |
-| [vaxilu/x-ui](https://github.com/vaxilu/x-ui) | 19,079 | 超过 791 天无代码提交 | [进入取消 Star](https://github.com/vaxilu/x-ui) |
-| [xinntao/Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) | 37,145 | 超过 803 天无代码提交 | [进入取消 Star](https://github.com/xinntao/Real-ESRGAN) |
-| [zu1k/proxypool](https://github.com/zu1k/proxypool) | 4,036 | 超过 1287 天无代码提交 | [进入取消 Star](https://github.com/zu1k/proxypool) |
-| [TachibanaYoshino/AnimeGAN](https://github.com/TachibanaYoshino/AnimeGAN) | 4,611 | 超过 1537 天无代码提交 | [进入取消 Star](https://github.com/TachibanaYoshino/AnimeGAN) |
-| [yuanzhoulvpi2017/tiny_python](https://github.com/yuanzhoulvpi2017/tiny_python) | 173 | 超过 1352 天无代码提交 | [进入取消 Star](https://github.com/yuanzhoulvpi2017/tiny_python) |
-| [haiibo/OpenWrt](https://github.com/haiibo/OpenWrt) | 3,163 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/haiibo/OpenWrt) |
+| [qTox/qTox](https://github.com/qTox/qTox) | 4,971 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/qTox/qTox) |
+| [quericy/one-key-ikev2-vpn](https://github.com/quericy/one-key-ikev2-vpn) | 2,104 | 超过 2169 天无代码提交 | [进入取消 Star](https://github.com/quericy/one-key-ikev2-vpn) |
+| [riverscn/openwrt-iptvhelper](https://github.com/riverscn/openwrt-iptvhelper) | 371 | 超过 1885 天无代码提交 | [进入取消 Star](https://github.com/riverscn/openwrt-iptvhelper) |
+| [frainzy1477/luci-app-clash](https://github.com/frainzy1477/luci-app-clash) | 1,623 | 超过 1676 天无代码提交 | [进入取消 Star](https://github.com/frainzy1477/luci-app-clash) |
+| [Sanster/IOPaint](https://github.com/Sanster/IOPaint) | 23,297 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/Sanster/IOPaint) |
+| [LANDrop/LANDrop](https://github.com/LANDrop/LANDrop) | 5,992 | 超过 803 天无代码提交 | [进入取消 Star](https://github.com/LANDrop/LANDrop) |
+| [saveweb/review-2021](https://github.com/saveweb/review-2021) | 758 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/saveweb/review-2021) |
+| [iranee/qnap-aliyunpan-webdav](https://github.com/iranee/qnap-aliyunpan-webdav) | 274 | 超过 1478 天无代码提交 | [进入取消 Star](https://github.com/iranee/qnap-aliyunpan-webdav) |
+| [haoel/haoel.github.io](https://github.com/haoel/haoel.github.io) | 13,077 | 超过 1263 天无代码提交 | [进入取消 Star](https://github.com/haoel/haoel.github.io) |
+| [tindy2013/stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn) | 3,831 | 超过 1235 天无代码提交 | [进入取消 Star](https://github.com/tindy2013/stairspeedtest-reborn) |
+| [P3TERX/warp.sh](https://github.com/P3TERX/warp.sh) | 3,927 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/P3TERX/warp.sh) |
+| [TheMRLL/WinXray](https://github.com/TheMRLL/WinXray) | 2,793 | 超过 971 天无代码提交 | [进入取消 Star](https://github.com/TheMRLL/WinXray) |
+| [Mikubill/cowtransfer-uploader](https://github.com/Mikubill/cowtransfer-uploader) | 447 | 超过 1718 天无代码提交 | [进入取消 Star](https://github.com/Mikubill/cowtransfer-uploader) |
+| [281677160/build-actions](https://github.com/281677160/build-actions) | 389 | 超过 453 天无代码提交 | [进入取消 Star](https://github.com/281677160/build-actions) |
+| [vaxilu/x-ui](https://github.com/vaxilu/x-ui) | 19,089 | 超过 797 天无代码提交 | [进入取消 Star](https://github.com/vaxilu/x-ui) |
+| [xinntao/Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) | 37,220 | 超过 810 天无代码提交 | [进入取消 Star](https://github.com/xinntao/Real-ESRGAN) |
+| [zu1k/proxypool](https://github.com/zu1k/proxypool) | 4,038 | 超过 1294 天无代码提交 | [进入取消 Star](https://github.com/zu1k/proxypool) |
+| [TachibanaYoshino/AnimeGAN](https://github.com/TachibanaYoshino/AnimeGAN) | 4,612 | 超过 1544 天无代码提交 | [进入取消 Star](https://github.com/TachibanaYoshino/AnimeGAN) |
+| [yuanzhoulvpi2017/tiny_python](https://github.com/yuanzhoulvpi2017/tiny_python) | 173 | 超过 1358 天无代码提交 | [进入取消 Star](https://github.com/yuanzhoulvpi2017/tiny_python) |
+| [haiibo/OpenWrt](https://github.com/haiibo/OpenWrt) | 3,161 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/haiibo/OpenWrt) |
 | [VergilGao/openwrt-packages](https://github.com/VergilGao/openwrt-packages) | 11 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/VergilGao/openwrt-packages) |
 | [VergilGao/openwrt-compiler](https://github.com/VergilGao/openwrt-compiler) | 13 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/VergilGao/openwrt-compiler) |
-| [OpenELEC/OpenELEC.tv](https://github.com/OpenELEC/OpenELEC.tv) | 1,618 | 超过 3334 天无代码提交 | [进入取消 Star](https://github.com/OpenELEC/OpenELEC.tv) |
-| [github/copilot-docs](https://github.com/github/copilot-docs) | 23,175 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/github/copilot-docs) |
-| [Kiougar/luci-wrtbwmon](https://github.com/Kiougar/luci-wrtbwmon) | 356 | 超过 1851 天无代码提交 | [进入取消 Star](https://github.com/Kiougar/luci-wrtbwmon) |
-| [EtherDream/jsproxy](https://github.com/EtherDream/jsproxy) | 9,325 | 超过 932 天无代码提交 | [进入取消 Star](https://github.com/EtherDream/jsproxy) |
-| [cheat-engine/cheat-engine](https://github.com/cheat-engine/cheat-engine) | 19,344 | 超过 548 天无代码提交 | [进入取消 Star](https://github.com/cheat-engine/cheat-engine) |
-| [ffffffff0x/Dork-Admin](https://github.com/ffffffff0x/Dork-Admin) | 1,916 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/ffffffff0x/Dork-Admin) |
-| [ffffffff0x/Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy) | 4,940 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/ffffffff0x/Digital-Privacy) |
-| [Autodesk/civilconnection](https://github.com/Autodesk/civilconnection) | 117 | 超过 1417 天无代码提交 | [进入取消 Star](https://github.com/Autodesk/civilconnection) |
-| [0xHJK/CleanApps](https://github.com/0xHJK/CleanApps) | 165 | 超过 1883 天无代码提交 | [进入取消 Star](https://github.com/0xHJK/CleanApps) |
-| [KANIKIG/Multi-EasyGost](https://github.com/KANIKIG/Multi-EasyGost) | 1,949 | 超过 931 天无代码提交 | [进入取消 Star](https://github.com/KANIKIG/Multi-EasyGost) |
-| [Kurokosama/AutoBuild-OpenWRT](https://github.com/Kurokosama/AutoBuild-OpenWRT) | 89 | 超过 1570 天无代码提交 | [进入取消 Star](https://github.com/Kurokosama/AutoBuild-OpenWRT) |
+| [OpenELEC/OpenELEC.tv](https://github.com/OpenELEC/OpenELEC.tv) | 1,620 | 超过 3340 天无代码提交 | [进入取消 Star](https://github.com/OpenELEC/OpenELEC.tv) |
+| [github/copilot-docs](https://github.com/github/copilot-docs) | 23,173 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/github/copilot-docs) |
+| [Kiougar/luci-wrtbwmon](https://github.com/Kiougar/luci-wrtbwmon) | 356 | 超过 1858 天无代码提交 | [进入取消 Star](https://github.com/Kiougar/luci-wrtbwmon) |
+| [EtherDream/jsproxy](https://github.com/EtherDream/jsproxy) | 9,321 | 超过 938 天无代码提交 | [进入取消 Star](https://github.com/EtherDream/jsproxy) |
+| [cheat-engine/cheat-engine](https://github.com/cheat-engine/cheat-engine) | 19,387 | 超过 554 天无代码提交 | [进入取消 Star](https://github.com/cheat-engine/cheat-engine) |
+| [ffffffff0x/Dork-Admin](https://github.com/ffffffff0x/Dork-Admin) | 1,915 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/ffffffff0x/Dork-Admin) |
+| [ffffffff0x/Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy) | 4,938 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/ffffffff0x/Digital-Privacy) |
+| [Autodesk/civilconnection](https://github.com/Autodesk/civilconnection) | 117 | 超过 1424 天无代码提交 | [进入取消 Star](https://github.com/Autodesk/civilconnection) |
+| [0xHJK/CleanApps](https://github.com/0xHJK/CleanApps) | 165 | 超过 1890 天无代码提交 | [进入取消 Star](https://github.com/0xHJK/CleanApps) |
+| [KANIKIG/Multi-EasyGost](https://github.com/KANIKIG/Multi-EasyGost) | 1,948 | 超过 938 天无代码提交 | [进入取消 Star](https://github.com/KANIKIG/Multi-EasyGost) |
+| [Kurokosama/AutoBuild-OpenWRT](https://github.com/Kurokosama/AutoBuild-OpenWRT) | 88 | 超过 1577 天无代码提交 | [进入取消 Star](https://github.com/Kurokosama/AutoBuild-OpenWRT) |
 | [differentrain/DeletionTool](https://github.com/differentrain/DeletionTool) | 94 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/differentrain/DeletionTool) |
-| [hideuvpn/android-google-play-store](https://github.com/hideuvpn/android-google-play-store) | 3,625 | 超过 1552 天无代码提交 | [进入取消 Star](https://github.com/hideuvpn/android-google-play-store) |
-| [XJP-GIT/AntiZhaPian](https://github.com/XJP-GIT/AntiZhaPian) | 3,159 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/XJP-GIT/AntiZhaPian) |
-| [jerrykuku/luci-app-ttnode](https://github.com/jerrykuku/luci-app-ttnode) | 89 | 超过 1728 天无代码提交 | [进入取消 Star](https://github.com/jerrykuku/luci-app-ttnode) |
-| [KevinSHIT/NaiveSharp](https://github.com/KevinSHIT/NaiveSharp) | 96 | 超过 2173 天无代码提交 | [进入取消 Star](https://github.com/KevinSHIT/NaiveSharp) |
-| [prasmussen/gdrive](https://github.com/prasmussen/gdrive) | 8,943 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/prasmussen/gdrive) |
+| [hideuvpn/android-google-play-store](https://github.com/hideuvpn/android-google-play-store) | 3,646 | 超过 1559 天无代码提交 | [进入取消 Star](https://github.com/hideuvpn/android-google-play-store) |
+| [XJP-GIT/AntiZhaPian](https://github.com/XJP-GIT/AntiZhaPian) | 3,161 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/XJP-GIT/AntiZhaPian) |
+| [jerrykuku/luci-app-ttnode](https://github.com/jerrykuku/luci-app-ttnode) | 89 | 超过 1735 天无代码提交 | [进入取消 Star](https://github.com/jerrykuku/luci-app-ttnode) |
+| [KevinSHIT/NaiveSharp](https://github.com/KevinSHIT/NaiveSharp) | 96 | 超过 2180 天无代码提交 | [进入取消 Star](https://github.com/KevinSHIT/NaiveSharp) |
+| [prasmussen/gdrive](https://github.com/prasmussen/gdrive) | 8,944 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/prasmussen/gdrive) |
 | [tostercx/GTAO_Booster_PoC](https://github.com/tostercx/GTAO_Booster_PoC) | 2,865 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/tostercx/GTAO_Booster_PoC) |
-| [ilxp/luci-app-ikoolproxy](https://github.com/ilxp/luci-app-ikoolproxy) | 507 | 超过 584 天无代码提交 | [进入取消 Star](https://github.com/ilxp/luci-app-ikoolproxy) |
-| [kiddin9/luci-app-dnsfilter](https://github.com/kiddin9/luci-app-dnsfilter) | 123 | 超过 617 天无代码提交 | [进入取消 Star](https://github.com/kiddin9/luci-app-dnsfilter) |
+| [ilxp/luci-app-ikoolproxy](https://github.com/ilxp/luci-app-ikoolproxy) | 507 | 超过 590 天无代码提交 | [进入取消 Star](https://github.com/ilxp/luci-app-ikoolproxy) |
+| [kiddin9/luci-app-dnsfilter](https://github.com/kiddin9/luci-app-dnsfilter) | 123 | 超过 623 天无代码提交 | [进入取消 Star](https://github.com/kiddin9/luci-app-dnsfilter) |
 | [h31105/deployX.sh](https://github.com/h31105/deployX.sh) | 416 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/h31105/deployX.sh) |
-| [jerrykuku/openwrt-package](https://github.com/jerrykuku/openwrt-package) | 148 | 超过 1080 天无代码提交 | [进入取消 Star](https://github.com/jerrykuku/openwrt-package) |
-| [frainzy1477/luci-app-trojan](https://github.com/frainzy1477/luci-app-trojan) | 120 | 超过 1988 天无代码提交 | [进入取消 Star](https://github.com/frainzy1477/luci-app-trojan) |
-| [atrandys/xray](https://github.com/atrandys/xray) | 89 | 超过 1695 天无代码提交 | [进入取消 Star](https://github.com/atrandys/xray) |
-| [v2board/v2board](https://github.com/v2board/v2board) | 5,058 | 超过 944 天无代码提交 | [进入取消 Star](https://github.com/v2board/v2board) |
-| [ShadowsocksR-Live/iShadowsocksR](https://github.com/ShadowsocksR-Live/iShadowsocksR) | 600 | 超过 902 天无代码提交 | [进入取消 Star](https://github.com/ShadowsocksR-Live/iShadowsocksR) |
-| [SuperNG6/Aria2-Trackers](https://github.com/SuperNG6/Aria2-Trackers) | 309 | 超过 2094 天无代码提交 | [进入取消 Star](https://github.com/SuperNG6/Aria2-Trackers) |
-| [kakaruoterl/vless_install](https://github.com/kakaruoterl/vless_install) | 29 | 超过 2251 天无代码提交 | [进入取消 Star](https://github.com/kakaruoterl/vless_install) |
-| [stupidloud/nanopi-openwrt](https://github.com/stupidloud/nanopi-openwrt) | 5,515 | 超过 915 天无代码提交 | [进入取消 Star](https://github.com/stupidloud/nanopi-openwrt) |
-| [atrandys/trojan](https://github.com/atrandys/trojan) | 1,055 | 超过 1284 天无代码提交 | [进入取消 Star](https://github.com/atrandys/trojan) |
-| [programthink/zhao](https://github.com/programthink/zhao) | 14,071 | 超过 1904 天无代码提交 | [进入取消 Star](https://github.com/programthink/zhao) |
-| [RPRX/v2ray-vless](https://github.com/RPRX/v2ray-vless) | 389 | 超过 1330 天无代码提交 | [进入取消 Star](https://github.com/RPRX/v2ray-vless) |
-| [h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules) | 16,716 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/h2y/Shadowrocket-ADBlock-Rules) |
-| [p4gefau1t/trojan-go](https://github.com/p4gefau1t/trojan-go) | 8,383 | 超过 827 天无代码提交 | [进入取消 Star](https://github.com/p4gefau1t/trojan-go) |
-| [Jrohy/trojan](https://github.com/Jrohy/trojan) | 5,635 | 超过 917 天无代码提交 | [进入取消 Star](https://github.com/Jrohy/trojan) |
-| [mellow-io/mellow](https://github.com/mellow-io/mellow) | 3,537 | 超过 1408 天无代码提交 | [进入取消 Star](https://github.com/mellow-io/mellow) |
-| [Dawneng/luci-theme-atmaterial](https://github.com/Dawneng/luci-theme-atmaterial) | 11 | 超过 1460 天无代码提交 | [进入取消 Star](https://github.com/Dawneng/luci-theme-atmaterial) |
-| [trojan-gfw/igniter](https://github.com/trojan-gfw/igniter) | 3,275 | 超过 1057 天无代码提交 | [进入取消 Star](https://github.com/trojan-gfw/igniter) |
-| [openwrt-develop/luci-theme-atmaterial](https://github.com/openwrt-develop/luci-theme-atmaterial) | 68 | 超过 2405 天无代码提交 | [进入取消 Star](https://github.com/openwrt-develop/luci-theme-atmaterial) |
-| [trojan-gfw/trojan-quickstart](https://github.com/trojan-gfw/trojan-quickstart) | 244 | 超过 2006 天无代码提交 | [进入取消 Star](https://github.com/trojan-gfw/trojan-quickstart) |
-| [FunctionClub/ZBench](https://github.com/FunctionClub/ZBench) | 1,177 | 超过 2037 天无代码提交 | [进入取消 Star](https://github.com/FunctionClub/ZBench) |
-| [veekxt/v2ray-template](https://github.com/veekxt/v2ray-template) | 749 | 超过 2249 天无代码提交 | [进入取消 Star](https://github.com/veekxt/v2ray-template) |
-| [HMBSbige/ShadowsocksR-Windows](https://github.com/HMBSbige/ShadowsocksR-Windows) | 6,921 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/HMBSbige/ShadowsocksR-Windows) |
-| [trojan-gfw/trojan](https://github.com/trojan-gfw/trojan) | 19,750 | 超过 789 天无代码提交 | [进入取消 Star](https://github.com/trojan-gfw/trojan) |
+| [jerrykuku/openwrt-package](https://github.com/jerrykuku/openwrt-package) | 148 | 超过 1087 天无代码提交 | [进入取消 Star](https://github.com/jerrykuku/openwrt-package) |
+| [frainzy1477/luci-app-trojan](https://github.com/frainzy1477/luci-app-trojan) | 120 | 超过 1994 天无代码提交 | [进入取消 Star](https://github.com/frainzy1477/luci-app-trojan) |
+| [atrandys/xray](https://github.com/atrandys/xray) | 89 | 超过 1702 天无代码提交 | [进入取消 Star](https://github.com/atrandys/xray) |
+| [v2board/v2board](https://github.com/v2board/v2board) | 5,062 | 超过 951 天无代码提交 | [进入取消 Star](https://github.com/v2board/v2board) |
+| [ShadowsocksR-Live/iShadowsocksR](https://github.com/ShadowsocksR-Live/iShadowsocksR) | 600 | 超过 909 天无代码提交 | [进入取消 Star](https://github.com/ShadowsocksR-Live/iShadowsocksR) |
+| [SuperNG6/Aria2-Trackers](https://github.com/SuperNG6/Aria2-Trackers) | 309 | 超过 2101 天无代码提交 | [进入取消 Star](https://github.com/SuperNG6/Aria2-Trackers) |
+| [kakaruoterl/vless_install](https://github.com/kakaruoterl/vless_install) | 29 | 超过 2258 天无代码提交 | [进入取消 Star](https://github.com/kakaruoterl/vless_install) |
+| [stupidloud/nanopi-openwrt](https://github.com/stupidloud/nanopi-openwrt) | 5,515 | 超过 922 天无代码提交 | [进入取消 Star](https://github.com/stupidloud/nanopi-openwrt) |
+| [atrandys/trojan](https://github.com/atrandys/trojan) | 1,055 | 超过 1290 天无代码提交 | [进入取消 Star](https://github.com/atrandys/trojan) |
+| [programthink/zhao](https://github.com/programthink/zhao) | 14,076 | 超过 1911 天无代码提交 | [进入取消 Star](https://github.com/programthink/zhao) |
+| [RPRX/v2ray-vless](https://github.com/RPRX/v2ray-vless) | 389 | 超过 1337 天无代码提交 | [进入取消 Star](https://github.com/RPRX/v2ray-vless) |
+| [h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules) | 16,720 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/h2y/Shadowrocket-ADBlock-Rules) |
+| [p4gefau1t/trojan-go](https://github.com/p4gefau1t/trojan-go) | 8,384 | 超过 833 天无代码提交 | [进入取消 Star](https://github.com/p4gefau1t/trojan-go) |
+| [Jrohy/trojan](https://github.com/Jrohy/trojan) | 5,632 | 超过 924 天无代码提交 | [进入取消 Star](https://github.com/Jrohy/trojan) |
+| [mellow-io/mellow](https://github.com/mellow-io/mellow) | 3,535 | 超过 1415 天无代码提交 | [进入取消 Star](https://github.com/mellow-io/mellow) |
+| [Dawneng/luci-theme-atmaterial](https://github.com/Dawneng/luci-theme-atmaterial) | 11 | 超过 1467 天无代码提交 | [进入取消 Star](https://github.com/Dawneng/luci-theme-atmaterial) |
+| [trojan-gfw/igniter](https://github.com/trojan-gfw/igniter) | 3,275 | 超过 1064 天无代码提交 | [进入取消 Star](https://github.com/trojan-gfw/igniter) |
+| [openwrt-develop/luci-theme-atmaterial](https://github.com/openwrt-develop/luci-theme-atmaterial) | 68 | 超过 2412 天无代码提交 | [进入取消 Star](https://github.com/openwrt-develop/luci-theme-atmaterial) |
+| [trojan-gfw/trojan-quickstart](https://github.com/trojan-gfw/trojan-quickstart) | 244 | 超过 2013 天无代码提交 | [进入取消 Star](https://github.com/trojan-gfw/trojan-quickstart) |
+| [FunctionClub/ZBench](https://github.com/FunctionClub/ZBench) | 1,177 | 超过 2044 天无代码提交 | [进入取消 Star](https://github.com/FunctionClub/ZBench) |
+| [veekxt/v2ray-template](https://github.com/veekxt/v2ray-template) | 749 | 超过 2256 天无代码提交 | [进入取消 Star](https://github.com/veekxt/v2ray-template) |
+| [HMBSbige/ShadowsocksR-Windows](https://github.com/HMBSbige/ShadowsocksR-Windows) | 6,913 | 作者已正式归档 (Archived) | [进入取消 Star](https://github.com/HMBSbige/ShadowsocksR-Windows) |
+| [trojan-gfw/trojan](https://github.com/trojan-gfw/trojan) | 19,747 | 超过 795 天无代码提交 | [进入取消 Star](https://github.com/trojan-gfw/trojan) |
 </details>
