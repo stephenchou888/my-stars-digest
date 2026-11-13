@@ -1,9 +1,9 @@
 {
   "genspark-ai/genoffice": {
-    "last_tag": "v0.12.852",
+    "last_tag": "v0.13.18",
     "desc_zh": "免费的开源 AI Office 套件：带有内置 AI 代理的文档、表格、幻灯片、PDF、Markdown 和 HTML 编辑器，以及“genoffice”CLI 和代理技能，以便 Claude Code、Codex 和 Cursor 可以在本地创建和编辑真正的 .docx/.xlsx/.pptx 文件。带上你自己的钥匙。 macOS、Windows 和 Linux。",
-    "summary_zh": "- **文档：** 旧版 .doc 导入更加完善 - 嵌套和浮动表格、文本列、页码和边框、单元格阴影、图片裁剪、字体和 Bidi 文本；格式标记显示分页符、换行符和分节符（由 报告；可以单击文本后面的封面图片并保留在其页面上，并且锚定在表格单元格中的图片保留在其中（由 报告；Word 样式按钮和样式窗格；双击选择 Word 之类的单词；嵌套的 PAGE 字段保留其父级 ，由 报告；未更改的表格在保存时保持字节相同；邮件合并获得标签和信封；泰语、韩语、希伯来语和阿拉伯语面孔、表格在 100 个文档的比较中，边框、锚定图片和 CJK 间距的布局更接近 Word。\n- **工作表：**旧版 .xls 工作簿保留单元格格式（由 报告）；保存刷新每个公式缓存，由 报告；排序的公式保持指向自己的行；外部链接面板和查询刷新；冻结窗格在流式滚动中幸存。\n- **幻灯片：** 旧版 .ppt 导入，第 1 阶段，带有可编辑文本； MathType 方程预览正确渲染（由 报告；绘图选项卡上的 Word 样式笔库；打印对话框提供打印机、副本和双面打印。",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- **幻灯片：** 旧版 PowerPoint 97-2003 `.ppt` 文件现在可以通过“打开”对话框、拖放、文件关联或 CLI 打开，作为可编辑的“.pptx”副本；转换在锚点处带有形状、纯色、渐变、图案和纹理填充、图片和 WMF/EMF 图稿、文本样式、项目符号和自动编号、制表位和缩进、轮廓、背景和母版/布局继承，并在 150 多个真实平台上对照 PowerPoint 进行检查；从 **文件 → 导出为视频 (MP4)…** 将演示文稿导出为 MP4 视频 — 包括幻灯片计时、过渡、动画和录制的旁白，1080p 或 720p，本地编码（由 要求）；带有幻灯片顺序选项的 4 和 9 合讲义；换行遵循运行语言，并找到 macOS 26 可下载字体；文本字距调整、制表位和 Office 字体查找与 PowerPoint 更匹配。\n- **文档：** 另存为在 Word 旁边提供 PDF、HTML 和 Markdown；故事视图会在您写作时隐藏格式；从上下文菜单更新目录；在表格单元格上拖动可以选择其中的文本，;跟踪的更改到达内联对象，；打印作业说明文档的纸张尺寸； EMF+图片绘制其跳过记录；本地化的中日韩字体名称通过系统字体表解析；上下文子菜单保留在窗口内；在另外两个 100 个文档的比较中，表格、重复的标题、脚注、CJK 换行、阿拉伯语、孟加拉语和缺失字体替换的布局更接近 Word。\n- **工作表：**切片器和时间线在保存过程中持续存在；使用跨工作簿范围选择器中断和更改外部链接的源；分隔导入流，显示进度并可以停止； x14条件格式可以删除，报告者；打印区域遵循重命名的工作表；打开后立即排序可以保持公式和共享公式组完整，； CSV/PDF导出和打印等待公式结果；从 Office 应用程序粘贴的图片在保存后仍然存在；工作簿打开速度更快；细胞环境 m",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "robbietilton/Compositor": {
     "last_tag": "v1.6.6",
@@ -24,10 +24,10 @@
     "updated_at": "2026-10-19T10:45:51.818977+00:00"
   },
   "pascalorg/editor": {
-    "last_tag": "@pascal-app/cli@1.0.7",
+    "last_tag": "@pascal-app/cli@1.1.4",
     "desc_zh": "适用于 AECO、扫描到 BIM 的开源 3D 建筑软件。代理友好、浏览器优先、MCP、CLI。",
-    "summary_zh": "`@pascal-app/cli@1.0.7` 的 Pascal Web 编辑器运行时。当命令第一次启动编辑器时，CLI 会下载“pascal-web-runtime-1.0.7.ta​​r.gz”，并根据 npm 包内发布的摘要进行验证。离线安装可以通过t",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "`@pascal-app/cli@1.1.4` 的 Pascal Web 编辑器运行时。当命令第一次启动编辑器时，CLI 会下载“pascal-web-runtime-1.1.4.tar.gz”，并根据 npm 包内发布的摘要进行验证。离线安装可以通过t",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "librepods-org/librepods": {
     "last_tag": "v1.0.4",
@@ -48,10 +48,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "linshenkx/prompt-optimizer": {
-    "last_tag": "v2.15.1",
+    "last_tag": "v2.15.2",
     "desc_zh": "人工智能提示优化器，用于编写更好的提示并获得更好的人工智能结果。",
-    "summary_zh": "- 恢复桌面和窄屏幕上可读的功能模型选择器。\n- 在全屏和表面预览执行错误中展开单个 HTML/SVG 预览。\n- 直接在 Arena 中从 Prompt Garden 打开常见模型评估提示。",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- 读取长流响应和源视图，而不会出现水平溢出。\n- 停止普通工作区和全屏视图中的单个文本流。\n- 搜索和浏览花园灵感和竞技场评估提示到位。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "amir1376/ab-download-manager": {
     "last_tag": "v1.11.4",
@@ -66,16 +66,16 @@
     "updated_at": "2026-11-02T07:27:42.593992+00:00"
   },
   "roboflow/supervision": {
-    "last_tag": "0.31.5",
+    "last_tag": "0.31.7",
     "desc_zh": "我们为您编写可重复使用的计算机视觉工具。 💜",
-    "summary_zh": "- **LineZone** 对穿过线时隐藏几帧的对象进行计数。\n- 阿拉伯语和希伯来语标签使用新的“rtl”额外功能正确呈现。\n- Oriented-box IoU、NMS 和指标现在在 OpenCV 安装上使用精确的 Clipper。",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- **MeanAveragePrecision** 使用 pycocotools 大小桶和 COCO 人群 IoU 来实现定向框人群目标。\n- 当多边形坐标达到其整数限制时，**PolygonZone** 保持其完整遮罩。\n- 关键点选择和 **CSVSink** 现在会根据他们过去默默误读的输入提出问题。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "MetaCubeX/mihomo": {
-    "last_tag": "v1.19.33",
-    "desc_zh": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-    "summary_zh": "* 2df147b9 feat: support `dns-mode` for tun (#3288) by  Dust",
-    "updated_at": "2026-10-26T05:51:29.899945+00:00"
+    "last_tag": "v1.19.34",
+    "desc_zh": "Honkai 的简单 Python Pydantic 模型：Star Rail 解析来自 Mihomo API 的数据。",
+    "summary_zh": "* 2d1a22e3 feat：支持多用户使用 Shadowsocks 监听器 (#3383) by Caesar\n* f1f640b1 feat：添加 Snell 版本 6 支持（出站 + 入站）(#3410)\n* ff179c43 feat: 将 ss 密码生成功能添加到命令行工具 (#3372)",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "jgraph/drawio-desktop": {
     "last_tag": "v32.6.10",
@@ -108,10 +108,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "unslothai/unsloth": {
-    "last_tag": "v0.1.916-beta",
+    "last_tag": "v0.1.917-beta",
     "desc_zh": "用于运行和训练法学硕士和扩散模型的本地 UI。支持 GGUF、MLX、Qwen3.8、DeepSeek-V4.1、MiniMax-H3、Gemma 4、FLUX 等。",
-    "summary_zh": "- **大量性能修复**，下周将推出更多 Glass 主题优化\n- **玻璃主题修复**不再模糊，更好的渲染，更多选项\n- **统一内存卸载**现在可以正确地适用于大型模型",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- **新 Qwen3.8-27B** 动态 v3.1 GGUF。\n- **更快的聊天：** 对流式传输、滚动、菜单和对话框的性能进行了重大改进，尤其是在长时间对话中。\n- **更光滑的玻璃：** 减少打字、滚动和生成时的延迟。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "arc53/DocsGPT": {
     "last_tag": "1.1.0",
@@ -120,10 +120,10 @@
     "updated_at": "2026-10-26T05:51:29.899945+00:00"
   },
   "lobehub/lobehub": {
-    "last_tag": "v2.3.2",
+    "last_tag": "v2.3.3",
     "desc_zh": "🤯 LobeHub - 您团队中的超级代理。将超级代理添加到您的团队已使用的聊天中。他们自己承担工作，并且每周都会变得更好。",
-    "summary_zh": "- **任务标签** — 通过 Web UI、代理工具或 CLI 为任务添加标签、按标签过滤并按标签对视图进行分组。 （＃22176，＃22175）\n- **撤消批量任务操作** — 批量操作通过撤消立即应用，删除的任务将进入回收站。 (#22167)\n- **对话中的 MCP 应用程序** — 来自 MCP 应用程序的交互式视图在对话内呈现。 (#21231)",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- **直接渠道** — 每个客服人员和群组现在都有一个 IM 风格的对话界面：堆叠的标题头像、标题中的输入、带有“+”菜单的卡片编辑器、日期分隔符、列表行上的回复活动。 （＃22559，＃22583，＃22556，＃22440）\n- **每个代理回复策略** - 每个代理决定何时唤醒：首先拥有自己的规则，后续保持沉默，未寻址的消息得到一个主要响应者，并且运行时记录唤醒发生的原因。 （＃22551，＃22454，＃22847）\n- **代理身份和邮件** — 代理在身份组下获得地址、收件箱和个人资料页面；邮件唤醒运行将他们的结论发布回所有者的频道，并且只能看到他们自己的邮箱。 （#22009、#22010、#22578、#22686）",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "Dooy/chatgpt-web-midjourney-proxy": {
     "last_tag": "v2.26.8",
@@ -156,28 +156,28 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "sub-store-org/Sub-Store": {
-    "last_tag": "2.44.6",
+    "last_tag": "2.44.8",
     "desc_zh": "QX、Loon、Surge、Stash、Egern 和 Shadowrocket 的高级订阅管理器！",
-    "summary_zh": "* feat: YAML 逻辑优化 #667 ([2888806](https://github.com/sub-store-org/Sub-Store/commit/2888806)), closes [#667](https://github.com/sub-store-org/Sub-Store/issues/667)",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "*壮举：Surge支持VLESS； Surge Trust Tunnel 支持 client-random-auth-key ([091e6f8](https://github.com/sub-store-org/Sub-Store/commit/091e6f8))",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "1Panel-dev/1Panel": {
-    "last_tag": "v2.4.2",
+    "last_tag": "v2.5.1",
     "desc_zh": "🔥 1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform. 1Panel 是专门为 AI 服务器打造的管理面板。",
-    "summary_zh": "* System: Disabled MPTCP by default to mitigate a Linux kernel remote code execution vulnerability ([CVE-2026-98432](https://www.cve.org/CVERecord?id=CVE-2026-98432))\n* 【系统】默认禁用 MPTCP，缓解 Linux 内核远程代码执行漏洞（[CVE-2026-98432](https://www.cve.org/CVERecord?id=CVE-2026-98432)）",
-    "updated_at": "2026-11-02T07:27:42.593992+00:00"
+    "summary_zh": "* 模型：添加了对连接外部 vLLM 实例并在概述中监控它们的支持 https://github.com/1Panel-dev/1Panel/pull/14402\n* 模型：改进了 GPU 组卡布局和基于拓扑的排序，参见 https://github.com/1Panel-dev/1Panel/pull/14404\n* 模型：改进了 vLLM 部署列表，并通过以下方式选择了图像拉取",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "kenzok8/compile-package": {
-    "last_tag": "2026.11.09-10/55_mips_24kc",
+    "last_tag": "2026.11.12-22/21_arm_cortex-a9_vfpv3-d16",
     "desc_zh": "small-package仓库，每日更新插件编译",
-    "summary_zh": "定时更新插件，推送发布 💤:\n\n[下载链接] (https://dllkids.xyz/packages/mips_24kc/)",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "定时更新插件，推送发布 💤:\n\n[下载链接] (https://dllkids.xyz/packages/arm_cortex-a9_vfpv3-d16/)",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "jxxghp/MoviePilot": {
-    "last_tag": "v3.2.5",
+    "last_tag": "v3.2.6",
     "desc_zh": "NAS媒体库自动化管理工具",
-    "summary_zh": "- 下载与订阅：保留合集中的真实集号，修复缺集被误记为已下载、订阅提前完成的问题；Transmission 临时通信故障支持自动重连重试。\n- 整理与网盘：完善远程存储覆盖整理时的临时文件命名，修复 115 等存储的重命名兼容问题。\n- 媒体库：限制 Emby/Jellyfin 异常剧集范围的展开，避免媒体库同步时内存暴涨。",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- 站点接入：新增 Piggo 实验室 API、HDArea REST API 和 FluxTorrent 兼容层接入，完善相关站点的搜索、下载和用户数据支持，适配好学迁移后的站点协议。\n- 资源展示：修复 HDWinG 免费及双倍上传标识识别，补齐 Piggo 资源标签；前端正确区分资源标签与促销状态，保留未知促销状态，站点数据刷新失败时展示具体原因。\n- 搜索过滤：自动迁移旧版过滤规则 ID，搜索结果明确提示失效规则及规则组，便于定位和修复规则配置问题。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "invoke-ai/InvokeAI": {
     "last_tag": "v6.14.4",
@@ -192,16 +192,16 @@
     "updated_at": "2026-11-09T07:43:43.601919+00:00"
   },
   "langchain-ai/langchain": {
-    "last_tag": "langchain-core==1.7.6",
+    "last_tag": "langchain-core==1.8.0",
     "desc_zh": "代理工程平台。",
-    "summary_zh": "自 langchain-core==1.7.5 以来的变化\n\n版本（核心）：1.7.6 (41698)\nperf(core)：累积可运行流时合并流式“AIMessageChunk”一次（41697）\nperf(core): 阻止 `parse_partial_json` 一次重试一个字符 (41467)",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "**`langchain-core` 1.8.0 放弃了对 Python 3.10 的支持**，该版本已终止生命周期。现在支持的最低版本是 Python 3.11。 Python 3.10 上的用户将继续解析“langchain-core”1.7.x。\n\n自 langchain-core==1.7.7 以来的变化\n\n相对",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "Significant-Gravitas/AutoGPT": {
-    "last_tag": "autogpt-platform-beta-v0.11.1",
+    "last_tag": "autogpt-platform-beta-v0.11.2",
     "desc_zh": "AutoGPT 的愿景是为每个人提供易于使用和构建的人工智能。我们的使命是提供工具，以便您可以专注于重要的事情。",
-    "summary_zh": "- **#11220** - 支持输入节点和触发节点（通过\n- **#14991** - 在副驾驶聊天中将技能作为 /commands 运行并带有参数（通过\n- **#16582** - 使后台子任务真正起作用并返回聊天（通过",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- **#16308** - 计划优先试用：付费专区上的入门任务和专家，删除雇佣步骤，在试用开始时雇佣团队，主页从专家拥有的排名任务开始（由\n- **#16650** - 将 Wix 添加到 MCP 目录（通过\n- **#16654** - 奥托在大脑转储的不够屏幕上回复（由",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "pionxzh/chatgpt-exporter": {
     "last_tag": "userscript-v2.38.3",
@@ -246,28 +246,28 @@
     "updated_at": "2026-11-09T07:43:43.601919+00:00"
   },
   "YerongAI/Office-Tool": {
-    "last_tag": "v11.8.50.0",
+    "last_tag": "v11.9.15.0",
     "desc_zh": "Office Tool Plus 本地化项目。",
-    "summary_zh": "- 调整了外观。\n- 其他错误修复和改进。\n- 支持根据Windows版本检索合适的Office版本。",
-    "updated_at": "2026-10-19T10:45:51.818977+00:00"
+    "summary_zh": "- 修复了在 Windows 10 中最大化或恢复时应用程序窗口闪烁的问题。\n- 修复了应用程序无法在 Windows 11 21H2 上启动的问题。第1144章\n- 修复了帮助文档的错误链接。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "v2rayA/v2rayA": {
-    "last_tag": "v2.5.13",
+    "last_tag": "v2.5.14",
     "desc_zh": "一个基于 Xray 的核心的 Web 客户端，在 Linux、Windows 和 macOS 上具有全局透明代理。",
-    "summary_zh": "* 修复（v2ray）：保持系统代理和 tun 互斥，通过 https://github.com/v2rayA/v2rayA/pull/2086\n* 壮举：通过 https://github.com/v2rayA/v2rayA/pull/2102 将 xray 核心升级到 v26.10.31",
-    "updated_at": "2026-11-02T07:27:42.593992+00:00"
+    "summary_zh": "* iptables：当旧版 mangle 不可用时，回退到 nft，网址为 https://github.com/v2rayA/v2rayA/pull/2107",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "mack-a/v2ray-agent": {
-    "last_tag": "v3.5.40",
+    "last_tag": "v3.5.41",
     "desc_zh": "Xray、Tuic、hysteria2、sing-box 八合一一键脚本",
-    "summary_zh": "fix(xray): 修复 Xray 安装 Hysteria2 无法查看账号\r\nfix(脚本):修复 Hysteria2 订阅缺少上下行速率",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "fix(脚本): 修复 Hysteria2 端口跳跃、订阅配置及 Geo 更新问题",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "electerm/electerm": {
-    "last_tag": "v5.9.0",
+    "last_tag": "v5.10.0",
     "desc_zh": "📻免费开源终端/ssh/sftp/ftp/telnet/串口/RDP/VNC/Spice客户端(Linux, Mac, Windows, Android, HarmonyOS, iOS)",
-    "summary_zh": "- SSH：支持 PKCS#8、PPK v3 和 FIDO2 密钥 (ssh2 1.23.0)，改进 MFA 支持 (#4554)\n- MCP：添加只读命令规则工具，被拒绝的命令现在指向它（#4699）\n- 当 GitHub 无法访问时，从 GitHub 安装的小部件现在会回退到mirror.electterm.org 和 jsDelivr；应用内更新程序使用相同的镜像",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- 小部件：新的“在线”选项卡可浏览 widgets.electterm.org 注册表并一键安装小部件。在安装之前，它会显示源存储库、固定提交和文件列表以供审查，警告小部件的 main.js 以完整的 Node 权限运行，并根据注册表哈希验证每个下载的文件；已撤销的小部件被标记\n- 安全性：在 Web 会话选项卡中输入的 HTTP 基本凭据现在绑定到它们输入的源，因此跨源请求和重定向不再接收它们；来宾权限检查也被拒绝 (GHSA-3mh6-qf3v-q6cr)\n- 修复人工智能预设仍然提供退役的 Gemini 和 Claude 模型，并替换为当前模型（#4716）",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "TDesktop-x64/tdesktop": {
     "last_tag": "v1.2.12",
@@ -300,10 +300,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "microsoft/vscode": {
-    "last_tag": "1.145.2",
+    "last_tag": "1.146.0",
     "desc_zh": "视觉工作室代码",
-    "summary_zh": "https://code.visualstudio.com/updates/v1_145",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "https://code.visualstudio.com/updates/v1_146",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "sandboxie-plus/Sandboxie": {
     "last_tag": "v1.18.8",
@@ -324,16 +324,16 @@
     "updated_at": "2026-10-26T05:51:29.899945+00:00"
   },
   "Loyalsoldier/v2ray-rules-dat": {
-    "last_tag": "202611082203",
+    "last_tag": "202611122204",
     "desc_zh": "🦄 🎃 👻 V2Ray 路由规则文件加强版，可代替 V2Ray 官方 geoip.dat 和 geosite.dat，适用于 V2Ray、Xray-core、mihomo(Clash-Meta)、hysteria、Trojan-Go 和 leaf。Enhanced edition of V2Ray rules dat files, applicable to V2Ray, Xray-core, mihomo(Clash-Meta), hysteria, Trojan-Go and leaf.",
     "summary_zh": "该版本未提供详细更新说明。",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "Openwrt-Passwall/openwrt-passwall": {
-    "last_tag": "26.11.3-1",
+    "last_tag": "26.11.11-1",
     "desc_zh": "暂无项目描述",
     "summary_zh": "* 请按照 [openwrt-passwall-build](https://github.com/moetayuko/openwrt-passwall-build) 仓库的说明，将其提供的软件源添加到设备中，然后直接使用包管理器安装。\n* 从 [SourceForge](https://sourceforge.net/projects/openwrt-passwall-build/files/) 下载预构建的软件包。\n* 将文件上传到您的设备，使用 Shell 命令进行安装。",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "2dust/v2rayN": {
     "last_tag": "7.25.6",
@@ -342,10 +342,10 @@
     "updated_at": "2026-10-19T10:45:51.818977+00:00"
   },
   "DIYgod/RSSHub": {
-    "last_tag": "v2026.11.09-8610.f813abe",
+    "last_tag": "v2026.11.12-8637.9b47c74",
     "desc_zh": "🧡 一切都是RSSible",
-    "summary_zh": "-ghcr.io/diygod/rsshub:f813abebdbca64733452000f73c79e5b8f8b4716\n-ghcr.io/diygod/rsshub:chromium-bundled-f813abebdbca64733452000f73c79e5b8f8b4716\n-diygod/rsshub:f813abebdbca64733452000f73c79e5b8f8b4716",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "-ghcr.io/diygod/rsshub:9b47c74ddc4dc34d9b97791de96964a0654486e1\n- ghcr.io/diygod/rsshub:chromium-bundled-9b47c74ddc4dc34d9b97791de96964a0654486e1\n- diygod/rsshub:9b47c74ddc4dc34d9b97791de96964a0654486e1",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "rockbenben/ChatGPT-Shortcut": {
     "last_tag": "v4.5.2",
@@ -372,10 +372,10 @@
     "updated_at": "2026-10-12T07:04:03.739718+00:00"
   },
   "hypit-ai/hypit": {
-    "last_tag": "v0.3.1",
+    "last_tag": "v0.3.2",
     "desc_zh": "使用人工智能代理克隆任何病毒视频。不仅仅是一个脚本，而是整个工作流程：交换面孔、文字、幕后花絮，在一个命令中发送 100 个变体，并获得 1 亿次观看。",
-    "summary_zh": "- 视频域 SDK 是独立版本的 npm 包。默认视频功能仍随 Hypit 安装；通用主机 API 保留在 /hypit 下。\n- Studio 解析计算的 CaptionTiming 引用，即使没有 Track 消耗它们，也会显示命名的 Instant，并保留紧凑的统一时间轴标题和投影行。窗口通过其消耗的跟踪项目保持可见。\n- Studio 观察原子源文件替换，并随着加载的源闭包更改而更新监视。",
-    "updated_at": "2026-10-19T10:45:51.818977+00:00"
+    "summary_zh": "- 添加 Bach 1.0 Pro 作为默认 Hypit 依赖项，包含文本、框架和参考 SVML 表面并通过 HypiHub 生成。仅最后一帧的生成需要 4K。参考图像、视频和音频都可以设置“开始时间”偏移量。\n- HypiHub 上的 PixVerse V6 接受“种子”和“多剪辑”。 `aspect-ratio=\"auto\"` 需要至少一个视频参考，并且 `multi-clip` 不能与视频参考组合。\n- 添加可嵌入的 HTML 文档输出并与 Studio 共享 HTML 播放处理。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "HBAI-Ltd/Toonflow-app": {
     "last_tag": "v2.0.10",
@@ -384,10 +384,10 @@
     "updated_at": "2026-11-09T07:43:43.601919+00:00"
   },
   "morluto/rea": {
-    "last_tag": "rea-agents-6.8.0",
-    "desc_zh": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-    "summary_zh": "- Build local agent environments from network captures, browser scenarios, or a prompt, then serve derived reads and evidence-gated writes and compare them with fresh application captures.\n- Inspect more shipped formats, including GPU code objects, BEAM, Python bytecode, Unity IL2CPP metadata, Godot PCK, PyInstaller, Node.js SEA, devicetree, and additional PE/ELF tables.\n- Keep large investigations focused with retained summaries, selected fact queries, configurable recovery limits, and row-oriented CLI exports. Complete Evidence remains available.",
-    "updated_at": "2026-10-26T05:51:29.899945+00:00"
+    "last_tag": "rea-agents-6.9.0",
+    "desc_zh": "使用代理对任何内容进行逆向工程，从应用程序行为到本机二进制文件。",
+    "summary_zh": "- 根据记录的应用程序状态构建和测试桌面任务，包括下载的 Linux 应用程序、可重复使用的构建计算机以及每次捕获的多个任务。\n- 离线检查更多已交付的工件：独立应用程序包、嵌入式固件、NTFS 收购、API 合同和 V8 代码缓存容器。\n- 使本机和运行时调查以保留的证据为基础，并提供分页结果、明确的覆盖范围和可恢复的资源限制。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "chatfire-AI/huobao-drama": {
     "last_tag": "v4.0.11",
@@ -396,10 +396,10 @@
     "updated_at": "2026-11-09T07:43:43.601919+00:00"
   },
   "yetone/magpie": {
-    "last_tag": "v0.1.3373",
+    "last_tag": "v0.1.3961",
     "desc_zh": "每个代理的模型。一处。来自菜单栏的 DeepSeek 上的 Codex、Kimi 上的 Claude Code。",
-    "summary_zh": "- 更新了视频生成设置以使用 Magpie Image 模型创建视频。\n- **macOS（Apple Silicon）：** `magpie-darwin-arm64.dmg`\n- **macOS（英特尔）：** `magpie-darwin-amd64.dmg`",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- 添加了英语、中文和日语版本的 API 中继页面。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "paulrosen/abcjs": {
     "last_tag": "v6.7.1",
@@ -408,10 +408,10 @@
     "updated_at": "2026-10-19T10:45:51.818977+00:00"
   },
   "NousResearch/hermes-agent": {
-    "last_tag": "v0.23.0",
+    "last_tag": "v0.23.1",
     "desc_zh": "与您共同成长的代理商",
-    "summary_zh": "- **浏览器选项卡中的桌面工作区** — 新的 Web 应用程序从您自己的网关提供完整的桌面工作区：相同的聊天、群聊、插件和设置，在网络上的任何浏览器中或通过登录的公共 URL 后面。 Docker 镜像和 Nix 包提供了它。默认关闭；使用“webapp.enabled”或“设置”中的“Web 访问”将其打开。 （[#141864]（https://github.com/NousResearch/hermes-agent/pull/141864），[#145598]（https://github.com/NousResearch/hermes-agent/pull/145598），[#145536]（https://github.com/NousResearch/hermes-agent/pull/145536）， [#145072](https://github.com/NousResearch/hermes-agent/pull/145072), [#145153](https://github.com/NousResearch/hermes-agent/pull/145153) — , , ,\n- **一个网关拥有每一次对话** — 之前，CLI、TUI、桌面、编辑器 (ACP)、消息传递机器人和 cron 都可以针对同一个聊天运行自己的代理副本，这就是消息被写入两次或在表面之间丢失的原因。现在，每台计算机都运行一个拥有每个会话的网关，并且每个表面都作为客户端附加到它：您在任何地方打开的聊天都是同一个聊天，具有一个队列和一个历史记录。您甚至可以从桌面引导或编辑排队的提示，而无需它运行两次。 ([#106742](https://github.com/NousResearch/hermes-agent/pull/106742), [#140334](https://github.com/NousResearch/hermes-agent/pull/140334) — ,\n- **终端中的图片** - 当您粘贴图像或工具截取屏幕截图时，CLI 和 TUI 现在会在聊天中直接绘制它，而不是打印文件路径：kitty 和 Ghostty（CLI 和 TUI）以及 iTerm2、WezTerm 和 Konsole (CLI) 中的真实像素，其他地方的彩色块，以及打开图像支持时 VS Code 终端中的全分辨率。 （[#147293]（https://github.com/NousResearch/hermes-agent/pull/147293），[#148874]（https://github.com/NousResearch/hermes-agent/pull/148874）-",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- Microsoft Store 应用程序：通过商店更新。\n- 从安装程序安装的桌面应用程序（.exe / .dmg）：此版本中没有变化；它会随着下一个捆绑版本的更新而更新。\n- CLI：`hermes update`，或重新运行安装程序一行。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "Makememo/MemoAI": {
     "last_tag": "v1.8.10",
@@ -456,10 +456,10 @@
     "updated_at": "2026-10-26T05:51:29.899945+00:00"
   },
   "KnifeLemon/Filee": {
-    "last_tag": "v2.3.0",
+    "last_tag": "v2.4.0",
     "desc_zh": "免费的开源文件转换器。通过拖放功能离线转换 263 格式 — 图像、PDF、Word、Excel、PowerPoint、HWP/HWPX、视频、音频、电子书和档案。无需上传，无需 Office。",
-    "summary_zh": "发生了什么变化\n\n<!--更新\r\n级别：推荐\r\nzh: 注释：向照片添加箭头、框、突出显示、字母和数字。\r\nzh: 裁剪视频：删除黑色空间或剪切到所需的比例\r\nko：合并：将 PDF 的第 2、4、6、8 和 9 页收集到一张纸上\r\nzh: 设置 → 字段：从列表和圆形工具栏中隐藏未使用字段的格式（CAD、3D、字体等）。\r\nko：文档、电子书、字幕（SRT、WebVTT）",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "发生了什么变化\n\n<!--更新\n级别：必填\nzh: 安全修复：更新签名验证，防止文档读取 PC/网络上的文件、文件过大等问题。\nko：修复了 Calibre 引擎安装/更新失败的问题。\nzh: 修复了升级用户看不到翻译预设的问题\nzh: 添加背景：为照片添加渐变、颜色、图片背景、边距、圆角和阴影。\nen: 主屏幕",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "Ebony-Vinyl/dsh-our-free-model": {
     "last_tag": "v2.8.3",
@@ -498,16 +498,16 @@
     "updated_at": "2026-10-30T08:16:19.605904+00:00"
   },
   "agalwood/Motrix": {
-    "last_tag": "v2.4.0",
+    "last_tag": "v2.4.1",
     "desc_zh": "功能齐全的下载管理器。",
-    "summary_zh": "* ci(fnos)：通过 https://github.com/agalwood/Motrix/pull/2507 发布经过验证的本机包以实现稳定版本\n* 修复（最终确定）：稳定 Windows 后缀重命名并通过 https://github.com/agalwood/Motrix/pull/2512 恢复隔离\n* 文档：通过 https://github.com/agalwood/Motrix/pull/2510 修改问题模板中的预检清单项目 [skip ci]",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "* 修复（引擎）：将 aria2 与 Windows 连接故障转移捆绑在一起，通过 https://github.com/agalwood/Motrix/pull/2515\n* 杂务（发布）：升级翻译依赖项并在 https://github.com/agalwood/Motrix/pull/2516 中准备 2.4.1",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "subhra74/xdm": {
-    "last_tag": "v9.0.9",
+    "last_tag": "v9.0.10",
     "desc_zh": "自 2013 年以来，快速、可靠的下载加速器和视频下载器",
-    "summary_zh": "下载\n\n|安装人员|笔记|\n|---|---|\n| [xdm-app-9.0.9-arm64.dmg](https://github.com/subhra74/xdm/releases/download/v9.0.9/xdm-app-9.0.9-arm64.dmg) |适用于 Apple Silicon（M1 或更高版本）mac |\n| [xdm-app-9.0.9-x64.dmg](https://github.com/subhra74/xdm",
-    "updated_at": "2026-11-02T07:27:42.593992+00:00"
+    "summary_zh": "下载\n\n|安装人员 |笔记|\n|---|---|\n| [xdm-app-9.0.10-arm64.dmg](https://github.com/subhra74/xdm/releases/download/v9.0.10/xdm-app-9.0.10-arm64.dmg) |适用于 Apple Silicon（M1 或更高版本）mac |\n| [xdm-app-9.0.10-x64.dmg](https://github.com/subhra74",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "XTLS/Xray-core": {
     "last_tag": "v26.11.9",
@@ -516,10 +516,10 @@
     "updated_at": "2026-11-09T07:43:43.601919+00:00"
   },
   "akitaonrails/ai-memory": {
-    "last_tag": "v3.4.4",
+    "last_tag": "v3.4.5",
     "desc_zh": "用于代理编码 CLI 的长期记忆解决方案，并促进不同代理供应商之间的切换",
-    "summary_zh": "校验和 (SHA256)\n````\n333928cbc642ad7e649260a1ec1731a8cc182fb5a4cb109cfd5cede5f9cda651 ai内存-3.4.4-1.aarch64.rpm\n3c4a2a546ff959aa89897223bfd830b12c6542e261b4ddf9825fa9a20a53a108 ai-内存-3.4.4-1.x86_64.rpm\n5a3f1142b9c6c642d9fd4b7035ac46e5a652",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "校验和 (SHA256)\n````\n897759e08968b146405d53e5417653f1b5d28ea4254baba1bb5b6d3a367411b4 ai-内存-3.4.5-1.aarch64.rpm\n14755b246e52a8c5969c1cea094d08002d8fe9e85924dae744858930efb33a0b ai-内存-3.4.5-1.x86_64.rpm\n28862a1b83331ca71af1e526313672df340a",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "HKUDS/DeepTutor": {
     "last_tag": "v1.7.2",
@@ -540,10 +540,10 @@
     "updated_at": "2026-11-02T07:27:42.593992+00:00"
   },
   "openai/codex": {
-    "last_tag": "rust-v0.167.0",
+    "last_tag": "rust-v0.167.2",
     "desc_zh": "在您的终端中运行的轻量级编码代理",
-    "summary_zh": "- 使用“codex Agents --no-daemon”打开代理命令中心。命令中心和会话选择器现在标记未读结果（#58238、#58239、#58263、#58264）。\n- 从终端会话选择器在连接的后端之间切换，并在切换时保留草稿（#58280、#58457）。\n- 在支持的终端上撰写时预览本地图像附件，并从可单击的脚本路径打开查看的本地图像（#58261、#58446）。",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- Codex 现在默认在 Google Cloud Vertex AI 上增量发送工具更新。要选择退出，请在“config.toml”中的“[features]”下设置“incremental_tools_legacy_gcp = false”。 （[#60617]（https://github.com/openai/codex/pull/60617），[#60848]（https://github.com/openai/codex/pull/60848））",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "233boy/Xray": {
     "last_tag": "v1.37",
@@ -564,40 +564,40 @@
     "updated_at": "2026-11-09T07:43:43.601919+00:00"
   },
   "vercel-labs/agent-desktop": {
-    "last_tag": "v1.2.0",
+    "last_tag": "v1.3.0",
     "desc_zh": "计算机使用 CLI 进行 AI 代理",
-    "summary_zh": "* feat(macos)：在 https://github.com/vercel-labs/agent-desktop/pull/503 中选择只有其容器可以选择的列表行\n* 修复（macos）：通过 https://github.com/vercel-labs/agent-desktop/pull/511 在菜单和系统面板上方绘制光标覆盖层\n* 文档：通过 https://github.com/vercel-labs/agent-desktop/pull/481 简化自述文件和存储库文档",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "* 修复（macos）：解决本机菜单并通过 https://github.com/vercel-labs/agent-desktop/pull/376 验证生命周期转换\n* perf(macos)：使用 libproc 读取应用程序进程清单，而不是在 https://github.com/vercel-labs/agent-desktop/pull/573 中生成 ps\n* 文档：说每个本地帐户都可以通过 https://github.com/vercel-labs/agent-desktop/pull/589 到达 --cdp 端口",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "a3974892-cmd/wakeloom": {
-    "last_tag": "v1.21.4",
+    "last_tag": "v1.21.5",
     "desc_zh": "暂无项目描述",
-    "summary_zh": "- 本次仅发布 Windows 版本。Linux 等待用户测试，暂不提供安装包或自动更新清单。\n- 优化字体、圆角、留白和浅深色外观，新增原创 W 标志，将导航编号改为图标。\n- 修正大模型 API 设置区域的字体、边距及窄窗口横向溢出。",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- 修复旧用户更新后的桌面图标：刷新 Windows 的旧 EXE 图标缓存，将指向当前程序的桌面快捷方式更新为 W 图标，保留启动目标与参数。\n- 仅发布 Windows；保留 Colab 本地和网关模式，不包含已撤回的 Kaggle 接入。\n- AI 对话新增代码块复制、双方消息时间及上下文整理，保留近期完整问答和失败反馈，显示实际带入的历史、附件与技能内容。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "JimLiu/baocut": {
-    "last_tag": "baocut-v3.16.4-build.92",
+    "last_tag": "baocut-v3.19.1-build.96",
     "desc_zh": "BaoCut：具有可编辑时间线的人工智能视频代理。转录、字幕、翻译、配音、剪辑和动画。",
-    "summary_zh": "- **等待问题和批准不再超时。** 等待您的问题或批准不再因“操作超时”而失败。大约四到五分钟后。当工具调用等待时，BaoCut 现在将保持活动进度发送到接受流式响应的 MCP 客户端，因此 2.1.274 之前的 Claude Code 版本和 Claude Code 的工具空闲看门狗不再丢弃它。快速调用和纯 JSON 客户端保持不变。 2.1.142之前的Claude Code版本仍然可以在60秒后结束此类调用；如果发生这种情况，请更新克劳德代码。参考文献 [#131](https://github.com/jimliu/baocut/issues/131)。 [详情](https://github.com/jimliu/baocut/commit/8371871a67acbc8b9ec40d4e2353c271e8da2748)\n- **问题历史记录保留选择。** 当您在对话历史记录中展开时，停止、跳过或回答的问题会保留其标题、选项和选项说明，以便您可以查看所问的内容。 [详情](https://github.com/jimliu/baocut/pull/132)\n- 内部：模型 API 服务测试现在使用仍然可用的图像模型。 [详情](https://github.com/jimliu/baocut/pull/130)",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- 当 YouTube 在以“请求的格式不可用”结束之前报告登录检查、帐户 Cookie 过期或签名质询失败时，下载现在会因登录 (`LINK_LOGIN_REQUIRED`) 或工具更新 (`LINK_TOOL_UPDATE_REQUIRED`) 问题而失败，并显示原因，而不是将链接报告为不可用。原因会在长格式探测日志中保留下来，并且具体的最终错误（例如 HTTP 403 或超时）仍然优先。错误代码、浏览器选择和重试规则保持不变。 ([#137](https://github.com/JimLiu/baocut/pull/137) 作者：XiChuan9)\n- 下载错误消息和详细信息中的链接经过更可靠的编辑，包括凭据中带有原始引号的链接以及因日志长度限制而被切断的链接。 ([来源](https://github.com/jimliu/baocut/commit/f72368098e9b8a02ac355dfa2552ab834ac2b30a))\n- 顶级“baocut”帮助再次适合 40 行。 ([#136](https://github.com/JimLiu/baocut/pull/136))",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "milind-soni/OpenMausBot": {
-    "last_tag": "v0.1.150",
+    "last_tag": "v0.1.154",
     "desc_zh": "开源 Grok Bot 替代品，带有机器人可以使用的虚拟机",
-    "summary_zh": "- **My Cloud 上的恢复自行完成。** 恢复备份或将此计算机的工作区移至 My Cloud，通常需要等待“完全退出 MausBot...”，而 Cloud 无法做到这一点。现在，我的云会在恢复后立即重新启动自己的服务器，并在恢复时显示进度。\n- **当许多机器人等待时，轮流队列会保持很快。** 检查下一个轮到谁所花费的时间与等待的数量成正比，而不是其平方，因此繁忙的云会不断应答。\n- **一旦其模型调用之一得到应答，克劳德回合就不会发送两次**。",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- **三组，始终按相同顺序：**您所在的位置（此计算机或云）、您的帐户和此应用程序。每一页都说明了它的适用范围。\n- **简单模式显示的页面较少。** 打开“设置”底部的高级模式即可查看其余内容。\n- **一个 ​​AI 页面**，用于引擎、提供商密钥和模型。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "yuchen-ya/reelterminal": {
-    "last_tag": "v1.3.12",
+    "last_tag": "v1.4.3",
     "desc_zh": "ReelTerminal — 您的 AI 视频的最后一站。具有共享人类/代理控制的代理本机视频整理编辑器。",
-    "summary_zh": "- 修复安装包中混入多余文件的问题。\n- 修复切换指令窗口时，编辑窗口意外关闭的问题。",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- 以图片为主的任务默认显示图片总览，支持按状态筛选、文件名搜索、自然排序、多选和 Shift 范围选择。\n- 可以对明确选中的项目批量保留、返工或丢弃，也可先确认范围，再保留剩余待审图片。单次最多 1,000 项，不会静默拆成多个保存；失败不会产生部分批量决定。\n- 批量决定支持整体撤销和重做；已有更新决定、源文件变化或口径变化时，会提示冲突并保留较新的状态。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "JamesQiu2005/SpektraLab": {
-    "last_tag": "spektralab-v2.2.2",
+    "last_tag": "spektralab-v2.3.2",
     "desc_zh": "SpektraLab — macOS 电影和打印模拟器。 SwiftUI 应用程序 + Metal/C++ 渲染引擎，链接进来，运行时没有 Python。 andreavolpato/spektrafilm 的一个分支。",
-    "summary_zh": "- **Canvas Color Space (Canvas Color Space) 位于 Develop 的···菜单中。** 2.2.1 有该功能，但 Mac 的菜单没有显示。\n- **用户指南**，中英文：[docs/USER-GUIDE.md](https://github.com/JamesQiu2005/SpektraLab/blob/main/docs/USER-GUIDE.md) · [文档/USER-GUIDE.zh-CN.md](https://github.com/JamesQiu2005/SpektraLab/blob/main/docs/USER-GUIDE.zh-CN.md)。",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- **SpektraLab 现在可以在 Intel Mac 上运行。** 在 2.3.2 之前，引擎拒绝在 Intel Mac 上启动。它对快速数学 GPU 代码的启动检查依赖于那些 Mac 上的 GPU 不做的事情，因此正确构建的引擎被用来代替损坏的引擎。检查被重写，因此它不再依赖于此，并且仍然拒绝使用快速数学构建的引擎。感谢 zhanglm 的修复（#104）。\n- **测试于：** 配备 AMD Radeon RX 590 eGPU 的 Mac mini 2018。英特尔构建也在 Rosetta 下的 Apple 芯片上进行了检查，引擎的全尺寸渲染与 Apple 芯片构建完全匹配。其他英特尔 Mac，特别是英特尔集成显卡，尚未尝试过。如果您的行为不当，请打开一个问题并说明您拥有的 Mac 和 GPU。\n- 在 Intel 上和在 Apple 芯片上仍然需要 macOS 15 或更高版本。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "ziyuanhuishequ/release-downloader": {
     "last_tag": "v1.6.3",
@@ -612,28 +612,28 @@
     "updated_at": "2026-11-09T07:43:43.601919+00:00"
   },
   "KKKKhazix/agent-autoloop": {
-    "last_tag": "v1.7.0",
+    "last_tag": "v1.8.2",
     "desc_zh": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
-    "summary_zh": "- **回答带上所选的文字。** 资料文件里 `answers` 的每一项多了 `chosen`：选了选项时是那一项的文字，只写了话时就是那句话。`choice` 仍是从 0 起的序号、原样保留。之前只有序号，Agent 会把 `choice: 1` 当成第一项，把人的决定读反（试跑里选“绿色”被报成“蓝色”）。`try` 的提示词也改成直接读 `chosen`。\n- **Windows：npm 装的 Claude Code 能启动。** `npm i -g /claude-code` 生成的 `claude.cmd` 直接指向 `claude.exe`，以前会报“不能直接运行”、每一轮以退出码 127 失败，`check` 里的登录检查也一样。现在包装指向 `.exe` 时直接运行它，参数照原样传。\n- **Answers carry the chosen text.** Each entry in the run file's `answers` now has `chosen`: the text of the picked option, or the person's own words when they wrote instead. `choice` is still the zero-based index, unchanged. With only the index, agents read `choice: 1` as the first option and reported the opposite of the decision (picking \"green\" in a trial came back as \"blue\"). The `try` prompt now reads `chosen` directly.",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- ZCode 支持：内置 ZCode 代理适配器；读取停止在对象中间的 ZCode 输出不再挂起。\n- 规则可以设置一个可选的会话“标题”，放在提示的第一行，这样在第一条消息之后命名会话的客户端就可以区分运行。\n- 规则暂停时跳过的事件现在可见并且可以重播：“resume”和“status”列出了它们，并且有一个新的“agent-autoloop replay <rule> --since <time>”（也通过 HTTP 和 MCP）。打印的重播命令与复制的一样工作，包括 Windows。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "alchaincyf/huashu-motion": {
-    "last_tag": "v0.3.1",
+    "last_tag": "v0.4.0",
     "desc_zh": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
-    "summary_zh": "- 三个方向卡上不再列配乐。大多数人没法凭一个曲风名字判断好坏，这个选择交给导演：方向选定后，按产品的使用者、场景、节奏、使用感受和出身来选音乐世界、速度和编制，写进分镜。\n- 用户主动想参与配乐，才给选项；用户点名了风格或曲子，就用用户的。\n- 速度跟着产品和剪辑走，不再默认 120。",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- 新增一条路径：片子已经做完、检查全过，但看着平，想让配乐、节奏、动效好很多。导演会先用数字写诊断（每秒运动量、哪几段是同一种版式、配乐哪里薄），保住创意和已确认的文案，再重做镜头和总谱。方法在 `references/punch-up.md`。\n- SKILL.md 开头改成先讲标准：三个检验（是不是这个产品、能量有没有形状、有没有哪段像幻灯片）、任务分流表、哪些闸门是写死的、闸门之间哪些可以放开做。\n- 把整支成片按每秒 4 帧铺成几张接触表，一眼看出哪段不动、哪几段是同一种版式换了内容、哪一帧停在半路很难看。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "wquguru/cicada": {
-    "last_tag": "v1.7.0",
+    "last_tag": "v1.9.0",
     "desc_zh": "知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream, on Mac, Windows, Linux and Android.",
-    "summary_zh": "- Cicada 在运行时停留在 Dock 中，录制时有一个橙色点和右键菜单 ([308f00c](https://github.com/wquguru/cicada/commit/308f00c27dfe008f3ccea3dbb22a58e482b5026e))\n- 共享...以应用程序语言将链接和密码一起复制为一条消息 ([64b9471](https://github.com/wquguru/cicada/commit/64b94712a1ef3d9b9049e062db0a4952e45b6974))",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- 录音播放时，正在播放的整行都会亮起，然后单击该行上的任意位置即可播放 ([4e0aa4f](https://github.com/wquguru/cicada/commit/4e0aa4f7685ed57cbaf0ded0d684afade8f4d904))\n- Notes可以使用自己的模型，或另一个具有自己的地址和密钥的OpenAI兼容服务（[21642b9](https://github.com/wquguru/cicada/commit/21642b9bf74e0623d6bdbaee9cb04b150f5c8b3e))\n- 口译可以免提运行：Cicada 听会议时，只需开始说话，翻译会在一秒钟的暂停后停止 ([a44d0e8](https://github.com/wquguru/cicada/commit/a44d0e8b8abdabe8bf6445ab1f4adaf8303555ca))",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "threerocks/sweety-handdraw-video": {
-    "last_tag": "v3.0.2",
+    "last_tag": "v3.1.0",
     "desc_zh": "从主题或文章制作完整手绘讲解视频：按部位描线、逐字书写、VoiceStudio 配音、五项内置制作依赖。",
-    "summary_zh": "- 规划尺寸 400、放大 3.2 倍时，3 个像素超出 0.36 px；\n- 放大 2.4 倍时，2 个像素超出 0.14 px。\n- 整张拉伸；",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- **油画**：块面写生的顺序：起稿 → 脸 → 头发 → 五官 → 衣服 → 背景 → 推近深入 → 落款。每笔有自己的压力、含色量和弯度；脸从暗部成片往外长，手离开一块区域时不留洞；轮廓不再是锯齿；最后几笔厚涂亮部。\n- **素描**：一笔就是一支铅笔的一条线，石墨叠加变深，不从成品里「取」深浅。先起形，头发先用笔侧铺色调再画发丝，五官早早定下深色；揉擦、提亮时换纸擦笔和橡皮。\n- **动漫插画**：草稿 → 线稿（每根线一笔画完，有入笔和出锋）→ 平涂（每块先沿边走一笔，再一条不抬笔的来回路线涂满，背景先整片涂满再画上面的植物）→ 阴影、高光 → 渐变 → 眼睛 → 签名。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "SourceWeft/SourceWeft": {
     "last_tag": "v0.3.0-rc.8",
@@ -642,16 +642,16 @@
     "updated_at": "2026-11-09T07:43:43.601919+00:00"
   },
   "storytold/craft-anything": {
-    "last_tag": "v0.5.0",
+    "last_tag": "v0.6.1",
     "desc_zh": "制作任何东西：了解任何软件的工作原理，并制作自己的软件。",
-    "summary_zh": "* 让原生 OpenCode 运行 Craft Anything 工具并通过 https://github.com/storytold/craft-anything/pull/800 显示其工具调用\n* 通过 https://github.com/storytold/craft-anything/pull/767 稳定环回请求和取消装置 (R3.11)\n* 保持模型发现测试不依赖于 https://github.com/storytold/craft-anything/pull/980 中安装的 OpenCode (R5.2)",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "* 通过 https://github.com/storytold/craft-anything/pull/1348 将 Mach-O 零填充部分保留在文件支持的部分数据 (R3.12) 之外\n* 在填充添加的 SQLite 列（R3.12）时读取小数位分隔符 https://github.com/storytold/craft-anything/pull/1318\n* 在报告 Rust 依赖项 (R3.12) 之前验证 Cargo 包版本：https://github.com/storytold/craft-anything/pull/1329",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "microsoft/skill-recorder": {
-    "last_tag": "v0.8.0",
+    "last_tag": "v0.9.2",
     "desc_zh": "桌面应用程序，记录您的屏幕上工作会话，并使用 GitHub Copilot SDK 将其重建为意图 + 有序步骤，然后为 Microsoft Autopilot（例如 Scout、Microsoft Copilot Cowork 或 Copilot Studio）构建可重用的技能或自动化。",
-    "summary_zh": "- **导入现有录制文件：** 使用录制旁边的较小文件夹按钮选择本地 MP4 或 WebM，例如下载的 Teams 演示。\n- 在继续之前检查实际的视频和音频解码。不支持的编解码器和无效媒体将被拒绝并给出解释；不需要转换器、独立 FFmpeg 安装或新的应用程序依赖项。\n- 添加可选详细信息来解释任务、补充演示或建议其出现位置。支持将详细信息留空。时间戳指导人工智能；他们不会修剪录音。",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- **防止重复的 Skill Recorder 实例。** Electron 的本机单实例锁是在记录器初始化之前获取的。另一次启动会显示现有的记录器或活动记录控件，而不是创建另一个主进程、托盘和记录器。\n- **恢复现有窗口。**重复启动恢复最小化的记录器；启动期间收到的请求将在初始化后处理。再次启动不会启动、停止或放弃录制，并且在关闭期间不会重新打开窗口。\n- **明确 Windows 升级。** 新安装和同一提交重新安装均通过手动启动说明完成，而不是自动打开另一个副本。现有的快捷方式警告仍然可见，并且当无法创建快捷方式时，会提供安全引用的后备命令。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "hiddify/hiddify-app": {
     "last_tag": "v5.5.5",
@@ -664,5 +664,53 @@
     "desc_zh": "使用陀螺仪数据进行视频稳定",
     "summary_zh": "- **新相机：** Canon、Z CAM、HOVERAir、XTRA 等，见下文\n- **光学稳定** - 新的稳定算法无需运动数据，实际上很好。它在大多数具有良好跟踪点和良好镜头轮廓的视频上产生与基于陀螺仪的稳定相似的结果。在“运动数据 -> 光学校正”中启用。这修复了所有 O4 问题、振动、陀螺仪不良、O4 Lite、DJI Neo 震动、FPV 上的 Hero 7、使用 RockSteady 的 DJI、使用 OSS 的索尼等。如果帧中有移动的主体，您可以编辑每个跟踪点并将其从解决方案中删除。需要有效的镜头配置文件。\n- **新的“最佳路径”平滑** - 立即规划整个剪辑的相机路径：它在相同变焦下比“默认”消除更多的抖动，永远不会落后于平移，并将帧保持在变焦限制内。在“稳定”面板中选择它并尝试您的镜头 - 它与默认的感觉完全不同。",
     "updated_at": "2026-11-09T07:43:43.601919+00:00"
+  },
+  "y5ez3g/facadecode": {
+    "last_tag": "extension/0.1.3",
+    "desc_zh": "VS Code 的多代理协调器。运行 Claude Code、Codex 和其他代理 CLI，这些 CLI 可以跨窗口和计算机启动、发送消息并相互操作。",
+    "summary_zh": "- **Facade 的所有设置都在一个文件中。** Facade 主目录中的 `facade.json` （默认为 `~/.facade/facade.json`）包含 `yolo`、`names` 和 `clis`。 **打开设置** 在 Facade Code 中打开编辑器的设置，并且 **在facade.json 中编辑** 打开文件，并在需要时创建它。完成、悬停帮助和检查都随之而来。保存适用于随后启动的代理。\n- **您自己的 CLI。** 使用其他名称添加内置程序，例如通过“env”在另一个与 Anthropic 兼容的 API 上添加 Claude Code，或通过“args”使用带有配置文件的 Codex，或者使用“type: \"custom\"”的任何其他程序。另一个名称下的内置保留了 CLI 的工具、文件夹信任、状态、恢复和 Pin，因此另一个 API 密钥上的 Codex 不再显示红点。新文件列出了每个内置函数的每个字段，并带有注释示例。\n- **文件中的错误表明它们在哪里。** 文件错误会停止每次启动并命名其行和列，并提供通往文件的路径。一个条目中的错误只会导致该条目不可用。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
+  },
+  "GoogleChrome/modern-web-guidance": {
+    "last_tag": "v1.0.0",
+    "desc_zh": "让您的编码代理了解最新的网络最佳实践",
+    "summary_zh": "* **代码库现代化扫描器（`legacy-scan`）**：`npx Modern-web-guidance Legacy-scan [path]` 静态检测旧版 Web 平台模式，并将每个发现映射到具有现代替换的指南。它涵盖了当今大约 20% 具有确定性遗留规则的指南。 **[modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance/blob/v1.0.0/skills/modern-web-guidance/SKILL.md)** 技能为代理添加了匹配的 4 步工作流程：扫描、验证、报告、现代化。\n* **更小、更快的搜索**：搜索现在在零依赖嵌入模型加上 BM25（而不是 TensorFlow.js）上运行。它仍然完全离线，npm 下载量从 23.5 MB 下降到 8.8 MB。\n* **易失性功能选择加入（`set-allow-volatile-features`）**：过去 3 个月内发布或仍在稳定状态的单引擎功能指南保持可搜索，但“retrieve”需要明确的“.mwgrc”选择加入，与 Origin Trial 门控相匹配。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
+  },
+  "Lee-xeo/Claude-Cage": {
+    "last_tag": "v0.1.7",
+    "desc_zh": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
+    "summary_zh": "- **重新打开已有环境。** 基础模板缺失或安装未完成时，已有虚拟机仍可从自己的磁盘启动。创建或重置环境需要可用模板，重置会在停止或删除原环境之前完成这项检查。\n- **下载大工具包。** 支持分段的服务器最多可用 4 个连接并行下载。中断后可以复用已保存的进度；服务器不支持分段时自动回退为单连接。下载完成后仍会校验整个文件。实际提速幅度取决于线路和服务器限速。\n- **在终端使用 GitHub。** 新环境默认安装 GitHub CLI，已有环境更新工具后也可使用。在 Cage 终端运行 `gh auth login`，用自己的 GitHub 账号授权后即可按仓库权限处理提交、PR 和 Issue。[终端使用说明](https://lee-xeo.github.io/Claude-Cage/docs/workbench/)",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
+  },
+  "Kianuni/Erosion-CN": {
+    "last_tag": "v0.9.1",
+    "desc_zh": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
+    "summary_zh": "- 在所有原生支持 Apple 智能的 iPhone（`iPhone 15 Pro` 至 `iPhone 18 Pro Max` 全系列）原厂 `CacheData` 中，`Personal Translator`（`M1n2sAqf33NAOgZRGxQYBA`，槽位 `#266`）原厂默认为 `true (0x01)`，而 `Audio Intelligence`（`rb2tKZxlj0Gm2tBmUQSLqQ`，槽位 `#178`）原厂默认为 `false (0x00)`。\n- 此前跨 iOS 版本 OTA 升级（旧 `OriginalGestalt.plist` 的 `CacheUUID` 变化）或非 18 Pro 机型执行一键配齐时，可能将 `#266` 误写为 `false (0x00)` 并污染本地 `UserDefaults` 基线快照，触发 `GenerativeModels / ModelCatalog` 本地预检 0ms 熔断报错（端侧快速消除正常，但**照片高质量消除、扩图延伸、重构及相机 `SIRI` 模式**瞬间报错）。\n- `v0.9.1` 已锁定全系原生 AI iPhone 的硬件原厂基线（`#266 = true`、`#178 = false`，免疫跨版本备份不匹配与污染缓存），并在恢复出厂 / 重建缓存 / 重生备份时自动清理本地槽位基线记录。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
+  },
+  "huamidev/GestaltX": {
+    "last_tag": "v1.0.7",
+    "desc_zh": "适用于 iOS 27.x 的 MobileGestalt 编辑器，具有区域代码调整、设备预设、备份功能。",
+    "summary_zh": "- 修复了 iOS 27.3 上的容器发现，以便壁纸和应用程序启动图像可以再次找到其容器。",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
+  },
+  "assimp/assimp": {
+    "last_tag": "v6.0.6",
+    "desc_zh": "官方开放资产导入器库存储库。将 40 多种 3D 文件格式加载到一个统一且干净的数据结构中。",
+    "summary_zh": "* 修复俳句上的构建 https://github.com/assimp/assimp/pull/5255\n* 减少 JoinVerticesProcess::ProcessMesh() 中的内存消耗 https://github.com/assimp/assimp/pull/5252\n* 修复：在 https://github.com/assimp/assimp/pull/5258 中添加对无效输入参数的检查",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
+  },
+  "Anankke/SSPanel-UIM": {
+    "last_tag": "26.3.0",
+    "desc_zh": "多用途代理服务管理系统",
+    "summary_zh": "- amd64 和 arm64 的官方镜像“ghcr.io/anankke/sspanel-uim”，带有 Compose 部署，请参阅“docker/README.md”\n- 迁移在第一次失败时停止，并在下次运行时恢复\n- `xcat Migration` 因参数缺失或未知而退出 2",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
+  },
+  "pymumu/smartdns": {
+    "last_tag": "Release48.5-RC1",
+    "desc_zh": "A local DNS server to obtain the fastest website IP for the best Internet experience, support DoT, DoH, DoQ. 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验，支持DoH，DoT，DoQ。",
+    "summary_zh": "* 修复（conf）：在 https://github.com/pymumu/smartdns/pull/2497 中为 server-http3 保留 HTTP/3，并使用 https:// URL",
+    "updated_at": "2026-11-13T00:45:41.150847+00:00"
   }
 }
