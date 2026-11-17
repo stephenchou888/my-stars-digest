@@ -6,10 +6,10 @@
     "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "robbietilton/Compositor": {
-    "last_tag": "v1.6.7",
+    "last_tag": "v1.6.10",
     "desc_zh": "适用于 Mac 的 Photoshop 替代品",
-    "summary_zh": "- 关闭画笔上的抗锯齿功能以绘制或擦除硬像素边缘（例如铅笔）\n- 画笔栏不再重复保留在工具栏上的前景色\n- 修复了关闭自然滚动时选项滚动缩放方向错误的问题",
-    "updated_at": "2026-11-16T07:44:57.026792+00:00"
+    "summary_zh": "- 更大的拖动区域可以更轻松地将图层和文件夹拖动到图层面板中的第一个插槽\n- 拖放文件夹底部的图层：放开文件夹最后一层下方间隙的上半部分，将其放入内部，或放开下半部分，将其放入外部\n- 下降线缩进以显示图层将放置在哪个文件夹中",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "guohuiyuan/go-music-dl": {
     "last_tag": "v1.1.7",
@@ -108,10 +108,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "unslothai/unsloth": {
-    "last_tag": "v0.1.917-beta",
+    "last_tag": "v0.1.918-beta",
     "desc_zh": "用于运行和训练法学硕士和扩散模型的本地 UI。支持 GGUF、MLX、Qwen3.8、DeepSeek-V4.1、MiniMax-H3、Gemma 4、FLUX 等。",
-    "summary_zh": "- **新 Qwen3.8-27B** 动态 v3.1 GGUF。\n- **更快的聊天：** 对流式传输、滚动、菜单和对话框的性能进行了重大改进，尤其是在长时间对话中。\n- **更光滑的玻璃：** 减少打字、滚动和生成时的延迟。",
-    "updated_at": "2026-11-13T00:45:41.150847+00:00"
+    "summary_zh": "- **印迹：** 更改和交换 Qwen Flash 和 DeepSeek 的印迹。\n- **计算机使用（测试版）：** 本地视觉模型和连接的提供商现在可以看到您的屏幕并与应用程序交互。默认关闭，有权限控制。\n- **游戏引擎 + 创意应用程序：** 通过 MCP 连接 Unreal Engine、Unity、Godot 和 Roblox，以及 Blender。",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "arc53/DocsGPT": {
     "last_tag": "1.1.0",
@@ -156,10 +156,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "sub-store-org/Sub-Store": {
-    "last_tag": "2.44.15",
+    "last_tag": "2.44.16",
     "desc_zh": "QX、Loon、Surge、Stash、Egern 和 Shadowrocket 的高级订阅管理器！",
-    "summary_zh": "* feat: SCP 环境支持分享功能 (#672) ([7f2de2f](https://github.com/sub-store-org/Sub-Store/commit/7f2de2f)), closes [#672](https://github.com/sub-store-org/Sub-Store/issues/672)",
-    "updated_at": "2026-11-16T07:44:57.026792+00:00"
+    "summary_zh": "* feat: Surge/Surfboard 处理不合法的节点名 ([2a173b8](https://github.com/sub-store-org/Sub-Store/commit/2a173b8))",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "1Panel-dev/1Panel": {
     "last_tag": "v2.5.1",
@@ -168,16 +168,16 @@
     "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "kenzok8/compile-package": {
-    "last_tag": "2026.11.15-21/13_arm_cortex-a9_vfpv3-d16",
+    "last_tag": "2026.11.17-18/27_arm_cortex-a5_vfpv4",
     "desc_zh": "small-package仓库，每日更新插件编译",
-    "summary_zh": "定时更新插件，推送发布 💤:\n\n[下载链接] (https://dllkids.xyz/packages/arm_cortex-a9_vfpv3-d16/)",
-    "updated_at": "2026-11-16T07:44:57.026792+00:00"
+    "summary_zh": "定时更新插件，推送发布 💤:\n\n[下载链接] (https://dllkids.xyz/packages/arm_cortex-a5_vfpv4/)",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "jxxghp/MoviePilot": {
-    "last_tag": "v3.2.6",
+    "last_tag": "v3.2.7",
     "desc_zh": "NAS媒体库自动化管理工具",
-    "summary_zh": "- 站点接入：新增 Piggo 实验室 API、HDArea REST API 和 FluxTorrent 兼容层接入，完善相关站点的搜索、下载和用户数据支持，适配好学迁移后的站点协议。\n- 资源展示：修复 HDWinG 免费及双倍上传标识识别，补齐 Piggo 资源标签；前端正确区分资源标签与促销状态，保留未知促销状态，站点数据刷新失败时展示具体原因。\n- 搜索过滤：自动迁移旧版过滤规则 ID，搜索结果明确提示失效规则及规则组，便于定位和修复规则配置问题。",
-    "updated_at": "2026-11-13T00:45:41.150847+00:00"
+    "summary_zh": "- 通知与渠道授权：在用户管理中统一处理机器人使用申请、审批、权限及停用，支持关联已有网页账号，并迁移原有渠道白名单；修复微信、Slack、VoceChat、Synology Chat 无标题通知的显示。\n- 媒体识别与分类：共享并缓存非 TMDB 来源到 TMDB 的转换关系，详情页可跳转到对应 TMDB 条目；减少跨来源重复订阅，修复儿童剧集被优先分入普通电视剧分类的问题。\n- 订阅刷新：自动刷新按站点错峰，夜间降低频率，慢站独立退避，减少重复匹配；恢复缺失或过期的站点 RSS 地址，完善异常恢复。",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "invoke-ai/InvokeAI": {
     "last_tag": "v6.14.4",
@@ -324,10 +324,10 @@
     "updated_at": "2026-10-26T05:51:29.899945+00:00"
   },
   "Loyalsoldier/v2ray-rules-dat": {
-    "last_tag": "202611152204",
+    "last_tag": "202611162204",
     "desc_zh": "🦄 🎃 👻 V2Ray 路由规则文件加强版，可代替 V2Ray 官方 geoip.dat 和 geosite.dat，适用于 V2Ray、Xray-core、mihomo(Clash-Meta)、hysteria、Trojan-Go 和 leaf。Enhanced edition of V2Ray rules dat files, applicable to V2Ray, Xray-core, mihomo(Clash-Meta), hysteria, Trojan-Go and leaf.",
     "summary_zh": "该版本未提供详细更新说明。",
-    "updated_at": "2026-11-16T07:44:57.026792+00:00"
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "Openwrt-Passwall/openwrt-passwall": {
     "last_tag": "26.11.11-1",
@@ -342,10 +342,10 @@
     "updated_at": "2026-10-19T10:45:51.818977+00:00"
   },
   "DIYgod/RSSHub": {
-    "last_tag": "v2026.11.16-8658.b4990a8",
+    "last_tag": "v2026.11.17-8661.cf95739",
     "desc_zh": "🧡 一切都是RSSible",
-    "summary_zh": "-ghcr.io/diygod/rsshub:b4990a809138010275532fbab0efe8d55e2dc779\n- ghcr.io/diygod/rsshub:chromium-bundled-b4990a809138010275532fbab0efe8d55e2dc779\n-diygod/rsshub：b4990a809138010275532fbab0efe8d55e2dc779",
-    "updated_at": "2026-11-16T07:44:57.026792+00:00"
+    "summary_zh": "-ghcr.io/diygod/rsshub:cf957392f2d1a42085f182fca83caa6e7a293359\n- ghcr.io/diygod/rsshub:chromium-bundled-cf957392f2d1a42085f182fca83caa6e7a293359\n-diygod/rsshub：cf957392f2d1a42085f182fca83caa6e7a293359",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "rockbenben/ChatGPT-Shortcut": {
     "last_tag": "v4.5.2",
@@ -372,10 +372,10 @@
     "updated_at": "2026-10-12T07:04:03.739718+00:00"
   },
   "hypit-ai/hypit": {
-    "last_tag": "v0.3.2",
+    "last_tag": "v0.3.3",
     "desc_zh": "使用人工智能代理克隆任何病毒视频。不仅仅是一个脚本，而是整个工作流程：交换面孔、文字、幕后花絮，在一个命令中发送 100 个变体，并获得 1 亿次观看。",
-    "summary_zh": "- 添加 Bach 1.0 Pro 作为默认 Hypit 依赖项，包含文本、框架和参考 SVML 表面并通过 HypiHub 生成。仅最后一帧的生成需要 4K。参考图像、视频和音频都可以设置“开始时间”偏移量。\n- HypiHub 上的 PixVerse V6 接受“种子”和“多剪辑”。 `aspect-ratio=\"auto\"` 需要至少一个视频参考，并且 `multi-clip` 不能与视频参考组合。\n- 添加可嵌入的 HTML 文档输出并与 Studio 共享 HTML 播放处理。",
-    "updated_at": "2026-11-13T00:45:41.150847+00:00"
+    "summary_zh": "- 将模型包和 HypiHub 提供商中的巴赫视频生成限制为 1080p。\n- 需要第一帧进行帧引导生成，并接受可选的最后一帧。\n- 更新 Bach Surface 定义、示例和依赖版本。",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "HBAI-Ltd/Toonflow-app": {
     "last_tag": "v2.0.10",
@@ -396,10 +396,10 @@
     "updated_at": "2026-11-09T07:43:43.601919+00:00"
   },
   "yetone/magpie": {
-    "last_tag": "v0.1.4306",
+    "last_tag": "v0.1.4366",
     "desc_zh": "每个代理的模型。一处。来自菜单栏的 DeepSeek 上的 Codex、Kimi 上的 Claude Code。",
-    "summary_zh": "- 通过“/v1/realtime”添加了对实时 API 会话的支持，从而能够连接到 Qwen 令牌计划实时语音提供商。",
-    "updated_at": "2026-11-16T07:44:57.026792+00:00"
+    "summary_zh": "- 在窗口中提供的模型现在加入其模型的现有组（例如，具有 1M 上下文的 Claude Haiku 5.5）。\n- **macOS（Apple Silicon）：** `magpie-darwin-arm64.dmg`\n- **macOS（英特尔）：** `magpie-darwin-amd64.dmg`",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "paulrosen/abcjs": {
     "last_tag": "v6.7.1",
@@ -408,16 +408,16 @@
     "updated_at": "2026-10-19T10:45:51.818977+00:00"
   },
   "NousResearch/hermes-agent": {
-    "last_tag": "v0.23.1",
+    "last_tag": "v0.23.2",
     "desc_zh": "与您共同成长的代理商",
-    "summary_zh": "- Microsoft Store 应用程序：通过商店更新。\n- 从安装程序安装的桌面应用程序（.exe / .dmg）：此版本中没有变化；它会随着下一个捆绑版本的更新而更新。\n- CLI：`hermes update`，或重新运行安装程序一行。",
-    "updated_at": "2026-11-13T00:45:41.150847+00:00"
+    "summary_zh": "- 由 8 月版本使用裸“自定义”提供商创建的桌面聊天可以在更新后再次发送（#156545）。\n- 在待办事项或内存调用旁边流式传输的桌面或 TUI 回复现在会稳定下来，而不是保留“停止”按钮 (#156553)。\n- Telegram 和其他编辑流聊天中的崩溃不再显示重复的“已恢复回复”；再次按时显示在单词中间包含键前缀的单词 (`program_id`) (#156546)。",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "Makememo/MemoAI": {
-    "last_tag": "v1.8.10",
+    "last_tag": "v1.8.11",
     "desc_zh": "MemoAI 视频翻译文本、字幕和注释变得简单。",
-    "summary_zh": "- 添加了 Sherpa ONNX 和 CrispASR 转录引擎支持",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- 添加了可拖动的播放间隙指示器，可快速查找字幕\n- 添加了可搜索的字体选择器，具有预览、字体清除和更好的字形回退功能",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "NeverSinkDev/NeverSink-Filter-for-PoE2": {
     "last_tag": "0.10.4a",
@@ -444,10 +444,10 @@
     "updated_at": "2026-10-19T10:45:51.818977+00:00"
   },
   "Hsiung-Shao/exile-appraiser": {
-    "last_tag": "v0.3.10",
+    "last_tag": "v0.3.11",
     "desc_zh": "ExileAppraiser / 流亡鑑價:Path of Exile 1/2 查價器,支援國際服與台服(繁中/英文客戶端)",
-    "summary_zh": "修正\n\n・**PoE1 勾選「插槽中的寶石被 … 輔助」查價查不到東西**：交易站 3.30 換了新編號，0.3.9 只送舊的。\n・**PoE1 二次汙染的物品預設成「未汙染」**。（Twice Corrupted）\n・**PoE1 傳奇珠寶「腐敗之種」洗出的天賦顯示為未解析詞綴**。\n・**PoE1 阿茲瓦特史記「保險箱之殿」顯示為未解析詞綴**。\n・**PoE1 臟器、裝備上部分固定或破裂詞綴顯示為未解析**：例如臟器的「改為獲得海洋球」。\n・**PoE1 稀有地圖「區域內含有一座蜃景」顯示",
-    "updated_at": "2026-11-16T07:44:57.026792+00:00"
+    "summary_zh": "修正\n\n・**PoE1 阿茲瓦特史記 3.30 改名的房間顯示為未解析**：創造之搖籃、皇家熔爐、宏偉反應爐；另修正「異常研究所」。\n・**PoE1 壁壘地圖的固定詞綴顯示為未解析**：例如「地圖含有巴倫的壁壘」。\n・**PoE1 箭袋固定詞綴「箭矢穿透一個額外目標」顯示為未解析**。\n・**PoE1 珠寶「+% 單手近戰武器暴擊加成」等 20 多條詞綴顯示為未解析**：補上 3.30 的繁中寫法。\n・**視窗模式的相關物品蓋住查價內容**。\n\n新增\n\n・**查價面板顯示神聖石匯率**：面板最上",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "JustAResearcher/gpu-unlock-ada": {
     "last_tag": "v1.1.1",
@@ -456,10 +456,10 @@
     "updated_at": "2026-10-26T05:51:29.899945+00:00"
   },
   "KnifeLemon/Filee": {
-    "last_tag": "v2.4.1",
+    "last_tag": "v2.5.0",
     "desc_zh": "免费的开源文件转换器。通过拖放功能离线转换 263 格式 — 图像、PDF、Word、Excel、PowerPoint、HWP/HWPX、视频、音频、电子书和档案。无需上传，无需 Office。",
-    "summary_zh": "- **再次下载 LibreOffice** (#1474)。当 26.2.7 发布时，LibreOffice 从其“稳定”下载文件夹中取出了版本 26.2.6，因此在 Windows 和 macOS 上，在 **设置 → 引擎** 中安装 LibreOffice 失败，并显示 *“响应状态代码不表示成功：404（未找到）”*。 Filee 现在从 LibreOffice 的永久存档下载相同的 26.2.6 版本。\n- **每个引擎下载的备份。** 当引擎自己的下载链接停止工作、超时或提供不同的文件时，Filee 现在会从其自己的镜像 (`dl.filee.sh`) 获取相同的文件。每个文件仍会根据 Filee 构建时使用的校验和进行检查，因此镜像只能分发该确切的文件。",
-    "updated_at": "2026-11-16T07:44:57.026792+00:00"
+    "summary_zh": "发生了什么变化\n\n<!--更新\r\n级别：必填\r\nzh: 安全修复：防止安装程序权限问题和操纵文档/压缩文件导致内存/磁盘耗尽。\r\nzh: 预设库：浏览并安装其他人共享的预设或分享您自己的预设（设置 → 预设）\r\nko：Windows ARM64（Snapdragon等）的安装文件和便携式ZIP单独发布。\r\nzh: 新格式：VTF、Ge",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "Ebony-Vinyl/dsh-our-free-model": {
     "last_tag": "v2.8.5-macos-unofficial",
@@ -498,10 +498,10 @@
     "updated_at": "2026-10-30T08:16:19.605904+00:00"
   },
   "agalwood/Motrix": {
-    "last_tag": "v2.4.2",
+    "last_tag": "v2.4.3",
     "desc_zh": "功能齐全的下载管理器。",
-    "summary_zh": "* 修复（会话）：在 https://github.com/agalwood/Motrix/pull/2524 中删除任务时取消完成恢复\n* 杂务（发布）：刷新依赖项并在 https://github.com/agalwood/Motrix/pull/2526 中准备 2.4.2",
-    "updated_at": "2026-11-16T07:44:57.026792+00:00"
+    "summary_zh": "* 修复（下载）：改进进度并防止重复的暂停请求，网址为 https://github.com/agalwood/Motrix/pull/2525\n* 壮举（下载）：通过 https://github.com/agalwood/Motrix/pull/2527 保持统计数据与任务详细信息可见\n* feat(server): 支持自定义访问密码 https://github.com/agalwood/Motrix/pull/2529",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "subhra74/xdm": {
     "last_tag": "9.0.11",
@@ -534,10 +534,10 @@
     "updated_at": "2026-11-02T07:27:42.593992+00:00"
   },
   "The-Vibe-Company/quivr": {
-    "last_tag": "v2.0.2",
+    "last_tag": "v2.0.3",
     "desc_zh": "一个开源引擎，可将连续的内容流转化为搜索和监控。持久摄取、混合搜索、警报以及格式、模型和业务规则的插件。",
-    "summary_zh": "- **过滤的搜索不再随机失败。** Quivr 将每个矢量和混合搜索过滤到请求的范围。 Weaviate 的默认过滤策略可能会导致在链接数量多于预期的矢量图节点上进行此类搜索，然后搜索会返回错误。\n- **安全性：** CVE-2026-63209，位于压缩库中。\n- **内存较少。**",
-    "updated_at": "2026-11-02T07:27:42.593992+00:00"
+    "summary_zh": "- **Go 1.27.4** 构建每个 Quivr 二进制文件和图像（GO-2026-6859，在 `net/http` 中）。\n- **PostgreSQL 17.12** 替换数据库映像中的 17.11。它附带 zlib 1.4 (CVE-2026-4738)。这是 PostgreSQL 的次要版本：磁盘上的数据保持原样。\n- **SeaweedFS**，存储原始文件，获取 zlib 1.4 (CVE-2026-4738) 和 brotli v1.2.7 (GO-2026-6888)。",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "openai/codex": {
     "last_tag": "rust-v0.169.0",
@@ -582,22 +582,22 @@
     "updated_at": "2026-11-16T07:44:57.026792+00:00"
   },
   "milind-soni/OpenMausBot": {
-    "last_tag": "v0.1.161",
+    "last_tag": "v0.1.166",
     "desc_zh": "开源 Grok Bot 替代品，带有机器人可以使用的虚拟机",
-    "summary_zh": "- **自动化永远不会因故障而关闭。** 在重复发生故障后，它会减少尝试频率（每小时一次，然后每四个小时一次）并继续运行，而不是自行关闭。早期版本以这种方式关闭的自动化将重新打开一次。\n- **每次跳过或暂停的运行都会在自动化历史记录中留下一行**，并附有原因。\n- **卡住的运行不再阻止下一个运行。** 对于繁忙的机器人来说，计划的运行最多等待一个小时，并且运行的默认限制为 3 小时（房间目标为 12 小时）。您可以为每个自动化设置限制。",
-    "updated_at": "2026-11-16T07:44:57.026792+00:00"
+    "summary_zh": "- **默认情况下，机器人发布到您的 Netlify 帐户的站点是公开的。** 知道链接的任何人都可以打开它们，即使您的 Netlify 团队保护新站点也是如此。请求一个私人网站，机器人会保持其私密性，并记住该选择。\n- **聊天中的实时预览。** 当机器人发布您的网站或页面之一时，其回复会显示一个带有“打开”和“在浏览器中打开”的小型实时预览。\n- **每个请求都包含较少的固定文本：** 新机器人的内置指令大约小 18%，Chief 大约小 15%，并且保留每条规则。现在，某些工具仅在需要时加载，并且很少更改的文本将被缓存而不是重新发送。",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "yuchen-ya/reelterminal": {
-    "last_tag": "v1.4.3",
+    "last_tag": "v1.5.0",
     "desc_zh": "ReelTerminal — 您的 AI 视频的最后一站。具有共享人类/代理控制的代理本机视频整理编辑器。",
-    "summary_zh": "- 以图片为主的任务默认显示图片总览，支持按状态筛选、文件名搜索、自然排序、多选和 Shift 范围选择。\n- 可以对明确选中的项目批量保留、返工或丢弃，也可先确认范围，再保留剩余待审图片。单次最多 1,000 项，不会静默拆成多个保存；失败不会产生部分批量决定。\n- 批量决定支持整体撤销和重做；已有更新决定、源文件变化或口径变化时，会提示冲突并保留较新的状态。",
-    "updated_at": "2026-11-13T00:45:41.150847+00:00"
+    "summary_zh": "- CLI 可在一次编辑中调整多个相邻片段，按最终布局检查重叠；被拒绝的批次不会保留部分编辑。\n- `timeline.retimeByAnchors` 按明确的源时间与时间线锚点生成分段或速度曲线，适合将画面节点对齐音乐。转场可选择严格检查源余量，或明确允许借用片段内容并移动后续片段。\n- `audio.process.remix` 将音乐重组为指定时长，支持节拍、小节范围、尾奏和响度参数；完成后通过 `audio.process.register` 明确注册，不自动替换时间线音频。重混是节拍拼接，不保证适合任意音乐；使用前请试听。",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "JamesQiu2005/SpektraLab": {
-    "last_tag": "spektralab-v2.4.0",
+    "last_tag": "spektralab-v2.4.1",
     "desc_zh": "SpektraLab — macOS 电影和打印模拟器。 SwiftUI 应用程序 + Metal/C++ 渲染引擎，链接进来，运行时没有 Python。 andreavolpato/spektrafilm 的一个分支。",
-    "summary_zh": "- **Mask layers (蒙版图层)**, in the Layers card under the histogram: change one part of a photograph with its own adjustments. Make the mask with **Brush** and **Eraser**, a **Linear Gradient** or **Radial Gradient**, or let macOS find the **Subject**, the **Background** or the **People** in it; join parts with **Combine Masks** (Add, Subtract, Intersect) and soften the edge with **Refine Mask…**. Each layer works on the **Scene**, before the film (Exposure, Temperature, Tint, so the film develops the change), or on the **Finished** picture, after the print (Edit's Brightness, Contrast, Tone, Vibrance, Saturation, Temperature). **M** shows the mask in red and **⌥M** shows it alone; **B**, **E**, **[** and **]** pick and size the brush. Mask layers are for single photographs.\n- **Double exposures (多重曝光)**: **Combine › Double Exposure** in the Library puts two photographs on one frame of film, where their light adds on the negative. The Layers card (**Film · Top · Bottom**) picks what the controls are about; **Balance** sets the top's share of the light, each exposure has its own white balance, exposure and **Arrange**, and the eye shows one exposure alone. A double with an empty layer is not exported, and Export says how to fix it. A half-frame pair is now made with **Combine › Half-Frame Pair**, and its frames are rows of the same card.\n- **Lens Correction (镜头校正)** is each RAW picture's own, under **Edit › Lens**, and the Settings switch is gone. It corrects with macOS's own profile of the lens where macOS has one and it really changes the picture, with the lens data inside the file where there is no such profile (Sony ARW), or with an Adobe lens profile (`.lcp`) installed on your Mac. **No lens profiles ship with SpektraLab**: **Settings › Develop › Lens Profiles** reads the profiles your Adobe software (Camera Raw, Lightroom, Photoshop) already put on this Mac, or adds one `.lcp` file. **Distortion** and **Hide Distorted Areas** are live where the file's data or an installed profile corrects, and greyed where macOS does. A line under them says who corrects. Light Falloff is greyed in this version.",
-    "updated_at": "2026-11-16T07:44:57.026792+00:00"
+    "summary_zh": "- **Watermarks (水印)**: keep your signature or logo as a PNG with a transparent background in **Settings › Watermarks**, and place one on a photograph from the Layers panel's **＋ › Watermark**. A watermark sits on the **Finished** picture (over the print, untouched by the film) or on the **Negative** (laid into the scene before the film, so the film develops it with the photograph, grain and all).拖动它来移动它，拖动它的点来转动它（**⇧** 为 15° 步长），并用您自己的颜色填充它。它绘制在画布上并写入每个导出的文件中，包括 HDR。\n- **Cine formats (电影)**: **Format › Cine** has **Super 8**, **16mm**, **35mm** cine, **70mm** and **70mm 15-perf**, each with its own frame, perforations and frame lines.\n- **柯达 Portra 160NC、160VC、400NC 和 400VC**，色彩自然、生动的 Portras，具有自己的胶片边缘。",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "ziyuanhuishequ/release-downloader": {
     "last_tag": "v1.6.3",
@@ -612,10 +612,10 @@
     "updated_at": "2026-11-09T07:43:43.601919+00:00"
   },
   "KKKKhazix/agent-autoloop": {
-    "last_tag": "v1.9.0",
+    "last_tag": "v1.9.1",
     "desc_zh": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
-    "summary_zh": "- 现在每个回合结论的第一行都会列出事件以及已完成的操作，因此无论谁收到通知都无需打开会话（#300）。\n- 提示现在指出了代理最常打破的三个接收限制：200 个字符内的事件摘要、仅作为 URL 的链接，以及只需按键并取消即可取消后续操作（#303，参考文献#299）。\n- 交付审查将一类问题报告为每个位置的一个发现；从第三轮开始，作者被提醒重新考虑该方法，后面的几轮只审查新的提交而不是停止（#309）。",
-    "updated_at": "2026-11-16T07:44:57.026792+00:00"
+    "summary_zh": "- 当工作人员无法恢复旧会话并且新会话也无法启动时（比如 Codex 碰巧丢失），它不再向集线器提供它在本地创建的会话 ID；原始会话将被保留，下一次重试将恢复它（#315，由 bluRays 在#306 中发现）。\n- 从发布 tarball 安装的副本（不带 .git）可以通过“AGENT_AUTOLOOP_RELEASE”告诉“--version”它是哪个版本（#305）。\n- 交付：当标记为就绪的 PR 最终没有检查运行或根本没有所需的作业时，检查也会在 10 分钟后再次触发 (#322)。",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "alchaincyf/huashu-motion": {
     "last_tag": "v0.5.1",
@@ -636,10 +636,10 @@
     "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "SourceWeft/SourceWeft": {
-    "last_tag": "v0.3.0-rc.8",
-    "desc_zh": "ChatGPT 和 NotebookLM 的开源、自托管替代方案 — 一个 AI 工作站中的代理、技能、MCP 和引用知识。您的模型，您的基础设施。免费使用 GPT 6：https://SourceWeft.com/",
-    "summary_zh": "* 修复（发布）：通过 https://github.com/SourceWeft/SourceWeft/pull/278 恢复验证的桌面发布\n* 修复（发布）：通过 https://github.com/SourceWeft/SourceWeft/pull/279 中的发布 ID 验证草稿资产\n* feat(web)：通过 https://github.com/SourceWeft/SourceWeft/pull/281 澄清共享设置导航",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "last_tag": "v0.3.0-rc.9",
+    "desc_zh": "ChatGPT 和 NotebookLM 的开源、自托管替代方案 — 一个 AI 工作站中的代理、技能、MCP 和引用知识。您的模型，您的基础设施。包括公共 MCP 服务器和代理技能目录。",
+    "summary_zh": "* 修复（seo）：准确的lastmod、本地化的目录元数据和方面抓取规则（https://github.com/SourceWeft/SourceWeft/pull/282）\n* 杂务（计费）：将 Waffo 环境设置与 https://github.com/SourceWeft/SourceWeft/pull/288 中的 CREEM_TEST_MODE 对齐\n* 修复（seo）：通过 https://github.com/SourceWeft/SourceWeft/pull/293 保持 React Server 组件有效负载不被抓取",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "storytold/craft-anything": {
     "last_tag": "v0.6.1",
@@ -672,10 +672,10 @@
     "updated_at": "2026-11-16T07:44:57.026792+00:00"
   },
   "GoogleChrome/modern-web-guidance": {
-    "last_tag": "v1.0.0",
+    "last_tag": "v1.0.1",
     "desc_zh": "让您的编码代理了解最新的网络最佳实践",
-    "summary_zh": "* **代码库现代化扫描器（`legacy-scan`）**：`npx Modern-web-guidance Legacy-scan [path]` 静态检测旧版 Web 平台模式，并将每个发现映射到具有现代替换的指南。它涵盖了当今大约 20% 具有确定性遗留规则的指南。 **[modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance/blob/v1.0.0/skills/modern-web-guidance/SKILL.md)** 技能为代理添加了匹配的 4 步工作流程：扫描、验证、报告、现代化。\n* **更小、更快的搜索**：搜索现在在零依赖嵌入模型加上 BM25（而不是 TensorFlow.js）上运行。它仍然完全离线，npm 下载量从 23.5 MB 下降到 8.8 MB。\n* **易失性功能选择加入（`set-allow-volatile-features`）**：过去 3 个月内发布或仍在稳定状态的单引擎功能指南保持可搜索，但“retrieve”需要明确的“.mwgrc”选择加入，与 Origin Trial 门控相匹配。",
-    "updated_at": "2026-11-13T00:45:41.150847+00:00"
+    "summary_zh": "* 引入了新的 **[js](https://github.com/GoogleChrome/modern-web-guidance/blob/v1.0.1/skills/modern-web-guidance/guides/js/js.md) 指南，提供了在 Web 应用程序中编写干净、高效和可维护的 JavaScript 的最佳实践和现代架构模式。\n* 更新了 **[modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance/blob/v1.0.1/skills/modern-web-guidance/SKILL.md)** 技能以指定英语面向操作的查询，并更新了技能版本哈希。\n* 更新了 **[translator](https://github.com/GoogleChrome/modern-web-guidance/blob/v1.0.1/skills/modern-web-guidance/guides/built-in-ai/translator.md)** 指南，以强制将“lang”属性应用到容器元素，并使用匹配的 BCP 47 语言代码来翻译内容。",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "Lee-xeo/Claude-Cage": {
     "last_tag": "v0.1.8",
@@ -684,10 +684,10 @@
     "updated_at": "2026-11-16T07:44:57.026792+00:00"
   },
   "Kianuni/Erosion-CN": {
-    "last_tag": "v0.9.1",
-    "desc_zh": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
-    "summary_zh": "- 在所有原生支持 Apple 智能的 iPhone（`iPhone 15 Pro` 至 `iPhone 18 Pro Max` 全系列）原厂 `CacheData` 中，`Personal Translator`（`M1n2sAqf33NAOgZRGxQYBA`，槽位 `#266`）原厂默认为 `true (0x01)`，而 `Audio Intelligence`（`rb2tKZxlj0Gm2tBmUQSLqQ`，槽位 `#178`）原厂默认为 `false (0x00)`。\n- 此前跨 iOS 版本 OTA 升级（旧 `OriginalGestalt.plist` 的 `CacheUUID` 变化）或非 18 Pro 机型执行一键配齐时，可能将 `#266` 误写为 `false (0x00)` 并污染本地 `UserDefaults` 基线快照，触发 `GenerativeModels / ModelCatalog` 本地预检 0ms 熔断报错（端侧快速消除正常，但**照片高质量消除、扩图延伸、重构及相机 `SIRI` 模式**瞬间报错）。\n- `v0.9.1` 已锁定全系原生 AI iPhone 的硬件原厂基线（`#266 = true`、`#178 = false`，免疫跨版本备份不匹配与污染缓存），并在恢复出厂 / 重建缓存 / 重生备份时自动清理本地槽位基线记录。",
-    "updated_at": "2026-11-13T00:45:41.150847+00:00"
+    "last_tag": "v1.0.2",
+    "desc_zh": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（中英双语 · 防白苹果安全加固版） | Bootloop-safe iOS / iPadOS System Configuration & MobileGestalt Toolbox (Bilingual EN/ZH)",
+    "summary_zh": "- Added **「开屏广告缓存精准锁死 / Splash Ad Cache Blocker」** quick entries under **Tweaks → App Saves & Cleanup** (`功能修改 → 应用存档与空间清理`) and **File Browser → Quick Access** (`文件浏览 → 快捷访问`).\n- Combines curated per-app splash-ad paths (Weibo, Zhihu, NetEase Cloud Music, QQ Music, Bilibili, Xiaohongshu, Taobao/Idlefish, JD, Meituan/Dianping, Amap, Baidu/Tieba/Netdisk, Ximalaya, Hupu, Douban) with shallow POSIX SDK detection (`KSAdSDK`, `BUAdSDK`/`Pangle`, `GDTMobSDK`/`TADCache`, `BaiduMobAd`, `SplashAd`, `LaunchAd`, etc.) — strictly excluding `SplashBoard`, WebKit, Cookies, `Downloads`, container roots, and symlinks.\n- Supports one-tap **Locate** in File Browser (`定位目录`), wipe + **`0555` Read-Only Lock** (`一键锁死`), **`0755` Restore** (`恢复读写`), per-app/global batch controls, and a manual inspection toggle for unmatched apps. *(Note: disk `chmod` only blocks cached splash ad files; server-streamed/in-memory ads are unaffected.)*",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "huamidev/GestaltX": {
     "last_tag": "v1.1.1",
@@ -760,5 +760,29 @@
     "desc_zh": "用于编码代理的 Chrome DevTools",
     "summary_zh": "* 添加基于 DevTools BreakpointManager 构建的日志点 ([#3211](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3211)) ([0877ee0](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/0877ee00d2e43c1c04bba275e7d08cc1033e36e9))\n* 添加页面范围的网络模拟（[#3384](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3384)） ([1d692d3](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/1d692d31ae370105afcf4d826dc36f1c4c22e21a))\n* 支持上游网络模拟响应（[#3420](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3420)） ([c4bf342](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/c4bf342b0854620d2e41262a971e1b24b705f957))",
     "updated_at": "2026-11-16T07:44:57.026792+00:00"
+  },
+  "open-webui/open-webui": {
+    "last_tag": "v0.13.3",
+    "desc_zh": "用户友好的 AI 界面（支持 Ollama、OpenAI API...）",
+    "summary_zh": "- 🦾 **自动化中的代理。** 自动化编辑器现在允许您选择终端和工作文件夹，然后选择那里可用的编码代理。计划运行使用已保存的终端和文件夹，并在开始之前检查终端和代理是否仍然可用。代理自动化将其结果发送到聊天室；普通型号仍可使用频道目的地。 [提交](https://github.com/open-webui/open-webui/commit/21fc016141c73a0e11b428c61bde20527bbc228a)\n- 📂 **在聊天期间更改终端和文件夹。** 您现在可以在发送消息后（包括在临时聊天中）选择不同的终端或工作文件夹。在生成回复时，两个控件均保持禁用状态。 [提交](https://github.com/open-webui/open-webui/commit/a518ff1630b74ed6edd62538c5da4bb26cc6dd20)\n- 🇧🇷 **巴西葡萄牙语翻译。** 添加了终端和文件夹控件、Git 操作、电子表格编辑、语音注释、选项卡快捷方式、通知声音和工具设置的缺失翻译。更新了文档检索、工具权限和语音设置的说明。 [#33945](https://github.com/open-webui/open-webui/pull/33945)",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
+  },
+  "NVIDIA/SkillEvaluator": {
+    "last_tag": "v0.9.0",
+    "desc_zh": "用于评估 AI 代理技能和插件的多层框架，具有质量门、语义重叠检测、综合评估数据集生成以及衡量技能如何影响代理行为的实时代理评估。",
+    "summary_zh": "- **构建和审查更好的评估数据集。** 声明对脚本执行、工作区文件和最终响应的确定性检查。生成基于技能说明、作者意图或痕迹的数据集；导入生产痕迹作为经过编辑的审查候选者；并且只有在明确的人工审查之后才能提高期望。在写入新文件之前预览旧数据集迁移。\n- **随着时间的推移跟踪技能改进。** 使用“--compare-to”和“compare-versions”比较保留的技能版本，浏览运行历史记录，并使用“--reuse-baseline”重用兼容的无技能基线。版本比较与针对无技能基线的技能提升保持分开。\n- **控制评估支出。** 设置令牌、判断调用、尝试和定价成本预算。当限制停止运行时，报告会保留部分结果。令牌使用情况按案例和代理显示，并标识了缺失的计数器和重用基线使用情况。",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
+  },
+  "Tencent/LoopForge": {
+    "last_tag": "v0.3.8",
+    "desc_zh": "用于编码代理交付的自托管工作流程。使用脚本和人工审批门来编排 CodeBuddy、Codex 和 Claude Code。包括编码助理的本地工作流程。",
+    "summary_zh": "* 修复（deps）：通过 https://github.com/Tencent/LoopForge/pull/166 修补易受攻击的聊天机器人测试工具链\n* 修复（运行时）：在 https://github.com/Tencent/LoopForge/pull/133 中存在备用路径持有者时保持 index.lock\n* ci（平台）：通过 https://github.com/Tencent/LoopForge/pull/140 运行存储库绑定和第二用户 e2e API 测试",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
+  },
+  "Pabldi08/AirSend": {
+    "last_tag": "v0.3.0",
+    "desc_zh": "AirSend 是一款在 Windows 中使用 Airplay2 conexion 的应用程序",
+    "summary_zh": "- 发送所有系统音频或在 Windows 11 上选择一个应用程序。\n- 持续静音后释放扬声器并手动恢复。\n- 停止从系统托盘播放。",
+    "updated_at": "2026-11-17T11:50:00.481580+00:00"
   }
 }
