@@ -48,10 +48,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "linshenkx/prompt-optimizer": {
-    "last_tag": "v2.16.0",
+    "last_tag": "v2.16.1",
     "desc_zh": "人工智能提示优化器，用于编写更好的提示并获得更好的人工智能结果。",
-    "summary_zh": "- 选择一个模型并在同一菜单中调整其可用的推理设置。\n- 从保存的模型默认值开始，并独立调整每个工作区或竞技场列的参数。\n- 在流式传输时阅读推理文本，并在响应完成后重新打开它。",
-    "updated_at": "2026-11-22T11:22:10.056605+00:00"
+    "summary_zh": "- 刷新页面或重新打开桌面应用程序后，从上次停下的地方继续。\n- 在恢复的文本测试结果和竞技场中查看报告的令牌使用情况。\n- 使用“在桌面大小的工作区上全部运行”旁边的星号来保存多个结果。使用相同提示运行的测试可以共享收藏夹，并且保存对话框组结果使用不同的提示运行。",
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
   },
   "amir1376/ab-download-manager": {
     "last_tag": "v1.11.4",
@@ -156,10 +156,10 @@
     "updated_at": "2026-10-09T02:22:53.722442+00:00"
   },
   "sub-store-org/Sub-Store": {
-    "last_tag": "2.44.24",
+    "last_tag": "2.44.26",
     "desc_zh": "QX、Loon、Surge、Stash、Egern 和 Shadowrocket 的高级订阅管理器！",
-    "summary_zh": "* 壮举：Quantumult X 支持 Mieru ([d493729](https://github.com/sub-store-org/Sub-Store/commit/d493729))",
-    "updated_at": "2026-11-22T11:22:10.056605+00:00"
+    "summary_zh": "* feat: 支持 Shadowrocket 非标 mieru URI(部分字段) ([b711e33](https://github.com/sub-store-org/Sub-Store/commit/b711e33))",
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
   },
   "1Panel-dev/1Panel": {
     "last_tag": "v2.5.1",
@@ -168,16 +168,16 @@
     "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "kenzok8/compile-package": {
-    "last_tag": "2026.11.21-21/57_arm_cortex-a9",
+    "last_tag": "2026.11.22-21/50_arm_cortex-a9",
     "desc_zh": "small-package仓库，每日更新插件编译",
     "summary_zh": "定时更新插件，推送发布 💤:\n\n[下载链接] (https://dllkids.xyz/packages/arm_cortex-a9/)",
-    "updated_at": "2026-11-22T11:22:10.056605+00:00"
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
   },
   "jxxghp/MoviePilot": {
-    "last_tag": "v3.2.9",
+    "last_tag": "v3.2.11",
     "desc_zh": "NAS媒体库自动化管理工具",
-    "summary_zh": "- 音乐：资源搜索支持查看被拒候选及原因，区分音乐身份匹配与过滤失败；手动整理可选择 MusicBrainz 具体发行版；App 音乐播放器新增专辑封面、同步歌词和上下曲切换。\n- 媒体与播放：非 TMDB 来源详情页支持按需查找 TMDB 链接；App 原生播放优先读取媒体服务器文件流，仪表板卡片支持长按播放或跳转媒体服务器；修复 iOS 空字幕/音轨控制胶囊及弹窗关闭后播放控制栏不自动隐藏的问题。\n- 订阅与媒体库：改进无首播年份剧集的别名消歧，结合季首播日期减少同名剧误匹配；飞牛影视查询失败不再误判为未收录，并对临时失败重试；优化订阅活动记录和资源文件明细弹窗。",
-    "updated_at": "2026-11-22T11:22:10.056605+00:00"
+    "summary_zh": "- **智能助手 / WebAgent 放开普通用户并绑定实时权限（后端 + 前端）**：\n- 放开 WebAgent 与网页消息接口（`POST /api/v1/message/web`）给普通激活用户使用，取消默认的管理员上下文；智能助手按当前登录用户的实时权限（`discovery`、`search`、`subscribe`、`manage` 及各功能级 `features` 开关）校验白名单业务 API、工具与子代理调用，账号停用或权限调整后即时生效。\n- 非管理员会话自动隐藏管理员工具、插件工具、后台 `Jobs` 任务与宿主机路径/命令信息，并在系统提示词中注入当前账号真实权限边界；禁止普通用户读写 `agent/jobs` 及修改 Agent 公共文件，同时放行只读读取本人会话上传的临时附件。",
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
   },
   "invoke-ai/InvokeAI": {
     "last_tag": "v6.14.4",
@@ -258,10 +258,10 @@
     "updated_at": "2026-11-22T11:22:10.056605+00:00"
   },
   "mack-a/v2ray-agent": {
-    "last_tag": "v3.5.41",
+    "last_tag": "v3.5.42",
     "desc_zh": "Xray、Tuic、hysteria2、sing-box 八合一一键脚本",
-    "summary_zh": "fix(脚本): 修复 Hysteria2 端口跳跃、订阅配置及 Geo 更新问题",
-    "updated_at": "2026-11-13T00:45:41.150847+00:00"
+    "summary_zh": "- 修复 Hysteria2 端口跳跃链接和二维码，使用单一连接端口，并通过 mport 传递跳跃范围\n- Hysteria2 上下行带宽可分别填 0，订阅和二维码省略对应字段\n- 修复 sing-box 未设置默认出站时误用 SOCKS5 节点的问题，保留原有默认出站，无原有出站时回退直连",
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
   },
   "electerm/electerm": {
     "last_tag": "v5.12.6",
@@ -324,10 +324,10 @@
     "updated_at": "2026-10-26T05:51:29.899945+00:00"
   },
   "Loyalsoldier/v2ray-rules-dat": {
-    "last_tag": "202611212204",
+    "last_tag": "202611222203",
     "desc_zh": "🦄 🎃 👻 V2Ray 路由规则文件加强版，可代替 V2Ray 官方 geoip.dat 和 geosite.dat，适用于 V2Ray、Xray-core、mihomo(Clash-Meta)、hysteria、Trojan-Go 和 leaf。Enhanced edition of V2Ray rules dat files, applicable to V2Ray, Xray-core, mihomo(Clash-Meta), hysteria, Trojan-Go and leaf.",
     "summary_zh": "该版本未提供详细更新说明。",
-    "updated_at": "2026-11-22T11:22:10.056605+00:00"
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
   },
   "Openwrt-Passwall/openwrt-passwall": {
     "last_tag": "26.11.11-1",
@@ -342,10 +342,10 @@
     "updated_at": "2026-10-19T10:45:51.818977+00:00"
   },
   "DIYgod/RSSHub": {
-    "last_tag": "v2026.11.22-8721.c31bc27",
+    "last_tag": "v2026.11.23-8728.g61f4512",
     "desc_zh": "🧡 一切都是RSSible",
-    "summary_zh": "-ghcr.io/diygod/rsshub:c31bc279916c33e531ed4f8539a4d16f104cc3fa\n- ghcr.io/diygod/rsshub:chromium-bundled-c31bc279916c33e531ed4f8539a4d16f104cc3fa\n-diygod/rsshub：c31bc279916c33e531ed4f8539a4d16f104cc3fa",
-    "updated_at": "2026-11-22T11:22:10.056605+00:00"
+    "summary_zh": "-ghcr.io/diygod/rsshub:61f451228e0420f7b44184d231fd7e98bfef26ea\n- ghcr.io/diygod/rsshub:chromium-bundled-61f451228e0420f7b44184d231fd7e98bfef26ea\n- diygod/rsshub:61f451228e0420f7b44184d231fd7e98bfef26ea",
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
   },
   "rockbenben/ChatGPT-Shortcut": {
     "last_tag": "v4.5.2",
@@ -396,10 +396,10 @@
     "updated_at": "2026-11-09T07:43:43.601919+00:00"
   },
   "yetone/magpie": {
-    "last_tag": "v0.1.4672",
+    "last_tag": "v0.1.4708",
     "desc_zh": "每个代理的模型。一处。来自菜单栏的 DeepSeek 上的 Codex、Kimi 上的 Claude Code。",
-    "summary_zh": "- 修复了通过普通 HTTP 打开的 Tailscale 名称的远程连接。\n- 修复了克劳德代码在取消后仍会继续转动的问题，即使在显示“未请求响应”后也是如此。\n- **macOS（Apple Silicon）：** `magpie-darwin-arm64.dmg`",
-    "updated_at": "2026-11-22T11:22:10.056605+00:00"
+    "summary_zh": "- 改进了网关处理组成员错误的方式，以防止错误地传递错误。\n- 阐明了如何从另一台计算机访问图书馆 MCP 服务器以及如何检索所有服务器。\n- **macOS（Apple Silicon）：** `magpie-darwin-arm64.dmg`",
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
   },
   "paulrosen/abcjs": {
     "last_tag": "v6.7.3",
@@ -552,10 +552,10 @@
     "updated_at": "2026-11-02T07:27:42.593992+00:00"
   },
   "duyunzhoudyz/dyz-gongwen-skills": {
-    "last_tag": "v1.1.0",
+    "last_tag": "v1.2.0",
     "desc_zh": "公文写作 Skills｜AI 公文写作助手：防编造、守保密、GB/T 9704 一键排版，覆盖 22 种文书，支持 Claude Code / Codex / Cursor",
-    "summary_zh": "- 仓库与套件更名为 dyz-gongwen-skills，旧地址 GitHub 会自动跳转。已经安装过的用户需重新执行 `/plugin marketplace add duyunzhoudyz/dyz-gongwen-skills`。22 个 skill 自己的名称（gongwen、gongwen-draft 等）不变。\n- **内容补齐**：核验日期统一；各包 `calendar.md` 扩充；模板补正误对照；5 个包 `evals` 新增 27 条用例，共 116 条；配有机检脚本的包补必错、必过标本测试。\n- **soe 边界修复**：国企包与其他行业包、核心 skill 的转交边界，用例 17 的转交目标由 gongwen-university 改为 gongwen-minutes；复核中发现的编造倾向已补规则。",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- **去 Agent 化三档交付与内网知识库**：\n- `dist/prompts-lite/`：22 份 ≤4000 字手写精修精简版（适配内网模型 4K～8K 系统提示词框限制）。\n- `dist/prompts-bundles/`：4 套高频一站式单对话合集（法定公文、综合材料、核稿润色、落实整改），不用反复切换对话。",
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
   },
   "RongleCat/grok-bot-anywhere": {
     "last_tag": "v0.1.5",
@@ -576,16 +576,16 @@
     "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "JimLiu/baocut": {
-    "last_tag": "baocut-v3.20.1-build.99",
+    "last_tag": "baocut-v3.20.2-build.100",
     "desc_zh": "BaoCut：具有可编辑时间线的人工智能视频代理。转录、字幕、翻译、配音、剪辑和动画。",
-    "summary_zh": "- **更新**：修复了下载的更新在重新启动后未卸载后每次都会失败并显示“下载的文件未通过验证”的 macOS 更新。现在更新下载首先尝试 GitHub Releases，然后回退到 baocut.com 镜像。陷入该错误的 BaoCut 副本可以通过重试更新到此版本。 [更新程序修复](https://github.com/JimLiu/baocut/commit/5449a1870add75351a33f14ee76bca5996716d0f)，[GitHub-first提要](https://github.com/JimLiu/baocut/commit/0516df8e7c3597c5fb202c6b5e9a68ec66a22f24)\n- **macOS 上的链接导入**：托管 yt-dlp 现在使用解压版本，因此在首次启动后，它会在不到一秒的时间内启动，而不是每次超过 2 秒。超时的工具检查会重试一次，并且在工具不变的情况下重复使用通过的检查，因此缓慢启动不再将 yt-dlp 标记为不可用。 [问题](https://github.com/JimLiu/baocut/issues/142), [探测重试](https://github.com/JimLiu/baocut/commit/f4d2f6777f168c8698707e404798c6e5a7c1e93d), [解压构建](https://github.com/JimLiu/baocut/commit/57e37b338c5ac343a398239470cca90381cb7b47)\n- **Codex 和 Pi**：不再删除包含 Unicode 行或段落分隔符的回复，并且输出行超过 64 MB 的进程会因说明原因而停止。中断已完成的 Codex 轮次会报告其未运行。 [输出阅读器](https://github.com/JimLiu/baocut/commit/aabaf5fa7b503a5318f29492b1d0d7751efa17f0)，[Codex中断](https://github.com/JimLiu/baocut/commit/83968cf62d9beca508dd7860fffe2323ab82ff9a)",
-    "updated_at": "2026-11-22T11:22:10.056605+00:00"
+    "summary_zh": "- **反重力工具和批准：** BaoCut 现在使用 `agy acp`，连接 BaoCut 工具并支持 Plan、Ask 和 Full Access 模式。 BaoCut 工具不再要求第二次本地批准。使用“agy update”将 Antigravity CLI 更新到 **1.5.10 或更高版本**。 [来源](https://github.com/jimliu/baocut/commit/1d01a5d1ab23ef38c879139407010c93dca7dd8e)\n- **会话连续性：** 现有的反重力本机对话可以通过 ACP 恢复。创建本机会话时，开发人员说明会输入系统提示符，并且在恢复时不会重复。对这些指令的更改需要新的本机会话。 [来源](https://github.com/jimliu/baocut/commit/1d01a5d1ab23ef38c879139407010c93dca7dd8e)\n- **模型和安装：** 模型切换保留推理级模型 ID，推荐使用 Flash 模型，并且 Windows 可以识别 Antigravity 的官方安装程序位置，包括重新定位的用户配置文件。 [来源](https://github.com/jimliu/baocut/commit/1d01a5d1ab23ef38c879139407010c93dca7dd8e)",
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
   },
   "milind-soni/OpenMausBot": {
-    "last_tag": "v0.1.176",
+    "last_tag": "v0.1.177",
     "desc_zh": "开源 Grok Bot 替代品，带有机器人可以使用的虚拟机",
-    "summary_zh": "- **蓝色更新按钮。** 在简单模式下，当更新下载或准备就绪时，连接应用程序后会立即出现一个圆形蓝色按钮。单击它重新启动进入新版本。更新后它就会消失。\n- **每个更新带来了什么。** 公告现在列出每个版本，最新的在前。每张卡片都会说明更新带来的内容，“查看所有更改”会显示完整列表。\n- **完成前检查（每个机器人，默认情况下关闭）。** 打开它，机器人的答案会在到达您之前由另一个机器人检查。",
-    "updated_at": "2026-11-22T11:22:10.056605+00:00"
+    "summary_zh": "- **查看您的机器人彼此说了些什么。** 当机器人将工作交给队友时，交接会显示为带有队友脸部和姓名的小芯片。单击它即可在聊天中实时阅读他们的对话，然后单击“返回”即可返回到您所在的位置。\n- **交接的对话具有真实姓名。** 队友打开的对话以所交接的工作命名。\n- **推理坚持。** 在简单模式下，在机器人面板中选择推理级别现在也会使其成为机器人的默认级别，就像模型一样。新的对话从该级别开始。",
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
   },
   "yuchen-ya/reelterminal": {
     "last_tag": "v1.5.0",
@@ -612,16 +612,16 @@
     "updated_at": "2026-11-09T07:43:43.601919+00:00"
   },
   "KKKKhazix/agent-autoloop": {
-    "last_tag": "v1.9.6",
+    "last_tag": "v1.10.0",
     "desc_zh": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
-    "summary_zh": "- 规则可以携带可选的“标签”（字符串列表）。集线器不会解释它们；它将它们原封不动地传递到“/v1/state”的状态行、运行和卡、“/v1/runs”的每个项目以及该规则的每个运行的作业文件中，因此客户端可以按项目分组，并且代理知道运行属于哪个组。没有“标签”的规则的行为与以前一样。注意：较旧的集线器拒绝包含此字段的规则文件，因此在添加集线器之前升级集线器（＃380，修复＃371）。\n- 当飞书卡被拒绝时（登录过期、机器人缺少权限），日志和失败说明会说明原因和该怎么做——缺少机器人权限指向飞书开发者控制台——而不是转储lark-cli的原始响应（#374）。\n- 当多个规则共享的代理达到其使用限制时，通知卡不再报告尚未发生的恢复，并且其措辞更加清晰（#376）。",
-    "updated_at": "2026-11-22T11:22:10.056605+00:00"
+    "summary_zh": "- 每个工作人员轮询现在仅查看仍在进行中的运行，而不是遍历每个过去的运行目录。由于有数千个旧目录（在 Windows 上可见），磁盘读取使在同一进程中运行的集线器陷入停滞，并且工作线程不断被标记为脱机；未完成的运行现在在启动时恢复一次，以后的轮询不依赖于存在多少旧目录，并且过期的日志会在后台清除（#383）。\n- `ops/delivery.json` 中以 `**` 结尾的路径模式（例如 `docs/**`）现在涵盖了它下面的每个级别。它过去只匹配第一级，因此像“docs/a/b.md”这样的文件被视为需要发布的更改，而“review.xhigh”下列出的目录会跳过更深的文件（#379）。",
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
   },
   "alchaincyf/huashu-motion": {
-    "last_tag": "v0.6.0",
+    "last_tag": "v0.6.1",
     "desc_zh": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
-    "summary_zh": "- `om sound <dir> --music <file>` 或 `OM.music({ src })`：使用任何曲目 — 您自己的曲目、您生成的曲目或默认库中的曲目。曲目有自己的开头和结尾；中间部分被缩短或在整个小节中重复；连接位于稳定的延伸段内，切勿跨越电梯。\n- `OM.music({burst,peak,landing})`：在可能的情况下，将轨道的真正升力带入电影的爆发和峰值。当它不能时，表格会说明影片中要移动的内容（按多少节拍）。\n- 每个候选安排都经过渲染和测量；一首突然响度跳跃的曲目不会让自己被拒绝。",
-    "updated_at": "2026-11-22T11:22:10.056605+00:00"
+    "summary_zh": "- 当真实文件名仅包含“om-”时，“om check --source”不再警告“no-real-material”（例如“materials/zoom-in.png”、“assets/bottom-bar.png”、“custom-chart.png”）。媒体过滤器现已固定。谢谢（#5）。",
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
   },
   "wquguru/cicada": {
     "last_tag": "v1.10.1",
@@ -648,22 +648,22 @@
     "updated_at": "2026-11-13T00:45:41.150847+00:00"
   },
   "microsoft/skill-recorder": {
-    "last_tag": "v0.9.3",
+    "last_tag": "v0.9.4",
     "desc_zh": "桌面应用程序，记录您的屏幕上工作会话，并使用 GitHub Copilot SDK 将其重建为意图 + 有序步骤，然后为 Microsoft Autopilot（例如 Scout、Microsoft Copilot Cowork 或 Copilot Studio）构建可重用的技能或自动化。",
-    "summary_zh": "- **恢复因 ONNX 运行时许可证下载失败而阻止的全新安装。** 如果固定的上游合法文件 URL 不可用，安装会报告失败并尝试显式版本固定的 jsDelivr 恢复 URL。\n- **保留许可证验证。** 每个恢复的许可证和通知必须与其现有的经过审查的 SHA-256 相匹配。原始来源引用和批准的哈希值保持不变；不匹配的内容和 HTML 错误页面将被拒绝。\n- 在“REMOTE-MATERIALS.json”中保留恢复替代方案，记录恢复行为，并添加上游故障、缓存验证、恢复失败和无效内容的回归覆盖范围。",
-    "updated_at": "2026-11-22T11:22:10.056605+00:00"
+    "summary_zh": "- 即使终端块、分页、时间窗口或摘录边界分割其值，也可以屏蔽检测到的秘密。\n- 使用有界、重叠的扫描窗口检测打印的多行私钥。\n- 跨终端块保留 ANSI 控制序列状态，因此分割颜色序列不会隐藏标记以防止检测。",
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
   },
   "hiddify/hiddify-app": {
-    "last_tag": "v5.5.5",
+    "last_tag": "v5.9.15",
     "desc_zh": "多平台自动代理客户端，支持Sing-box、X-ray、TUIC、Hysteria、Reality、Trojan、SSH等。开源、安全、无广告。",
-    "summary_zh": "**根据您的操作系统下载：**\r\n\r\n**根据您的操作系统下载：**\r\n\r\n下载\r\n\r\n<!-- 资产：开始 -->\r\n<表>\r\n<thead><tr><th>操作系统</th><th>下载</th><th>下载</th><th>VirusTotal</th></tr></thead>\r\n<正文>\r\n<tr>\r\n  <td rowspan=\"4\">安德烈",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- **更智能的保持顶部。** 只有最快的代理运行，其他代理则停止运行。保留的代理\n- **21 种新语言。** 现已完成九种翻译。\n- **CPU 和电池消耗更轻。** 当没有人看到动画时，动画就会停止。连接按钮的",
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
   },
   "gyroflow/gyroflow": {
-    "last_tag": "v1.7.0",
+    "last_tag": "v1.7.1",
     "desc_zh": "使用陀螺仪数据进行视频稳定",
-    "summary_zh": "- **新相机：** Canon、Z CAM、HOVERAir、XTRA 等，见下文\n- **光学稳定** - 新的稳定算法无需运动数据，实际上很好。它在大多数具有良好跟踪点和良好镜头轮廓的视频上产生与基于陀螺仪的稳定相似的结果。在“运动数据 -> 光学校正”中启用。这修复了所有 O4 问题、振动、陀螺仪不良、O4 Lite、DJI Neo 震动、FPV 上的 Hero 7、使用 RockSteady 的 DJI、使用 OSS 的索尼等。如果帧中有移动的主体，您可以编辑每个跟踪点并将其从解决方案中删除。需要有效的镜头配置文件。\n- **新的“最佳路径”平滑** - 立即规划整个剪辑的相机路径：它在相同变焦下比“默认”消除更多的抖动，永远不会落后于平移，并将帧保持在变焦限制内。在“稳定”面板中选择它并尝试您的镜头 - 它与默认的感觉完全不同。",
-    "updated_at": "2026-11-09T07:43:43.601919+00:00"
+    "summary_zh": "- **Canon Cinema RAW Light (.crm) 播放** - CRM 剪辑现在可以直接在 Gyroflow 中打开和播放，不再需要可播放的副本。第一次打开（Win​​dows x64、macOS、Linux x64）时会下载 Canon RAW SDK。与 BRAW 一样，无法在应用程序中渲染它们：导出项目文件并使用视频编辑器插件之一\n- 在“高级”中添加了“默认 CLI 行为”：Gyroflow 对其启动的文件执行的操作，例如从“打开方式”菜单或将它们拖放到其图标上时。它可以渲染它们（像以前一样），在应用程序中打开它们，或将它们添加到渲染队列中。带有任何选项（例如“-f”）的命令行不受影响\n- GoPro HERO4 Black/Silver：现在会从剪辑的视野（宽或中）中自动选择镜头配置文件，以与外部运动数据一起使用。 HERO3 文件现在被识别为 GoPro（通过",
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
   },
   "y5ez3g/facadecode": {
     "last_tag": "extension/0.1.5",
@@ -678,10 +678,10 @@
     "updated_at": "2026-11-17T11:50:00.481580+00:00"
   },
   "Lee-xeo/Claude-Cage": {
-    "last_tag": "v0.1.8",
+    "last_tag": "v0.2.0",
     "desc_zh": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
-    "summary_zh": "- 工作台底部时钟可在“设置 → 通用”切换 12/24 小时制，保存后立即生效，并在重新打开时保留选择。\n- 降低原生环境轮询与画面传输开销，优化空闲内存回收。Windows 浏览器画面跟随查看设备的屏幕像素密度，保留清晰度和输入位置的一致性。\n- 桌面应用更新支持中断续传和重试，以无数据传输的时长判断停滞。Windows 更新支持可信发布者证书续期；Linux 发现新版时提供发行页入口，仍通过系统包手动安装。",
-    "updated_at": "2026-11-16T07:44:57.026792+00:00"
+    "summary_zh": "- **默认隔离环境调整为纯终端 Debian 13。** 既有环境与个人数据（`~/.claude-cage`）保留不变，升级不会清空账户、会话历史或持久磁盘；如需全新环境说明，请参考 [环境系统说明](https://claude-cage.com/docs/guest-systems/)。需要本机软件与桌面能力时，请使用插件。\n- **Windows v0.1.7 及更早版本用户**请从本版本附件下载安装程序，退出 Cage 后手动安装；详细步骤见 [Windows 使用指南](https://claude-cage.com/docs/windows/)。\n- **Intel Mac 支持。** 源码构建、打包校验与应用内更新链路已纳入 Intel Mac 正式支持范围；本版本附件提供 Apple Silicon（`arm64`）官方签名公证 DMG、Windows 签名安装包、Linux Debian 软件包及 Android 官方签名 APK。",
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
   },
   "Kianuni/Erosion-CN": {
     "last_tag": "v1.0.6",
@@ -832,5 +832,23 @@
     "desc_zh": "可靠的 USB 格式化实用程序",
     "summary_zh": "* 最终解决[愚蠢的 AMI NTFS 驱动程序错误](https://github.com/pbatard/AmiNtfsBug)，以便运行时 UEFI 媒体验证可以在 AMI 搞砸的数百万台 PC 上运行\n* 最后报告 USB 3.2+ 设备（USB 3.2 = 20 Gbps、USB 4.0 = 40 Gpbs、USB 4.1 = 80 Gbps — 看，USB 论坛，这真的没那么难！）\n* 修复运行时 UEFI 媒体验证期间不考虑 CA 2023 更新的文件",
     "updated_at": "2026-11-22T11:22:10.056605+00:00"
+  },
+  "nexu-io/open-design": {
+    "last_tag": "open-design-v0.27.2",
+    "desc_zh": "第一个协作式人工智能设计代理工作区。本地优先和开源。与您的团队和 AI 代理一起创建动作、原型、网站、应用程序、仪表板、演示文稿、图像和视频。在一个工作区中共享工作、交换反馈并进行迭代。",
+    "summary_zh": "- **Mac Windows 在显示更改后恢复清晰度。** 唤醒或显示器移动不再需要使应用程序以错误的比例拉伸；重新聚焦为渲染器提供了另一个匹配其所在显示器的机会。 (#9409)\n- **已安装的 macOS 更新具有更稳定的交接。** 有效负载更新现在贯穿已安装应用程序的生命周期，因此失败的一代可以恢复，而不会因交接中断而陷入下一次启动。 (#8936) 谢谢。\n- **配额重置时间保留重要的分钟数。** 当距离重置还有几天时，配额面板现在仍然会告诉您剩余的分钟数，而不是让截止日期感觉不那么精确。 (#9328)",
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
+  },
+  "mikf/gallery-dl": {
+    "last_tag": "v1.32.21",
+    "desc_zh": "用于从多个图像托管站点下载图像库和集合的命令行程序",
+    "summary_zh": "- **补充**\n- [fastpic] 添加 `image` 提取器 ([`gh#9886`](https://github.com/mikf/gallery-dl/issues/9886))\n- [topfaps] 添加支持 ([`cb#281`](https://codeberg.org/mikf/gallery-dl/issues/281) [`pr#595`](https://codeberg.org/mikf/gallery-dl/pulls/595))",
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
+  },
+  "Atlas-OS/Atlas": {
+    "last_tag": "0.6.1",
+    "desc_zh": "对 Windows 的开放式轻量级修改，旨在优化性能、隐私和可用性。",
+    "summary_zh": "- **Process Explorer。** Atlas 下载最新的 Microsoft 签名版本，因此更新的下载不再停止安装。\n- **Atlas 安装。** 无法访问的 Windows 遥测日志文件夹不再停止安装。安装程序还处理较新的 Visual C++ Redistributable，并让 Windows 在需要时启动地图服务。\n- **功能更新。** Atlas 在应用功能更新设置时可识别法语系统上的 Windows 11。",
+    "updated_at": "2026-11-23T08:42:14.759201+00:00"
   }
 }
